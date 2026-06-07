@@ -1,0 +1,13 @@
+{
+  "fecha": "2026-04-04T20:39:32.998507",
+  "timestamp": "20260404_203931",
+  "patrones_respaldados": 5,
+  "ubicacion": "c:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\BACKUP_SEGURO\\BACKUP_20260404_203931",
+  "lista_patrones": [
+    "CUB-001_Modelado_BiselRealista",
+    "CUB-002_Transform_PivoteSuelo",
+    "CUB-003_Modelado_MuroPro",
+    "CUB-004-HIBRIDO_Prueba",
+    "CUB-005_BooleanExacto"
+  ]
+}

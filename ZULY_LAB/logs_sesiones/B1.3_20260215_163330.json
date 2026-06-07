@@ -1,0 +1,201 @@
+{
+  "ejercicio": "B1.3",
+  "nombre": "Árbol Fractal",
+  "timestamp": "2026-02-15T16:33:17.405439",
+  "pasos_ejecutados": [
+    {
+      "numero": 1,
+      "action": "run_python_script",
+      "params": {
+        "script_path": "ZULY_LAB/B_automatizacion/scripts/fractal_tree.py",
+        "variables": {
+          "depth": 5,
+          "branch_len": 2.0,
+          "angle": 25.0
+        }
+      },
+      "exito": false,
+      "timestamp": "2026-02-15T16:33:17.405439",
+      "resultado": {
+        "success": false,
+        "error": "name 'math' is not defined",
+        "traceback": "name 'math' is not defined",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.run_python_script"
+      },
+      "error": "name 'math' is not defined"
+    },
+    {
+      "numero": 2,
+      "action": "create_light",
+      "params": {
+        "light_type": "SUN",
+        "location": [
+          5,
+          -10,
+          15
+        ],
+        "energy": 6.0,
+        "name": "Sol_Bosque"
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T16:33:17.415541",
+      "resultado": {
+        "success": true,
+        "light_name": "Sol_Bosque",
+        "light_type": "SUN",
+        "location": [
+          5,
+          -10,
+          15
+        ],
+        "energy": 6.0,
+        "message": "Luz SUN creada exitosamente",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_light"
+      }
+    },
+    {
+      "numero": 3,
+      "action": "create_camera",
+      "params": {
+        "location": [
+          0,
+          -12,
+          6
+        ],
+        "name": "CamaraArbol"
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T16:33:17.415541",
+      "resultado": {
+        "success": true,
+        "camera_name": "CamaraArbol",
+        "location": [
+          0,
+          -12,
+          6
+        ],
+        "focal_length": 50.0,
+        "message": "Cámara creada exitosamente",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_camera"
+      }
+    },
+    {
+      "numero": 4,
+      "action": "position_camera",
+      "params": {
+        "camera_name": "CamaraArbol",
+        "location": [
+          0,
+          -12,
+          6
+        ],
+        "look_at": [
+          0,
+          0,
+          3
+        ]
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T16:33:17.415541",
+      "resultado": {
+        "success": true,
+        "camera_name": "CamaraArbol",
+        "location": [
+          0,
+          -12,
+          6
+        ],
+        "look_at": [
+          0,
+          0,
+          3
+        ],
+        "route": "INTENT_ROUTER",
+        "handler": "blender.position_camera"
+      }
+    },
+    {
+      "numero": 5,
+      "action": "set_active_camera",
+      "params": {
+        "camera_name": "CamaraArbol"
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T16:33:17.415541",
+      "resultado": {
+        "success": true,
+        "camera_name": "CamaraArbol",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.set_active_camera"
+      }
+    },
+    {
+      "numero": 6,
+      "action": "render_scene",
+      "params": {
+        "output_path": "ZULY_LAB/resultados_zuly/B1.3_render_arbol.png",
+        "resolution": [
+          800,
+          800
+        ],
+        "samples": 32
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T16:33:17.417555",
+      "resultado": {
+        "success": true,
+        "output_path": "ZULY_LAB\\resultados_zuly\\B1.3_render_arbol.png",
+        "resolution": [
+          800,
+          800
+        ],
+        "format": "PNG",
+        "samples": 32,
+        "render_time": 13.452254056930542,
+        "message": "Render guardado en ZULY_LAB\\resultados_zuly\\B1.3_render_arbol.png",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.render_scene"
+      }
+    },
+    {
+      "numero": 7,
+      "action": "save_project",
+      "params": {
+        "filepath": "ZULY_LAB/resultados_zuly/B1.3_arbol_fractal.blend"
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T16:33:30.869810",
+      "resultado": {
+        "success": true,
+        "output_path": "ZULY_LAB/resultados_zuly/B1.3_arbol_fractal.blend",
+        "format": "BLEND",
+        "object_count": 5,
+        "route": "INTENT_ROUTER",
+        "handler": "blender.save_project"
+      }
+    }
+  ],
+  "pasos_exitosos": 6,
+  "pasos_fallidos": 1,
+  "tiempo_total_segundos": 13.5,
+  "exito": true,
+  "objetos_creados": [],
+  "errores": [
+    "name 'math' is not defined"
+  ],
+  "validacion": {
+    "total": 1,
+    "pasadas": 0,
+    "fallidas": 1,
+    "detalles": [
+      {
+        "tipo": "object_count",
+        "pasado": false,
+        "error": "Se esperaban 63 objetos, hay 5"
+      }
+    ]
+  }
+}

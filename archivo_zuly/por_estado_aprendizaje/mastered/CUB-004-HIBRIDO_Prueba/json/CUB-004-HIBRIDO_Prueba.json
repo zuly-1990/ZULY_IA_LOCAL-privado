@@ -1,0 +1,28 @@
+{
+  "pattern_id": "CUB-004-HIBRIDO_Prueba",
+  "nombre_tecnico": "CUB-004-HIBRIDO_Prueba",
+  "fecha_sello": "2026-04-04T16:56:04.583605",
+  "estado": "SELLADO",
+  "sellado_por": "Soberano",
+  "validacion_jues": {
+    "vision_rayos_x": {
+      "status": "LIMPIA",
+      "icon": "✨"
+    },
+    "instinto_optimizacion": {
+      "status": "OPTIMO",
+      "peso_kb": 834.8,
+      "icon": "⚡"
+    },
+    "sincronia_cromatica": {
+      "status": "MATCH",
+      "color_encontrado": "#607D8B",
+      "icon": "🎯"
+    },
+    "sello_inmutabilidad": {
+      "hash": "60540b24555a52cc1efa0afd28a40956",
+      "vertices_count": 8,
+      "icon": "🔒"
+    }
+  }
+}

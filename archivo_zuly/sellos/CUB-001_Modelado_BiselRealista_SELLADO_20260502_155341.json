@@ -1,0 +1,22 @@
+{
+  "candidato_id": "CUB-001_Modelado_BiselRealista",
+  "timestamp": "2026-05-02T15:53:41.498537",
+  "puntuacion_jues": 95.0,
+  "dictamen": "APTO_PARA_SELLO",
+  "target_color": null,
+  "archivo_original": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\temp_arena\\CUB-001_Modelado_BiselRealista.blend",
+  "archivo_sellado": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\CUB-001_Modelado_BiselRealista_SELLADO_20260502_155341.blend",
+  "dashboard": {
+    "estado_malla": "LIMPIA",
+    "estado_malla_icon": "✅",
+    "concordancia_color": "MATCH",
+    "concordancia_icon": "🎨",
+    "peso_patron_kb": 812.4,
+    "hash_corto": "fallback"
+  },
+  "validaciones": {
+    "errores": 0,
+    "advertencias": 1,
+    "hallazgos": 6
+  }
+}

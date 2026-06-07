@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-03-29T14:56:41.994938",
+  "laboratory": "Laboratorio 5 Blends",
+  "location": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\ZULY_PROJECTS\\pruebas",
+  "results": [
+    {
+      "name": "laboratorio_dado_parques_v10",
+      "status": "OK",
+      "size": 1449468
+    },
+    {
+      "name": "laboratorio_dado_parques_v9",
+      "status": "OK",
+      "size": 950036
+    },
+    {
+      "name": "laboratorio_dado_crazy_cut",
+      "status": "OK",
+      "size": 1520976
+    },
+    {
+      "name": "laboratorio_dado_redondo",
+      "status": "OK",
+      "size": 1062756
+    },
+    {
+      "name": "laboratorio_playground_hibrido",
+      "status": "OK",
+      "size": 1404884
+    }
+  ],
+  "description": "5 archivos blend -4 de patrones aprendidos + 1 criterio propio"
+}

@@ -1,0 +1,117 @@
+{
+  "timestamp": "2026-03-29T15:23:01.283616",
+  "estadisticas": {
+    "originales": 4,
+    "laboratorios": 5,
+    "creados": 1,
+    "total": 10
+  },
+  "archivos": {
+    "originales": [
+      {
+        "nombre": "dado_parques_zuly_v10.blend",
+        "tipo": "Original",
+        "concepto": "Dados v10 - esferas azules 3x3",
+        "patron": "C2",
+        "tama\u00f1o_mb": 2.01,
+        "tama\u00f1o_bytes": 2109548,
+        "modificado": "2026-03-22 16:34",
+        "estado": "OK"
+      },
+      {
+        "nombre": "dado_parques_zuly_v9.blend1",
+        "tipo": "Original",
+        "concepto": "Dados v9 - cubos rojos pir\u00e1mide",
+        "patron": "C2",
+        "tama\u00f1o_mb": 1.93,
+        "tama\u00f1o_bytes": 2019624,
+        "modificado": "2026-03-21 21:54",
+        "estado": "OK"
+      },
+      {
+        "nombre": "dado_parques_crazy_cut.11.blend",
+        "tipo": "Original",
+        "concepto": "Procedural - esferas doradas",
+        "patron": "C2",
+        "tama\u00f1o_mb": 3.55,
+        "tama\u00f1o_bytes": 3724920,
+        "modificado": "2026-03-22 16:44",
+        "estado": "OK"
+      },
+      {
+        "nombre": "dado_redondo_zuly.blend",
+        "tipo": "Original",
+        "concepto": "Toroide verde - revoluci\u00f3n",
+        "patron": "C2",
+        "tama\u00f1o_mb": 2.16,
+        "tama\u00f1o_bytes": 2267340,
+        "modificado": "2026-03-22 16:55",
+        "estado": "OK"
+      }
+    ],
+    "laboratorios": [
+      {
+        "nombre": "laboratorio_dado_parques_v10.blend",
+        "tipo": "Laboratorio",
+        "concepto": "Dados v10 - replicado",
+        "patron": "Aprendido v10",
+        "tama\u00f1o_mb": 1.38,
+        "tama\u00f1o_bytes": 1449468,
+        "modificado": "2026-03-29 14:56",
+        "estado": "OK"
+      },
+      {
+        "nombre": "laboratorio_dado_parques_v9.blend",
+        "tipo": "Laboratorio",
+        "concepto": "Dados v9 - replicado",
+        "patron": "Aprendido v9",
+        "tama\u00f1o_mb": 0.91,
+        "tama\u00f1o_bytes": 950036,
+        "modificado": "2026-03-29 14:56",
+        "estado": "OK"
+      },
+      {
+        "nombre": "laboratorio_dado_crazy_cut.blend",
+        "tipo": "Laboratorio",
+        "concepto": "Procedural - replicado",
+        "patron": "Aprendido Crazy",
+        "tama\u00f1o_mb": 1.45,
+        "tama\u00f1o_bytes": 1520976,
+        "modificado": "2026-03-29 14:56",
+        "estado": "OK"
+      },
+      {
+        "nombre": "laboratorio_dado_redondo.blend",
+        "tipo": "Laboratorio",
+        "concepto": "Toroide - replicado",
+        "patron": "Aprendido Toro",
+        "tama\u00f1o_mb": 1.01,
+        "tama\u00f1o_bytes": 1062756,
+        "modificado": "2026-03-29 14:56",
+        "estado": "OK"
+      },
+      {
+        "nombre": "laboratorio_playground_hibrido.blend",
+        "tipo": "Laboratorio",
+        "concepto": "Hybrid - creacion propia",
+        "patron": "Creacion ZULY",
+        "tama\u00f1o_mb": 1.34,
+        "tama\u00f1o_bytes": 1404884,
+        "modificado": "2026-03-29 14:56",
+        "estado": "OK"
+      }
+    ],
+    "creados": [
+      {
+        "nombre": "zuly_nuevo_laberinto.blend",
+        "tipo": "Creado",
+        "concepto": "Laberinto 3D - dise\u00f1o \u00fanico",
+        "patron": "ZULY Autonomo",
+        "tama\u00f1o_mb": 1.42,
+        "tama\u00f1o_bytes": 1487040,
+        "modificado": "2026-03-29 15:03",
+        "estado": "OK"
+      }
+    ]
+  }
+}

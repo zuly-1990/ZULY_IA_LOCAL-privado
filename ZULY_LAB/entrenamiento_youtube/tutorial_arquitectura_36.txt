@@ -1,0 +1,11 @@
+Tutorial: Modelado de Activos Arquitectónicos en Blender 3.6 - Mujental
+
+Introducción: En este vídeo te mostramos cómo modelar activos arquitectónicos básicos en Blender 3.6.
+
+Paso 1: Crear una estructura básica. Primero presiona Shift A y añade un plano. Luego entra en modo edición con Tab. Activa la vista de rayos X. Presiona E para extruir el vértice en el eje X, Y o Z. Puedes cambiar su forma si quieres. Luego añade un corte de bucle con Alt R. Presiona Control B para aplicar un bisel (bevel) a este borde y añade más segmentos.
+
+Paso 2: Crear una forma redonda. Ve a la vista frontal presionando numpad 1. Añade una imagen de referencia. Añade un plano y entra en modo edición, presiona M y fusiona en el centro (merge at center) para tener un solo vértice. Mueve el vértice sobre la imagen de referencia y extruye este vértice para crear el diseño. Presiona E para extruir el vértice al centro. Mueve el vértice central a la curva y presiona Control B para biselar el vértice.
+
+Paso 3: Modelar columnas. Presiona Shift A y añade un cilindro. En el menú introduce 12 vértices. Escala en el eje Z. Entra en modo edición y añade cortes de bucle (loop cuts) en la parte superior e inferior. Selecciona las caras y presiona I para insertar (inset), asegúrate de que esté seleccionado 'individual'. Luego extruye las caras a lo largo de las normales. Añade un modificador de subdivisión de superficie y aumenta los niveles.
+
+Paso 4: Finalización y detalles. Presiona F para rellenar con una cara. Haz lo mismo en la parte inferior. Haz clic derecho y elige 'Shade Auto Smooth'. Recalcula las normales hacia fuera con Shift N. Luego añade un modificador de array. Puedes añadir un cubo en la parte superior y biselar los bordes inferiores para terminar el capitel.

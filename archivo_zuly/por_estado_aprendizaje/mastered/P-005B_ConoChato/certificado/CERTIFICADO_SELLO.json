@@ -1,0 +1,14 @@
+{
+  "certificado_id": "CERT-P-005B_ConoChato-20260404205650",
+  "pattern_id": "P-005B_ConoChato",
+  "fecha_sello": "2026-04-04T20:56:50.654350",
+  "sellado_por": "Soberano",
+  "decision": "SELLADO",
+  "dictamen_jues": "✅ APTO_PARA_SELLO",
+  "validacion": {
+    "malla": "LIMPIA",
+    "peso_kb": 894.45,
+    "color": "#9C27B0",
+    "hash": "7766a36e75fe4513dd216fa5cda2efd2"
+  }
+}

@@ -1,0 +1,21 @@
+
+╔═══════════════════════════════════════════════════════════╗
+║  ⚠️  ADVERTENCIA - PATRONES SELLADOS OFICIALES           ║
+╠═══════════════════════════════════════════════════════════╣
+║                                                           ║
+║  Estas carpetas contienen los patrones oficiales de ZULY   ║
+║  que han sido validados y sellados por JUES-BOT.          ║
+║                                                           ║
+║  ⚠️  NO BORRAR                                            ║
+║  ⚠️  NO MOVER                                             ║
+║  ⚠️  NO RENOMBRAR                                         ║
+║                                                           ║
+║  Si necesitas espacio, haz backup primero:                ║
+║  → Ejecutar: python backup_zuly.py                        ║
+║                                                           ║
+║  Si borraste accidentalmente:                             ║
+║  → Restaurar desde: archivo_zuly/BACKUP_SEGURO/           ║
+║                                                           ║
+║  Último backup: VERIFICAR FECHA EN BACKUP_SEGURO/         ║
+║                                                           ║
+╚═══════════════════════════════════════════════════════════╝

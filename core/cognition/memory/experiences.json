@@ -1,0 +1,282 @@
+{
+    "blender.render_scene": [
+        {
+            "timestamp": "2026-02-22T12:48:07.749839",
+            "parameters": {
+                "output_path": "ZULY_LAB/resultados_zuly/EXPERIMENTO_FUEGO_FINAL.png",
+                "engine": "BLENDER_EEVEE",
+                "samples": 32
+            },
+            "score": 0.9,
+            "findings": [
+                "Archivo detectado: EXPERIMENTO_FUEGO_FINAL.png (1376.4 KB)"
+            ]
+        },
+        {
+            "timestamp": "2026-03-01T12:49:07.982210",
+            "parameters": {
+                "output_path": "ZULY_LAB/resultados_zuly/test_render_integracion.png",
+                "resolution": [
+                    400,
+                    300
+                ],
+                "samples": 8
+            },
+            "score": 0.9,
+            "findings": [
+                "Archivo detectado: test_render_integracion.png (59.6 KB)"
+            ]
+        },
+        {
+            "timestamp": "2026-03-01T12:49:52.366521",
+            "parameters": {
+                "output_path": "ZULY_LAB/resultados_zuly/test_render_integracion.png",
+                "resolution": [
+                    400,
+                    300
+                ],
+                "samples": 8
+            },
+            "score": 0.9,
+            "findings": [
+                "Archivo detectado: test_render_integracion.png (59.6 KB)"
+            ]
+        },
+        {
+            "timestamp": "2026-03-01T13:08:09.509882",
+            "parameters": {},
+            "score": 0.9,
+            "findings": [
+                "Archivo detectado: render_output.png (1011.8 KB)"
+            ]
+        },
+        {
+            "timestamp": "2026-03-01T13:53:30.141140",
+            "parameters": {},
+            "score": 0.9,
+            "findings": [
+                "Archivo detectado: render_output.png (1011.8 KB)"
+            ]
+        }
+    ],
+    "architectural_modeling_youtube": [
+        {
+            "timestamp": "2026-02-22T13:16:14.980809",
+            "parameters": {
+                "pattern": "columna_arquitectonica_36"
+            },
+            "score": 0.8,
+            "findings": [
+                "Estructura modular validada por TranscriptionProcessor.",
+                "Pasos claros: base, fuste, capitel."
+            ]
+        }
+    ],
+    "architectural_workflow_cad_to_3d": [
+        {
+            "timestamp": "2026-02-22T13:35:44.206704",
+            "parameters": {
+                "workflow": [
+                    "plane_tracing",
+                    "single_vert",
+                    "loop_cuts"
+                ]
+            },
+            "score": 0.9,
+            "findings": [
+                "Técnica de trazado desde AutoCAD validada.",
+                "Uso de Loop Cut para ramificaciones de muros detectado.",
+                "Método de Single Vert para perímetros complejos identificado."
+            ]
+        }
+    ],
+    "architectural_section_visualization": [
+        {
+            "timestamp": "2026-02-22T13:40:35.055834",
+            "parameters": {
+                "operation": "bpy.ops.mesh.bisect",
+                "options": [
+                    "fill",
+                    "clear_inner",
+                    "clear_outer"
+                ]
+            },
+            "score": 0.95,
+            "findings": [
+                "Técnica de visualización mediante Bisect validada.",
+                "Importancia de la geometría limpia para el comando 'Fill' detectada.",
+                "Uso estratégico de la seleccionabilidad en el Outliner para proteger objetos."
+            ]
+        }
+    ],
+    "villa_savoye_advanced_workflow": [
+        {
+            "timestamp": "2026-02-22T13:49:33.979578",
+            "parameters": {
+                "workflow": [
+                    "dxf_import",
+                    "z_stacking",
+                    "merge_cleanup",
+                    "shift_r_array"
+                ]
+            },
+            "score": 0.98,
+            "findings": [
+                "Flujo Villa Savoye (CAD a 3D) integrado.",
+                "Solución técnica para errores de visualización (Zoom con punto .) identificada.",
+                "Uso de Shift+R como alternativa rápida de Array para carpintería.",
+                "Importancia de la polilínea cerrada en CAD validada."
+            ]
+        }
+    ],
+    "TEST_INTEGRATION": [
+        {
+            "timestamp": "2026-04-11T19:06:56.437848",
+            "parameters": {
+                "jues_report": {
+                    "pattern_id": "TEST_INTEGRATION",
+                    "puntuacion_jues": 100.0,
+                    "dictamen": "APTO_PARA_SELLO",
+                    "findings": [
+                        "V0 (Física): OK - V0 checked",
+                        "V1 (Estructural): OK - V1 checked",
+                        "V2 (Contextual): OK - Context OK",
+                        "V3 (Topológica): OK - Malla perfecta (True)",
+                        "Sincronía Cromática: OK - Color OK",
+                        "Optimización: OK - Optimized",
+                        "Inmutabilidad: OK - Hash consistente (quick)"
+                    ],
+                    "errors": [],
+                    "warnings": [],
+                    "dashboard": {
+                        "estado_malla": "LIMPIA",
+                        "estado_malla_icon": "✅",
+                        "concordancia_color": "MATCH",
+                        "concordancia_icon": "🎨",
+                        "peso_patron_kb": 100.0,
+                        "hash_corto": "quick"
+                    },
+                    "raw_results": {
+                        "v0": {
+                            "verified": true,
+                            "details": "V0 checked"
+                        },
+                        "v1": {
+                            "verified": true,
+                            "details": "V1 checked"
+                        },
+                        "v2": {
+                            "verified": true,
+                            "details": "Context OK"
+                        },
+                        "v3": {
+                            "verified": true,
+                            "metrics": {
+                                "is_watertight": true,
+                                "non_manifold_edges_count": 0
+                            }
+                        },
+                        "chromatic_sync": {
+                            "match": true,
+                            "details": "Color OK"
+                        },
+                        "optimization_instinct": {
+                            "optimized": true,
+                            "details": "Optimized",
+                            "final_size_kb": 100.0
+                        },
+                        "immutability_seal": {
+                            "verified": true,
+                            "hash_short": "quick"
+                        }
+                    }
+                }
+            },
+            "score": 1.0,
+            "findings": [
+                "V0 (Física): OK - V0 checked",
+                "V1 (Estructural): OK - V1 checked",
+                "V2 (Contextual): OK - Context OK",
+                "V3 (Topológica): OK - Malla perfecta (True)",
+                "Sincronía Cromática: OK - Color OK",
+                "Optimización: OK - Optimized",
+                "Inmutabilidad: OK - Hash consistente (quick)"
+            ]
+        }
+    ],
+    "CUB001_FULL": [
+        {
+            "timestamp": "2026-04-11T19:06:56.714922",
+            "parameters": {
+                "jues_report": {
+                    "pattern_id": "CUB001_FULL",
+                    "puntuacion_jues": 100.0,
+                    "dictamen": "APTO_PARA_SELLO",
+                    "findings": [
+                        "V0 (Física): OK - Objeto físicamente válido",
+                        "V1 (Estructural): OK - Estructura correcta",
+                        "V2 (Contextual): OK - Contexto apropiado",
+                        "V3 (Topológica): OK - Malla perfecta (True)",
+                        "Sincronía Cromática: OK - Color #1A4DCC exacto",
+                        "Optimización: OK - Patrón optimizado",
+                        "Inmutabilidad: OK - Hash consistente (a3f5e2b9)"
+                    ],
+                    "errors": [],
+                    "warnings": [],
+                    "dashboard": {
+                        "estado_malla": "LIMPIA",
+                        "estado_malla_icon": "✅",
+                        "concordancia_color": "MATCH",
+                        "concordancia_icon": "🎨",
+                        "peso_patron_kb": 245.5,
+                        "hash_corto": "a3f5e2b9"
+                    },
+                    "raw_results": {
+                        "v0": {
+                            "verified": true,
+                            "details": "Objeto físicamente válido"
+                        },
+                        "v1": {
+                            "verified": true,
+                            "details": "Estructura correcta"
+                        },
+                        "v2": {
+                            "verified": true,
+                            "details": "Contexto apropiado"
+                        },
+                        "v3": {
+                            "verified": true,
+                            "metrics": {
+                                "is_watertight": true,
+                                "non_manifold_edges_count": 0
+                            }
+                        },
+                        "chromatic_sync": {
+                            "match": true,
+                            "details": "Color #1A4DCC exacto"
+                        },
+                        "optimization_instinct": {
+                            "optimized": true,
+                            "details": "Patrón optimizado",
+                            "final_size_kb": 245.5
+                        },
+                        "immutability_seal": {
+                            "verified": true,
+                            "hash_short": "a3f5e2b9"
+                        }
+                    }
+                }
+            },
+            "score": 1.0,
+            "findings": [
+                "V0 (Física): OK - Objeto físicamente válido",
+                "V1 (Estructural): OK - Estructura correcta",
+                "V2 (Contextual): OK - Contexto apropiado",
+                "V3 (Topológica): OK - Malla perfecta (True)",
+                "Sincronía Cromática: OK - Color #1A4DCC exacto",
+                "Optimización: OK - Patrón optimizado",
+                "Inmutabilidad: OK - Hash consistente (a3f5e2b9)"
+            ]
+        }
+    ]
+}

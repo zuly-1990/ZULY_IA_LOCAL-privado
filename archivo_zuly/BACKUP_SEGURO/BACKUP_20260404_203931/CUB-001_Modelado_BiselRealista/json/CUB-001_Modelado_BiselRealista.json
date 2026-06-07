@@ -1,0 +1,56 @@
+{
+  "pattern_id": "CUB-001",
+  "nombre_tecnico": "CUB-001_Modelado_BiselRealista",
+  "version": "1.0",
+  "categoria": "CUB",
+  "descripcion": "Cubo con bordes suaves (Bevel) y color azul corporativo #1A4DCC",
+  "tags": [
+    "cubo",
+    "bevel",
+    "modelado",
+    "basico",
+    "azul"
+  ],
+  "color_base": "#1A4DCC",
+  "fecha_creacion": "2026-04-04T16:11:10.928560",
+  "fecha_sello": "2026-04-04T16:11:10.928576",
+  "estado": "SELLADO",
+  "sellado_por": "Soberano",
+  "geometria": {
+    "tipo": "primitiva_cubo",
+    "dimensiones": "2x2x2",
+    "modificadores": [
+      "Bevel"
+    ]
+  },
+  "material": {
+    "nombre": "Mat_Azul_Pro",
+    "tipo": "Principled BSDF",
+    "color_hex": "#1A4DCC",
+    "propiedades": {
+      "roughness": 0.3,
+      "specular": 0.7
+    }
+  },
+  "iluminacion": {
+    "sistema": "SLIZ v2.0",
+    "luces": [
+      "Sol",
+      "Key",
+      "Fill",
+      "Rim"
+    ]
+  },
+  "validacion_jues": {
+    "estado_malla": "LIMPIA",
+    "color_match": true,
+    "peso_kb": 812.4,
+    "dictamen": "APTO_PARA_SELLO"
+  },
+  "ubicacion": {
+    "mastered": "archivo_zuly/por_estado_aprendizaje/mastered/CUB-001_Modelado_BiselRealista/",
+    "blend": "blend/CUB-001_Modelado_BiselRealista.blend",
+    "script": "script/CUB-001_Modelado_BiselRealista.py",
+    "json": "json/CUB-001_Modelado_BiselRealista.json"
+  }
+}

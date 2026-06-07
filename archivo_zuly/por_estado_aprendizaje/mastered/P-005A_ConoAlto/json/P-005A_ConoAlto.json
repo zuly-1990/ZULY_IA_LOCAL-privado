@@ -1,0 +1,28 @@
+{
+  "pattern_id": "P-005A_ConoAlto",
+  "nombre_tecnico": "P-005A_ConoAlto",
+  "fecha_sello": "2026-04-04T20:56:40.914194",
+  "estado": "SELLADO",
+  "sellado_por": "Soberano",
+  "validacion_jues": {
+    "vision_rayos_x": {
+      "status": "LIMPIA",
+      "icon": "✨"
+    },
+    "instinto_optimizacion": {
+      "status": "OPTIMO",
+      "peso_kb": 872.78,
+      "icon": "⚡"
+    },
+    "sincronia_cromatica": {
+      "status": "MATCH",
+      "color_encontrado": "#FF9800",
+      "icon": "🎯"
+    },
+    "sello_inmutabilidad": {
+      "hash": "6029c236aefbd821c180d329aa5540bb",
+      "vertices_count": 33,
+      "icon": "🔒"
+    }
+  }
+}

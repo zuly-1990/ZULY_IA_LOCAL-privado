@@ -1,0 +1,4 @@
+Paso 1: Crea un cubo en la posición 0,0,0.
+Paso 2: Escala el cubo a 2.
+Paso 3: Añade una luz puntual en 5,5,5 con energía 10.
+Paso 4: Renderiza la escena.

@@ -1,0 +1,229 @@
+{
+  "ejercicio": "C1.1",
+  "nombre": "Fuego de Zuly",
+  "timestamp": "2026-02-22T11:57:24.958017",
+  "pasos_ejecutados": [
+    {
+      "numero": 1,
+      "action": "clear_scene",
+      "params": {},
+      "exito": true,
+      "timestamp": "2026-02-22T11:57:24.958017",
+      "resultado": {
+        "success": true,
+        "route": "INTENT_ROUTER",
+        "handler": "blender.clear_scene"
+      }
+    },
+    {
+      "numero": 2,
+      "action": "create_sphere",
+      "params": {
+        "name": "BolaDeFuego",
+        "radius": 2.0,
+        "location": [
+          0,
+          0,
+          2
+        ]
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:57:24.972109",
+      "resultado": {
+        "success": true,
+        "object_name": "BolaDeFuego",
+        "location": [
+          0,
+          0,
+          2
+        ],
+        "radius": 2.0,
+        "subdivisions": 32,
+        "message": "Esfera creada exitosamente",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_sphere"
+      }
+    },
+    {
+      "numero": 3,
+      "action": "create_texture_material",
+      "params": {
+        "name": "MatFuego",
+        "image_path": "ZULY_LAB/assets/textures/fire_texture.png",
+        "metallic": 0.1,
+        "roughness": 0.2
+      },
+      "exito": false,
+      "timestamp": "2026-02-22T11:57:25.003381",
+      "error": "Acción desconocida: create_texture_material"
+    },
+    {
+      "numero": 4,
+      "action": "apply_material",
+      "params": {
+        "object_name": "BolaDeFuego",
+        "material_name": "MatFuego"
+      },
+      "exito": false,
+      "timestamp": "2026-02-22T11:57:25.005285",
+      "resultado": {
+        "success": false,
+        "error": "OBJECT_NOT_FOUND",
+        "message": "Material 'MatFuego' no encontrado",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.apply_material"
+      },
+      "error": "OBJECT_NOT_FOUND"
+    },
+    {
+      "numero": 5,
+      "action": "create_light",
+      "params": {
+        "light_type": "POINT",
+        "location": [
+          4,
+          4,
+          8
+        ],
+        "energy": 3000.0,
+        "name": "LuzFuego"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:57:25.006809",
+      "resultado": {
+        "success": true,
+        "light_name": "LuzFuego",
+        "light_type": "POINT",
+        "location": [
+          4,
+          4,
+          8
+        ],
+        "energy": 3000.0,
+        "message": "Luz POINT creada exitosamente",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_light"
+      }
+    },
+    {
+      "numero": 6,
+      "action": "create_camera",
+      "params": {
+        "name": "CamaraFinal",
+        "location": [
+          10,
+          -10,
+          6
+        ]
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:57:25.013211",
+      "resultado": {
+        "success": true,
+        "camera_name": "CamaraFinal",
+        "location": [
+          10,
+          -10,
+          6
+        ],
+        "focal_length": 50.0,
+        "message": "Cámara creada exitosamente",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_camera"
+      }
+    },
+    {
+      "numero": 7,
+      "action": "position_camera",
+      "params": {
+        "camera_name": "CamaraFinal",
+        "location": [
+          10,
+          -10,
+          6
+        ],
+        "look_at": [
+          0,
+          0,
+          2
+        ]
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:57:25.020074",
+      "resultado": {
+        "success": true,
+        "camera_name": "CamaraFinal",
+        "location": [
+          10,
+          -10,
+          6
+        ],
+        "look_at": [
+          0,
+          0,
+          2
+        ],
+        "route": "INTENT_ROUTER",
+        "handler": "blender.position_camera"
+      }
+    },
+    {
+      "numero": 8,
+      "action": "render_scene",
+      "params": {
+        "output_path": "ZULY_LAB/resultados_zuly/EXPERIMENTO_FUEGO_FINAL.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32
+      },
+      "exito": false,
+      "timestamp": "2026-02-22T11:57:25.023388",
+      "resultado": {
+        "success": false,
+        "error": "OPERATION_FAILED",
+        "message": "Error renderizando escena: Error: Cannot render, no camera\n",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.render_scene"
+      },
+      "error": "OPERATION_FAILED"
+    },
+    {
+      "numero": 9,
+      "action": "save_project",
+      "params": {
+        "filepath": "ZULY_LAB/resultados_zuly/EXPERIMENTO_FUEGO_FINAL.blend"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:57:25.037186",
+      "resultado": {
+        "success": true,
+        "output_path": "ZULY_LAB/resultados_zuly/EXPERIMENTO_FUEGO_FINAL.blend",
+        "format": "BLEND",
+        "object_count": 3,
+        "route": "INTENT_ROUTER",
+        "handler": "blender.save_project"
+      }
+    }
+  ],
+  "pasos_exitosos": 6,
+  "pasos_fallidos": 3,
+  "tiempo_total_segundos": 0.13,
+  "exito": false,
+  "objetos_creados": [],
+  "errores": [
+    "Acción desconocida: create_texture_material",
+    "OBJECT_NOT_FOUND",
+    "OPERATION_FAILED"
+  ],
+  "validacion": {
+    "total": 1,
+    "pasadas": 1,
+    "fallidas": 0,
+    "detalles": [
+      {
+        "tipo": "object_exists",
+        "pasado": true,
+        "error": null
+      }
+    ]
+  }
+}

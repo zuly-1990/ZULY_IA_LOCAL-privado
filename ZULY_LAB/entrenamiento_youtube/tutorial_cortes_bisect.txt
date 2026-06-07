@@ -1,0 +1,16 @@
+Transcripción: Cortes de Sección en Blender (Herramienta Bisect)
+
+[0:22] Técnica para realizar cortes de sección transversales en modelos 3D.
+[0:36] Proceso: Seleccionar el modelo, entrar en modo edición (Tab), seleccionar todo (A).
+[1:06] Herramienta: Knife -> Bisect (Biseccionar).
+[1:22] Ejecución: Clic sostenido y arrastrar. Usar tecla Control para cortes rectos.
+[1:33] La línea amarilla indica el plano de corte.
+[1:46] Panel de control (F9/Ajustes): Usar el eje Z para desplazar la altura del corte.
+[2:00] Para ocultar una mitad: Activar 'Clear Inner' o 'Clear Outer'.
+[2:15] Relleno: Activar la opción 'Fill' para cerrar la geometría cortada (requiere geometría limpia).
+[3:00] Visualización: Funciona en modo Sólido y Render (EEVEE/Cycles).
+[3:32] Advertencia: El corte afecta la geometría permanentemente; se recomienda trabajar en copias.
+[3:55] Protección de objetos: Para evitar que el corte afecte al suelo o terreno, desmarcar la opción de "selectable" (icono de flecha) en el Outliner.
+[4:55] Cortes frontales: Repetir proceso en vista superior (7) para cortes longitudinales.
+[5:32] Uso de 'Clear Outer' para avanzar o retroceder el plano de corte frontal.
+[6:44] Aplicación: Generación de planos 2D a partir del modelo 3D cortado.

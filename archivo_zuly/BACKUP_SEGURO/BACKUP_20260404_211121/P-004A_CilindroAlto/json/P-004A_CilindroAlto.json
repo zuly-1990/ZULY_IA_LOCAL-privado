@@ -1,0 +1,28 @@
+{
+  "pattern_id": "P-004A_CilindroAlto",
+  "nombre_tecnico": "P-004A_CilindroAlto",
+  "fecha_sello": "2026-04-04T20:56:23.286565",
+  "estado": "SELLADO",
+  "sellado_por": "Soberano",
+  "validacion_jues": {
+    "vision_rayos_x": {
+      "status": "LIMPIA",
+      "icon": "✨"
+    },
+    "instinto_optimizacion": {
+      "status": "OPTIMO",
+      "peso_kb": 839.81,
+      "icon": "⚡"
+    },
+    "sincronia_cromatica": {
+      "status": "MATCH",
+      "color_encontrado": "#795548",
+      "icon": "🎯"
+    },
+    "sello_inmutabilidad": {
+      "hash": "9ccd9f1b50d441aaf31508ccf97d6a1a",
+      "vertices_count": 64,
+      "icon": "🔒"
+    }
+  }
+}

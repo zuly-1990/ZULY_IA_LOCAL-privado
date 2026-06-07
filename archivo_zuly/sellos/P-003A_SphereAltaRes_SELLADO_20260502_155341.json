@@ -1,0 +1,22 @@
+{
+  "candidato_id": "P-003A_SphereAltaRes",
+  "timestamp": "2026-05-02T15:53:41.773918",
+  "puntuacion_jues": 95.0,
+  "dictamen": "APTO_PARA_SELLO",
+  "target_color": null,
+  "archivo_original": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\temp_arena\\P-003A_SphereAltaRes.blend",
+  "archivo_sellado": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-003A_SphereAltaRes_SELLADO_20260502_155341.blend",
+  "dashboard": {
+    "estado_malla": "LIMPIA",
+    "estado_malla_icon": "✅",
+    "concordancia_color": "MATCH",
+    "concordancia_icon": "🎨",
+    "peso_patron_kb": 1881.07,
+    "hash_corto": "fallback"
+  },
+  "validaciones": {
+    "errores": 0,
+    "advertencias": 1,
+    "hallazgos": 6
+  }
+}

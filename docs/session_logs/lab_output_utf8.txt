@@ -1,0 +1,150 @@
+﻿blender.exe : 
+TBBmalloc: skip 
+allocation functions 
+replacement in 
+ucrtbase.dll: unknown 
+prologue for function 
+_msize
+En línea: 1 Carácter: 1
++ & 'C:\Users\Admin\Des
+ktop\ZULY_IA_LOCAL\blen
+der\v3\blender-3.6.0-zu
+ly ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (TBBmalloc: sk   
+ ip...function _msi    
+ze:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+Blender 3.6.2 (hash e53e55951e7a built 2023-08-16 23:35:13)
+Read prefs: "C:\Users\Admin\AppData\Roaming\Blender Foundation\Blender\3.6\config\userpref.blend"
+Info: Total files 0 | Changed 0 | Failed 0
+
+======================================================================
+­ƒº¬ INICIALIZANDO PLAN D LABORATORIO (REAL)
+======================================================================
+[2026-03-15 11:59:09] SUCCESS  [LYZU] C1 - Evaluador de Resultados activado (Plan C)
+[2026-03-15 11:59:09] SUCCESS  [LYZU] C2 - Memoria de Experiencias activado (Plan C)
+[2026-03-15 11:59:09] SUCCESS  [LYZU] C3 - Objetivos Abstractos activado (Plan C)
+[2026-03-15 11:59:09] SUCCESS  [LYZU] C4 - Auto-tuning Procedural activado (Plan C)
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.create_cube
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.create_sphere
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.create_cylinder
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.create_plane
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.create_cone
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.move_object
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.rotate_object
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.scale_object
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.render_scene
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: system.get_info
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.save_project
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.save_scene
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.clear_scene
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.rename_object
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.set_object_visibility
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.set_parent
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.create_material
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.create_texture_material
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.apply_material
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.set_material_color
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.create_light
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.set_light_energy
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.set_light_color
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.create_camera
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.set_active_camera
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.position_camera
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.add_subdivision_surface
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.add_array
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.add_bevel
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.add_boolean
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.export_fbx
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.export_obj
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.export_gltf
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.validate_topology
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.scan_and_learn
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.build_structure
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.save_pattern
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.load_pattern
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.list_patterns
+[2026-03-15 11:59:09] INFO     [LYZU] Registrado handler: blender.run_python_script
+[2026-03-15 11:59:09] SUCCESS  [LYZU] Ô£ô 40 handlers de Blender registrados
+[2026-03-15 11:59:09] WARNING  [LYZU] ALERTA: No hay comandos registrados. El agente no podra ejecutar acciones.
+[11:59:09] Learning Freedom Engine inicializado (max_strategies=5)
+[KG] Knowledge Graph inicializado en bitacora/knowledge_graph.db
+[2026-03-15 11:59:09] SUCCESS  [LYZU] Learning Freedom Framework activado
+[2026-03-15 11:59:09] SUCCESS  [LYZU] LYZU Core 3.0 initialized in reactive mode (Learning Freedom: ON, Cognition: ON)
+Ô£à Plan D inicializado correctamente.
+
+======================================================================
+[FASE D2] EJECUCIONES B├üSICAS (REAL)
+======================================================================
+
+ÔûÂ [1/6] Petici├│n: 'Crea un cubo llamado Cubo_D1 en el centro'
+[2026-03-15 11:59:09] DEBUG    [LYZU] DialogManager analizando comando: system.get_info
+[2026-03-15 11:59:09] INFO     [LYZU] Bloqueo por paradigma no soportado: PARADIGM_DECLARATIVE
+   Ô£ù Resultado: Sin feedback
+
+ÔûÂ [2/6] Petici├│n: 'Mueve el Cubo_D1 a la posici├│n [2, 0, 0]'
+[2026-03-15 11:59:10] DEBUG    [LYZU] DialogManager analizando comando: system.get_info
+[2026-03-15 11:59:10] INFO     [LYZU] Bloqueo por paradigma no soportado: PARADIGM_DECLARATIVE
+   Ô£ù Resultado: Sin feedback
+
+ÔûÂ [3/6] Petici├│n: 'Escala el Cubo_D1 a tama├▒o 2.5'
+[2026-03-15 11:59:10] DEBUG    [LYZU] DialogManager analizando comando: system.get_info
+[2026-03-15 11:59:10] INFO     [LYZU] Bloqueo por paradigma no soportado: PARADIGM_DECLARATIVE
+   Ô£ù Resultado: Sin feedback
+
+ÔûÂ [4/6] Petici├│n: 'Crea un material rojo llamado Material_D1'
+[2026-03-15 11:59:10] DEBUG    [LYZU] DialogManager analizando comando: system.get_info
+[2026-03-15 11:59:10] INFO     [LYZU] Bloqueo por paradigma no soportado: PARADIGM_DECLARATIVE
+   Ô£ù Resultado: Sin feedback
+
+ÔûÂ [5/6] Petici├│n: 'Aplica el Material_D1 al Cubo_D1'
+[2026-03-15 11:59:10] DEBUG    [LYZU] DialogManager analizando comando: blender.apply_material
+[2026-03-15 11:59:10] INFO     [LYZU] Bloqueo por paradigma no soportado: PARADIGM_DECLARATIVE
+   Ô£ù Resultado: Sin feedback
+
+ÔûÂ [6/6] Petici├│n: 'Renderiza la escena actual'
+[2026-03-15 11:59:10] DEBUG    [LYZU] DialogManager analizando comando: blender.render_scene
+[2026-03-15 11:59:10] INFO     [LYZU] Bloqueo por paradigma no soportado: PARADIGM_DECLARATIVE
+   Ô£ù Resultado: Sin feedback
+
+======================================================================
+[FASE D3] DESCOMPOSICI├ôN DE OBJETIVOS (REAL)
+======================================================================
+
+ÔûÂ Objetivo complejo: 'Crea un peque├▒o escenario con un suelo verde y 3 columnas rojas'
+   Ô£ô Descompuesto en 1 tareas.
+   - Ejecutando subtarea: Objetivo: Crea un peque├▒o escenario con un suelo verde y 3 columnas rojas
+[2026-03-15 11:59:10] DEBUG    [LYZU] DialogManager analizando comando: system.get_info
+[2026-03-15 11:59:10] INFO     [LYZU] Bloqueo por paradigma no soportado: PARADIGM_DECLARATIVE
+     Status: Ô£ù
+
+======================================================================
+[FASE D4] OPTIMIZACI├ôN DE PAR├üMETROS (REAL)
+======================================================================
+
+ÔûÂ Optimizando par├ímetro de escalado basado en feedback C1
+   ÔØî Error en C4: 'C4AutoTuningProcedural' object has no attribute 'optimize_parameter'
+
+======================================================================
+­ƒôè FINALIZANDO LABORATORIO Y EXPORTANDO M├ëTRICAS
+======================================================================
+Ô£à Reporte generado: reports\plan_d_metrics_real_20260315_115910.json
+Info: Saved "PlanD_Final_20260315_115910.blend"
+Ô£à Escena final guardada: ZULY_LAB\resultados_zuly\PlanD_Final_20260315_115910.blend
+
+======================================================================
+Ô£à PLAN D LABORATORIO COMPLETADO EN 0.14s
+======================================================================
+
+
+Blender quit

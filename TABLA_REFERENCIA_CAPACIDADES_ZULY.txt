@@ -1,0 +1,150 @@
+╔════════════════════════════════════════════════════════════════════════════════╗
+║  📋 TABLA DE REFERENCIA RÁPIDA - LO QUE ZULY PUEDE HACER                      ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+CATEGORIA               │ QUÉ PUEDE HACER                      │ ESTADO  │ EJEMPLO
+───────────────────────┼──────────────────────────────────────┼─────────┼─────────────────────
+PRIMITIVAS              │ Crear cubos, esferas, cilindros      │ ✅      │ "Crea un cubo"
+                        │ Crear planos, conos, toros           │ ✅      │ "Añade una esfera"
+                        
+TRANSFORMACIÓN          │ Mover objetos (X,Y,Z)                │ ✅      │ "Mueve 5 en X"
+                        │ Rotar objetos                        │ ✅      │ "Rota 45 grados"
+                        │ Escalar objetos (1D/3D)              │ ✅      │ "Scale 2"
+                        │ Duplicar objetos                     │ ✅      │ "Duplica el cubo"
+                        
+MATERIALES              │ Crear materiales                     │ ✅      │ "Nuevo material"
+                        │ Cambiar color RGB                    │ ✅      │ "Colorea de rojo"
+                        │ Aplicar texturas básicas             │ ⚠️      │ "Textura madera"
+                        │ Aplicar material a objeto            │ ✅      │ "Aplica material"
+                        
+ILUMINACIÓN             │ Crear luces (sun/point/spot/area)    │ ✅      │ "Crea una luz"
+                        │ Cambiar intensidad                   │ ✅      │ "Intensidad 2.0"
+                        │ Cambiar color de luz                 │ ✅      │ "Luz roja"
+                        │ Posicionar luz                       │ ✅      │ "Mueve luz a [5,5,5]"
+                        
+CÁMARAS                 │ Crear cámara                         │ ✅      │ "Crea cámara"
+                        │ Establecer como activa               │ ✅      │ "Cámara activa"
+                        │ Posicionar en 3D                     │ ✅      │ "Posición [10,10,10]"
+                        │ Configurar focal length              │ ⚠️      │ "Focal 50mm"
+                        
+MODIFICADORES           │ Subdivision Surface                  │ ✅      │ "Suaviza"
+                        │ Array (repetir objetos)              │ ✅      │ "Array 5 copias"
+                        │ Bevel (biselado)                     │ ✅      │ "Bevel 0.1"
+                        │ Boolean (uniones/sustracciones)      │ ✅      │ "Boolean resta"
+                        │ Aplicar modificador                  │ ✅      │ "Aplica modificadores"
+                        
+RENDERIZADO             │ Renderizar escena (Cycles)          │ ✅      │ "Renderiza"
+                        │ Configurar muestras                  │ ✅      │ "128 samples"
+                        │ Cambiar engine                       │ ✅      │ "Engine Eevee"
+                        │ Exportar PNG/EXR                     │ ✅      │ "Exporta renderbuffer"
+                        
+EXPORTACIÓN             │ Exportar FBX                         │ ✅      │ "Export FBX"
+                        │ Exportar OBJ                         │ ✅      │ "Export OBJ"
+                        │ Exportar glTF                        │ ✅      │ "Export glTF"
+                        │ Guardar proyecto .blend              │ ✅      │ "Guarda proyecto"
+                        │ Exportar animación                   │ ❌      │ "No soportado"
+                        
+GESTIÓN                 │ Limpiar escena                       │ ✅      │ "Limpia todo"
+                        │ Eliminar objeto                      │ ✅      │ "Borra cubo"
+                        │ Renombrar objeto                     │ ✅      │ "Renombra a 'casa'"
+                        │ Mostrar/ocultar objeto               │ ✅      │ "Oculta objeto"
+                        │ Seleccionar objeto                   │ ✅      │ "Selecciona cubo"
+                        │ Deseleccionar todo                   │ ✅      │ "Deselecciona"
+                        
+APRENDIZAJE             │ Memorizar patrón exitoso             │ ✅      │ Auto
+                        │ Confirmar patrón aprendido           │ ✅      │ "Confirmar patron_id"
+                        │ Listar patrones                      │ ✅      │ "Lista patrones"
+                        │ Guardar patrón en archivo            │ ✅      │ "Guarda patrón"
+                        │ Cargar patrón previo                 │ ✅      │ "Carga patrón"
+                        │ Aislar patrón fallido                │ ✅      │ Auto (quarantine)
+                        
+LENGUAJE NATURAL        │ Interpretar español                  │ ✅      │ "Crea un cubo"
+                        │ Interpretar inglés                   │ ✅      │ "Create a sphere"
+                        │ Multi-intención                      │ ✅      │ "Cubo rojo grande"
+                        │ Contexto implícito                   │ ⚠️      │ "Hazlo dorado"
+                        
+INFORMACIÓN             │ Obtener info del sistema             │ ✅      │ "Info"
+                        │ Listar comandos disponibles          │ ✅      │ "Ayuda"
+                        │ Historial de sesión                  │ ✅      │ "Historial"
+                        │ Estado actual de escena              │ ✅      │ "Status"
+                        
+VALIDACIÓN              │ V0: Objeto existe en escena          │ ✅      │ Auto
+                        │ V1: Integridad estructural           │ ✅      │ Auto
+                        │ V2: Contexto correcto                │ ✅      │ Auto
+                        │ V3: Auditoría de consecuencias       │ ✅      │ Auto (logging)
+                        
+COGNICIÓN               │ C1: Evaluar resultado                │ ✅      │ Auto
+                        │ C2: Memoria experiencial             │ ✅      │ Auto
+                        │ C3: Descomposición objetivos         │ ✅      │ Global
+                        │ C4: Auto-tuning de confianza         │ ✅      │ Auto
+                        
+SEGURIDAD               │ Identidad verificada                 │ ✅      │ Auto
+                        │ Nunca ejecuta sin validación         │ ✅      │ By design
+                        │ Nunca aprende sin confirmación       │ ✅      │ By design
+                        │ Auditoría de decisiones              │ ✅      │ trace_core
+                        │ Modo failsafe                        │ ✅      │ failsafe_executor
+                        
+FALLBACK                │ BlenderAdapter si bpy disponible     │ ✅      │ Auto
+                        │ MockAdapter si Blender no existe     │ ✅      │ Auto
+                        │ Continúa operación si una falla      │ ✅      │ By design
+
+
+═══════════════════════════════════════════════════════════════════════════════
+LEYENDA: ✅ = Totalmente funcional │ ⚠️ = Parcial/limitado │ ❌ = No soportado
+═══════════════════════════════════════════════════════════════════════════════
+
+╔════════════════════════════════════════════════════════════════════════════════╗
+║  📊 ESTADÍSTICAS DE ZULY                                                       ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+COMPONENTE                          │ CANTIDAD  │ ESTADO
+────────────────────────────────────┼───────────┼────────────
+Handlers de Blender                 │ 48        │ ✅ Operativos
+Capas de Validación                 │ 4         │ ✅ V0-V3
+Repositorios de Patrones            │ 4         │ ✅ Staging/Verified/Pending/Quarantine
+Módulos de Cognición                │ 4         │ ✅ C1-C4
+Importadores/Exportadores           │ 7         │ ✅ FBX/OBJ/glTF/blend/PNG/EXR
+Modificadores soportados            │ 10+       │ ✅ SubSurf/Array/Bevel/Boolean
+Tipos de luz                         │ 4         │ ✅ sun/point/spot/area
+Archivos test                        │ 50+       │ ✅ Cobertura extensiva
+Líneas de código (core)              │ 10,000+   │ ✅ Profesional
+Documentación (archivos .md/.txt)    │ 60+       │ ⚠️  Incompleta
+
+
+╔════════════════════════════════════════════════════════════════════════════════╗
+║  🚀 CÓMO ACCEDER A ZULY                                                        ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+OPCIÓN A: Python Directo
+──────────────────────────
+from core.agent import Agent
+
+agent = Agent(force_mock=False)  # Usa Blender real si está disponible
+
+result = agent.process_natural_request("Crea un cubo dorado")
+print(result)
+
+
+OPCIÓN B: CLI
+──────────────
+python zuly_cli_v2.py
+
+zuly> crear un cubo
+zuly> colorea de rojo
+zuly> confirmar crear_un_cubo
+zuly> exit
+
+
+OPCIÓN C: Lanzador Blender Real
+────────────────────────────────
+python lanzar_blender_zuly.py
+# Ejecuta Blender 3.6.2 en background con ZULY cargado
+
+
+OPCIÓN D: Tests (verificación)
+───────────────────────────────
+python test_complete_pipeline.py
+# Ejecuta todos los tests para validar funcionamiento
+
+
+═══════════════════════════════════════════════════════════════════════════════

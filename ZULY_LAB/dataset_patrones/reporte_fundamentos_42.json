@@ -1,0 +1,639 @@
+{
+  "version": "1.1.1-transcription-eval",
+  "full_raw_text": "Transcripción: Fundamentos de Blender 4.2 y ArchiMesh Arquitectónico\n\n[0:48] Versión utilizada: Blender 4.2 LTS.\n[1:52] Escena inicial: Cubo, Luz y Cámara (localización, rotación y escala en 0).\n[3:23] Navegación:\n    - Zoom: Rueda del mouse.\n    - Orbitar: Botón central (MMB).\n    - Panear: Shift + Botón central.\n[4:47] Atajos Clave (Shortcuts):\n    - G (Grab): Mover. Se puede anclar a ejes (X, Y, Z) con el botón central o tecleando la letra del eje.\n    - R (Rotate): Rotar. Se orienta según la vista o se ancla a ejes. Se pueden introducir grados exactos (ej: 45).\n    - S (Scale): Escalar.\n[7:41] Vistas: Uso del Gizmo (Z para vista cenital/Top View) para cambiar entre perspectiva y vista ortogonal.\n[9:52] Importación: Edit -> Preferences -> Add-ons. Activar 'Import-Export AutoCAD DXF'.\n[11:39] Imágenes de Referencia: Drag & Drop directo a Blender. Resetear transformaciones (Alt+G, Alt+R) para alinear.\n[13:30] Unidades: Escena -> Units -> Unit System: Imperial (Pies/Pulgadas) para proyectos en EE.UU. o Puerto Rico.\n[14:23] Escalado de Referencia: Medir con herramienta 'Measure' y ajustar escala del plano/imagen insertando un cubo de medida conocida (ej: 3 pies para una puerta).\n[17:56] Extrude (E): Uso de extrusión desde aristas (Edges) para trazar muros sobre el plano.\n[19:34] Duplicar (Shift + D): Para mover aristas sin extruir (marcar huecos de ventanas).\n[21:02] Bridge Edge Loops: Cerrar paredes seleccionando dos aristas enfrentadas.\n[23:58] Loop Cut (Ctrl + R): Subdividir secciones para crear divisiones internas con precisión de Snap.\n[24:58] Dissolve (X -> Dissolve Faces): Limpiar geometría eliminando aristas redundantes para optimizar el modelo.\n[30:03] ArchiMesh Addon: Herramienta para insertar puertas, ventanas y escaleras paramétricas.\n[31:36] Gestión de Puertas: Seleccionar el 'Door Frame' y ajustar ancho/alto en el panel de propiedades (N-Panel).\n[33:20] Rotación de apertura: Opciones 'Left/Right Open' para definir el giro de la puerta.\n",
+  "cleaned_text": "transcripción: fundamentos de blender 4.2 y archimesh arquitectónico [0:48] versión utilizada: blender 4.2 lts. [1:52] escena inicial: cubo, luz y cámara (localización, rotación y escala en 0). [3:23] navegación: - zoom: rueda del mouse. - orbitar: botón central (mmb). - panear: shift + botón central. [4:47] atajos clave (shortcuts): - g (grab): mover. se puede anclar a ejes (x, y, z) con el botón central o tecleando la letra del eje. - r (rotate): rotar. se orienta según la vista o se ancla a ejes. se pueden introducir grados exactos (ej: 45). - s (scale): escalar. [7:41] vistas: uso del gizmo (z para vista cenital/top view) para cambiar entre perspectiva y vista ortogonal. [9:52] importación: edit -> preferences -> add-ons. activar 'import-export autocad dxf'. [11:39] imágenes de referencia: drag & drop directo a blender. resetear transformaciones (alt+g, alt+r) para alinear. [13:30] unidades: escena -> units -> unit system: imperial (pies/pulgadas) para proyectos en ee.uu. o puerto rico. [14:23] escalado de referencia: medir con herramienta 'measure' y ajustar escala del plano/imagen insertando un cubo de medida conocida (ej: 3 pies para una puerta). [17:56] extrude (e): uso de extrusión desde aristas (edges) para trazar muros sobre el plano. [19:34] duplicar (shift + d): para mover aristas sin extruir (marcar huecos de ventanas). [21:02] bridge edge loops: cerrar paredes seleccionando dos aristas enfrentadas. [23:58] loop cut (ctrl + r): subdividir secciones para crear divisiones internas con precisión de snap. [24:58] dissolve (x -> dissolve faces): limpiar geometría eliminando aristas redundantes para optimizar el modelo. [30:03] archimesh addon: herramienta para insertar puertas, ventanas y escaleras paramétricas. [31:36] gestión de puertas: seleccionar el 'door frame' y ajustar ancho/alto en el panel de propiedades (n-panel). [33:20] rotación de apertura: opciones 'left/right open' para definir el giro de la puerta.",
+  "steps_count": 27,
+  "steps": [
+    {
+      "step_number": 1,
+      "original_segment": "transcripción: fundamentos de blender 4.2 y archimesh arquitectónico [0:48] versión utilizada: blender 4.2 lts",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "transcripción: fundamentos de blender 4.2 y archimesh arquitectónico [0:48] versión utilizada: blender 4.2 lts",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 2,
+      "original_segment": "[1:52] escena inicial: cubo, luz y cámara (localización, rotación y escala en 0)",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[1:52] escena inicial: cubo, luz y cámara (localización, rotación y escala en 0)",
+        "elements": [
+          {
+            "id": "cube_1",
+            "type": "cube",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "[1:52] escena inicial: cubo, luz",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "cube_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'cube_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 3,
+      "original_segment": "[3:23] navegación: - zoom: rueda del mouse",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[3:23] navegación: - zoom: rueda del mouse",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 4,
+      "original_segment": "- orbitar: botón central (mmb)",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "- orbitar: botón central (mmb)",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 5,
+      "original_segment": "- panear: shift + botón central",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "- panear: shift + botón central",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 6,
+      "original_segment": "[4:47] atajos clave (shortcuts): - g (grab): mover",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[4:47] atajos clave (shortcuts): - g (grab): mover",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 7,
+      "original_segment": "se puede anclar a ejes (x, y, z) con el botón central o tecleando la letra del eje",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "se puede anclar a ejes (x, y, z) con el botón central o tecleando la letra del eje",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 8,
+      "original_segment": "- r (rotate): rotar",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "- r (rotate): rotar",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 9,
+      "original_segment": "se orienta según la vista o se ancla a ejes",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "se orienta según la vista o se ancla a ejes",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 10,
+      "original_segment": "se pueden introducir grados exactos (ej: 45)",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "se pueden introducir grados exactos (ej: 45)",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 11,
+      "original_segment": "- s (scale): escalar",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "- s (scale): escalar",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 12,
+      "original_segment": "[7:41] vistas: uso del gizmo (z para vista cenital/top view) para cambiar entre perspectiva y vista ortogonal",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[7:41] vistas: uso del gizmo (z para vista cenital/top view) para cambiar entre perspectiva y vista ortogonal",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 13,
+      "original_segment": "[9:52] importación: edit -> preferences -> add-ons",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[9:52] importación: edit -> preferences -> add-ons",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 14,
+      "original_segment": "activar 'import-export autocad dxf'",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "activar 'import-export autocad dxf'",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 15,
+      "original_segment": "[11:39] imágenes de referencia: drag & drop directo a blender",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[11:39] imágenes de referencia: drag & drop directo a blender",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 16,
+      "original_segment": "resetear transformaciones (alt+g, alt+r) para alinear",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "resetear transformaciones (alt+g, alt+r) para alinear",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 17,
+      "original_segment": "[13:30] unidades: escena -> units -> unit system: imperial (pies/pulgadas) para proyectos en ee.uu",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[13:30] unidades: escena -> units -> unit system: imperial (pies/pulgadas) para proyectos en ee.uu",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 18,
+      "original_segment": "o puerto rico",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "o puerto rico",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 19,
+      "original_segment": "[14:23] escalado de referencia: medir con herramienta 'measure' y ajustar escala del plano/imagen insertando un cubo de medida conocida (ej: 3 pies para una puerta)",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[14:23] escalado de referencia: medir con herramienta 'measure' y ajustar escala del plano/imagen insertando un cubo de medida conocida (ej: 3 pies para una puerta)",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "ajustar escala del plano/imagen insertando un cubo de medida conocida (ej: 3 pies para una puerta)",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 20,
+      "original_segment": "[17:56] extrude (e): uso de extrusión desde aristas (edges) para trazar muros sobre el plano",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[17:56] extrude (e): uso de extrusión desde aristas (edges) para trazar muros sobre el plano",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "[17:56] extrude (e): uso de extrusión desde aristas (edges) para trazar muros sobre el plano",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 21,
+      "original_segment": "[19:34] duplicar (shift + d): para mover aristas sin extruir (marcar huecos de ventanas)",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[19:34] duplicar (shift + d): para mover aristas sin extruir (marcar huecos de ventanas)",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 22,
+      "original_segment": "[21:02] bridge edge loops: cerrar paredes seleccionando dos aristas enfrentadas",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[21:02] bridge edge loops: cerrar paredes seleccionando dos aristas enfrentadas",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 23,
+      "original_segment": "[23:58] loop cut (ctrl + r): subdividir secciones para crear divisiones internas con precisión de snap",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[23:58] loop cut (ctrl + r): subdividir secciones para crear divisiones internas con precisión de snap",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 24,
+      "original_segment": "[24:58] dissolve (x -> dissolve faces): limpiar geometría eliminando aristas redundantes para optimizar el modelo",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[24:58] dissolve (x -> dissolve faces): limpiar geometría eliminando aristas redundantes para optimizar el modelo",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 25,
+      "original_segment": "[30:03] archimesh addon: herramienta para insertar puertas, ventanas y escaleras paramétricas",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[30:03] archimesh addon: herramienta para insertar puertas, ventanas y escaleras paramétricas",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 26,
+      "original_segment": "[31:36] gestión de puertas: seleccionar el 'door frame' y ajustar ancho/alto en el panel de propiedades (n-panel)",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[31:36] gestión de puertas: seleccionar el 'door frame' y ajustar ancho/alto en el panel de propiedades (n-panel)",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 27,
+      "original_segment": "[33:20] rotación de apertura: opciones 'left/right open' para definir el giro de la puerta.",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[33:20] rotación de apertura: opciones 'left/right open' para definir el giro de la puerta.",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    }
+  ],
+  "global_warnings": [],
+  "total_elements_detected": 3,
+  "tutorial_confidence_score": 0.7,
+  "confidence_level": "MEDIO",
+  "average_clarity": 1.0,
+  "total_technical_gaps": 3,
+  "recommendation": "Tutorial usable pero requiere supervisión o ajustes manuales.",
+  "ambiguous_language_detected": false,
+  "technical_gaps_detected": true,
+  "ambiguous_steps": [
+    {
+      "step_number": 2,
+      "original_segment": "[1:52] escena inicial: cubo, luz y cámara (localización, rotación y escala en 0)",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[1:52] escena inicial: cubo, luz y cámara (localización, rotación y escala en 0)",
+        "elements": [
+          {
+            "id": "cube_1",
+            "type": "cube",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "[1:52] escena inicial: cubo, luz",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "cube_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'cube_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 19,
+      "original_segment": "[14:23] escalado de referencia: medir con herramienta 'measure' y ajustar escala del plano/imagen insertando un cubo de medida conocida (ej: 3 pies para una puerta)",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[14:23] escalado de referencia: medir con herramienta 'measure' y ajustar escala del plano/imagen insertando un cubo de medida conocida (ej: 3 pies para una puerta)",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "ajustar escala del plano/imagen insertando un cubo de medida conocida (ej: 3 pies para una puerta)",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 20,
+      "original_segment": "[17:56] extrude (e): uso de extrusión desde aristas (edges) para trazar muros sobre el plano",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[17:56] extrude (e): uso de extrusión desde aristas (edges) para trazar muros sobre el plano",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "[17:56] extrude (e): uso de extrusión desde aristas (edges) para trazar muros sobre el plano",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    }
+  ],
+  "detected_concepts": [],
+  "detected_paradigms": {
+    "adherent_paradigms": [
+      "PARADIGM_IMPERATIVE"
+    ],
+    "dominant_paradigm": "PARADIGM_IMPERATIVE",
+    "compatibility_status": "LEGACY"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-04-11T22:17:19.060400",
+  "fecha": "2026-04-11 22:17:19",
+  "pattern_id": "HABITACION_4.0x5.0x2.5",
+  "puntuacion_jues": 100.0,
+  "dictamen": "APTO_PARA_SELLO",
+  "findings": [
+    "V0 (Física): OK - Habitación creada con 6 objetos",
+    "V1 (Estructural): OK - Estructura: 4 paredes + piso + techo",
+    "V2 (Contextual): OK - Contexto: habitación 4.0x5.0x2.5m",
+    "V3 (Topológica): OK - Malla perfecta (True)",
+    "Sincronía Cromática: OK - OK",
+    "Optimización: OK - OK",
+    "Inmutabilidad: OK - Hash consistente (auto)"
+  ],
+  "errors": [],
+  "warnings": [],
+  "dashboard": {
+    "estado_malla": "LIMPIA",
+    "estado_malla_icon": "✅",
+    "concordancia_color": "MATCH",
+    "concordancia_icon": "🎨",
+    "peso_patron_kb": "N/A",
+    "hash_corto": "auto"
+  },
+  "raw_results": {
+    "v0": {
+      "verified": true,
+      "details": "Habitación creada con 6 objetos"
+    },
+    "v1": {
+      "verified": true,
+      "details": "Estructura: 4 paredes + piso + techo"
+    },
+    "v2": {
+      "verified": true,
+      "details": "Contexto: habitación 4.0x5.0x2.5m"
+    },
+    "v3": {
+      "verified": true,
+      "metrics": {
+        "is_watertight": true
+      }
+    },
+    "chromatic_sync": {
+      "match": true,
+      "details": "OK"
+    },
+    "optimization_instinct": {
+      "optimized": true,
+      "details": "OK"
+    },
+    "immutability_seal": {
+      "verified": true,
+      "hash_short": "auto"
+    }
+  }
+}

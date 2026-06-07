@@ -1,0 +1,28 @@
+{
+  "pattern_id": "P-003C_SphereMini",
+  "nombre_tecnico": "P-003C_SphereMini",
+  "fecha_sello": "2026-04-04T20:52:04.729505",
+  "estado": "SELLADO",
+  "sellado_por": "Soberano",
+  "validacion_jues": {
+    "vision_rayos_x": {
+      "status": "LIMPIA",
+      "icon": "✨"
+    },
+    "instinto_optimizacion": {
+      "status": "OPTIMO",
+      "peso_kb": 884.1,
+      "icon": "⚡"
+    },
+    "sincronia_cromatica": {
+      "status": "MATCH",
+      "color_encontrado": "#009688",
+      "icon": "🎯"
+    },
+    "sello_inmutabilidad": {
+      "hash": "24f426ec60c6b75adb34a9a8cff63ac9",
+      "vertices_count": 114,
+      "icon": "🔒"
+    }
+  }
+}

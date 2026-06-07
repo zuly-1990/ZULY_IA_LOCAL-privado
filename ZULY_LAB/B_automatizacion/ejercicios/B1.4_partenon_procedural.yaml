@@ -1,0 +1,72 @@
+# Ejercicio B1.4: El Partenón Procedural
+# Objetivo: Demostrar maestría en generación de arquitectura clásica mediante lógica pura.
+
+name: "El Partenón Procedural"
+fase: "B"
+numero: "B1.4"
+descripcion: "Construcción completa de un templo griego con proporciones clásicas"
+dificultad: "experto"
+tiempo_estimado_segundos: 15
+
+steps:
+  - action: "clear_scene"
+
+  # 1. Generar Estructura Clásica
+  - action: "run_python_script"
+    params:
+      script_path: "ZULY_LAB/B_automatizacion/scripts/parthenon_gen.py"
+      variables:
+        cols_x: 8      # Octástilo
+        cols_y: 17     # Proporción clásica (2n + 1)
+        spacing: 2.5
+        col_height: 8.0
+
+  # 2. Iluminación Dramática (Atardecer)
+  - action: "create_light"
+    params:
+      light_type: "SUN"
+      location: [20, -20, 15]
+      energy: 10.0
+      color: [1.0, 0.8, 0.6] # Cálido
+      name: "Sol_Grecia"
+
+  # 3. Cámara Cine (Perspectiva de gran escala)
+  - action: "create_camera"
+    params:
+      location: [40, -40, 20]
+      name: "CamaraFinal"
+
+  - action: "position_camera"
+    params:
+      camera_name: "CamaraFinal"
+      location: [45, -45, 15]
+      look_at: [10, 20, 4]
+      
+  - action: "set_active_camera"
+    params:
+      camera_name: "CamaraFinal"
+
+  # 4. Render Maestro
+  - action: "render_scene"
+    params:
+      output_path: "ZULY_LAB/resultados_zuly/B1.4_final_partenon.png"
+      resolution: [1920, 1080]
+      samples: 64
+      engine: "CYCLES"
+
+  # 5. Guardado Final
+  - action: "save_project"
+    params:
+      filepath: "ZULY_LAB/resultados_zuly/B1.4_partenon_maestro.blend"
+
+validation:
+  - type: "object_exists"
+    object_name: "Arquitrabe"
+  - type: "object_exists"
+    object_name: "Columna_0_0"
+  - type: "object_count"
+    expected: 54 # 46 columnas (perímetro 8x17) + 3 bases + 1 dintel + 1 techo + sol + cam + 1 extra?
+
+success_criteria:
+  min_steps_successful: 6
+  all_validations_pass: true

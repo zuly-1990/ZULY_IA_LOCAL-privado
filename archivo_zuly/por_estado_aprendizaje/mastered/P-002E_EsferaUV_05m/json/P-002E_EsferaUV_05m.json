@@ -1,0 +1,28 @@
+{
+  "pattern_id": "P-002E_EsferaUV_05m",
+  "nombre_tecnico": "P-002E_EsferaUV_05m",
+  "fecha_sello": "2026-04-04T20:49:11.713948",
+  "estado": "SELLADO",
+  "sellado_por": "Soberano",
+  "validacion_jues": {
+    "vision_rayos_x": {
+      "status": "LIMPIA",
+      "icon": "✨"
+    },
+    "instinto_optimizacion": {
+      "status": "OPTIMO",
+      "peso_kb": 919.19,
+      "icon": "⚡"
+    },
+    "sincronia_cromatica": {
+      "status": "MATCH",
+      "color_encontrado": "#FFC107",
+      "icon": "🎯"
+    },
+    "sello_inmutabilidad": {
+      "hash": "70a86cd702202a2d7f22725887827aca",
+      "vertices_count": 114,
+      "icon": "🔒"
+    }
+  }
+}

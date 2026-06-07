@@ -1,0 +1,125 @@
+{
+  "summary": {
+    "timestamp": "2026-05-31T18:58:31.598720",
+    "critical": {
+      "total": 9,
+      "passed": 9
+    },
+    "high": {
+      "total": 4,
+      "passed": 4
+    },
+    "critical_rate": 100.0,
+    "high_rate": 100.0,
+    "critical_failures": 0,
+    "high_failures": 0,
+    "overall_ok": true,
+    "final_blend": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\ZULY_PROJECTS\\prueba_final_zuly_qa_runner.blend"
+  },
+  "results": [
+    {
+      "number": 1,
+      "block": "Core + NLU",
+      "severity": "CRÍTICO",
+      "description": "Importaciones del núcleo y seguridad",
+      "passed": true,
+      "details": "Importaciones críticas disponibles"
+    },
+    {
+      "number": 2,
+      "block": "Core + NLU",
+      "severity": "CRÍTICO",
+      "description": "Inicialización del Agente con IntentRouter",
+      "passed": true,
+      "details": "Agent inicializado con 59 handlers"
+    },
+    {
+      "number": 3,
+      "block": "Core + NLU",
+      "severity": "CRÍTICO",
+      "description": "Procesamiento de NLU y mapeo de intención",
+      "passed": true,
+      "details": "NLU devolvió intención: blender.create_cube"
+    },
+    {
+      "number": 4,
+      "block": "Blender Real",
+      "severity": "CRÍTICO",
+      "description": "Creación de cubo en Blender real",
+      "passed": true,
+      "details": "Cubo creado correctamente en Blender"
+    },
+    {
+      "number": 5,
+      "block": "Blender Real",
+      "severity": "CRÍTICO",
+      "description": "Guardado de escena .blend en prueba final",
+      "passed": true,
+      "details": "Archivo .blend creado: prueba_final_zuly_qa_runner.blend"
+    },
+    {
+      "number": 6,
+      "block": "Blender Real",
+      "severity": "CRÍTICO",
+      "description": "Verificación de SceneMonitor tras ejecución",
+      "passed": true,
+      "details": "Monitor detectó 4 objetos"
+    },
+    {
+      "number": 7,
+      "block": "Pattern Memory",
+      "severity": "ALTO",
+      "description": "Almacenamiento de patrón en Memoria de Patrones",
+      "passed": true,
+      "details": "Patrón almacenado correctamente con id a5e7a3ed-8cd9-4733-a238-6a2f3f149902"
+    },
+    {
+      "number": 8,
+      "block": "Pattern Memory",
+      "severity": "ALTO",
+      "description": "Recuperación de patrones desde Memoria",
+      "passed": true,
+      "details": "Patrón recuperado: b74614f7-814e-438c-811b-68921687e10a"
+    },
+    {
+      "number": 9,
+      "block": "Seguridad",
+      "severity": "CRÍTICO",
+      "description": "Detección de influencia AI y activación de BlackProtocol",
+      "passed": true,
+      "details": "BlackProtocol activado correctamente por prompt de IA"
+    },
+    {
+      "number": 10,
+      "block": "Seguridad",
+      "severity": "CRÍTICO",
+      "description": "Persistencia de bloqueo BlackProtocol",
+      "passed": true,
+      "details": "BlackProtocol bloquea correctamente mientras está activo"
+    },
+    {
+      "number": 11,
+      "block": "Seguridad",
+      "severity": "CRÍTICO",
+      "description": "Bloqueo por acceso no autorizado",
+      "passed": true,
+      "details": "BlackProtocol activa bloqueo ante acceso no autorizado"
+    },
+    {
+      "number": 12,
+      "block": "Monitoreo",
+      "severity": "ALTO",
+      "description": "Resumen de SceneMonitor disponible",
+      "passed": true,
+      "details": "Resumen de escena disponible (objetos: 4)"
+    },
+    {
+      "number": 13,
+      "block": "Monitoreo",
+      "severity": "ALTO",
+      "description": "Prueba final de guardado con etiqueta PRUEBA FINAL",
+      "passed": true,
+      "details": "PRUEBA FINAL: archivo .blend etiquetado y guardado"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "certificado_id": "CERT-P-003B_SphereBajaRes-20260404205158",
+  "pattern_id": "P-003B_SphereBajaRes",
+  "fecha_sello": "2026-04-04T20:51:58.053951",
+  "sellado_por": "Soberano",
+  "decision": "SELLADO",
+  "dictamen_jues": "✅ APTO_PARA_SELLO",
+  "validacion": {
+    "malla": "LIMPIA",
+    "peso_kb": 854.71,
+    "color": "#3F51B5",
+    "hash": "00d43a09b3e125a72e4f643ce6abdf6e"
+  }
+}

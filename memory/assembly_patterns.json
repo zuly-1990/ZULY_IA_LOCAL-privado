@@ -1,0 +1,179 @@
+[
+  {
+    "name": "columna_arquitectonica_36",
+    "description": "Patrón de columna modular extraído de tutorial Mujental (YouTube) para Blender 3.6.",
+    "components": [
+      {
+        "id": "base_plana",
+        "type": "plane",
+        "location": [
+          0,
+          0,
+          0
+        ],
+        "scale": 1.0,
+        "description": "Base estructural del activo"
+      },
+      {
+        "id": "fuste_columna",
+        "type": "cylinder",
+        "parent": "base_plana",
+        "location": [
+          0,
+          0,
+          1.0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          2.0
+        ],
+        "vertices": 12,
+        "description": "Cuerpo de la columna con 12 divisiones"
+      },
+      {
+        "id": "capitel_cubo",
+        "type": "cube",
+        "parent": "fuste_columna",
+        "location": [
+          0,
+          0,
+          2.0
+        ],
+        "scale": 0.6,
+        "description": "Capitel superior biselado"
+      }
+    ],
+    "component_count": 3
+  },
+  {
+    "name": "trazado_muros_2d",
+    "description": "Técnica de modelado de muros desde plano 2D usando planos, loop-cuts (Ctrl+R) y extrusión (E).",
+    "components": [
+      {
+        "id": "segmento_muro_base",
+        "type": "plane",
+        "technique": "loop_cut_extrude",
+        "description": "Plano inicial que se subdivide y extruye siguiendo el calco"
+      }
+    ],
+    "component_count": 1
+  },
+  {
+    "name": "suelo_techo_perimetral",
+    "description": "Técnica para crear suelos o techos complejos trazando vértices uno a uno y rellenando la cara resultante.",
+    "components": [
+      {
+        "id": "perimetro_vertices",
+        "type": "mesh_from_verts",
+        "technique": "single_vert_fill",
+        "description": "Perímetro trazado con vértices simples y rellenado con F"
+      }
+    ],
+    "component_count": 1
+  },
+  {
+    "name": "corte_seccion_tecnico",
+    "description": "Técnica de bisección para visualización arquitectónica. Incluye 'Clear' para vista seccionada y 'Fill' para realismo.",
+    "components": [
+      {
+        "id": "operacion_bisect",
+        "type": "mesh_operation",
+        "technique": "bisect_fill_clear",
+        "description": "Corte de sección con limpieza de mitad y sellado de caras"
+      }
+    ],
+    "component_count": 1
+  },
+  {
+    "name": "proteccion_geometria_operativa",
+    "description": "Uso de flags del Outliner para proteger bases o terrenos de cortes de sección globales.",
+    "components": [
+      {
+        "id": "geometria_protegida",
+        "type": "outliner_flag",
+        "action": "disable_selection",
+        "description": "Inhabilitar selección para evitar que operaciones globales (A -> Bisect) afecten al objeto"
+      }
+    ],
+    "component_count": 1
+  },
+  {
+    "name": "columna_circular_tecnica",
+    "description": "Creación de columnas cilíndricas perfectas desde una base de círculo de malla con sellado de cara.",
+    "components": [
+      {
+        "id": "circulo_base",
+        "type": "mesh_circle",
+        "technique": "fill_extrude",
+        "description": "Círculo de malla rellenado y extruido verticalmente"
+      }
+    ],
+    "component_count": 1
+  },
+  {
+    "name": "organizacion_niveles_cad",
+    "description": "Flujo de trabajo para apilar plantas arquitectónicas importadas de CAD en el eje Z usando alineación por vértices.",
+    "components": [
+      {
+        "id": "nivel_importado",
+        "type": "dxf_import_join",
+        "technique": "position_z_snap",
+        "description": "Niveles importados, unidos y posicionados en altura con Snap"
+      }
+    ],
+    "component_count": 1
+  },
+  {
+    "name": "limpieza_topologica_malla",
+    "description": "Procedimiento estándar para corregir 'caras colapsadas' y vértices superpuestos usando Merge by Distance.",
+    "components": [
+      {
+        "id": "operacion_limpieza",
+        "type": "mesh_cleanup",
+        "technique": "merge_by_distance",
+        "description": "Eliminación de vértices duplicados tras extrusiones o uniones"
+      }
+    ],
+    "component_count": 1
+  },
+  {
+    "name": "array_manual_rapido",
+    "description": "Creación rápida de patrones repetitivos (rejas, montantes) sin usar el modificador Array formal.",
+    "components": [
+      {
+        "id": "duplicado_repetido",
+        "type": "mesh_array",
+        "technique": "shift_d_shift_r",
+        "description": "Duplicación (Shift+D) seguida de repetición de acción (Shift+R)"
+      }
+    ],
+    "component_count": 1
+  },
+  {
+    "name": "test_pattern",
+    "description": "Patrón de prueba",
+    "components": [
+      {
+        "id": "base",
+        "type": "cube",
+        "location": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "top",
+        "type": "sphere",
+        "location": [
+          0,
+          0,
+          1
+        ],
+        "parent": "base"
+      }
+    ],
+    "component_count": 2
+  }
+]

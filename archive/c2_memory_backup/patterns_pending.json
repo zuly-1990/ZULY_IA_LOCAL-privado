@@ -1,0 +1,3145 @@
+[
+  {
+    "pattern_id": "8b920f1f-5965-42f9-ad8f-221e7c82968a",
+    "timestamp": "2026-04-01T19:11:55.204470",
+    "user_request": "crear un cubo",
+    "intent": {
+      "command_name": "crear_cubo",
+      "confidence": 0.85,
+      "parameters": {}
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Cube_001"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Cube_001' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {},
+      "scene_after": {
+        "Cube_001": {
+          "type": "MESH",
+          "location": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 8,
+          "name": "Cube_001"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-01T19:11:55.204503",
+      "status": "STAGING"
+    }
+  },
+  {
+    "pattern_id": "a41bfca2-4c92-45a3-8bd3-58651204786c",
+    "timestamp": "2026-04-01T19:36:28.595812",
+    "user_request": "crear un cubo",
+    "intent": {
+      "command_name": "crear_cubo",
+      "confidence": 0.85,
+      "parameters": {}
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Cube_001"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Cube_001' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {},
+      "scene_after": {
+        "Cube_001": {
+          "type": "MESH",
+          "location": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 8,
+          "name": "Cube_001"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-01T19:36:28.595841",
+      "status": "STAGING"
+    }
+  },
+  {
+    "pattern_id": "acc07ba3-b967-434c-a043-a8f63bd79003",
+    "timestamp": "2026-04-01T19:40:18.385798",
+    "user_request": "crear una esfera",
+    "intent": {
+      "command_name": "crear_esfera",
+      "confidence": 0.85,
+      "parameters": {}
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Sphere_001"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Sphere_001' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {},
+      "scene_after": {
+        "Sphere_001": {
+          "type": "MESH",
+          "location": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_001"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-01T19:40:18.385821",
+      "status": "STAGING"
+    }
+  },
+  {
+    "pattern_id": "5220debb-0d15-468c-b65b-53e38c6d4186",
+    "timestamp": "2026-04-01T19:41:08.863895",
+    "user_request": "crear una esfera",
+    "intent": {
+      "command_name": "crear_esfera",
+      "confidence": 0.85,
+      "parameters": {}
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Sphere_001"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Sphere_001' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {},
+      "scene_after": {
+        "Sphere_001": {
+          "type": "MESH",
+          "location": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_001"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-01T19:41:08.863908",
+      "status": "STAGING"
+    }
+  },
+  {
+    "pattern_id": "5227a27d-0341-44e1-b8a3-7a8cfc34b0d1",
+    "timestamp": "2026-04-01T19:46:37.710185",
+    "user_request": "crear esfera",
+    "intent": {
+      "command_name": "crear_esfera",
+      "confidence": 0.85,
+      "parameters": {}
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Sphere_001"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Sphere_001' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {},
+      "scene_after": {
+        "Sphere_001": {
+          "type": "MESH",
+          "location": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_001"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-01T19:46:37.710200",
+      "status": "STAGING"
+    }
+  },
+  {
+    "pattern_id": "1b581f14-06a6-4caa-91d8-a7b3d64ad830",
+    "timestamp": "2026-04-01T19:53:43.278549",
+    "user_request": "crear esfera",
+    "intent": {
+      "command_name": "crear_esfera",
+      "confidence": 0.85,
+      "parameters": {}
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Sphere_001"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Sphere_001' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {},
+      "scene_after": {
+        "Sphere_001": {
+          "type": "MESH",
+          "location": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_001"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-01T19:53:43.278587",
+      "status": "STAGING"
+    }
+  },
+  {
+    "pattern_id": "8f503b42-6a6d-45d1-83d4-3a4cf03751a9",
+    "timestamp": "2026-04-01T20:51:59.136067",
+    "user_request": "crear un cubo",
+    "intent": {
+      "command_name": "crear_cubo",
+      "confidence": 0.85,
+      "parameters": {}
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Cube_001"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Cube_001' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {},
+      "scene_after": {
+        "Cube_001": {
+          "type": "MESH",
+          "location": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_001"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-01T20:51:59.136083",
+      "status": "STAGING"
+    }
+  },
+  {
+    "pattern_id": "cfebed3a-3eec-478a-bda8-ca5feede5025",
+    "timestamp": "2026-04-01T20:52:15.144174",
+    "user_request": "crear una esfera",
+    "intent": {
+      "command_name": "crear_esfera",
+      "confidence": 0.85,
+      "parameters": {}
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Sphere_001"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Sphere_001' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {},
+      "scene_after": {
+        "Sphere_001": {
+          "type": "MESH",
+          "location": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_001"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-01T20:52:15.144189",
+      "status": "STAGING"
+    }
+  },
+  {
+    "pattern_id": "5f289e71-5177-4466-b665-7409e4dd6629",
+    "timestamp": "2026-04-02T14:50:40.250235",
+    "user_request": "crear un cubo",
+    "intent": {
+      "command_name": "crear_cubo",
+      "confidence": 0.85,
+      "parameters": {}
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Cube_001"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Cube_001' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {},
+      "scene_after": {
+        "Cube_001": {
+          "type": "MESH",
+          "location": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_001"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-02T14:50:40.250256",
+      "status": "STAGING"
+    }
+  },
+  {
+    "pattern_id": "366d813a-5787-4d8d-b87a-f219cb485a54",
+    "timestamp": "2026-04-02T14:51:44.431748",
+    "user_request": "crear un cubo rojo",
+    "intent": {
+      "command_name": "blender.create_cube",
+      "confidence": 0.85,
+      "parameters": {
+        "color": "rojo"
+      }
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Cube_002"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Cube_002' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {
+        "Cube_001": {
+          "type": "MESH",
+          "location": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_001"
+        }
+      },
+      "scene_after": {
+        "Cube_001": {
+          "type": "MESH",
+          "location": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_001"
+        },
+        "Cube_002": {
+          "type": "MESH",
+          "location": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_002"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-02T14:51:44.431764",
+      "status": "STAGING"
+    }
+  },
+  {
+    "pattern_id": "ed089ddb-aed9-40d9-8c6f-9151a3a7f215",
+    "timestamp": "2026-04-02T15:03:15.426585",
+    "user_request": "crear un cubo simple para testear el pipeline",
+    "intent": {
+      "command_name": "blender.create_cube",
+      "confidence": 0.85,
+      "parameters": {}
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Cube_001"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Cube_001' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {},
+      "scene_after": {
+        "Cube_001": {
+          "type": "MESH",
+          "location": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_001"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-02T15:03:15.426605",
+      "status": "STAGING"
+    }
+  },
+  {
+    "pattern_id": "0393ae11-5d58-4891-a02d-e3451c5ec3a4",
+    "timestamp": "2026-04-02T19:20:11.634876",
+    "user_request": "Crea un cubo rojo en posici\u00f3n 0,0,0",
+    "intent": {
+      "command_name": "blender.create_cube",
+      "confidence": 0.85,
+      "parameters": {
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "color": "rojo"
+      }
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Cube_001"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Cube_001' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {},
+      "scene_after": {
+        "Cube_001": {
+          "type": "MESH",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_001"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-02T19:20:11.634896",
+      "status": "STAGING"
+    }
+  },
+  {
+    "pattern_id": "74fd611b-0c70-4a04-b267-20132401ed9b",
+    "timestamp": "2026-04-02T19:20:12.312320",
+    "user_request": "Crea una esfera azul en posici\u00f3n 3,0,0",
+    "intent": {
+      "command_name": "blender.create_sphere",
+      "confidence": 0.85,
+      "parameters": {
+        "location": [
+          3.0,
+          0.0,
+          0.0
+        ],
+        "color": "azul"
+      }
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Sphere_002"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Sphere_002' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {
+        "Cube_001": {
+          "type": "MESH",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_001"
+        }
+      },
+      "scene_after": {
+        "Cube_001": {
+          "type": "MESH",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_001"
+        },
+        "Sphere_002": {
+          "type": "MESH",
+          "location": [
+            3.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_002"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-02T19:20:12.312340",
+      "status": "STAGING"
+    }
+  },
+  {
+    "pattern_id": "4217f135-947a-4add-99b7-6673a5e359f2",
+    "timestamp": "2026-04-02T19:20:12.669912",
+    "user_request": "Crea un cilindro verde en posici\u00f3n 6,0,0",
+    "intent": {
+      "command_name": "blender.create_cylinder",
+      "confidence": 0.85,
+      "parameters": {
+        "location": [
+          6.0,
+          0.0,
+          0.0
+        ],
+        "color": "verde"
+      }
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Cylinder_003"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Cylinder_003' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {
+        "Cube_001": {
+          "type": "MESH",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_001"
+        },
+        "Sphere_002": {
+          "type": "MESH",
+          "location": [
+            3.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_002"
+        }
+      },
+      "scene_after": {
+        "Cube_001": {
+          "type": "MESH",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_001"
+        },
+        "Sphere_002": {
+          "type": "MESH",
+          "location": [
+            3.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_002"
+        },
+        "Cylinder_003": {
+          "type": "MESH",
+          "location": [
+            6.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 100,
+          "name": "Cylinder_003"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-02T19:20:12.669928",
+      "status": "STAGING"
+    }
+  },
+  {
+    "pattern_id": "b6e50f21-e6ab-4c98-b7ee-b5bb443b1315",
+    "timestamp": "2026-04-02T19:20:12.919958",
+    "user_request": "Crea un plano amarillo en posici\u00f3n 9,0,0",
+    "intent": {
+      "command_name": "blender.create_plane",
+      "confidence": 0.85,
+      "parameters": {
+        "location": [
+          9.0,
+          0.0,
+          0.0
+        ],
+        "color": "amarillo"
+      }
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Plane_004"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Plane_004' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {
+        "Cube_001": {
+          "type": "MESH",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_001"
+        },
+        "Sphere_002": {
+          "type": "MESH",
+          "location": [
+            3.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_002"
+        },
+        "Cylinder_003": {
+          "type": "MESH",
+          "location": [
+            6.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 100,
+          "name": "Cylinder_003"
+        }
+      },
+      "scene_after": {
+        "Cube_001": {
+          "type": "MESH",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_001"
+        },
+        "Sphere_002": {
+          "type": "MESH",
+          "location": [
+            3.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_002"
+        },
+        "Cylinder_003": {
+          "type": "MESH",
+          "location": [
+            6.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 100,
+          "name": "Cylinder_003"
+        },
+        "Plane_004": {
+          "type": "MESH",
+          "location": [
+            9.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 4,
+          "name": "Plane_004"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-02T19:20:12.919981",
+      "status": "STAGING"
+    }
+  },
+  {
+    "pattern_id": "82a66a4f-731b-4823-b4fc-892f1851e7e5",
+    "timestamp": "2026-04-02T19:20:13.250879",
+    "user_request": "Crea un cono naranja en posici\u00f3n 12,0,0",
+    "intent": {
+      "command_name": "blender.create_cone",
+      "confidence": 0.85,
+      "parameters": {
+        "location": [
+          12.0,
+          0.0,
+          0.0
+        ],
+        "color": "naranja"
+      }
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Cone_005"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Cone_005' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {
+        "Cube_001": {
+          "type": "MESH",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_001"
+        },
+        "Sphere_002": {
+          "type": "MESH",
+          "location": [
+            3.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_002"
+        },
+        "Cylinder_003": {
+          "type": "MESH",
+          "location": [
+            6.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 100,
+          "name": "Cylinder_003"
+        },
+        "Plane_004": {
+          "type": "MESH",
+          "location": [
+            9.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 4,
+          "name": "Plane_004"
+        }
+      },
+      "scene_after": {
+        "Cube_001": {
+          "type": "MESH",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_001"
+        },
+        "Sphere_002": {
+          "type": "MESH",
+          "location": [
+            3.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_002"
+        },
+        "Cylinder_003": {
+          "type": "MESH",
+          "location": [
+            6.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 100,
+          "name": "Cylinder_003"
+        },
+        "Plane_004": {
+          "type": "MESH",
+          "location": [
+            9.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 4,
+          "name": "Plane_004"
+        },
+        "Cone_005": {
+          "type": "MESH",
+          "location": [
+            12.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 120,
+          "name": "Cone_005"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-02T19:20:13.250894",
+      "status": "STAGING"
+    }
+  },
+  {
+    "pattern_id": "0cf71744-31d9-4e7b-9817-f53fa2e7c305",
+    "timestamp": "2026-04-02T19:20:13.536228",
+    "user_request": "Crea un cubo grande blanco en posici\u00f3n 0,3,0",
+    "intent": {
+      "command_name": "blender.create_cube",
+      "confidence": 0.85,
+      "parameters": {
+        "location": [
+          0.0,
+          3.0,
+          0.0
+        ],
+        "color": "blanco"
+      }
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Cube_006"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Cube_006' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {
+        "Cube_001": {
+          "type": "MESH",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_001"
+        },
+        "Sphere_002": {
+          "type": "MESH",
+          "location": [
+            3.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_002"
+        },
+        "Cylinder_003": {
+          "type": "MESH",
+          "location": [
+            6.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 100,
+          "name": "Cylinder_003"
+        },
+        "Plane_004": {
+          "type": "MESH",
+          "location": [
+            9.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 4,
+          "name": "Plane_004"
+        },
+        "Cone_005": {
+          "type": "MESH",
+          "location": [
+            12.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 120,
+          "name": "Cone_005"
+        }
+      },
+      "scene_after": {
+        "Cube_001": {
+          "type": "MESH",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_001"
+        },
+        "Sphere_002": {
+          "type": "MESH",
+          "location": [
+            3.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_002"
+        },
+        "Cylinder_003": {
+          "type": "MESH",
+          "location": [
+            6.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 100,
+          "name": "Cylinder_003"
+        },
+        "Plane_004": {
+          "type": "MESH",
+          "location": [
+            9.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 4,
+          "name": "Plane_004"
+        },
+        "Cone_005": {
+          "type": "MESH",
+          "location": [
+            12.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 120,
+          "name": "Cone_005"
+        },
+        "Cube_006": {
+          "type": "MESH",
+          "location": [
+            0.0,
+            3.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_006"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-02T19:20:13.536244",
+      "status": "STAGING"
+    }
+  },
+  {
+    "pattern_id": "5a6c686f-8b96-4c16-9979-bbb4347843cc",
+    "timestamp": "2026-04-02T19:20:13.892482",
+    "user_request": "Haz un agujero en el eje X del cubo",
+    "intent": {
+      "command_name": "blender.create_cube",
+      "confidence": 0.85,
+      "parameters": {}
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Cube_007"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Cube_007' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {
+        "Cube_001": {
+          "type": "MESH",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_001"
+        },
+        "Sphere_002": {
+          "type": "MESH",
+          "location": [
+            3.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_002"
+        },
+        "Cylinder_003": {
+          "type": "MESH",
+          "location": [
+            6.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 100,
+          "name": "Cylinder_003"
+        },
+        "Plane_004": {
+          "type": "MESH",
+          "location": [
+            9.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 4,
+          "name": "Plane_004"
+        },
+        "Cone_005": {
+          "type": "MESH",
+          "location": [
+            12.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 120,
+          "name": "Cone_005"
+        },
+        "Cube_006": {
+          "type": "MESH",
+          "location": [
+            0.0,
+            3.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_006"
+        }
+      },
+      "scene_after": {
+        "Cube_001": {
+          "type": "MESH",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_001"
+        },
+        "Sphere_002": {
+          "type": "MESH",
+          "location": [
+            3.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_002"
+        },
+        "Cylinder_003": {
+          "type": "MESH",
+          "location": [
+            6.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 100,
+          "name": "Cylinder_003"
+        },
+        "Plane_004": {
+          "type": "MESH",
+          "location": [
+            9.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 4,
+          "name": "Plane_004"
+        },
+        "Cone_005": {
+          "type": "MESH",
+          "location": [
+            12.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 120,
+          "name": "Cone_005"
+        },
+        "Cube_006": {
+          "type": "MESH",
+          "location": [
+            0.0,
+            3.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_006"
+        },
+        "Cube_007": {
+          "type": "MESH",
+          "location": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_007"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-02T19:20:13.892502",
+      "status": "STAGING"
+    }
+  },
+  {
+    "pattern_id": "6b94c55f-da7b-470b-ac63-2fe8ed812266",
+    "timestamp": "2026-04-02T19:26:23.095975",
+    "user_request": "Crea una bola azul en 4,0,0 y perfora en eje x",
+    "intent": {
+      "command_name": "blender.create_sphere",
+      "confidence": 0.85,
+      "parameters": {
+        "location": [
+          4.0,
+          0.0,
+          0.0
+        ],
+        "color": "azul"
+      }
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Sphere_001"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Sphere_001' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {},
+      "scene_after": {
+        "Sphere_001": {
+          "type": "MESH",
+          "location": [
+            4.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_001"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-02T19:26:23.095993",
+      "status": "STAGING"
+    }
+  },
+  {
+    "pattern_id": "59893d33-694a-4e0e-8940-c7f5d5fc4c1a",
+    "timestamp": "2026-04-02T19:26:23.505934",
+    "user_request": "Crea un cilindro morado en 4,4,0 y perfora vertical",
+    "intent": {
+      "command_name": "blender.create_cylinder",
+      "confidence": 0.85,
+      "parameters": {
+        "location": [
+          4.0,
+          4.0,
+          0.0
+        ]
+      }
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Cylinder_002"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Cylinder_002' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {
+        "Sphere_001": {
+          "type": "MESH",
+          "location": [
+            4.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_001"
+        }
+      },
+      "scene_after": {
+        "Sphere_001": {
+          "type": "MESH",
+          "location": [
+            4.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_001"
+        },
+        "Cylinder_002": {
+          "type": "MESH",
+          "location": [
+            4.0,
+            4.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 100,
+          "name": "Cylinder_002"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-02T19:26:23.505950",
+      "status": "STAGING"
+    }
+  },
+  {
+    "pattern_id": "4780662a-f692-478a-90de-b242b0b8674c",
+    "timestamp": "2026-04-02T19:26:23.845693",
+    "user_request": "Crea una esfera rosada en 8,4,0 y talla en eje y",
+    "intent": {
+      "command_name": "blender.create_sphere",
+      "confidence": 0.85,
+      "parameters": {
+        "location": [
+          8.0,
+          4.0,
+          0.0
+        ],
+        "color": "rosa"
+      }
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Sphere_003"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Sphere_003' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {
+        "Sphere_001": {
+          "type": "MESH",
+          "location": [
+            4.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_001"
+        },
+        "Cylinder_002": {
+          "type": "MESH",
+          "location": [
+            4.0,
+            4.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 100,
+          "name": "Cylinder_002"
+        }
+      },
+      "scene_after": {
+        "Sphere_001": {
+          "type": "MESH",
+          "location": [
+            4.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_001"
+        },
+        "Cylinder_002": {
+          "type": "MESH",
+          "location": [
+            4.0,
+            4.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 100,
+          "name": "Cylinder_002"
+        },
+        "Sphere_003": {
+          "type": "MESH",
+          "location": [
+            8.0,
+            4.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_003"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-02T19:26:23.845713",
+      "status": "STAGING"
+    }
+  },
+  {
+    "pattern_id": "7b46409d-ac13-4384-98ab-19efd120d585",
+    "timestamp": "2026-04-02T19:26:24.080721",
+    "user_request": "Crea un cono caf\u00e9 en 12,4,0 y cava vertical",
+    "intent": {
+      "command_name": "blender.create_cone",
+      "confidence": 0.85,
+      "parameters": {
+        "location": [
+          12.0,
+          4.0,
+          0.0
+        ]
+      }
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Cone_004"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Cone_004' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {
+        "Sphere_001": {
+          "type": "MESH",
+          "location": [
+            4.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_001"
+        },
+        "Cylinder_002": {
+          "type": "MESH",
+          "location": [
+            4.0,
+            4.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 100,
+          "name": "Cylinder_002"
+        },
+        "Sphere_003": {
+          "type": "MESH",
+          "location": [
+            8.0,
+            4.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_003"
+        }
+      },
+      "scene_after": {
+        "Sphere_001": {
+          "type": "MESH",
+          "location": [
+            4.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_001"
+        },
+        "Cylinder_002": {
+          "type": "MESH",
+          "location": [
+            4.0,
+            4.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 100,
+          "name": "Cylinder_002"
+        },
+        "Sphere_003": {
+          "type": "MESH",
+          "location": [
+            8.0,
+            4.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_003"
+        },
+        "Cone_004": {
+          "type": "MESH",
+          "location": [
+            12.0,
+            4.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 120,
+          "name": "Cone_004"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-02T19:26:24.080741",
+      "status": "STAGING"
+    }
+  },
+  {
+    "pattern_id": "531f9bc8-a394-4233-a4b3-b418fcc53d2a",
+    "timestamp": "2026-04-02T19:26:24.420413",
+    "user_request": "Crea un cubo dorado en 0,8,0 y haz agujero en eje z",
+    "intent": {
+      "command_name": "blender.create_cube",
+      "confidence": 0.85,
+      "parameters": {
+        "location": [
+          0.0,
+          8.0,
+          0.0
+        ]
+      }
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Cube_005"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Cube_005' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {
+        "Sphere_001": {
+          "type": "MESH",
+          "location": [
+            4.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_001"
+        },
+        "Cylinder_002": {
+          "type": "MESH",
+          "location": [
+            4.0,
+            4.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 100,
+          "name": "Cylinder_002"
+        },
+        "Sphere_003": {
+          "type": "MESH",
+          "location": [
+            8.0,
+            4.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_003"
+        },
+        "Cone_004": {
+          "type": "MESH",
+          "location": [
+            12.0,
+            4.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 120,
+          "name": "Cone_004"
+        }
+      },
+      "scene_after": {
+        "Sphere_001": {
+          "type": "MESH",
+          "location": [
+            4.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_001"
+        },
+        "Cylinder_002": {
+          "type": "MESH",
+          "location": [
+            4.0,
+            4.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 100,
+          "name": "Cylinder_002"
+        },
+        "Sphere_003": {
+          "type": "MESH",
+          "location": [
+            8.0,
+            4.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 482,
+          "name": "Sphere_003"
+        },
+        "Cone_004": {
+          "type": "MESH",
+          "location": [
+            12.0,
+            4.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 120,
+          "name": "Cone_004"
+        },
+        "Cube_005": {
+          "type": "MESH",
+          "location": [
+            0.0,
+            8.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_005"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-02T19:26:24.420429",
+      "status": "STAGING"
+    }
+  },
+  {
+    "pattern_id": "eb27a54d-d468-4ee0-b84b-242ff78d3119",
+    "timestamp": "2026-04-05T11:08:03.622593",
+    "user_request": "crear un cubo",
+    "intent": {
+      "command_name": "crear_cubo",
+      "confidence": 0.85,
+      "parameters": {}
+    },
+    "execution": {
+      "success": true,
+      "effect": "create",
+      "result": {
+        "name": "Cube_001"
+      }
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Cube_001' existe f\u00edsicamente.",
+      "level": "V0"
+    },
+    "context": {
+      "origin": "laboratory",
+      "blender_version": "3.6.0",
+      "active_mode": "OBJECT",
+      "engine_adapter_version": "v1.0",
+      "environment_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "operational_state": "Ejecuci\u00f3n con Aprendizaje",
+      "mode": "REACTIVE",
+      "scene_before": {},
+      "scene_after": {
+        "Cube_001": {
+          "type": "MESH",
+          "location": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "collection": "Scene Collection",
+          "visible": true,
+          "parent": null,
+          "vertex_count": 24,
+          "name": "Cube_001"
+        }
+      }
+    },
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "created": "2026-04-05T11:08:03.622613",
+      "status": "STAGING"
+    }
+  }
+]

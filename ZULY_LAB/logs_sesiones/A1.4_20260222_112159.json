@@ -1,0 +1,502 @@
+{
+  "ejercicio": "A1.4",
+  "nombre": "Altar de Zuly",
+  "timestamp": "2026-02-22T11:21:59.786893",
+  "pasos_ejecutados": [
+    {
+      "numero": 1,
+      "action": "clear_scene",
+      "params": {},
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.787023",
+      "resultado": {
+        "success": true,
+        "route": "INTENT_ROUTER",
+        "handler": "blender.clear_scene"
+      }
+    },
+    {
+      "numero": 2,
+      "action": "create_plane",
+      "params": {
+        "location": [
+          0,
+          0,
+          0
+        ],
+        "scale": 10.0,
+        "name": "Suelo"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.788828",
+      "resultado": {
+        "success": true,
+        "object_name": "Suelo",
+        "location": [
+          0,
+          0,
+          0
+        ],
+        "scale": 10.0,
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_plane"
+      }
+    },
+    {
+      "numero": 3,
+      "action": "create_material",
+      "params": {
+        "name": "MatSuelo",
+        "color": [
+          0.1,
+          0.1,
+          0.1,
+          1.0
+        ],
+        "roughness": 0.8
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.807211",
+      "resultado": {
+        "success": true,
+        "material_name": "MatSuelo",
+        "color": [
+          0.1,
+          0.1,
+          0.1,
+          1.0
+        ],
+        "metallic": 0.0,
+        "roughness": 0.8,
+        "message": "Material MatSuelo creado exitosamente",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_material"
+      }
+    },
+    {
+      "numero": 4,
+      "action": "apply_material",
+      "params": {
+        "object_name": "Suelo",
+        "material_name": "MatSuelo"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.825108",
+      "resultado": {
+        "success": true,
+        "object_name": "Suelo",
+        "material_name": "MatSuelo",
+        "message": "Material aplicado en modo simulación",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.apply_material"
+      }
+    },
+    {
+      "numero": 5,
+      "action": "create_cube",
+      "params": {
+        "location": [
+          0,
+          0,
+          2
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          4.0
+        ],
+        "name": "Monolito"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.837223",
+      "resultado": {
+        "success": true,
+        "object_name": "Monolito",
+        "location": [
+          0,
+          0,
+          2
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          4.0
+        ],
+        "message": "Cubo creado exitosamente en [0, 0, 2]",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_cube"
+      }
+    },
+    {
+      "numero": 6,
+      "action": "create_material",
+      "params": {
+        "name": "MatMonolito",
+        "color": [
+          0.0,
+          0.8,
+          1.0,
+          1.0
+        ],
+        "metallic": 0.8,
+        "roughness": 0.2
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.855967",
+      "resultado": {
+        "success": true,
+        "material_name": "MatMonolito",
+        "color": [
+          0.0,
+          0.8,
+          1.0,
+          1.0
+        ],
+        "metallic": 0.8,
+        "roughness": 0.2,
+        "message": "Material MatMonolito creado exitosamente",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_material"
+      }
+    },
+    {
+      "numero": 7,
+      "action": "apply_material",
+      "params": {
+        "object_name": "Monolito",
+        "material_name": "MatMonolito"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.868712",
+      "resultado": {
+        "success": true,
+        "object_name": "Monolito",
+        "material_name": "MatMonolito",
+        "message": "Material aplicado en modo simulación",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.apply_material"
+      }
+    },
+    {
+      "numero": 8,
+      "action": "create_sphere",
+      "params": {
+        "location": [
+          3,
+          3,
+          2
+        ],
+        "radius": 0.5,
+        "name": "Orbe_1"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.874644",
+      "resultado": {
+        "success": true,
+        "object_name": "Orbe_1",
+        "location": [
+          3,
+          3,
+          2
+        ],
+        "radius": 0.5,
+        "subdivisions": 32,
+        "message": "Esfera creada exitosamente",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_sphere"
+      }
+    },
+    {
+      "numero": 9,
+      "action": "create_sphere",
+      "params": {
+        "location": [
+          -3,
+          -3,
+          2
+        ],
+        "radius": 0.5,
+        "name": "Orbe_2"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.884106",
+      "resultado": {
+        "success": true,
+        "object_name": "Orbe_2",
+        "location": [
+          -3,
+          -3,
+          2
+        ],
+        "radius": 0.5,
+        "subdivisions": 32,
+        "message": "Esfera creada exitosamente",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_sphere"
+      }
+    },
+    {
+      "numero": 10,
+      "action": "apply_material",
+      "params": {
+        "object_name": "Orbe_1",
+        "material_name": "MatMonolito"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.887875",
+      "resultado": {
+        "success": true,
+        "object_name": "Orbe_1",
+        "material_name": "MatMonolito",
+        "message": "Material aplicado en modo simulación",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.apply_material"
+      }
+    },
+    {
+      "numero": 11,
+      "action": "apply_material",
+      "params": {
+        "object_name": "Orbe_2",
+        "material_name": "MatMonolito"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.898547",
+      "resultado": {
+        "success": true,
+        "object_name": "Orbe_2",
+        "material_name": "MatMonolito",
+        "message": "Material aplicado en modo simulación",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.apply_material"
+      }
+    },
+    {
+      "numero": 12,
+      "action": "create_light",
+      "params": {
+        "light_type": "POINT",
+        "location": [
+          5,
+          -5,
+          8
+        ],
+        "energy": 1000.0,
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "name": "LuzPrincipal"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.903232",
+      "resultado": {
+        "success": true,
+        "light_name": "LuzPrincipal",
+        "light_type": "POINT",
+        "location": [
+          5,
+          -5,
+          8
+        ],
+        "energy": 1000.0,
+        "message": "Luz POINT creada exitosamente",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_light"
+      }
+    },
+    {
+      "numero": 13,
+      "action": "create_light",
+      "params": {
+        "light_type": "POINT",
+        "location": [
+          -4,
+          2,
+          3
+        ],
+        "energy": 500.0,
+        "color": [
+          1.0,
+          0.0,
+          0.5
+        ],
+        "name": "LuzRelleno"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.907209",
+      "resultado": {
+        "success": true,
+        "light_name": "LuzRelleno",
+        "light_type": "POINT",
+        "location": [
+          -4,
+          2,
+          3
+        ],
+        "energy": 500.0,
+        "message": "Luz POINT creada exitosamente",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_light"
+      }
+    },
+    {
+      "numero": 14,
+      "action": "create_camera",
+      "params": {
+        "location": [
+          12,
+          -12,
+          10
+        ],
+        "name": "CamaraPrincipal"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.913586",
+      "resultado": {
+        "success": true,
+        "camera_name": "CamaraPrincipal",
+        "location": [
+          12,
+          -12,
+          10
+        ],
+        "focal_length": 50.0,
+        "message": "Cámara creada exitosamente",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_camera"
+      }
+    },
+    {
+      "numero": 15,
+      "action": "position_camera",
+      "params": {
+        "camera_name": "CamaraPrincipal",
+        "location": [
+          12,
+          -12,
+          8
+        ],
+        "look_at": [
+          0,
+          0,
+          2
+        ]
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.920458",
+      "resultado": {
+        "success": true,
+        "camera_name": "CamaraPrincipal",
+        "location": [
+          12,
+          -12,
+          8
+        ],
+        "look_at": [
+          0,
+          0,
+          2
+        ],
+        "route": "INTENT_ROUTER",
+        "handler": "blender.position_camera"
+      }
+    },
+    {
+      "numero": 16,
+      "action": "set_active_camera",
+      "params": {
+        "camera_name": "CamaraPrincipal"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.922389",
+      "resultado": {
+        "success": true,
+        "camera_name": "CamaraPrincipal",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.set_active_camera"
+      }
+    },
+    {
+      "numero": 17,
+      "action": "render_scene",
+      "params": {
+        "output_path": "ZULY_LAB/resultados_zuly/A1.4_render_altar.png",
+        "resolution": [
+          800,
+          600
+        ],
+        "samples": 32,
+        "engine": "CYCLES"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.924359",
+      "resultado": {
+        "success": true,
+        "output_path": "ZULY_LAB\\resultados_zuly\\A1.4_render_altar.png",
+        "resolution": [
+          800,
+          600
+        ],
+        "format": "PNG",
+        "samples": 32,
+        "render_time": 0.1,
+        "message": "Render guardado en ZULY_LAB\\resultados_zuly\\A1.4_render_altar.png",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.render_scene"
+      }
+    },
+    {
+      "numero": 18,
+      "action": "save_project",
+      "params": {
+        "filepath": "ZULY_LAB/resultados_zuly/A1.4_altar_completo.blend"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.936490",
+      "resultado": {
+        "success": true,
+        "output_path": "ZULY_LAB/resultados_zuly/A1.4_altar_completo.blend",
+        "format": "BLEND",
+        "object_count": 7,
+        "message": "Escena exportada a BLEND en modo simulación",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.save_project"
+      }
+    }
+  ],
+  "pasos_exitosos": 18,
+  "pasos_fallidos": 0,
+  "tiempo_total_segundos": 0.15,
+  "exito": true,
+  "objetos_creados": [],
+  "errores": [],
+  "validacion": {
+    "total": 4,
+    "pasadas": 4,
+    "fallidas": 0,
+    "detalles": [
+      {
+        "tipo": "object_exists",
+        "pasado": true,
+        "error": null
+      },
+      {
+        "tipo": "object_exists",
+        "pasado": true,
+        "error": null
+      },
+      {
+        "tipo": "material_applied",
+        "pasado": true,
+        "error": null
+      },
+      {
+        "tipo": "object_exists",
+        "pasado": true,
+        "error": null
+      }
+    ]
+  }
+}

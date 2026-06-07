@@ -1,0 +1,10 @@
+{
+  "prueba_num": 12,
+  "nombre": "Guardar en Export como indica el Manual",
+  "timestamp": "2026-03-01T20:57:05.561664",
+  "status": "\u00e9xito",
+  "detalle": {
+    "archivo_guardado": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\export\\zuly_extra_pruebas.blend",
+    "existe": true
+  }
+}

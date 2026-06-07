@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-04-06T19:35:09.551915",
+  "fecha": "2026-04-06 19:35:09",
+  "pattern_id": "TEST_CUB001_V1",
+  "puntuacion_jues": 100.0,
+  "dictamen": "APTO_PARA_SELLO",
+  "findings": [
+    "V0 (Física): OK - Objeto creado correctamente en Blender.",
+    "V1 (Estructural): OK - Estructura del archivo Blender es válida.",
+    "V2 (Contextual): OK - Contexto de escena es apropiado.",
+    "V3 (Topológica): OK - Malla perfecta (True)",
+    "Sincronía Cromática: OK - Color exacto según especificaciones.",
+    "Optimización: OK - Patrón optimizado y eficiente.",
+    "Inmutabilidad: OK - Hash consistente (a3f5e2b9)"
+  ],
+  "errors": [],
+  "warnings": [],
+  "dashboard": {
+    "estado_malla": "LIMPIA",
+    "estado_malla_icon": "✅",
+    "concordancia_color": "MATCH",
+    "concordancia_icon": "🎨",
+    "peso_patron_kb": 245.5,
+    "hash_corto": "a3f5e2b9"
+  },
+  "raw_results": {
+    "v0": {
+      "verified": true,
+      "details": "Objeto creado correctamente en Blender."
+    },
+    "v1": {
+      "verified": true,
+      "details": "Estructura del archivo Blender es válida."
+    },
+    "v2": {
+      "verified": true,
+      "details": "Contexto de escena es apropiado."
+    },
+    "v3": {
+      "verified": true,
+      "metrics": {
+        "is_watertight": true,
+        "non_manifold_edges_count": 0
+      }
+    },
+    "chromatic_sync": {
+      "match": true,
+      "details": "Color exacto según especificaciones."
+    },
+    "optimization_instinct": {
+      "optimized": true,
+      "details": "Patrón optimizado y eficiente.",
+      "final_size_kb": 245.5
+    },
+    "immutability_seal": {
+      "verified": true,
+      "hash_short": "a3f5e2b9"
+    }
+  }
+}

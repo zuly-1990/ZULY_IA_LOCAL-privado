@@ -1,0 +1,59 @@
+# Ejercicio A1.2: 5 Columnas Alineadas
+# Aprender posicionamiento lógico y organización
+
+name: "5 Columnas Alineadas"
+fase: "A"
+numero: "A1.2"
+descripcion: "Crear 5 columnas simples alineadas en patrón"
+dificultad: "basico"
+tiempo_estimado_segundos: 10
+
+steps:
+  - action: "clear_scene"
+
+  - action: "create_cylinder"
+    params:
+      location: [0, 0, 0]
+      name: "Columna_1"
+      scale: [0.3, 0.3, 2.0]
+  
+  - action: "create_cylinder"
+    params:
+      location: [2, 0, 0]
+      name: "Columna_2"
+      scale: [0.3, 0.3, 2.0]
+  
+  - action: "create_cylinder"
+    params:
+      location: [4, 0, 0]
+      name: "Columna_3"
+      scale: [0.3, 0.3, 2.0]
+  
+  - action: "create_cylinder"
+    params:
+      location: [6, 0, 0]
+      name: "Columna_4"
+      scale: [0.3, 0.3, 2.0]
+  
+  - action: "create_cylinder"
+    params:
+      location: [8, 0, 0]
+      name: "Columna_5"
+      scale: [0.3, 0.3, 2.0]
+  
+  - action: "save_project"
+    params:
+      filepath: "ZULY_LAB/resultados_zuly/A1.2_columnas.blend"
+
+validation:
+  - type: "object_count"
+    expected: 5
+  
+  - type: "objects_aligned"
+    axis: "x"
+    spacing: 2.0
+
+success_criteria:
+  min_steps_successful: 6
+  all_validations_pass: true
+  max_time_seconds: 15

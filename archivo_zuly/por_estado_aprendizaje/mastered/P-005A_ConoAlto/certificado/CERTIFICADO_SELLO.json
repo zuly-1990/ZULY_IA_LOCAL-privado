@@ -1,0 +1,14 @@
+{
+  "certificado_id": "CERT-P-005A_ConoAlto-20260404205640",
+  "pattern_id": "P-005A_ConoAlto",
+  "fecha_sello": "2026-04-04T20:56:40.898017",
+  "sellado_por": "Soberano",
+  "decision": "SELLADO",
+  "dictamen_jues": "✅ APTO_PARA_SELLO",
+  "validacion": {
+    "malla": "LIMPIA",
+    "peso_kb": 872.78,
+    "color": "#FF9800",
+    "hash": "6029c236aefbd821c180d329aa5540bb"
+  }
+}

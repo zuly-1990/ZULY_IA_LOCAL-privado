@@ -1,0 +1,14 @@
+{
+  "certificado_id": "CERT-CUB-003_Modelado_MuroPro-20260404163413",
+  "pattern_id": "CUB-003_Modelado_MuroPro",
+  "fecha_sello": "2026-04-04T16:34:13.344262",
+  "sellado_por": "Soberano",
+  "decision": "SELLADO",
+  "dictamen_jues": "✅ APTO_PARA_SELLO",
+  "validacion": {
+    "malla": "LIMPIA",
+    "peso_kb": 834.8,
+    "color": "#8C8C8C",
+    "hash": "60540b24555a52cc1efa0afd28a40956"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "ejercicio": "A1.1",
+  "nombre": "Cubo Básico",
+  "timestamp": "2026-02-15T15:39:32.158777",
+  "pasos_ejecutados": [
+    {
+      "numero": 1,
+      "action": "create_cube",
+      "params": {
+        "location": [
+          0,
+          0,
+          0
+        ],
+        "name": "CuboA1"
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T15:39:32.158823",
+      "resultado": {
+        "success": true,
+        "object_name": "Cube_001",
+        "location": [
+          0,
+          0,
+          0
+        ],
+        "scale": 1.0,
+        "message": "Cubo creado exitosamente en [0, 0, 0]",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_cube"
+      }
+    },
+    {
+      "numero": 2,
+      "action": "scale_object",
+      "params": {
+        "object_name": "CuboA1",
+        "scale": 2.0
+      },
+      "exito": false,
+      "timestamp": "2026-02-15T15:39:32.159137",
+      "resultado": {
+        "success": false,
+        "error": "OBJECT_NOT_FOUND",
+        "message": "Objeto 'CuboA1' no encontrado",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.scale_object"
+      },
+      "error": "OBJECT_NOT_FOUND"
+    },
+    {
+      "numero": 3,
+      "action": "move_object",
+      "params": {
+        "object_name": "CuboA1",
+        "location": [
+          2,
+          0,
+          0
+        ]
+      },
+      "exito": false,
+      "timestamp": "2026-02-15T15:39:32.159331",
+      "resultado": {
+        "success": false,
+        "error": "OBJECT_NOT_FOUND",
+        "message": "Objeto 'CuboA1' no encontrado",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.move_object"
+      },
+      "error": "OBJECT_NOT_FOUND"
+    },
+    {
+      "numero": 4,
+      "action": "create_material",
+      "params": {
+        "name": "MaterialBasico",
+        "color": [
+          0.8,
+          0.2,
+          0.2,
+          1.0
+        ]
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T15:39:32.159467",
+      "resultado": {
+        "success": true,
+        "material_name": "MaterialBasico",
+        "color": [
+          0.8,
+          0.2,
+          0.2,
+          1.0
+        ],
+        "metallic": 0.0,
+        "roughness": 0.5,
+        "message": "Material MaterialBasico creado exitosamente",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_material"
+      }
+    },
+    {
+      "numero": 5,
+      "action": "apply_material",
+      "params": {
+        "object_name": "CuboA1",
+        "material_name": "MaterialBasico"
+      },
+      "exito": false,
+      "timestamp": "2026-02-15T15:39:32.159627",
+      "resultado": {
+        "success": false,
+        "error": "OBJECT_NOT_FOUND",
+        "message": "Objeto 'CuboA1' no encontrado",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.apply_material"
+      },
+      "error": "OBJECT_NOT_FOUND"
+    },
+    {
+      "numero": 6,
+      "action": "save_project",
+      "params": {
+        "filepath": "resultados_zuly/A1.1_cubo_basico.blend"
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T15:39:32.159740",
+      "resultado": {
+        "success": true,
+        "output_path": "resultados_zuly/A1.1_cubo_basico.blend",
+        "format": "BLEND",
+        "object_count": 1,
+        "message": "Escena exportada a BLEND en modo simulación",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.save_project"
+      }
+    }
+  ],
+  "pasos_exitosos": 3,
+  "pasos_fallidos": 3,
+  "tiempo_total_segundos": 0.0,
+  "exito": false,
+  "objetos_creados": [],
+  "errores": [
+    "OBJECT_NOT_FOUND",
+    "OBJECT_NOT_FOUND",
+    "OBJECT_NOT_FOUND"
+  ],
+  "validacion": {
+    "total": 4,
+    "pasadas": 1,
+    "fallidas": 3,
+    "detalles": [
+      {
+        "tipo": "object_exists",
+        "pasado": true
+      },
+      {
+        "tipo": "object_at_location",
+        "pasado": false
+      },
+      {
+        "tipo": "object_scale",
+        "pasado": false
+      },
+      {
+        "tipo": "material_applied",
+        "pasado": false
+      }
+    ]
+  }
+}

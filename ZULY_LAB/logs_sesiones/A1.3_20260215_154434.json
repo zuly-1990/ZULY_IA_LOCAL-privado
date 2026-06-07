@@ -1,0 +1,228 @@
+{
+  "ejercicio": "A1.3",
+  "nombre": "Base Estructural",
+  "timestamp": "2026-02-15T15:44:34.098366",
+  "pasos_ejecutados": [
+    {
+      "numero": 1,
+      "action": "create_cube",
+      "params": {
+        "location": [
+          0,
+          0,
+          0
+        ],
+        "name": "Base",
+        "scale": [
+          5,
+          5,
+          0.2
+        ]
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T15:44:34.098425",
+      "resultado": {
+        "success": true,
+        "object_name": "Base",
+        "location": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          5,
+          5,
+          0.2
+        ],
+        "message": "Cubo creado exitosamente en [0, 0, 0]",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_cube"
+      }
+    },
+    {
+      "numero": 2,
+      "action": "create_cube",
+      "params": {
+        "location": [
+          -2,
+          -2,
+          0.5
+        ],
+        "name": "Soporte_1",
+        "scale": [
+          0.3,
+          0.3,
+          1.0
+        ]
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T15:44:34.098784",
+      "resultado": {
+        "success": true,
+        "object_name": "Soporte_1",
+        "location": [
+          -2,
+          -2,
+          0.5
+        ],
+        "scale": [
+          0.3,
+          0.3,
+          1.0
+        ],
+        "message": "Cubo creado exitosamente en [-2, -2, 0.5]",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_cube"
+      }
+    },
+    {
+      "numero": 3,
+      "action": "create_cube",
+      "params": {
+        "location": [
+          2,
+          -2,
+          0.5
+        ],
+        "name": "Soporte_2",
+        "scale": [
+          0.3,
+          0.3,
+          1.0
+        ]
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T15:44:34.099073",
+      "resultado": {
+        "success": true,
+        "object_name": "Soporte_2",
+        "location": [
+          2,
+          -2,
+          0.5
+        ],
+        "scale": [
+          0.3,
+          0.3,
+          1.0
+        ],
+        "message": "Cubo creado exitosamente en [2, -2, 0.5]",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_cube"
+      }
+    },
+    {
+      "numero": 4,
+      "action": "create_cube",
+      "params": {
+        "location": [
+          -2,
+          2,
+          0.5
+        ],
+        "name": "Soporte_3",
+        "scale": [
+          0.3,
+          0.3,
+          1.0
+        ]
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T15:44:34.099308",
+      "resultado": {
+        "success": true,
+        "object_name": "Soporte_3",
+        "location": [
+          -2,
+          2,
+          0.5
+        ],
+        "scale": [
+          0.3,
+          0.3,
+          1.0
+        ],
+        "message": "Cubo creado exitosamente en [-2, 2, 0.5]",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_cube"
+      }
+    },
+    {
+      "numero": 5,
+      "action": "create_cube",
+      "params": {
+        "location": [
+          2,
+          2,
+          0.5
+        ],
+        "name": "Soporte_4",
+        "scale": [
+          0.3,
+          0.3,
+          1.0
+        ]
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T15:44:34.099639",
+      "resultado": {
+        "success": true,
+        "object_name": "Soporte_4",
+        "location": [
+          2,
+          2,
+          0.5
+        ],
+        "scale": [
+          0.3,
+          0.3,
+          1.0
+        ],
+        "message": "Cubo creado exitosamente en [2, 2, 0.5]",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_cube"
+      }
+    },
+    {
+      "numero": 6,
+      "action": "save_project",
+      "params": {
+        "filepath": "resultados_zuly/A1.3_base_estructura.blend"
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T15:44:34.099887",
+      "resultado": {
+        "success": true,
+        "output_path": "resultados_zuly/A1.3_base_estructura.blend",
+        "format": "BLEND",
+        "object_count": 5,
+        "message": "Escena exportada a BLEND en modo simulación",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.save_project"
+      }
+    }
+  ],
+  "pasos_exitosos": 6,
+  "pasos_fallidos": 0,
+  "tiempo_total_segundos": 0.0,
+  "exito": true,
+  "objetos_creados": [],
+  "errores": [],
+  "validacion": {
+    "total": 2,
+    "pasadas": 2,
+    "fallidas": 0,
+    "detalles": [
+      {
+        "tipo": "object_exists",
+        "pasado": true,
+        "error": null
+      },
+      {
+        "tipo": "object_count",
+        "pasado": true,
+        "error": null
+      }
+    ]
+  }
+}

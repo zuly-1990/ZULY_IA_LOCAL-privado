@@ -1,0 +1,11 @@
+{
+  "prueba_num": 11,
+  "nombre": "Crear Sistema Solar",
+  "timestamp": "2026-03-01T20:57:03.017015",
+  "status": "\u00e9xito",
+  "detalle": {
+    "total_planetas": 2,
+    "sol_creado": true,
+    "luz_creada": true
+  }
+}

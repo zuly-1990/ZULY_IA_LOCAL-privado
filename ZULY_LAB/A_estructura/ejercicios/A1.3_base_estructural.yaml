@@ -1,0 +1,58 @@
+# Ejercicio A1.3: Base Estructural con Duplicados
+# Aprender duplicación y variación controlada
+
+name: "Base Estructural"
+fase: "A"
+numero: "A1.3"
+descripcion: "Crear base y duplicar elementos con variación"
+dificultad: "basico"
+tiempo_estimado_segundos: 12
+
+steps:
+  - action: "clear_scene"
+
+  - action: "create_cube"
+    params:
+      location: [0, 0, 0]
+      name: "Base"
+      scale: [5, 5, 0.2]
+  
+  - action: "create_cube"
+    params:
+      location: [-2, -2, 0.5]
+      name: "Soporte_1"
+      scale: [0.3, 0.3, 1.0]
+  
+  - action: "create_cube"
+    params:
+      location: [2, -2, 0.5]
+      name: "Soporte_2"
+      scale: [0.3, 0.3, 1.0]
+  
+  - action: "create_cube"
+    params:
+      location: [-2, 2, 0.5]
+      name: "Soporte_3"
+      scale: [0.3, 0.3, 1.0]
+  
+  - action: "create_cube"
+    params:
+      location: [2, 2, 0.5]
+      name: "Soporte_4"
+      scale: [0.3, 0.3, 1.0]
+  
+  - action: "save_project"
+    params:
+      filepath: "ZULY_LAB/resultados_zuly/A1.3_base_estructura.blend"
+
+validation:
+  - type: "object_exists"
+    object_name: "Base"
+  
+  - type: "object_count"
+    expected: 5
+
+success_criteria:
+  min_steps_successful: 6
+  all_validations_pass: true
+  max_time_seconds: 20

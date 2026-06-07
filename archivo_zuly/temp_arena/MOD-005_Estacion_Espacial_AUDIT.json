@@ -1,0 +1,69 @@
+{
+  "candidato_id": "MOD-005_Estacion_Espacial",
+  "score": 85,
+  "dictamen": "APTO",
+  "timestamp": "2026-04-05T13:38:55.877054",
+  "superpoderes": {
+    "render_engine": {
+      "status": "Motor: BLENDER_EEVEE",
+      "icon": "\ud83c\udfa8"
+    },
+    "geometria": {
+      "status": "12 objetos mesh auditados",
+      "icon": "\ud83d\udd37"
+    },
+    "materiales": {
+      "status": "Color: #CCCCCC (Match: False)",
+      "icon": "\ud83c\udfa8\u26a0\ufe0f"
+    },
+    "escena": {
+      "status": "OK",
+      "icon": "\ud83d\udcf7"
+    }
+  },
+  "metricas": {
+    "Conector_1_dims": "0.30x0.30x1.50m",
+    "Conector_1_verts": 8,
+    "Conector_1_faces": 6,
+    "Conector_2_dims": "0.30x0.30x1.50m",
+    "Conector_2_verts": 8,
+    "Conector_2_faces": 6,
+    "Conector_3_dims": "0.30x0.30x1.50m",
+    "Conector_3_verts": 8,
+    "Conector_3_faces": 6,
+    "Conector_4_dims": "0.30x0.30x1.50m",
+    "Conector_4_verts": 8,
+    "Conector_4_faces": 6,
+    "Panel_1_dims": "1.76x1.00x0.98m",
+    "Panel_1_verts": 8,
+    "Panel_1_faces": 6,
+    "Panel_2_dims": "1.76x1.00x0.98m",
+    "Panel_2_verts": 8,
+    "Panel_2_faces": 6,
+    "Panel_3_dims": "1.76x1.00x0.98m",
+    "Panel_3_verts": 8,
+    "Panel_3_faces": 6,
+    "Panel_4_dims": "1.76x1.00x0.98m",
+    "Panel_4_verts": 8,
+    "Panel_4_faces": 6,
+    "Luz_Nav_1_dims": "0.19x0.20x0.20m",
+    "Luz_Nav_1_verts": 42,
+    "Luz_Nav_1_faces": 80,
+    "Luz_Nav_2_dims": "0.19x0.20x0.20m",
+    "Luz_Nav_2_verts": 42,
+    "Luz_Nav_2_faces": 80,
+    "Luz_Nav_3_dims": "0.19x0.20x0.20m",
+    "Luz_Nav_3_verts": 42,
+    "Luz_Nav_3_faces": 80,
+    "Luz_Nav_4_dims": "0.19x0.20x0.20m",
+    "Luz_Nav_4_verts": 42,
+    "Luz_Nav_4_faces": 80
+  },
+  "errores": [
+    [
+      "MAYOR",
+      "Color no coincide: #CCCCCC vs #99AACC"
+    ]
+  ],
+  "total_objetos": 12
+}

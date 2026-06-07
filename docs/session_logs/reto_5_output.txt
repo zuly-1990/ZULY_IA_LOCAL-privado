@@ -1,0 +1,615 @@
+﻿[2026-03-07 18:25:05] INFO     [LYZU] === INICIANDO RETO 5 (SEMANA 6): SUITE DE RENDIMIENTO (BURST MODE) ===
+[2026-03-07 18:25:05] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:05] INFO     [LYZU] INICIALIZANDO AGENTE ZULY - VERSI├ôN INTELIGENTE
+[2026-03-07 18:25:05] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:05] WARNING  [LYZU] ÔÜá´©Å BlenderAdapter: bpy no disponible (Blender no detectado)
+[2026-03-07 18:25:05] WARNING  [LYZU] ÔÜá´©Å BlenderAdapter no disponible (bpy no encontrado)
+[2026-03-07 18:25:05] INFO     [LYZU] ­ƒöº Usando MockAdapter (fallback)
+[2026-03-07 18:25:05] INFO     [LYZU] ­ƒöº MockAdapter inicializado (modo simulaci├│n)
+[2026-03-07 18:25:05] INFO     [LYZU] [FASE 17] Engine Adapter: BlenderAdapter
+[2026-03-07 18:25:05] INFO     [LYZU] Cargando comandos desde: C:\Users\Admin\Desktop\ZULY_IA_LOCAL\core\commands
+[2026-03-07 18:25:05] INFO     [LYZU] Cargados 7 m├│dulos de comandos (0 errores)
+[2026-03-07 18:25:05] INFO     [LYZU] Total de comandos cargados: 0
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.create_cube
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.create_sphere
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.create_cylinder
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.create_plane
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.move_object
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.rotate_object
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.scale_object
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.render_scene
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: system.get_info
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.save_project
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.save_scene
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.clear_scene
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.rename_object
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.set_object_visibility
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.create_material
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.create_texture_material
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.apply_material
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.set_material_color
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.create_light
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.set_light_energy
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.set_light_color
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.create_camera
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.set_active_camera
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.position_camera
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.add_subdivision_surface
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.add_array
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.add_bevel
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.export_fbx
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.export_obj
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.export_gltf
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.build_structure
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.save_pattern
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.load_pattern
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.list_patterns
+[2026-03-07 18:25:05] INFO     [LYZU] Registrado handler: blender.run_python_script
+[2026-03-07 18:25:05] SUCCESS  [LYZU] Ô£ô 35 handlers de Blender registrados
+[2026-03-07 18:25:05] INFO     [LYZU] [FASE 23] IntentRouter: 35 handlers registrados
+[2026-03-07 18:25:05] INFO     [LYZU] NLU inicializado con 0 comandos
+[2026-03-07 18:25:05] INFO     [LYZU] SceneMonitor inicializado
+[2026-03-07 18:25:05] INFO     [LYZU] [PatternMemory] Inicializada con 4 patrones totales (Staging + Verified)
+[2026-03-07 18:25:05] INFO     [COGNITION] CognitionCore inicializado con Memoria Heur├¡stica
+[2026-03-07 18:25:05] INFO     [COGNITION] Evaluador registrado: render
+[2026-03-07 18:25:05] INFO     [LYZU] [FASE 18.5] FailsafeExecutor y ActionLogger integrados
+[2026-03-07 18:25:05] INFO     [LYZU] [OK] 0 comandos cargados
+[2026-03-07 18:25:05] INFO     [LYZU] [OK] Procesador de Lenguaje Natural inicializado
+[2026-03-07 18:25:05] INFO     [LYZU] [OK] Monitor de Escena activo (v├¡a BlenderAdapter)
+[2026-03-07 18:25:05] INFO     [LYZU] [OK] Memoria de Patrones: 4 patrones
+[2026-03-07 18:25:05] INFO     [LYZU] [OK] Autoconciencia Operativa: activa (pasiva)
+[2026-03-07 18:25:05] INFO     [LYZU] [OK] Identidad de Autor: VERIFICADA
+[2026-03-07 18:25:05] INFO     [LYZU] [OK] Estado Inicial: Observaci├│n
+[2026-03-07 18:25:05] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:05] INFO     [LYZU] Agente Zuly listo conforme al Protocolo de Identidad
+[2026-03-07 18:25:05] INFO     [LYZU] [FASE 17] Desacoplamiento: ACTIVO (BlenderAdapter)
+[2026-03-07 18:25:05] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:05] INFO     [LYZU] [FASE 18.5] M├│dulos registrados: 6
+[2026-03-07 18:25:05] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:05] INFO     [LYZU] NUEVA PETICI├ôN: Limpia la escena de Blender
+[2026-03-07 18:25:05] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:05] DEBUG    [LYZU] No se encontr├│ comando similar para: limpia la escena de blender
+[2026-03-07 18:25:05] INFO     [LYZU] --- Iniciando r├ífaga de 50 comandos ---
+[2026-03-07 18:25:05] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:05] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_0
+[2026-03-07 18:25:05] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:05] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:05] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:05] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:05] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:05] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:05] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:05] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:05] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_0 a x=0.1
+[2026-03-07 18:25:05] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:05] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:05] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:05] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:05] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:05] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:05] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:05] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_2
+[2026-03-07 18:25:05] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:05] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:05] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:05] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:05] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:05] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:05] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:06] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_2 a x=0.3
+[2026-03-07 18:25:06] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:06] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:06] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:06] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:06] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:06] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_4
+[2026-03-07 18:25:06] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:06] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:06] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:06] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:06] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:06] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:06] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_4 a x=0.5
+[2026-03-07 18:25:06] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:06] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:06] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:06] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:06] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:06] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_6
+[2026-03-07 18:25:06] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:06] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:06] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:06] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:06] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:06] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:06] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_6 a x=0.7
+[2026-03-07 18:25:06] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:06] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:06] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:06] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:06] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:06] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_8
+[2026-03-07 18:25:06] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:06] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:06] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:06] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:06] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:06] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:06] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_8 a x=0.9
+[2026-03-07 18:25:06] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:06] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:06] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:06] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:06] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:06] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_10
+[2026-03-07 18:25:06] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:06] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:06] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:06] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:06] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:06] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:06] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_10 a x=1.1
+[2026-03-07 18:25:06] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:06] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:06] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:06] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:06] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:06] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_12
+[2026-03-07 18:25:06] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:06] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:06] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:06] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:06] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:06] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:06] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_12 a x=1.3
+[2026-03-07 18:25:06] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:06] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:06] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:06] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:06] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:06] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_14
+[2026-03-07 18:25:06] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:06] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:06] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:06] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:06] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:06] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:06] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:07] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_14 a x=1.5
+[2026-03-07 18:25:07] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:07] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:07] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:07] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:07] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:07] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_16
+[2026-03-07 18:25:07] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:07] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:07] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:07] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:07] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:07] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:07] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_16 a x=1.7
+[2026-03-07 18:25:07] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:07] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:07] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:07] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:07] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:07] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_18
+[2026-03-07 18:25:07] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:07] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:07] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:07] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:07] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:07] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:07] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_18 a x=1.9
+[2026-03-07 18:25:07] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:07] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:07] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:07] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:07] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:07] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_20
+[2026-03-07 18:25:07] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:07] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:07] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:07] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:07] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:07] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:07] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_20 a x=2.1
+[2026-03-07 18:25:07] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:07] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:07] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:07] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:07] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:07] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_22
+[2026-03-07 18:25:07] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:07] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:07] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:07] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:07] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:07] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:07] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_22 a x=2.3
+[2026-03-07 18:25:07] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:07] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:07] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:07] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:07] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:07] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_24
+[2026-03-07 18:25:07] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:07] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:07] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:07] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:07] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:07] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:07] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_24 a x=2.5
+[2026-03-07 18:25:07] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:07] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:07] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:07] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:07] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:07] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_26
+[2026-03-07 18:25:07] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:07] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:07] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:07] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:07] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:07] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:07] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_26 a x=2.7
+[2026-03-07 18:25:07] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:07] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:07] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:07] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:07] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:07] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:08] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_28
+[2026-03-07 18:25:08] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:08] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:08] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:08] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:08] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:08] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:08] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_28 a x=2.9
+[2026-03-07 18:25:08] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:08] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:08] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:08] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:08] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:08] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_30
+[2026-03-07 18:25:08] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:08] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:08] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:08] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:08] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:08] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:08] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_30 a x=3.1
+[2026-03-07 18:25:08] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:08] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:08] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:08] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:08] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:08] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_32
+[2026-03-07 18:25:08] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:08] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:08] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:08] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:08] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:08] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:08] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_32 a x=3.3
+[2026-03-07 18:25:08] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:08] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:08] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:08] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:08] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:08] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_34
+[2026-03-07 18:25:08] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:08] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:08] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:08] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:08] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:08] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:08] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_34 a x=3.5
+[2026-03-07 18:25:08] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:08] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:08] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:08] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:08] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:08] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_36
+[2026-03-07 18:25:08] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:08] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:08] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:08] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:08] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:08] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:08] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_36 a x=3.7
+[2026-03-07 18:25:08] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:08] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:08] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:08] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:08] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:08] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_38
+[2026-03-07 18:25:08] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:08] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:08] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:08] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:08] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:08] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:08] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_38 a x=3.9
+[2026-03-07 18:25:08] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:08] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:08] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:08] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:08] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:08] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_40
+[2026-03-07 18:25:08] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:08] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:08] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:08] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:08] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:08] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:08] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:09] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:09] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_40 a x=4.1
+[2026-03-07 18:25:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:09] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:09] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:09] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:09] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:09] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:09] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:09] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_42
+[2026-03-07 18:25:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:09] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:09] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:09] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:09] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:09] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:09] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:09] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:09] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_42 a x=4.3
+[2026-03-07 18:25:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:09] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:09] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:09] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:09] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:09] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:09] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:09] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_44
+[2026-03-07 18:25:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:09] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:09] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:09] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:09] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:09] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:09] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:09] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:09] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_44 a x=4.5
+[2026-03-07 18:25:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:09] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:09] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:09] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:09] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:09] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:09] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:09] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_46
+[2026-03-07 18:25:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:09] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:09] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:09] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:09] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:09] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:09] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:09] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:09] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_46 a x=4.7
+[2026-03-07 18:25:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:09] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:09] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:09] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:09] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:09] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:09] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:09] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de escala 0.5 llamado CuboBurst_48
+[2026-03-07 18:25:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:09] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 18:25:09] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 18:25:09] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:09] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 18:25:09] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:09] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:09] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:09] INFO     [LYZU] NUEVA PETICI├ôN: Mueve el objeto CuboBurst_48 a x=4.9
+[2026-03-07 18:25:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:09] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:09] INFO     [LYZU]   1. blender.move_object (75%) (confianza: 75.00%)
+[2026-03-07 18:25:09] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.move_object
+[2026-03-07 18:25:09] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:09] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.MOVE_OBJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:09] INFO     [LYZU] 
+RESULTADOS DE RENDIMIENTO:
+[2026-03-07 18:25:09] INFO     [LYZU]    Tiempo Total: 4.00s
+[2026-03-07 18:25:09] INFO     [LYZU]    Latencia Media: 79.99ms por comando
+[2026-03-07 18:25:09] INFO     [LYZU] 
+Guardando reporte de rendimiento en: C:\Users\Admin\Desktop\ZULY_IA_LOCAL\ZULY_PROJECTS\SEMANA_6_rendimiento_20260307.blend
+[2026-03-07 18:25:09] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:25:09] INFO     [LYZU] NUEVA PETICI├ôN: Guarda el proyecto de Blender en C:\Users\Admin\Desktop\ZULY_IA_LOCAL\ZULY_PROJECTS\SEMANA_6_rendimiento_20260307.blend
+[2026-03-07 18:25:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:25:09] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:25:09] INFO     [LYZU]   1. blender.save_project (70%) (confianza: 70.00%)
+[2026-03-07 18:25:09] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.save_project
+[2026-03-07 18:25:09] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:25:09] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.SAVE_PROJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:25:09] SUCCESS  [LYZU] Ô£à Reto 5 COMPLETADO: SEMANA_6_rendimiento_20260307.blend guardado.

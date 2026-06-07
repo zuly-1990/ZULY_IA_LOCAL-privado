@@ -1,0 +1,2096 @@
+﻿[2026-03-07 18:22:09] INFO     [LYZU] === INICIANDO RETO 2 (SEMANA 6): BOSQUE ORG├üNICO ===
+[2026-03-07 18:22:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] INICIALIZANDO AGENTE ZULY - VERSI├ôN INTELIGENTE
+[2026-03-07 18:22:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:09] WARNING  [LYZU] ÔÜá´©Å BlenderAdapter: bpy no disponible (Blender no detectado)
+[2026-03-07 18:22:09] WARNING  [LYZU] ÔÜá´©Å BlenderAdapter no disponible (bpy no encontrado)
+[2026-03-07 18:22:09] INFO     [LYZU] ­ƒöº Usando MockAdapter (fallback)
+[2026-03-07 18:22:09] INFO     [LYZU] ­ƒöº MockAdapter inicializado (modo simulaci├│n)
+[2026-03-07 18:22:09] INFO     [LYZU] [FASE 17] Engine Adapter: BlenderAdapter
+[2026-03-07 18:22:09] INFO     [LYZU] Cargando comandos desde: C:\Users\Admin\Desktop\ZULY_IA_LOCAL\core\commands
+[2026-03-07 18:22:09] INFO     [LYZU] Cargados 7 m├│dulos de comandos (0 errores)
+[2026-03-07 18:22:09] INFO     [LYZU] Total de comandos cargados: 0
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.create_cube
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.create_sphere
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.create_cylinder
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.create_plane
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.move_object
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.rotate_object
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.scale_object
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.render_scene
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: system.get_info
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.save_project
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.save_scene
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.clear_scene
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.rename_object
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.set_object_visibility
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.create_material
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.create_texture_material
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.apply_material
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.set_material_color
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.create_light
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.set_light_energy
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.set_light_color
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.create_camera
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.set_active_camera
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.position_camera
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.add_subdivision_surface
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.add_array
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.add_bevel
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.export_fbx
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.export_obj
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.export_gltf
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.build_structure
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.save_pattern
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.load_pattern
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.list_patterns
+[2026-03-07 18:22:09] INFO     [LYZU] Registrado handler: blender.run_python_script
+[2026-03-07 18:22:09] SUCCESS  [LYZU] Ô£ô 35 handlers de Blender registrados
+[2026-03-07 18:22:09] INFO     [LYZU] [FASE 23] IntentRouter: 35 handlers registrados
+[2026-03-07 18:22:09] INFO     [LYZU] NLU inicializado con 0 comandos
+[2026-03-07 18:22:09] INFO     [LYZU] SceneMonitor inicializado
+[2026-03-07 18:22:09] INFO     [LYZU] [PatternMemory] Inicializada con 4 patrones totales (Staging + Verified)
+[2026-03-07 18:22:09] INFO     [COGNITION] CognitionCore inicializado con Memoria Heur├¡stica
+[2026-03-07 18:22:09] INFO     [COGNITION] Evaluador registrado: render
+[2026-03-07 18:22:09] INFO     [LYZU] [FASE 18.5] FailsafeExecutor y ActionLogger integrados
+[2026-03-07 18:22:09] INFO     [LYZU] [OK] 0 comandos cargados
+[2026-03-07 18:22:09] INFO     [LYZU] [OK] Procesador de Lenguaje Natural inicializado
+[2026-03-07 18:22:09] INFO     [LYZU] [OK] Monitor de Escena activo (v├¡a BlenderAdapter)
+[2026-03-07 18:22:09] INFO     [LYZU] [OK] Memoria de Patrones: 4 patrones
+[2026-03-07 18:22:09] INFO     [LYZU] [OK] Autoconciencia Operativa: activa (pasiva)
+[2026-03-07 18:22:09] INFO     [LYZU] [OK] Identidad de Autor: VERIFICADA
+[2026-03-07 18:22:09] INFO     [LYZU] [OK] Estado Inicial: Observaci├│n
+[2026-03-07 18:22:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] Agente Zuly listo conforme al Protocolo de Identidad
+[2026-03-07 18:22:09] INFO     [LYZU] [FASE 17] Desacoplamiento: ACTIVO (BlenderAdapter)
+[2026-03-07 18:22:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] [FASE 18.5] M├│dulos registrados: 6
+[2026-03-07 18:22:09] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] NUEVA PETICI├ôN: Limpia la escena de Blender
+[2026-03-07 18:22:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:09] DEBUG    [LYZU] No se encontr├│ comando similar para: limpia la escena de blender
+[2026-03-07 18:22:09] INFO     [LYZU] --- Generando 100 ├írboles (200 objetos) ---
+[2026-03-07 18:22:09] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=2.4428265680538566, y=10.178694382415475, z=0 para el tronco
+[2026-03-07 18:22:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:09] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:09] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:09] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:09] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:09] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=2.4428265680538566, y=10.178694382415475, z=1 para la copa
+[2026-03-07 18:22:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:09] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:09] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:09] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:09] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:09] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=13.052655944610237, y=-3.892919878267435, z=0 para el tronco
+[2026-03-07 18:22:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:09] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:09] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:09] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:09] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:09] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=13.052655944610237, y=-3.892919878267435, z=1 para la copa
+[2026-03-07 18:22:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:09] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:09] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:09] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:09] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:09] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-10.110063819265282, y=-13.189820988424149, z=0 para el tronco
+[2026-03-07 18:22:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:09] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:09] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:09] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:09] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:09] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-10.110063819265282, y=-13.189820988424149, z=1 para la copa
+[2026-03-07 18:22:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:09] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:09] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:09] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:09] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:09] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=1.1869897258827606, y=-0.4661013311705098, z=0 para el tronco
+[2026-03-07 18:22:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:09] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:09] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:09] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:09] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:09] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=1.1869897258827606, y=-0.4661013311705098, z=1 para la copa
+[2026-03-07 18:22:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:09] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:09] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:09] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:09] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:09] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-6.581963993376521, y=-18.668426130069108, z=0 para el tronco
+[2026-03-07 18:22:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:09] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:09] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:09] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:09] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:09] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-6.581963993376521, y=-18.668426130069108, z=1 para la copa
+[2026-03-07 18:22:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:09] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:09] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:09] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:09] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:09] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=10.60233077266269, y=-2.5907103943726355, z=0 para el tronco
+[2026-03-07 18:22:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:09] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:09] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:09] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:09] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:09] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=10.60233077266269, y=-2.5907103943726355, z=1 para la copa
+[2026-03-07 18:22:09] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:09] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:09] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:09] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:09] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:09] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:10] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-9.16389209909513, y=15.455021082418973, z=0 para el tronco
+[2026-03-07 18:22:10] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:10] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:10] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:10] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:10] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:10] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-9.16389209909513, y=15.455021082418973, z=1 para la copa
+[2026-03-07 18:22:10] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:10] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:10] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:10] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:10] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:10] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=4.526050100256228, y=9.608257877565478, z=0 para el tronco
+[2026-03-07 18:22:10] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:10] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:10] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:10] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:10] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:10] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=4.526050100256228, y=9.608257877565478, z=1 para la copa
+[2026-03-07 18:22:10] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:10] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:10] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:10] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:10] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:10] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=15.366463009240555, y=-2.8001023234007825, z=0 para el tronco
+[2026-03-07 18:22:10] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:10] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:10] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:10] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:10] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:10] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=15.366463009240555, y=-2.8001023234007825, z=1 para la copa
+[2026-03-07 18:22:10] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:10] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:10] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:10] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:10] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:10] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=16.404141397348496, y=-18.373975347968212, z=0 para el tronco
+[2026-03-07 18:22:10] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:10] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:10] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:10] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:10] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:10] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=16.404141397348496, y=-18.373975347968212, z=1 para la copa
+[2026-03-07 18:22:10] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:10] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:10] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:10] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:10] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:10] INFO     [LYZU]    Progreso: 10/100 ├írboles creados...
+[2026-03-07 18:22:10] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=9.696657855245427, y=-2.8452068603231915, z=0 para el tronco
+[2026-03-07 18:22:10] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:10] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:10] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:10] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:10] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:10] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=9.696657855245427, y=-2.8452068603231915, z=1 para la copa
+[2026-03-07 18:22:10] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:10] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:10] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:10] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:10] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:10] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=7.123065812963048, y=5.313609093089742, z=0 para el tronco
+[2026-03-07 18:22:10] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:10] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:10] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:10] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:10] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:10] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=7.123065812963048, y=5.313609093089742, z=1 para la copa
+[2026-03-07 18:22:10] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:10] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:10] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:10] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:10] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:10] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-6.726571570260923, y=2.0687401252324236, z=0 para el tronco
+[2026-03-07 18:22:10] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:10] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:10] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:10] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:10] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:10] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-6.726571570260923, y=2.0687401252324236, z=1 para la copa
+[2026-03-07 18:22:10] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:10] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:10] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:10] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:10] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:10] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-13.175625873518824, y=14.369056614026988, z=0 para el tronco
+[2026-03-07 18:22:10] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:10] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:10] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:10] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:10] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:10] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:11] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-13.175625873518824, y=14.369056614026988, z=1 para la copa
+[2026-03-07 18:22:11] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:11] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:11] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:11] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:11] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:11] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=10.625497692793068, y=-9.503693344041618, z=0 para el tronco
+[2026-03-07 18:22:11] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:11] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:11] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:11] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:11] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:11] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=10.625497692793068, y=-9.503693344041618, z=1 para la copa
+[2026-03-07 18:22:11] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:11] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:11] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:11] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:11] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:11] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=11.625698145054617, y=13.595337804522103, z=0 para el tronco
+[2026-03-07 18:22:11] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:11] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:11] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:11] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:11] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:11] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=11.625698145054617, y=13.595337804522103, z=1 para la copa
+[2026-03-07 18:22:11] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:11] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:11] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:11] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:11] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:11] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=17.11123911858344, y=3.837306600297122, z=0 para el tronco
+[2026-03-07 18:22:11] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:11] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:11] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:11] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:11] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:11] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=17.11123911858344, y=3.837306600297122, z=1 para la copa
+[2026-03-07 18:22:11] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:11] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:11] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:11] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:11] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:11] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-4.265193292927325, y=-19.492320988739472, z=0 para el tronco
+[2026-03-07 18:22:11] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:11] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:11] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:11] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:11] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:11] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-4.265193292927325, y=-19.492320988739472, z=1 para la copa
+[2026-03-07 18:22:11] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:11] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:11] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:11] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:11] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:11] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-4.19572813003195, y=-3.2187522325665476, z=0 para el tronco
+[2026-03-07 18:22:11] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:11] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:11] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:11] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:11] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:11] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-4.19572813003195, y=-3.2187522325665476, z=1 para la copa
+[2026-03-07 18:22:11] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:11] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:11] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:11] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:11] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:11] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-19.50850754730375, y=-5.554403184665752, z=0 para el tronco
+[2026-03-07 18:22:11] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:11] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:11] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:11] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:11] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:11] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-19.50850754730375, y=-5.554403184665752, z=1 para la copa
+[2026-03-07 18:22:11] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:11] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:11] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:11] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:11] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:11] INFO     [LYZU]    Progreso: 20/100 ├írboles creados...
+[2026-03-07 18:22:11] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-6.416465291068082, y=-0.7966556053655474, z=0 para el tronco
+[2026-03-07 18:22:11] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:11] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:11] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:11] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:11] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:11] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-6.416465291068082, y=-0.7966556053655474, z=1 para la copa
+[2026-03-07 18:22:11] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:11] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:11] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:11] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:11] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:11] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:12] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-1.836392191495115, y=12.862789568021135, z=0 para el tronco
+[2026-03-07 18:22:12] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:12] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:12] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:12] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:12] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:12] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-1.836392191495115, y=12.862789568021135, z=1 para la copa
+[2026-03-07 18:22:12] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:12] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:12] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:12] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:12] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:12] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-10.389224587765963, y=-7.278207752821677, z=0 para el tronco
+[2026-03-07 18:22:12] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:12] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:12] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:12] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:12] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:12] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-10.389224587765963, y=-7.278207752821677, z=1 para la copa
+[2026-03-07 18:22:12] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:12] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:12] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:12] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:12] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:12] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=18.064662275707555, y=4.117950056686276, z=0 para el tronco
+[2026-03-07 18:22:12] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:12] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:12] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:12] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:12] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:12] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=18.064662275707555, y=4.117950056686276, z=1 para la copa
+[2026-03-07 18:22:12] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:12] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:12] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:12] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:12] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:12] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=18.49541558245715, y=14.8622662094307, z=0 para el tronco
+[2026-03-07 18:22:12] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:12] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:12] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:12] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:12] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:12] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=18.49541558245715, y=14.8622662094307, z=1 para la copa
+[2026-03-07 18:22:12] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:12] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:12] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:12] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:12] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:12] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=14.51577496259857, y=-1.669878229475266, z=0 para el tronco
+[2026-03-07 18:22:12] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:12] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:12] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:12] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:12] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:12] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=14.51577496259857, y=-1.669878229475266, z=1 para la copa
+[2026-03-07 18:22:12] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:12] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:12] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:12] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:12] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:12] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=14.253749894400862, y=-1.0643933236071703, z=0 para el tronco
+[2026-03-07 18:22:12] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:12] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:12] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:12] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:12] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:12] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=14.253749894400862, y=-1.0643933236071703, z=1 para la copa
+[2026-03-07 18:22:12] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:12] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:12] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:12] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:12] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:12] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-6.336512840148526, y=17.754263941259033, z=0 para el tronco
+[2026-03-07 18:22:12] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:12] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:12] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:12] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:12] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:12] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-6.336512840148526, y=17.754263941259033, z=1 para la copa
+[2026-03-07 18:22:12] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:12] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:12] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:12] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:12] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:12] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=19.79878946441727, y=16.386009512490823, z=0 para el tronco
+[2026-03-07 18:22:12] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:12] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:12] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:12] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:12] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:12] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:13] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=19.79878946441727, y=16.386009512490823, z=1 para la copa
+[2026-03-07 18:22:13] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:13] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:13] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:13] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:13] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:13] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=8.386070311534969, y=1.588400323692749, z=0 para el tronco
+[2026-03-07 18:22:13] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:13] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:13] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:13] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:13] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:13] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=8.386070311534969, y=1.588400323692749, z=1 para la copa
+[2026-03-07 18:22:13] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:13] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:13] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:13] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:13] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:13] INFO     [LYZU]    Progreso: 30/100 ├írboles creados...
+[2026-03-07 18:22:13] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=8.428550054082045, y=14.463158641505622, z=0 para el tronco
+[2026-03-07 18:22:13] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:13] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:13] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:13] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:13] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:13] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=8.428550054082045, y=14.463158641505622, z=1 para la copa
+[2026-03-07 18:22:13] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:13] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:13] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:13] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:13] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:13] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=19.834083056437997, y=11.456434064371415, z=0 para el tronco
+[2026-03-07 18:22:13] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:13] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:13] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:13] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:13] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:13] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=19.834083056437997, y=11.456434064371415, z=1 para la copa
+[2026-03-07 18:22:13] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:13] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:13] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:13] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:13] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:13] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-11.826093425117685, y=18.541871729382187, z=0 para el tronco
+[2026-03-07 18:22:13] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:13] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:13] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:13] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:13] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:13] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-11.826093425117685, y=18.541871729382187, z=1 para la copa
+[2026-03-07 18:22:13] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:13] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:13] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:13] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:13] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:13] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-14.323057054934765, y=-19.909243022403324, z=0 para el tronco
+[2026-03-07 18:22:13] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:13] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:13] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:13] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:13] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:13] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-14.323057054934765, y=-19.909243022403324, z=1 para la copa
+[2026-03-07 18:22:13] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:13] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:13] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:13] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:13] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:13] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=8.02391800648337, y=-6.787708743818444, z=0 para el tronco
+[2026-03-07 18:22:13] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:13] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:13] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:13] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:13] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:13] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=8.02391800648337, y=-6.787708743818444, z=1 para la copa
+[2026-03-07 18:22:13] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:13] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:13] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:13] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:13] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:13] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=11.498123790685582, y=19.44741628245223, z=0 para el tronco
+[2026-03-07 18:22:13] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:13] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:13] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:13] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:13] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:13] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=11.498123790685582, y=19.44741628245223, z=1 para la copa
+[2026-03-07 18:22:13] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:13] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:13] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:13] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:13] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:13] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:14] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-13.00101205390057, y=-10.679004112643309, z=0 para el tronco
+[2026-03-07 18:22:14] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:14] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:14] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:14] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:14] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:14] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-13.00101205390057, y=-10.679004112643309, z=1 para la copa
+[2026-03-07 18:22:14] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:14] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:14] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:14] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:14] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:14] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-12.467502034331964, y=9.837078142340815, z=0 para el tronco
+[2026-03-07 18:22:14] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:14] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:14] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:14] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:14] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:14] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-12.467502034331964, y=9.837078142340815, z=1 para la copa
+[2026-03-07 18:22:14] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:14] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:14] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:14] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:14] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:14] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-2.809912764160348, y=-8.013552573512474, z=0 para el tronco
+[2026-03-07 18:22:14] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:14] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:14] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:14] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:14] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:14] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-2.809912764160348, y=-8.013552573512474, z=1 para la copa
+[2026-03-07 18:22:14] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:14] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:14] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:14] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:14] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:14] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-9.550215239866704, y=17.254437013323162, z=0 para el tronco
+[2026-03-07 18:22:14] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:14] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:14] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:14] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:14] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:14] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-9.550215239866704, y=17.254437013323162, z=1 para la copa
+[2026-03-07 18:22:14] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:14] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:14] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:14] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:14] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:14] INFO     [LYZU]    Progreso: 40/100 ├írboles creados...
+[2026-03-07 18:22:14] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-17.254758829615263, y=3.910125809319183, z=0 para el tronco
+[2026-03-07 18:22:14] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:14] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:14] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:14] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:14] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:14] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-17.254758829615263, y=3.910125809319183, z=1 para la copa
+[2026-03-07 18:22:14] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:14] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:14] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:14] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:14] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:14] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-19.468353443533736, y=-18.73176507767017, z=0 para el tronco
+[2026-03-07 18:22:14] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:14] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:14] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:14] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:14] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:14] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-19.468353443533736, y=-18.73176507767017, z=1 para la copa
+[2026-03-07 18:22:14] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:14] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:14] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:14] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:14] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:14] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-5.990587969854101, y=10.224583540418216, z=0 para el tronco
+[2026-03-07 18:22:14] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:14] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:14] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:14] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:14] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:14] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-5.990587969854101, y=10.224583540418216, z=1 para la copa
+[2026-03-07 18:22:14] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:14] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:14] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:14] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:14] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:14] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-16.022121069649245, y=-6.554499996611568, z=0 para el tronco
+[2026-03-07 18:22:14] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:14] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:14] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:14] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:14] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:14] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:15] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-16.022121069649245, y=-6.554499996611568, z=1 para la copa
+[2026-03-07 18:22:15] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:15] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:15] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:15] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:15] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:15] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-11.428087979575551, y=5.068200078325411, z=0 para el tronco
+[2026-03-07 18:22:15] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:15] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:15] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:15] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:15] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:15] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-11.428087979575551, y=5.068200078325411, z=1 para la copa
+[2026-03-07 18:22:15] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:15] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:15] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:15] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:15] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:15] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-8.430701037916482, y=0.33923982145433484, z=0 para el tronco
+[2026-03-07 18:22:15] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:15] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:15] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:15] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:15] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:15] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-8.430701037916482, y=0.33923982145433484, z=1 para la copa
+[2026-03-07 18:22:15] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:15] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:15] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:15] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:15] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:15] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-16.184017989999028, y=-2.007213847748041, z=0 para el tronco
+[2026-03-07 18:22:15] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:15] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:15] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:15] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:15] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:15] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-16.184017989999028, y=-2.007213847748041, z=1 para la copa
+[2026-03-07 18:22:15] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:15] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:15] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:15] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:15] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:15] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=9.865864086099467, y=6.083910250602642, z=0 para el tronco
+[2026-03-07 18:22:15] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:15] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:15] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:15] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:15] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:15] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=9.865864086099467, y=6.083910250602642, z=1 para la copa
+[2026-03-07 18:22:15] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:15] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:15] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:15] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:15] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:15] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=16.767501922907613, y=9.303407990764654, z=0 para el tronco
+[2026-03-07 18:22:15] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:15] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:15] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:15] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:15] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:15] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=16.767501922907613, y=9.303407990764654, z=1 para la copa
+[2026-03-07 18:22:15] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:15] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:15] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:15] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:15] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:15] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=2.1827597485473618, y=-18.278921541120248, z=0 para el tronco
+[2026-03-07 18:22:15] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:15] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:15] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:15] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:15] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:15] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=2.1827597485473618, y=-18.278921541120248, z=1 para la copa
+[2026-03-07 18:22:15] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:15] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:15] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:15] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:15] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:15] INFO     [LYZU]    Progreso: 50/100 ├írboles creados...
+[2026-03-07 18:22:15] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-14.966561113723724, y=16.64204931251782, z=0 para el tronco
+[2026-03-07 18:22:15] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:15] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:15] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:15] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:15] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:15] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-14.966561113723724, y=16.64204931251782, z=1 para la copa
+[2026-03-07 18:22:15] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:15] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:15] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:15] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:15] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:15] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:16] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-0.8778449855651971, y=2.6252520956107404, z=0 para el tronco
+[2026-03-07 18:22:16] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:16] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:16] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:16] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:16] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:16] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-0.8778449855651971, y=2.6252520956107404, z=1 para la copa
+[2026-03-07 18:22:16] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:16] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:16] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:16] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:16] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:16] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=18.56223659415913, y=19.954708447352075, z=0 para el tronco
+[2026-03-07 18:22:16] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:16] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:16] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:16] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:16] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:16] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=18.56223659415913, y=19.954708447352075, z=1 para la copa
+[2026-03-07 18:22:16] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:16] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:16] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:16] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:16] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:16] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=11.5849811937885, y=8.839319475631378, z=0 para el tronco
+[2026-03-07 18:22:16] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:16] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:16] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:16] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:16] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:16] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=11.5849811937885, y=8.839319475631378, z=1 para la copa
+[2026-03-07 18:22:16] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:16] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:16] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:16] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:16] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:16] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=6.407852758227861, y=14.148350433436235, z=0 para el tronco
+[2026-03-07 18:22:16] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:16] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:16] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:16] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:16] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:16] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=6.407852758227861, y=14.148350433436235, z=1 para la copa
+[2026-03-07 18:22:16] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:16] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:16] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:16] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:16] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:16] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=16.842239802517376, y=11.880503229932671, z=0 para el tronco
+[2026-03-07 18:22:16] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:16] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:16] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:16] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:16] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:16] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=16.842239802517376, y=11.880503229932671, z=1 para la copa
+[2026-03-07 18:22:16] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:16] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:16] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:16] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:16] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:16] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-4.511470802870917, y=16.7768132975932, z=0 para el tronco
+[2026-03-07 18:22:16] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:16] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:16] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:16] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:16] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:16] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-4.511470802870917, y=16.7768132975932, z=1 para la copa
+[2026-03-07 18:22:16] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:16] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:16] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:16] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:16] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:16] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=18.85372567733218, y=8.737850529389533, z=0 para el tronco
+[2026-03-07 18:22:16] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:16] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:16] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:16] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:16] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:16] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:17] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=18.85372567733218, y=8.737850529389533, z=1 para la copa
+[2026-03-07 18:22:17] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:17] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:17] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:17] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:17] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:17] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=6.465132266494319, y=-12.882295120576423, z=0 para el tronco
+[2026-03-07 18:22:17] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:17] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:17] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:17] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:17] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:17] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=6.465132266494319, y=-12.882295120576423, z=1 para la copa
+[2026-03-07 18:22:17] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:17] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:17] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:17] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:17] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:17] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=11.847507923516766, y=18.70761973275961, z=0 para el tronco
+[2026-03-07 18:22:17] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:17] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:17] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:17] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:17] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:17] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=11.847507923516766, y=18.70761973275961, z=1 para la copa
+[2026-03-07 18:22:17] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:17] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:17] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:17] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:17] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:17] INFO     [LYZU]    Progreso: 60/100 ├írboles creados...
+[2026-03-07 18:22:17] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-1.5189918440307473, y=-10.917891783088818, z=0 para el tronco
+[2026-03-07 18:22:17] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:17] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:17] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:17] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:17] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:17] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-1.5189918440307473, y=-10.917891783088818, z=1 para la copa
+[2026-03-07 18:22:17] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:17] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:17] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:17] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:17] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:17] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-12.06540770110314, y=-3.137872931647408, z=0 para el tronco
+[2026-03-07 18:22:17] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:17] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:17] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:17] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:17] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:17] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-12.06540770110314, y=-3.137872931647408, z=1 para la copa
+[2026-03-07 18:22:17] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:17] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:17] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:17] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:17] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:17] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-4.295809260629335, y=0.06054197011172846, z=0 para el tronco
+[2026-03-07 18:22:17] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:17] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:17] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:17] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:17] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:17] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-4.295809260629335, y=0.06054197011172846, z=1 para la copa
+[2026-03-07 18:22:17] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:17] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:17] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:17] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:17] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:17] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-15.67215235570921, y=-16.744686126479596, z=0 para el tronco
+[2026-03-07 18:22:17] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:17] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:17] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:17] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:17] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:17] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-15.67215235570921, y=-16.744686126479596, z=1 para la copa
+[2026-03-07 18:22:17] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:17] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:17] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:17] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:17] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:17] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-7.523794360830873, y=-13.909533266537082, z=0 para el tronco
+[2026-03-07 18:22:17] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:17] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:17] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:17] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:17] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:17] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:18] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-7.523794360830873, y=-13.909533266537082, z=1 para la copa
+[2026-03-07 18:22:18] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:18] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:18] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:18] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:18] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:18] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=17.0062384818279, y=-15.801719953410643, z=0 para el tronco
+[2026-03-07 18:22:18] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:18] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:18] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:18] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:18] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:18] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=17.0062384818279, y=-15.801719953410643, z=1 para la copa
+[2026-03-07 18:22:18] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:18] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:18] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:18] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:18] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:18] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=4.2236286101946945, y=-18.34313503419958, z=0 para el tronco
+[2026-03-07 18:22:18] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:18] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:18] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:18] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:18] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:18] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=4.2236286101946945, y=-18.34313503419958, z=1 para la copa
+[2026-03-07 18:22:18] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:18] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:18] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:18] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:18] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:18] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-2.0742245794242393, y=-13.173205425053736, z=0 para el tronco
+[2026-03-07 18:22:18] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:18] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:18] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:18] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:18] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:18] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-2.0742245794242393, y=-13.173205425053736, z=1 para la copa
+[2026-03-07 18:22:18] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:18] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:18] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:18] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:18] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:18] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=0.7178712910088407, y=16.254495514772586, z=0 para el tronco
+[2026-03-07 18:22:18] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:18] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:18] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:18] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:18] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:18] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=0.7178712910088407, y=16.254495514772586, z=1 para la copa
+[2026-03-07 18:22:18] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:18] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:18] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:18] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:18] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:18] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-13.109886924507341, y=15.644182956426732, z=0 para el tronco
+[2026-03-07 18:22:18] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:18] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:18] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:18] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:18] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:18] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-13.109886924507341, y=15.644182956426732, z=1 para la copa
+[2026-03-07 18:22:18] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:18] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:18] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:18] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:18] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:18] INFO     [LYZU]    Progreso: 70/100 ├írboles creados...
+[2026-03-07 18:22:18] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-15.328726610050865, y=-3.9772454060383637, z=0 para el tronco
+[2026-03-07 18:22:18] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:18] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:18] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:18] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:18] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:18] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-15.328726610050865, y=-3.9772454060383637, z=1 para la copa
+[2026-03-07 18:22:18] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:18] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:18] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:18] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:18] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:18] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=1.4646216621166204, y=1.6615898416199535, z=0 para el tronco
+[2026-03-07 18:22:18] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:18] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:18] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:18] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:18] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:18] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:19] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:19] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=1.4646216621166204, y=1.6615898416199535, z=1 para la copa
+[2026-03-07 18:22:19] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:19] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:19] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:19] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:19] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:19] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:19] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:19] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=7.3533191577905725, y=6.34321588485961, z=0 para el tronco
+[2026-03-07 18:22:19] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:19] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:19] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:19] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:19] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:19] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:19] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:19] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=7.3533191577905725, y=6.34321588485961, z=1 para la copa
+[2026-03-07 18:22:19] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:19] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:19] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:19] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:19] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:19] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:19] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:19] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-6.579128611120284, y=3.028978784541927, z=0 para el tronco
+[2026-03-07 18:22:19] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:19] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:19] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:19] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:19] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:19] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:19] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:19] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-6.579128611120284, y=3.028978784541927, z=1 para la copa
+[2026-03-07 18:22:19] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:19] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:19] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:19] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:19] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:19] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:19] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:19] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=16.08075235836057, y=-10.202903195740877, z=0 para el tronco
+[2026-03-07 18:22:19] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:19] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:19] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:19] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:19] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:19] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:19] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:19] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=16.08075235836057, y=-10.202903195740877, z=1 para la copa
+[2026-03-07 18:22:19] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:19] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:19] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:19] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:19] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:19] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:19] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:19] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-8.690774901435754, y=12.291259409949859, z=0 para el tronco
+[2026-03-07 18:22:19] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:19] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:19] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:19] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:19] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:19] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:19] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:19] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-8.690774901435754, y=12.291259409949859, z=1 para la copa
+[2026-03-07 18:22:19] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:19] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:19] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:19] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:19] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:19] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:20] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:20] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-16.023939815997377, y=3.5175299057192078, z=0 para el tronco
+[2026-03-07 18:22:20] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:20] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:20] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:20] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:20] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:20] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:20] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:20] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-16.023939815997377, y=3.5175299057192078, z=1 para la copa
+[2026-03-07 18:22:20] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:20] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:20] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:20] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:20] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:20] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:20] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:20] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-0.9815058717377312, y=-7.239774555519126, z=0 para el tronco
+[2026-03-07 18:22:20] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:20] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:20] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:20] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:20] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:20] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:20] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:20] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-0.9815058717377312, y=-7.239774555519126, z=1 para la copa
+[2026-03-07 18:22:20] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:20] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:20] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:20] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:20] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:20] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:20] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:20] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=17.62455142179796, y=17.146141453789767, z=0 para el tronco
+[2026-03-07 18:22:20] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:20] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:20] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:20] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:20] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:20] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:20] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:20] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=17.62455142179796, y=17.146141453789767, z=1 para la copa
+[2026-03-07 18:22:20] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:20] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:20] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:20] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:20] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:20] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:20] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:20] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-7.386620298853632, y=3.1833358832417993, z=0 para el tronco
+[2026-03-07 18:22:20] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:20] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:20] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:20] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:20] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:20] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:20] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:20] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-7.386620298853632, y=3.1833358832417993, z=1 para la copa
+[2026-03-07 18:22:20] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:20] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:20] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:20] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:20] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:20] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:20] INFO     [LYZU]    Progreso: 80/100 ├írboles creados...
+[2026-03-07 18:22:20] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:20] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-2.2015428906974677, y=2.529930295003208, z=0 para el tronco
+[2026-03-07 18:22:20] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:20] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:20] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:20] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:20] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:20] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:20] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:20] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-2.2015428906974677, y=2.529930295003208, z=1 para la copa
+[2026-03-07 18:22:20] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:20] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:20] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:20] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:20] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:20] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:21] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-9.861749746775388, y=8.471337430109017, z=0 para el tronco
+[2026-03-07 18:22:21] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:21] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:21] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:21] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:21] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:21] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-9.861749746775388, y=8.471337430109017, z=1 para la copa
+[2026-03-07 18:22:21] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:21] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:21] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:21] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:21] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:21] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-13.180239647481912, y=10.342333983858655, z=0 para el tronco
+[2026-03-07 18:22:21] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:21] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:21] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:21] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:21] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:21] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-13.180239647481912, y=10.342333983858655, z=1 para la copa
+[2026-03-07 18:22:21] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:21] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:21] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:21] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:21] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:21] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-7.2265348932617215, y=5.754367350160095, z=0 para el tronco
+[2026-03-07 18:22:21] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:21] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:21] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:21] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:21] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:21] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-7.2265348932617215, y=5.754367350160095, z=1 para la copa
+[2026-03-07 18:22:21] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:21] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:21] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:21] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:21] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:21] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=14.508620378497966, y=15.658657069309186, z=0 para el tronco
+[2026-03-07 18:22:21] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:21] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:21] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:21] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:21] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:21] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=14.508620378497966, y=15.658657069309186, z=1 para la copa
+[2026-03-07 18:22:21] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:21] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:21] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:21] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:21] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:21] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-11.261767417381868, y=12.45401734799006, z=0 para el tronco
+[2026-03-07 18:22:21] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:21] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:21] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:21] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:21] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:21] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-11.261767417381868, y=12.45401734799006, z=1 para la copa
+[2026-03-07 18:22:21] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:21] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:21] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:21] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:21] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:21] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-0.41313798670493185, y=19.47892406722942, z=0 para el tronco
+[2026-03-07 18:22:21] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:21] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:21] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:21] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:21] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:21] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-0.41313798670493185, y=19.47892406722942, z=1 para la copa
+[2026-03-07 18:22:21] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:21] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:21] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:21] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:21] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:21] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:22] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=9.186005969324444, y=-12.955556968520918, z=0 para el tronco
+[2026-03-07 18:22:22] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:22] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:22] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:22] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:22] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:22] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=9.186005969324444, y=-12.955556968520918, z=1 para la copa
+[2026-03-07 18:22:22] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:22] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:22] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:22] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:22] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:22] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-18.110693049704643, y=1.713513994402124, z=0 para el tronco
+[2026-03-07 18:22:22] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:22] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:22] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:22] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:22] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:22] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-18.110693049704643, y=1.713513994402124, z=1 para la copa
+[2026-03-07 18:22:22] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:22] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:22] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:22] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:22] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:22] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-5.886301040899236, y=-14.878457392076676, z=0 para el tronco
+[2026-03-07 18:22:22] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:22] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:22] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:22] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:22] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:22] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-5.886301040899236, y=-14.878457392076676, z=1 para la copa
+[2026-03-07 18:22:22] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:22] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:22] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:22] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:22] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:22] INFO     [LYZU]    Progreso: 90/100 ├írboles creados...
+[2026-03-07 18:22:22] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-13.812356588932646, y=-17.84179378987128, z=0 para el tronco
+[2026-03-07 18:22:22] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:22] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:22] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:22] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:22] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:22] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-13.812356588932646, y=-17.84179378987128, z=1 para la copa
+[2026-03-07 18:22:22] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:22] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:22] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:22] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:22] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:22] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-4.405682619615373, y=-12.494023894779334, z=0 para el tronco
+[2026-03-07 18:22:22] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:22] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:22] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:22] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:22] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:22] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-4.405682619615373, y=-12.494023894779334, z=1 para la copa
+[2026-03-07 18:22:22] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:22] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:22] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:22] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:22] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:22] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=2.9840686584751523, y=14.353655207214125, z=0 para el tronco
+[2026-03-07 18:22:22] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:22] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:22] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:22] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:22] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:22] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=2.9840686584751523, y=14.353655207214125, z=1 para la copa
+[2026-03-07 18:22:22] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:22] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:22] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:22] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:22] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:22] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-7.665430418170782, y=18.830653694198112, z=0 para el tronco
+[2026-03-07 18:22:22] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:22] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:22] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:22] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:22] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:22] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:23] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:23] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-7.665430418170782, y=18.830653694198112, z=1 para la copa
+[2026-03-07 18:22:23] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:23] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:23] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:23] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:23] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:23] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:23] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:23] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-13.88083479609711, y=12.734805659745227, z=0 para el tronco
+[2026-03-07 18:22:23] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:23] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:23] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:23] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:23] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:23] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:23] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:23] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-13.88083479609711, y=12.734805659745227, z=1 para la copa
+[2026-03-07 18:22:23] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:23] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:23] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:23] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:23] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:23] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:23] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:23] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=8.997612808244732, y=-12.950462212248087, z=0 para el tronco
+[2026-03-07 18:22:23] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:23] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:23] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:23] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:23] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:23] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:23] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:23] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=8.997612808244732, y=-12.950462212248087, z=1 para la copa
+[2026-03-07 18:22:23] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:23] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:23] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:23] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:23] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:23] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:23] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:23] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=1.3031825891365543, y=1.347994174239055, z=0 para el tronco
+[2026-03-07 18:22:23] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:23] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:23] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:23] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:23] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:23] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:23] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:23] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=1.3031825891365543, y=1.347994174239055, z=1 para la copa
+[2026-03-07 18:22:23] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:23] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:23] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:23] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:23] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:23] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:23] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:23] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-12.653441579488124, y=2.601157981726139, z=0 para el tronco
+[2026-03-07 18:22:23] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:23] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:23] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:23] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:23] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:23] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:23] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:23] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-12.653441579488124, y=2.601157981726139, z=1 para la copa
+[2026-03-07 18:22:23] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:23] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:23] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:23] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:23] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:23] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:23] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:23] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-18.465772899093228, y=-2.4688534990958075, z=0 para el tronco
+[2026-03-07 18:22:23] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:23] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:23] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:23] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:23] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:23] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:24] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:24] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-18.465772899093228, y=-2.4688534990958075, z=1 para la copa
+[2026-03-07 18:22:24] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:24] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:24] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:24] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:24] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:24] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:24] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:24] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cilindro peque├▒o en x=-3.693471484721549, y=-3.7588128155857206, z=0 para el tronco
+[2026-03-07 18:22:24] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:24] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:24] INFO     [LYZU]   1. blender.create_cylinder (85%) (confianza: 85.00%)
+[2026-03-07 18:22:24] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cylinder
+[2026-03-07 18:22:24] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:24] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CYLINDER' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:24] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:24] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cono sobre el tronco en x=-3.693471484721549, y=-3.7588128155857206, z=1 para la copa
+[2026-03-07 18:22:24] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:24] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:24] INFO     [LYZU]   1. blender.create_cone (85%) (confianza: 85.00%)
+[2026-03-07 18:22:24] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cone
+[2026-03-07 18:22:24] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:24] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.CREATE_CONE' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:24] INFO     [LYZU]    Progreso: 100/100 ├írboles creados...
+[2026-03-07 18:22:24] INFO     [LYZU] 
+Guardando bosque masivo en: C:\Users\Admin\Desktop\ZULY_IA_LOCAL\ZULY_PROJECTS\SEMANA_6_bosque_20260307.blend
+[2026-03-07 18:22:24] INFO     [LYZU] 
+============================================================
+[2026-03-07 18:22:24] INFO     [LYZU] NUEVA PETICI├ôN: Guarda el proyecto de Blender en C:\Users\Admin\Desktop\ZULY_IA_LOCAL\ZULY_PROJECTS\SEMANA_6_bosque_20260307.blend
+[2026-03-07 18:22:24] INFO     [LYZU] ============================================================
+[2026-03-07 18:22:24] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 18:22:24] INFO     [LYZU]   1. blender.save_project (70%) (confianza: 70.00%)
+[2026-03-07 18:22:24] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.save_project
+[2026-03-07 18:22:24] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 18:22:24] INFO     [LYZU] ÔØô La acci├│n 'BLENDER.SAVE_PROJECT' tiene un riesgo moderado. Se requiere confirmaci├│n humana.
+[2026-03-07 18:22:24] SUCCESS  [LYZU] Ô£à Reto 2 COMPLETADO: SEMANA_6_bosque_20260307.blend guardado con 200 objetos.

@@ -1,0 +1,22 @@
+{
+  "candidato_id": "CUB-003_Modelado_MuroPro",
+  "timestamp": "2026-05-02T15:26:52.537908",
+  "puntuacion_jues": 100.0,
+  "dictamen": "APTO_PARA_SELLO",
+  "target_color": null,
+  "archivo_original": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\temp_arena\\CUB-003_Modelado_MuroPro.blend",
+  "archivo_sellado": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\CUB-003_Modelado_MuroPro_SELLADO_20260502_152652.blend",
+  "dashboard": {
+    "estado_malla": "LIMPIA",
+    "estado_malla_icon": "✅",
+    "concordancia_color": "MATCH",
+    "concordancia_icon": "🎨",
+    "peso_patron_kb": 834.8,
+    "hash_corto": "fallback"
+  },
+  "validaciones": {
+    "errores": 0,
+    "advertencias": 0,
+    "hallazgos": 7
+  }
+}

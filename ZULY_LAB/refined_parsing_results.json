@@ -1,0 +1,55 @@
+{
+  "parsing_date": "2026-02-22",
+  "transcriptions": [
+    {
+      "filename": "tutorial_fundamentos_42.txt",
+      "total_commands": 22,
+      "by_type": {
+        "rotate": 9,
+        "move": 13
+      },
+      "average_confidence": 0.9704545454545452,
+      "high_confidence_count": 5
+    },
+    {
+      "filename": "tutorial_villa_savoye.txt",
+      "total_commands": 14,
+      "by_type": {
+        "rotate": 6,
+        "move": 8
+      },
+      "average_confidence": 0.9857142857142857,
+      "high_confidence_count": 5
+    },
+    {
+      "filename": "tutorial_cortes_bisect.txt",
+      "total_commands": 14,
+      "by_type": {
+        "rotate": 10,
+        "move": 4
+      },
+      "average_confidence": 0.9857142857142857,
+      "high_confidence_count": 5
+    },
+    {
+      "filename": "tutorial_arquitectura_2d_a_3d.txt",
+      "total_commands": 21,
+      "by_type": {
+        "rotate": 10,
+        "move": 11
+      },
+      "average_confidence": 0.9738095238095236,
+      "high_confidence_count": 5
+    },
+    {
+      "filename": "tutorial_arquitectura_36.txt",
+      "total_commands": 6,
+      "by_type": {
+        "rotate": 2,
+        "move": 4
+      },
+      "average_confidence": 1.0,
+      "high_confidence_count": 5
+    }
+  ]
+}

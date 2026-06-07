@@ -1,0 +1,14 @@
+{
+  "certificado_id": "CERT-P-002E_EsferaUV_05m-20260404204911",
+  "pattern_id": "P-002E_EsferaUV_05m",
+  "fecha_sello": "2026-04-04T20:49:11.709908",
+  "sellado_por": "Soberano",
+  "decision": "SELLADO",
+  "dictamen_jues": "✅ APTO_PARA_SELLO",
+  "validacion": {
+    "malla": "LIMPIA",
+    "peso_kb": 919.19,
+    "color": "#FFC107",
+    "hash": "70a86cd702202a2d7f22725887827aca"
+  }
+}

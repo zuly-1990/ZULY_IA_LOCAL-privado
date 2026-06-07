@@ -1,0 +1,26 @@
+{
+  "candidato_id": "CUB001_v2_PruebaReal",
+  "puntuacion": 100,
+  "dictamen": "NO_APTO",
+  "errores": 1,
+  "superpoderes": {
+    "malla": {
+      "status": "LIMPIA",
+      "wire": 0,
+      "non_manifold": 0
+    },
+    "peso": {
+      "status": "OPTIMO",
+      "kb": 832.32
+    },
+    "color": {
+      "status": "NO_MATCH (#194CCC)",
+      "encontrado": "#194CCC",
+      "esperado": "#1A4DCC"
+    },
+    "hash": {
+      "md5": "df814b0eec7e508f49fb626b2d741053",
+      "vertices": 152
+    }
+  }
+}

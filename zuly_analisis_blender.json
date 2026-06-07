@@ -1,0 +1,245 @@
+{
+  "archivo": "laboratorio_dado_parques_v10.blend",
+  "objetos": [
+    {
+      "nombre": "Dado_0_0",
+      "tipo": "MESH",
+      "escala": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "posicion": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "rotacion": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "nombre": "Dado_0_1",
+      "tipo": "MESH",
+      "escala": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "posicion": [
+        0.0,
+        2.5,
+        1.0
+      ],
+      "rotacion": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "nombre": "Dado_0_2",
+      "tipo": "MESH",
+      "escala": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "posicion": [
+        0.0,
+        5.0,
+        1.0
+      ],
+      "rotacion": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "nombre": "Dado_1_0",
+      "tipo": "MESH",
+      "escala": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "posicion": [
+        2.5,
+        0.0,
+        1.0
+      ],
+      "rotacion": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "nombre": "Dado_1_1",
+      "tipo": "MESH",
+      "escala": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "posicion": [
+        2.5,
+        2.5,
+        1.0
+      ],
+      "rotacion": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "nombre": "Dado_1_2",
+      "tipo": "MESH",
+      "escala": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "posicion": [
+        2.5,
+        5.0,
+        1.0
+      ],
+      "rotacion": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "nombre": "Dado_2_0",
+      "tipo": "MESH",
+      "escala": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "posicion": [
+        5.0,
+        0.0,
+        1.0
+      ],
+      "rotacion": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "nombre": "Dado_2_1",
+      "tipo": "MESH",
+      "escala": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "posicion": [
+        5.0,
+        2.5,
+        1.0
+      ],
+      "rotacion": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "nombre": "Dado_2_2",
+      "tipo": "MESH",
+      "escala": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "posicion": [
+        5.0,
+        5.0,
+        1.0
+      ],
+      "rotacion": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "nombre": "Sun",
+      "tipo": "LIGHT",
+      "escala": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "posicion": [
+        5.0,
+        5.0,
+        5.0
+      ],
+      "rotacion": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "materiales": [
+    {
+      "nombre": "Dots Stroke",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ]
+    },
+    {
+      "nombre": "Mat1",
+      "color": [
+        0.20000000298023224,
+        0.6000000238418579,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "nombre": "Material",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ]
+    }
+  ],
+  "luces": [
+    {
+      "nombre": "Sun",
+      "tipo_luz": "SUN",
+      "energia": 1.5,
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "camaras": [],
+  "estadisticas": {
+    "total_objetos": 10,
+    "mallas": 9,
+    "luces": 1,
+    "camaras": 0,
+    "materiales": 3,
+    "resoluci\u00f3n": "1920x1080"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "timestamp": "2026-05-02T15:26:53.105985",
+  "fecha": "2026-05-02 15:26:53",
+  "pattern_id": "P-006A_PlanoBase",
+  "puntuacion_jues": 100.0,
+  "dictamen": "APTO_PARA_SELLO",
+  "findings": [
+    "V0 (Física): OK - Objetos de malla presentes",
+    "V1 (Estructural): OK - Archivo estructura OK",
+    "V2 (Contextual): OK - Camara=True, Luz=True",
+    "V3 (Topológica): OK - Malla perfecta (True)",
+    "Sincronía Cromática: OK - Color detectado: None",
+    "Optimización: OK - Vertices: 0 (optimo: <10000)",
+    "Inmutabilidad: OK - Hash consistente (fallback)"
+  ],
+  "errors": [],
+  "warnings": [],
+  "dashboard": {
+    "estado_malla": "LIMPIA",
+    "estado_malla_icon": "✅",
+    "concordancia_color": "MATCH",
+    "concordancia_icon": "🎨",
+    "peso_patron_kb": 834.34,
+    "hash_corto": "fallback"
+  },
+  "raw_results": {
+    "v0": {
+      "verified": true,
+      "details": "Objetos de malla presentes"
+    },
+    "v1": {
+      "verified": true,
+      "details": "Archivo estructura OK"
+    },
+    "v2": {
+      "verified": true,
+      "details": "Camara=True, Luz=True",
+      "reason": "OK"
+    },
+    "v3": {
+      "verified": true,
+      "metrics": {
+        "is_watertight": true,
+        "non_manifold_edges_count": 0
+      }
+    },
+    "chromatic_sync": {
+      "match": true,
+      "details": "Color detectado: None"
+    },
+    "optimization_instinct": {
+      "optimized": true,
+      "details": "Vertices: 0 (optimo: <10000)",
+      "final_size_kb": 834.34
+    },
+    "immutability_seal": {
+      "verified": true,
+      "hash_short": "fallback"
+    }
+  }
+}

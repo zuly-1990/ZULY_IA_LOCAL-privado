@@ -1,0 +1,35 @@
+ZULY QA RUNNER - RESULTADOS
+============================================================
+Fecha: 2026-05-31T18:58:31.598720
+Critical pass rate: 100.0% (9/9)
+High pass rate: 100.0% (4/4)
+Overall OK: True
+Final .blend: C:\Users\Admin\Desktop\ZULY_IA_LOCAL\ZULY_PROJECTS\prueba_final_zuly_qa_runner.blend
+
+Resultados detallados:
+[01] Core + NLU (CRÍTICO) - PASS - Importaciones del núcleo y seguridad
+      Importaciones críticas disponibles
+[02] Core + NLU (CRÍTICO) - PASS - Inicialización del Agente con IntentRouter
+      Agent inicializado con 59 handlers
+[03] Core + NLU (CRÍTICO) - PASS - Procesamiento de NLU y mapeo de intención
+      NLU devolvió intención: blender.create_cube
+[04] Blender Real (CRÍTICO) - PASS - Creación de cubo en Blender real
+      Cubo creado correctamente en Blender
+[05] Blender Real (CRÍTICO) - PASS - Guardado de escena .blend en prueba final
+      Archivo .blend creado: prueba_final_zuly_qa_runner.blend
+[06] Blender Real (CRÍTICO) - PASS - Verificación de SceneMonitor tras ejecución
+      Monitor detectó 4 objetos
+[07] Pattern Memory (ALTO) - PASS - Almacenamiento de patrón en Memoria de Patrones
+      Patrón almacenado correctamente con id a5e7a3ed-8cd9-4733-a238-6a2f3f149902
+[08] Pattern Memory (ALTO) - PASS - Recuperación de patrones desde Memoria
+      Patrón recuperado: b74614f7-814e-438c-811b-68921687e10a
+[09] Seguridad (CRÍTICO) - PASS - Detección de influencia AI y activación de BlackProtocol
+      BlackProtocol activado correctamente por prompt de IA
+[10] Seguridad (CRÍTICO) - PASS - Persistencia de bloqueo BlackProtocol
+      BlackProtocol bloquea correctamente mientras está activo
+[11] Seguridad (CRÍTICO) - PASS - Bloqueo por acceso no autorizado
+      BlackProtocol activa bloqueo ante acceso no autorizado
+[12] Monitoreo (ALTO) - PASS - Resumen de SceneMonitor disponible
+      Resumen de escena disponible (objetos: 4)
+[13] Monitoreo (ALTO) - PASS - Prueba final de guardado con etiqueta PRUEBA FINAL
+      PRUEBA FINAL: archivo .blend etiquetado y guardado

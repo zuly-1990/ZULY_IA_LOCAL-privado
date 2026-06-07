@@ -1,0 +1,19 @@
+{
+  "month": "2026-02",
+  "files": [
+    {
+      "filename": "session_20260201_114154.json.gz",
+      "archived_at": "2026-02-08T12:32:42.362546",
+      "original_date": "2026-02-01T11:41:56.610128",
+      "compressed": true,
+      "size_bytes": 3062
+    },
+    {
+      "filename": "session_20260208_123242.json.gz",
+      "archived_at": "2026-03-22T12:45:23.173688",
+      "original_date": "2026-02-08T12:32:44.523147",
+      "compressed": true,
+      "size_bytes": 3063
+    }
+  ]
+}

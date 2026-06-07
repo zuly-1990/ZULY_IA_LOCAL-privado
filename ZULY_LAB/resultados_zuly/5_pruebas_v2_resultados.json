@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-05-31T18:40:02.475346",
+  "modo": "BLENDER REAL",
+  "pruebas": [
+    {
+      "numero": 1,
+      "nombre": "Operaciones B\u00e1sicas (Create + Move + Scale)",
+      "exitosa": true,
+      "operaciones": 4,
+      "objeto": "Cubo_Test1"
+    },
+    {
+      "numero": 2,
+      "nombre": "Arquitectura Inteligente (Muro + Ventana + Puerta)",
+      "exitosa": true,
+      "componentes": 3,
+      "tipos": [
+        "pro_wall",
+        "intelligent_window",
+        "intelligent_door"
+      ]
+    },
+    {
+      "numero": 3,
+      "nombre": "Escena Multi-Objeto con Iluminaci\u00f3n Realista",
+      "exitosa": true,
+      "primitivas": 4,
+      "luces": 2,
+      "total_objetos": 6
+    },
+    {
+      "numero": 4,
+      "nombre": "Modificadores Avanzados (Subdiv + Bevel)",
+      "exitosa": true,
+      "objeto": "Cubo_Modificado",
+      "modificadores": [
+        "Subdivision Surface",
+        "Bevel"
+      ],
+      "total_modificadores": 2
+    },
+    {
+      "numero": 5,
+      "nombre": "Integraci\u00f3n Completa (Stats + Guardar .blend)",
+      "exitosa": true,
+      "detalles": {
+        "archivo": "ZULY_PROJECTS\\zuly_5pruebas_v2_robusto.blend",
+        "tama\u00f1o_kb": 998.23,
+        "objetos": 15,
+        "materiales": 7,
+        "luces": 2,
+        "camaras": 1
+      }
+    }
+  ],
+  "resumen": {
+    "total": 5,
+    "exitosas": 5,
+    "fallidas": 0,
+    "porcentaje": 100.0
+  }
+}

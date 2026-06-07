@@ -1,0 +1,59 @@
+import bpy
+import math
+import os
+
+# Limpiar la escena
+    bpy.ops.object.select_all(action='SELECT')
+    bpy.ops.object.delete(use_global=False)
+    # Cambiar color de fondo a gris claro
+    bpy.context.scene.world.use_nodes = True
+    bg = bpy.context.scene.world.node_tree.nodes['Background']
+    bg.inputs[0].default_value = (0.8, 0.8, 0.8, 1)
+
+# Crear cubo
+bpy.ops.mesh.primitive_cube_add(location=(0.0, 0.0, 0.0))
+cube = bpy.context.active_object
+cube.name = 'Cube_Blanco'
+
+# Crear material blanco
+mat_name = 'Blanco'
+if mat_name not in bpy.data.materials:
+    mat = bpy.data.materials.new(name=mat_name)
+    mat.diffuse_color = (1.0, 1.0, 1.0, 1.0)
+else:
+    mat = bpy.data.materials[mat_name]
+if len(cube.data.materials) > 0:
+    cube.data.materials[0] = mat
+else:
+    cube.data.materials.append(mat)
+
+# Añadir luz principal (frontal)
+    bpy.ops.object.light_add(type='AREA', location=(0, 8, 8))
+    light1 = bpy.context.active_object
+    light1.data.energy = 2000
+    light1.data.color = (1, 1, 1)
+    # Añadir luz lateral para volumen
+    bpy.ops.object.light_add(type='POINT', location=(6, 0, 6))
+    light2 = bpy.context.active_object
+    light2.data.energy = 800
+    light2.data.color = (1, 1, 1)
+
+# Añadir cámara frontal
+bpy.ops.object.camera_add(location=(0, 8, 4))
+cam = bpy.context.active_object
+cam.location = (0, 8, 4)
+cam.rotation_euler = (math.radians(-30), 0, math.radians(180))
+bpy.context.scene.camera = cam
+
+# Configurar render
+bpy.context.scene.frame_start = 1
+bpy.context.scene.frame_end = 1
+bpy.context.scene.render.image_settings.file_format = 'PNG'
+output_dir = r"c:/Users/Admin/Desktop/ZULY_IA_LOCAL/export/pruebas_cubo/frames_animacion_cubo_blanco/"
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
+frame_path = os.path.join(output_dir, "cubo_blanco_frontal.png")
+bpy.context.scene.render.filepath = frame_path
+bpy.ops.render.render(write_still=True)
+
+print("Imagen de cubo blanco frontal renderizada y guardada en export/pruebas_cubo/frames_animacion_cubo_blanco.")

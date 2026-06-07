@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "created": "2026-04-02T15:24:06.682953",
+  "sessions": [
+    {
+      "timestamp": "2026-04-02T15:24:06.682969",
+      "status": "success",
+      "blender_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\blender\\v3\\blender-3.6.0-zuly\\blender.exe",
+      "agent_version": "2.0",
+      "notes": "Configuración de Blender persistida"
+    },
+    {
+      "timestamp": "2026-04-02T15:27:05.859558",
+      "status": "success",
+      "blender_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\blender\\v3\\blender-3.6.0-zuly\\blender.exe",
+      "agent_version": "2.0",
+      "notes": "Configuración de Blender persistida"
+    },
+    {
+      "timestamp": "2026-04-02T16:01:57.354766",
+      "status": "success",
+      "blender_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\blender\\v3\\blender-3.6.0-zuly\\blender.exe",
+      "agent_version": "2.0",
+      "notes": "Configuración de Blender persistida"
+    },
+    {
+      "timestamp": "2026-04-02T19:20:10.988325",
+      "status": "success",
+      "blender_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\blender\\v3\\blender-3.6.0-zuly\\blender.exe",
+      "agent_version": "2.0",
+      "notes": "Configuración de Blender persistida"
+    },
+    {
+      "timestamp": "2026-04-02T19:26:22.574102",
+      "status": "success",
+      "blender_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\blender\\v3\\blender-3.6.0-zuly\\blender.exe",
+      "agent_version": "2.0",
+      "notes": "Configuración de Blender persistida"
+    },
+    {
+      "timestamp": "2026-04-05T11:08:03.338902",
+      "status": "success",
+      "blender_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\blender\\v3\\blender-3.6.0-zuly\\blender.exe",
+      "agent_version": "2.0",
+      "notes": "Configuración de Blender persistida"
+    },
+    {
+      "timestamp": "2026-04-11T21:30:07.141258",
+      "status": "success",
+      "blender_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\blender\\v3\\blender-3.6.0-zuly\\blender.exe",
+      "agent_version": "2.0",
+      "notes": "Configuración de Blender persistida"
+    },
+    {
+      "timestamp": "2026-04-11T21:38:50.215012",
+      "status": "success",
+      "blender_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\blender\\v3\\blender-3.6.0-zuly\\blender.exe",
+      "agent_version": "2.0",
+      "notes": "Configuración de Blender persistida"
+    },
+    {
+      "timestamp": "2026-04-11T21:39:22.840429",
+      "status": "success",
+      "blender_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\blender\\v3\\blender-3.6.0-zuly\\blender.exe",
+      "agent_version": "2.0",
+      "notes": "Configuración de Blender persistida"
+    },
+    {
+      "timestamp": "2026-04-11T22:09:46.842372",
+      "status": "success",
+      "blender_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\blender\\v3\\blender-3.6.0-zuly\\blender.exe",
+      "agent_version": "2.0",
+      "notes": "Configuración de Blender persistida"
+    },
+    {
+      "timestamp": "2026-04-12T12:32:17.407145",
+      "status": "success",
+      "blender_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\blender\\v3\\blender-3.6.0-zuly\\blender.exe",
+      "agent_version": "2.0",
+      "notes": "Configuración de Blender persistida"
+    },
+    {
+      "timestamp": "2026-04-12T12:51:50.048275",
+      "status": "success",
+      "blender_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\blender\\v3\\blender-3.6.0-zuly\\blender.exe",
+      "agent_version": "2.0",
+      "notes": "Configuración de Blender persistida"
+    },
+    {
+      "timestamp": "2026-04-12T12:51:50.647444",
+      "status": "success",
+      "blender_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\blender\\v3\\blender-3.6.0-zuly\\blender.exe",
+      "agent_version": "2.0",
+      "notes": "Configuración de Blender persistida"
+    }
+  ],
+  "blender_configured": true,
+  "last_blender_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\blender\\v3\\blender-3.6.0-zuly\\blender.exe",
+  "last_session": {
+    "timestamp": "2026-04-12T12:51:50.647444",
+    "status": "success",
+    "blender_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\blender\\v3\\blender-3.6.0-zuly\\blender.exe",
+    "agent_version": "2.0",
+    "notes": "Configuración de Blender persistida"
+  }
+}

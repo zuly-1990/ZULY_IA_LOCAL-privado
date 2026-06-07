@@ -1,0 +1,207 @@
+{
+  "nombre_registro": "REGISTRO_MAESTRO_ZULY",
+  "version": "1.0",
+  "descripcion": "Indice de patrones sellados (vacio - sin aprobaciones)",
+  "created": "2026-04-03T16:17:22.253502",
+  "ultima_actualizacion": "2026-04-04T16:11:10.947935",
+  "total_patrones": 27,
+  "patrones": [
+    {
+      "pattern_id": "CUB-001",
+      "nombre": "CUB-001_Modelado_BiselRealista",
+      "categoria": "CUB",
+      "descripcion": "Cubo con bordes suaves (Bevel) y color azul corporativo #1A4DCC",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T16:11:10.947916",
+      "ubicacion": "por_estado_aprendizaje/mastered/CUB-001_Modelado_BiselRealista/"
+    },
+    {
+      "pattern_id": "CUB-002_Transform_PivoteSuelo",
+      "nombre": "CUB-002_Transform_PivoteSuelo",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T16:27:01.614285",
+      "ubicacion": "por_estado_aprendizaje/mastered/CUB-002_Transform_PivoteSuelo/"
+    },
+    {
+      "pattern_id": "CUB-003_Modelado_MuroPro",
+      "nombre": "CUB-003_Modelado_MuroPro",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T16:34:13.562476",
+      "ubicacion": "por_estado_aprendizaje/mastered/CUB-003_Modelado_MuroPro/"
+    },
+    {
+      "pattern_id": "CUB-004-HIBRIDO_Prueba",
+      "nombre": "CUB-004-HIBRIDO_Prueba",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T16:56:04.616787",
+      "ubicacion": "por_estado_aprendizaje/mastered/CUB-004-HIBRIDO_Prueba/"
+    },
+    {
+      "pattern_id": "CUB-005_BooleanExacto",
+      "nombre": "CUB-005_BooleanExacto",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T20:31:42.565175",
+      "ubicacion": "por_estado_aprendizaje/mastered/CUB-005_BooleanExacto/"
+    },
+    {
+      "pattern_id": "P-001A_CuboBasico_1m",
+      "nombre": "P-001A_CuboBasico_1m",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T20:45:03.397189",
+      "ubicacion": "por_estado_aprendizaje/mastered/P-001A_CuboBasico_1m/"
+    },
+    {
+      "pattern_id": "P-001B_CuboBasico_2m",
+      "nombre": "P-001B_CuboBasico_2m",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T20:45:12.681006",
+      "ubicacion": "por_estado_aprendizaje/mastered/P-001B_CuboBasico_2m/"
+    },
+    {
+      "pattern_id": "P-001C_CuboBasico_05m",
+      "nombre": "P-001C_CuboBasico_05m",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T20:45:24.553516",
+      "ubicacion": "por_estado_aprendizaje/mastered/P-001C_CuboBasico_05m/"
+    },
+    {
+      "pattern_id": "P-001D_CuboBasico_3m",
+      "nombre": "P-001D_CuboBasico_3m",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T20:45:32.100091",
+      "ubicacion": "por_estado_aprendizaje/mastered/P-001D_CuboBasico_3m/"
+    },
+    {
+      "pattern_id": "P-002A_EsferaUV_1m",
+      "nombre": "P-002A_EsferaUV_1m",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T20:48:42.477576",
+      "ubicacion": "por_estado_aprendizaje/mastered/P-002A_EsferaUV_1m/"
+    },
+    {
+      "pattern_id": "P-002B_EsferaUV_2m",
+      "nombre": "P-002B_EsferaUV_2m",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T20:48:48.002486",
+      "ubicacion": "por_estado_aprendizaje/mastered/P-002B_EsferaUV_2m/"
+    },
+    {
+      "pattern_id": "P-002C_EsferaICO_1m",
+      "nombre": "P-002C_EsferaICO_1m",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T20:48:55.233696",
+      "ubicacion": "por_estado_aprendizaje/mastered/P-002C_EsferaICO_1m/"
+    },
+    {
+      "pattern_id": "P-002D_EsferaICO_05m",
+      "nombre": "P-002D_EsferaICO_05m",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T20:49:04.189629",
+      "ubicacion": "por_estado_aprendizaje/mastered/P-002D_EsferaICO_05m/"
+    },
+    {
+      "pattern_id": "P-002E_EsferaUV_05m",
+      "nombre": "P-002E_EsferaUV_05m",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T20:49:11.744394",
+      "ubicacion": "por_estado_aprendizaje/mastered/P-002E_EsferaUV_05m/"
+    },
+    {
+      "pattern_id": "P-003A_SphereAltaRes",
+      "nombre": "P-003A_SphereAltaRes",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T20:51:53.541362",
+      "ubicacion": "por_estado_aprendizaje/mastered/P-003A_SphereAltaRes/"
+    },
+    {
+      "pattern_id": "P-003B_SphereBajaRes",
+      "nombre": "P-003B_SphereBajaRes",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T20:51:58.075317",
+      "ubicacion": "por_estado_aprendizaje/mastered/P-003B_SphereBajaRes/"
+    },
+    {
+      "pattern_id": "P-003C_SphereMini",
+      "nombre": "P-003C_SphereMini",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T20:52:04.733573",
+      "ubicacion": "por_estado_aprendizaje/mastered/P-003C_SphereMini/"
+    },
+    {
+      "pattern_id": "P-004A_CilindroAlto",
+      "nombre": "P-004A_CilindroAlto",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T20:56:23.288579",
+      "ubicacion": "por_estado_aprendizaje/mastered/P-004A_CilindroAlto/"
+    },
+    {
+      "pattern_id": "P-004B_CilindroAncho",
+      "nombre": "P-004B_CilindroAncho",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T20:56:31.398060",
+      "ubicacion": "por_estado_aprendizaje/mastered/P-004B_CilindroAncho/"
+    },
+    {
+      "pattern_id": "P-005A_ConoAlto",
+      "nombre": "P-005A_ConoAlto",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T20:56:40.920414",
+      "ubicacion": "por_estado_aprendizaje/mastered/P-005A_ConoAlto/"
+    },
+    {
+      "pattern_id": "P-005B_ConoChato",
+      "nombre": "P-005B_ConoChato",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T20:56:50.662477",
+      "ubicacion": "por_estado_aprendizaje/mastered/P-005B_ConoChato/"
+    },
+    {
+      "pattern_id": "P-006A_PlanoBase",
+      "nombre": "P-006A_PlanoBase",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T20:59:03.563749",
+      "ubicacion": "por_estado_aprendizaje/mastered/P-006A_PlanoBase/"
+    },
+    {
+      "pattern_id": "MAT-001_Material_Metal",
+      "nombre": "MAT-001_Material_Metal",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T21:04:01.249790",
+      "ubicacion": "por_estado_aprendizaje/mastered/MAT-001_Material_Metal/"
+    },
+    {
+      "pattern_id": "MAT-002_Material_Vidrio",
+      "nombre": "MAT-002_Material_Vidrio",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T21:04:08.268097",
+      "ubicacion": "por_estado_aprendizaje/mastered/MAT-002_Material_Vidrio/"
+    },
+    {
+      "pattern_id": "MAT-003_Material_Emisivo",
+      "nombre": "MAT-003_Material_Emisivo",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T21:04:15.666514",
+      "ubicacion": "por_estado_aprendizaje/mastered/MAT-003_Material_Emisivo/"
+    },
+    {
+      "pattern_id": "LUZ-001_Iluminacion_3Point",
+      "nombre": "LUZ-001_Iluminacion_3Point",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T21:10:09.751639",
+      "ubicacion": "por_estado_aprendizaje/mastered/LUZ-001_Iluminacion_3Point/"
+    },
+    {
+      "pattern_id": "LUZ-002_Iluminacion_HDRI",
+      "nombre": "LUZ-002_Iluminacion_HDRI",
+      "estado": "SELLADO",
+      "fecha_sello": "2026-04-04T21:10:30.402203",
+      "ubicacion": "por_estado_aprendizaje/mastered/LUZ-002_Iluminacion_HDRI/"
+    }
+  ],
+  "hashes_registrados": {},
+  "estadisticas": {
+    "por_categoria": {},
+    "por_complejidad": {},
+    "por_autor": {}
+  }
+}

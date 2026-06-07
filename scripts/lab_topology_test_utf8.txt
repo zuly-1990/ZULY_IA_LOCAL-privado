@@ -1,0 +1,119 @@
+﻿blender.exe : 
+TBBmalloc: skip 
+allocation functions 
+replacement in 
+ucrtbase.dll: unknown 
+prologue for function 
+_msize
+En línea: 1 Carácter: 1
++ & "C:\Users\Admin\Des
+ktop\ZULY_IA_LOCAL\blen
+der\v3\blender-3.6.0-zu
+ly ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (TBBmalloc: sk   
+ ip...function _msi    
+ze:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+[2026-03-21 20:33:54] INFO     [LYZU] === INICIANDO AUDITORÍA V3: ZULY LAB ===
+[2026-03-21 20:33:54] SUCCESS  [LYZU] Modelo cargado para auditoría: C:\Users\Admin\Desktop\ZULY_IA_LOCAL\ZULY_PROJECTS\ejemplos\casarural.blend
+[2026-03-21 20:33:54] INFO     [LYZU] ============================================================
+[2026-03-21 20:33:54] INFO     [LYZU] INICIALIZANDO AGENTE ZULY - VERSIÓN INTELIGENTE
+[2026-03-21 20:33:54] INFO     [LYZU] ============================================================
+[2026-03-21 20:33:54] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente (Auto-detección)
+[2026-03-21 20:33:54] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-21 20:33:54] INFO     [LYZU] [FASE 17] Engine Adapter: BlenderAdapter
+[2026-03-21 20:33:54] INFO     [LYZU] Cargando comandos desde: C:\Users\Admin\Desktop\ZULY_IA_LOCAL\core\commands
+[2026-03-21 20:33:54] INFO     [LYZU] Cargados 8 módulos de comandos (0 errores)
+[2026-03-21 20:33:54] INFO     [LYZU] Total de comandos cargados: 0
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.create_cube
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.create_sphere
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.create_cylinder
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.create_plane
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.create_cone
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.move_object
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.rotate_object
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.scale_object
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.render_scene
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: system.get_info
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.save_project
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.save_scene
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.clear_scene
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.rename_object
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.set_object_visibility
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.set_parent
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.create_material
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.create_texture_material
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.apply_material
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.set_material_color
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.create_light
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.set_light_energy
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.set_light_color
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.create_camera
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.set_active_camera
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.position_camera
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.add_subdivision_surface
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.add_array
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.add_bevel
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.add_boolean
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.export_fbx
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.export_obj
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.export_gltf
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.validate_topology
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.scan_and_learn
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.build_structure
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.save_pattern
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.load_pattern
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.list_patterns
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.run_python_script
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.delete_object
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.duplicate_object
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.select_object
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.deselect_all
+[2026-03-21 20:33:54] INFO     [LYZU] Registrado handler: blender.select_all_by_type
+[2026-03-21 20:33:54] SUCCESS  [LYZU] ✓ 45 handlers de Blender registrados
+[2026-03-21 20:33:54] INFO     [LYZU] [FASE 23] IntentRouter: 45 handlers registrados
+[2026-03-21 20:33:54] INFO     [LYZU] NLU inicializado con 45 comandos
+[2026-03-21 20:33:54] INFO     [LYZU] SceneMonitor inicializado
+[2026-03-21 20:33:54] INFO     [LYZU] [PatternMemory] Inicializada en 'memory' con 1 patrones totales
+[2026-03-21 20:33:54] INFO     [COGNITION] CognitionCore inicializado con Memoria Heurística
+[2026-03-21 20:33:54] INFO     [COGNITION] Evaluador registrado: render
+[2026-03-21 20:33:54] INFO     [LYZU] [FASE 18.5] FailsafeExecutor y ActionLogger integrados
+[2026-03-21 20:33:54] INFO     [LYZU] [OK] 0 comandos cargados
+[2026-03-21 20:33:54] INFO     [LYZU] [OK] Procesador de Lenguaje Natural inicializado
+[2026-03-21 20:33:54] INFO     [LYZU] [OK] Monitor de Escena activo (vía BlenderAdapter)
+[2026-03-21 20:33:54] INFO     [LYZU] [OK] Memoria de Patrones: 1 patrones
+[2026-03-21 20:33:54] INFO     [LYZU] [OK] Autoconciencia Operativa: activa (pasiva)
+[2026-03-21 20:33:54] INFO     [LYZU] [OK] Identidad de Autor: VERIFICADA
+[2026-03-21 20:33:54] INFO     [LYZU] [OK] Estado Inicial: Observación
+[2026-03-21 20:33:54] INFO     [LYZU] ============================================================
+[2026-03-21 20:33:54] INFO     [LYZU] Agente Zuly listo conforme al Protocolo de Identidad
+[2026-03-21 20:33:54] INFO     [LYZU] [FASE 17] Desacoplamiento: ACTIVO (BlenderAdapter)
+[2026-03-21 20:33:54] INFO     [LYZU] ============================================================
+[2026-03-21 20:33:54] INFO     [LYZU] [FASE 18.5] Módulos registrados: 6
+[2026-03-21 20:33:54] INFO     [LYZU] Objeto seleccionado para Auditoría V3: Куб
+[2026-03-21 20:33:54] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.validate_topology
+[2026-03-21 20:33:54] DEBUG    [LYZU] [FASE 23] Parámetros: {'object_name': 'Куб'}
+[2026-03-21 20:33:54] INFO     [LYZU] Iniciando validación V3 para el objeto: Куб
+[2026-03-21 20:33:54] INFO     [LYZU] ✓ V3Validator inicializado (Topología Geométrica)
+[2026-03-21 20:33:54] INFO     [LYZU] [V3] Iniciando validación de malla profunda para: Куб
+[2026-03-21 20:33:54] INFO     [LYZU] ✓ Auditoría de Topología de 'Куб' completada: Watertight = False
+[2026-03-21 20:33:54] ERROR    [LYZU] [V3] Fallo de Malla en 'Куб': Topología inestable: 71 bordes libres, 0 vértices sueltos, 0 caras nulas.
+[2026-03-21 20:33:54] WARNING  [LYZU] [FASE 23] Handler falló: Unknown
+[2026-03-21 20:33:54] DEBUG    [LYZU] 📝 Action: [20:33:54] ✗ blender.validate_topology → unknown (No error message)
+[2026-03-21 20:33:54] ERROR    [LYZU] Error en el handler de auditoría: None
+[2026-03-21 20:33:54] INFO     [LYZU] === FIN DE AUDITORÍA V3 ===
+Blender 3.6.2 (hash e53e55951e7a built 2023-08-16 23:35:13)
+Read prefs: "C:\Users\Admin\AppData\Roaming\Blender Foundation\Blender\3.6\config\userpref.blend"
+Read blend: "C:\Users\Admin\Desktop\ZULY_IA_LOCAL\ZULY_PROJECTS\ejemplos\casarural.blend"
+
+Blender quit

@@ -1,0 +1,308 @@
+{
+  "ejercicio": "C1.1",
+  "nombre": "Fuego de Zuly",
+  "timestamp": "2026-02-22T12:21:18.382851",
+  "pasos_ejecutados": [
+    {
+      "numero": 1,
+      "action": "clear_scene",
+      "params": {},
+      "exito": true,
+      "timestamp": "2026-02-22T12:21:18.448969",
+      "resultado": {
+        "success": true,
+        "cognition_diagnosis": {
+          "timestamp": "2026-02-22T12:21:18.593646",
+          "status": "PROBABLY_OK",
+          "score": 0.5,
+          "findings": [],
+          "recommendations": []
+        },
+        "route": "INTENT_ROUTER",
+        "handler": "blender.clear_scene"
+      }
+    },
+    {
+      "numero": 2,
+      "action": "create_sphere",
+      "params": {
+        "name": "BolaDeFuego",
+        "radius": 2.0,
+        "location": [
+          0,
+          0,
+          2
+        ]
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T12:21:18.688147",
+      "resultado": {
+        "success": true,
+        "object_name": "BolaDeFuego",
+        "location": [
+          0,
+          0,
+          2
+        ],
+        "radius": 2.0,
+        "subdivisions": 32,
+        "message": "Esfera creada exitosamente",
+        "cognition_diagnosis": {
+          "timestamp": "2026-02-22T12:21:18.728253",
+          "status": "PROBABLY_OK",
+          "score": 0.5,
+          "findings": [],
+          "recommendations": []
+        },
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_sphere"
+      }
+    },
+    {
+      "numero": 3,
+      "action": "create_texture_material",
+      "params": {
+        "name": "MatFuego",
+        "image_path": "ZULY_LAB/assets/textures/fire_texture.png",
+        "metallic": 0.1,
+        "roughness": 0.2
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T12:21:18.779784",
+      "resultado": {
+        "success": true,
+        "material_name": "MatFuego",
+        "image_path": "ZULY_LAB/assets/textures/fire_texture.png",
+        "properties": {
+          "metallic": 0.1,
+          "roughness": 0.2
+        },
+        "message": "Material de textura 'MatFuego' creado en modo simulación",
+        "cognition_diagnosis": {
+          "timestamp": "2026-02-22T12:21:18.802115",
+          "status": "PROBABLY_OK",
+          "score": 0.5,
+          "findings": [],
+          "recommendations": []
+        },
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_texture_material"
+      }
+    },
+    {
+      "numero": 4,
+      "action": "apply_material",
+      "params": {
+        "object_name": "BolaDeFuego",
+        "material_name": "MatFuego"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T12:21:18.840383",
+      "resultado": {
+        "success": true,
+        "object_name": "BolaDeFuego",
+        "material_name": "MatFuego",
+        "message": "Material aplicado en modo simulación",
+        "cognition_diagnosis": {
+          "timestamp": "2026-02-22T12:21:18.895243",
+          "status": "PROBABLY_OK",
+          "score": 0.5,
+          "findings": [],
+          "recommendations": []
+        },
+        "route": "INTENT_ROUTER",
+        "handler": "blender.apply_material"
+      }
+    },
+    {
+      "numero": 5,
+      "action": "create_light",
+      "params": {
+        "light_type": "POINT",
+        "location": [
+          4,
+          4,
+          8
+        ],
+        "energy": 3000.0,
+        "name": "LuzFuego"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T12:21:18.935219",
+      "resultado": {
+        "success": true,
+        "light_name": "LuzFuego",
+        "light_type": "POINT",
+        "location": [
+          4,
+          4,
+          8
+        ],
+        "energy": 3000.0,
+        "message": "Luz POINT creada exitosamente",
+        "cognition_diagnosis": {
+          "timestamp": "2026-02-22T12:21:18.980832",
+          "status": "PROBABLY_OK",
+          "score": 0.5,
+          "findings": [],
+          "recommendations": []
+        },
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_light"
+      }
+    },
+    {
+      "numero": 6,
+      "action": "create_camera",
+      "params": {
+        "name": "CamaraFinal",
+        "location": [
+          10,
+          -10,
+          6
+        ]
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T12:21:19.060179",
+      "resultado": {
+        "success": true,
+        "camera_name": "CamaraFinal",
+        "location": [
+          10,
+          -10,
+          6
+        ],
+        "focal_length": 50.0,
+        "message": "Cámara creada exitosamente",
+        "cognition_diagnosis": {
+          "timestamp": "2026-02-22T12:21:19.436046",
+          "status": "PROBABLY_OK",
+          "score": 0.5,
+          "findings": [],
+          "recommendations": []
+        },
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_camera"
+      }
+    },
+    {
+      "numero": 7,
+      "action": "position_camera",
+      "params": {
+        "camera_name": "CamaraFinal",
+        "location": [
+          10,
+          -10,
+          6
+        ],
+        "look_at": [
+          0,
+          0,
+          2
+        ]
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T12:21:19.512116",
+      "resultado": {
+        "success": true,
+        "camera_name": "CamaraFinal",
+        "location": [
+          10,
+          -10,
+          6
+        ],
+        "look_at": [
+          0,
+          0,
+          2
+        ],
+        "cognition_diagnosis": {
+          "timestamp": "2026-02-22T12:21:19.577045",
+          "status": "PROBABLY_OK",
+          "score": 0.5,
+          "findings": [],
+          "recommendations": []
+        },
+        "route": "INTENT_ROUTER",
+        "handler": "blender.position_camera"
+      }
+    },
+    {
+      "numero": 8,
+      "action": "render_scene",
+      "params": {
+        "output_path": "ZULY_LAB/resultados_zuly/EXPERIMENTO_FUEGO_FINAL.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T12:21:19.631666",
+      "resultado": {
+        "success": true,
+        "output_path": "ZULY_LAB\\resultados_zuly\\EXPERIMENTO_FUEGO_FINAL.png",
+        "resolution": [
+          1920,
+          1080
+        ],
+        "format": "PNG",
+        "samples": 32,
+        "render_time": 0.1,
+        "message": "Render guardado en ZULY_LAB\\resultados_zuly\\EXPERIMENTO_FUEGO_FINAL.png",
+        "cognition_diagnosis": {
+          "timestamp": "2026-02-22T12:21:19.691842",
+          "status": "NOT_FOUND",
+          "score": 0.0,
+          "findings": [
+            "Archivo no encontrado: ZULY_LAB\\resultados_zuly\\EXPERIMENTO_FUEGO_FINAL.png"
+          ],
+          "recommendations": []
+        },
+        "route": "INTENT_ROUTER",
+        "handler": "blender.render_scene"
+      }
+    },
+    {
+      "numero": 9,
+      "action": "save_project",
+      "params": {
+        "filepath": "ZULY_LAB/resultados_zuly/EXPERIMENTO_FUEGO_FINAL.blend"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T12:21:19.744247",
+      "resultado": {
+        "success": true,
+        "output_path": "ZULY_LAB/resultados_zuly/EXPERIMENTO_FUEGO_FINAL.blend",
+        "format": "BLEND",
+        "object_count": 3,
+        "message": "Escena exportada a BLEND en modo simulación",
+        "cognition_diagnosis": {
+          "timestamp": "2026-02-22T12:21:19.800905",
+          "status": "PROBABLY_OK",
+          "score": 0.5,
+          "findings": [],
+          "recommendations": []
+        },
+        "route": "INTENT_ROUTER",
+        "handler": "blender.save_project"
+      }
+    }
+  ],
+  "pasos_exitosos": 9,
+  "pasos_fallidos": 0,
+  "tiempo_total_segundos": 1.47,
+  "exito": true,
+  "objetos_creados": [],
+  "errores": [],
+  "validacion": {
+    "total": 1,
+    "pasadas": 1,
+    "fallidas": 0,
+    "detalles": [
+      {
+        "tipo": "object_exists",
+        "pasado": true,
+        "error": null
+      }
+    ]
+  }
+}

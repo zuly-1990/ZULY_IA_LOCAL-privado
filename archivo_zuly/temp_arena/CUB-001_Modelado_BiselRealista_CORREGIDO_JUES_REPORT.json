@@ -1,0 +1,52 @@
+{
+  "candidato_id": "CUB-001_Modelado_BiselRealista_CORREGIDO",
+  "timestamp": "2026-04-04T15:45:14.375475",
+  "superpoderes": {
+    "vision_rayos_x": {
+      "status": "LIMPIA",
+      "detalle": "Geometría completamente cerrada y válida",
+      "vertices_no_manifold": 0,
+      "edges_no_manifold": 0,
+      "icon": "✨"
+    },
+    "instinto_optimizacion": {
+      "status": "ERROR",
+      "peso_kb": 0,
+      "alerta": "Archivo no encontrado",
+      "icon": "❓"
+    },
+    "sincronia_cromatica": {
+      "status": "NO_MATCH",
+      "color_encontrado": "#CCCCCC",
+      "color_esperado": "#1A4DCC",
+      "rgb": [
+        204,
+        204,
+        204
+      ],
+      "diferencia": "39.9%",
+      "icon": "🎨⚠️"
+    },
+    "sello_inmutabilidad": {
+      "hash": "aa0967195c51f9c4219184166db9f67f",
+      "vertices_count": 8,
+      "faces_count": 6,
+      "icon": "🔒"
+    }
+  },
+  "dashboard": {
+    "estado_malla": "LIMPIA",
+    "estado_malla_icon": "✨",
+    "concordancia_color": "NO_MATCH",
+    "color_encontrado": "#CCCCCC",
+    "concordancia_icon": "🎨⚠️",
+    "peso_patron_kb": 0,
+    "peso_alerta": "Archivo no encontrado",
+    "hash_inmutabilidad": "aa0967195c51f9c4219184166db9f67f",
+    "hash_corto": "aa0967195c51f9c4...",
+    "vertices_count": 8
+  },
+  "dictamen": "❌ NO_APTO",
+  "errores": 1,
+  "advertencias": 0
+}

@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZULY 3.0 - AI 3D Agent</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #ecf0f1;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* ==================== HEADER ==================== */
+        .header {
+            background: rgba(0, 0, 0, 0.3);
+            border-bottom: 2px solid #00d4ff;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            color: #00d4ff;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 8px 16px;
+            background: #00d400;
+            color: #000;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        .status-badge.offline {
+            background: #d40000;
+            color: #fff;
+        }
+
+        /* ==================== MAIN LAYOUT ==================== */
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 1024px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* ==================== PANELES ==================== */
+        .panel {
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid #00d4ff;
+            border-radius: 8px;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .panel h2 {
+            color: #00d4ff;
+            margin-bottom: 15px;
+            font-size: 18px;
+            border-bottom: 1px solid #00d4ff;
+            padding-bottom: 10px;
+        }
+
+        /* ==================== INPUT AREA ==================== */
+        .input-area {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        #command-input {
+            flex: 1;
+            padding: 12px 15px;
+            background: rgba(0, 212, 255, 0.1);
+            border: 1px solid #00d4ff;
+            border-radius: 6px;
+            color: #ecf0f1;
+            font-size: 14px;
+        }
+
+        #command-input::placeholder {
+            color: #999;
+        }
+
+        #command-input:focus {
+            outline: none;
+            background: rgba(0, 212, 255, 0.2);
+            border-color: #00d4ff;
+            box-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+        }
+
+        .btn {
+            padding: 12px 24px;
+            background: #00d4ff;
+            color: #000;
+            border: none;
+            border-radius: 6px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 14px;
+        }
+
+        .btn:hover {
+            background: #00b8cc;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 212, 255, 0.4);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .btn.secondary {
+            background: #444;
+            color: #ecf0f1;
+        }
+
+        .btn.secondary:hover {
+            background: #555;
+        }
+
+        .btn.danger {
+            background: #d40000;
+            color: #fff;
+        }
+
+        .btn.danger:hover {
+            background: #b80000;
+        }
+
+        /* ==================== OUTPUT AREA ==================== */
+        .output-area {
+            background: rgba(0, 0, 0, 0.5);
+            border: 1px solid #00d4ff;
+            border-radius: 6px;
+            padding: 15px;
+            height: 300px;
+            overflow-y: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            margin-bottom: 15px;
+        }
+
+        .output-area::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .output-area::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 4px;
+        }
+
+        .output-area::-webkit-scrollbar-thumb {
+            background: #00d4ff;
+            border-radius: 4px;
+        }
+
+        .output-area::-webkit-scrollbar-thumb:hover {
+            background: #00b8cc;
+        }
+
+        .output-line {
+            padding: 5px 0;
+            border-bottom: 1px solid rgba(0, 212, 255, 0.1);
+        }
+
+        .output-line.success {
+            color: #00d400;
+        }
+
+        .output-line.error {
+            color: #d40000;
+        }
+
+        .output-line.info {
+            color: #00d4ff;
+        }
+
+        /* ==================== RENDERS GALLERY ==================== */
+        .renders-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .render-card {
+            position: relative;
+            aspect-ratio: 16/9;
+            background: rgba(0, 0, 0, 0.5);
+            border: 1px solid #00d4ff;
+            border-radius: 6px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .render-card:hover {
+            border-color: #00ff00;
+            box-shadow: 0 0 15px rgba(0, 212, 255, 0.4);
+            transform: scale(1.05);
+        }
+
+        .render-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .render-card-info {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+            padding: 10px;
+            font-size: 11px;
+            color: #ecf0f1;
+        }
+
+        /* ==================== RENDER CONTROLS ==================== */
+        .render-controls {
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid #00d4ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .control-group {
+            margin-bottom: 15px;
+        }
+
+        .control-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 12px;
+            color: #00d4ff;
+        }
+
+        .control-group select,
+        .control-group input {
+            width: 100%;
+            padding: 8px 12px;
+            background: rgba(0, 212, 255, 0.1);
+            border: 1px solid #00d4ff;
+            border-radius: 4px;
+            color: #ecf0f1;
+            font-size: 12px;
+        }
+
+        .control-group select:focus,
+        .control-group input:focus {
+            outline: none;
+            background: rgba(0, 212, 255, 0.2);
+        }
+
+        /* ==================== STATS ==================== */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+
+        .stat-card {
+            background: rgba(0, 212, 255, 0.1);
+            border: 1px solid #00d4ff;
+            border-radius: 6px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .stat-card h3 {
+            font-size: 24px;
+            color: #00d4ff;
+            margin-bottom: 5px;
+        }
+
+        .stat-card p {
+            font-size: 12px;
+            color: #999;
+        }
+
+        /* ==================== MODAL ==================== */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: #1a1a2e;
+            border: 2px solid #00d4ff;
+            border-radius: 8px;
+            padding: 30px;
+            max-width: 600px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .modal-header {
+            color: #00d4ff;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .modal-body {
+            margin-bottom: 20px;
+        }
+
+        .modal-footer {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+        }
+
+        /* ==================== LOADER ==================== */
+        .loader {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .loader.active {
+            display: block;
+        }
+
+        .spinner {
+            border: 3px solid rgba(0, 212, 255, 0.1);
+            border-top: 3px solid #00d4ff;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* ==================== RESPONSIVE ==================== */
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+
+            .renders-grid {
+                grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>
+                🤖 ZULY 3.0
+                <span style="font-size: 18px; color: #999;">- AI 3D Agent</span>
+            </h1>
+            <span class="status-badge" id="status-badge">Inicializando...</span>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Panel Izquierdo: Control -->
+            <div>
+                <!-- Command Input -->
+                <div class="panel">
+                    <h2>🎬 Comandos Naturales</h2>
+                    <div class="input-area">
+                        <input 
+                            type="text" 
+                            id="command-input" 
+                            placeholder="Ejemplo: crea un cubo rojo y renderiza con cycles..."
+                            autocomplete="off"
+                        >
+                        <button class="btn" id="send-btn">Enviar</button>
+                    </div>
+                    <div class="loader" id="loader">
+                        <div class="spinner"></div>
+                        <p style="color: #00d4ff; margin-top: 10px;">Procesando...</p>
+                    </div>
+                    <div class="output-area" id="output"></div>
+                    <div style="display: flex; gap: 10px;">
+                        <button class="btn secondary" id="clear-output">Limpiar</button>
+                        <button class="btn secondary" id="copy-output">Copiar</button>
+                    </div>
+                </div>
+
+                <!-- Render Controls -->
+                <div class="panel" style="margin-top: 20px;">
+                    <h2>⚙️ Configuración de Render</h2>
+                    <div class="render-controls">
+                        <div class="control-group">
+                            <label>Motor de Render</label>
+                            <select id="render-engine">
+                                <option value="CYCLES">CYCLES (Fotorealista)</option>
+                                <option value="EEVEE">EEVEE (Tiempo Real)</option>
+                                <option value="WORKBENCH">WORKBENCH (Viewport)</option>
+                            </select>
+                        </div>
+                        <div class="control-group">
+                            <label>Muestras</label>
+                            <input type="number" id="render-samples" value="128" min="32" max="2048">
+                        </div>
+                        <div class="control-group">
+                            <label>Resolución</label>
+                            <select id="render-resolution">
+                                <option value="1280x720">720p (1280x720)</option>
+                                <option value="1920x1080" selected>1080p (1920x1080)</option>
+                                <option value="2560x1440">1440p (2560x1440)</option>
+                                <option value="3840x2160">4K (3840x2160)</option>
+                            </select>
+                        </div>
+                        <div class="control-group">
+                            <label>
+                                <input type="checkbox" id="gpu-acceleration" checked>
+                                Aceleración GPU
+                            </label>
+                        </div>
+                        <button class="btn" id="render-btn">🎨 Renderizar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Panel Derecho: Renders y Stats -->
+            <div>
+                <!-- Renders -->
+                <div class="panel">
+                    <h2>📸 Renders Generados</h2>
+                    <div class="renders-grid" id="renders-grid">
+                        <div style="grid-column: 1/-1; text-align: center; color: #999; padding: 40px;">
+                            Sin renders aún
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stats -->
+                <div class="panel" style="margin-top: 20px;">
+                    <h2>📊 Estadísticas</h2>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <h3 id="stat-commands">0</h3>
+                            <p>Comandos Ejecutados</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3 id="stat-renders">0</h3>
+                            <p>Renders Generados</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3 id="stat-objects">0</h3>
+                            <p>Objetos en Escena</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3 id="stat-uptime">0s</h3>
+                            <p>Tiempo de Sesión</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="render-modal">
+        <div class="modal-content">
+            <div class="modal-header">📊 Análisis del Render</div>
+            <div class="modal-body" id="modal-body"></div>
+            <div class="modal-footer">
+                <button class="btn secondary" id="close-modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script>
+        // ==================== VARIABLES GLOBALES ====================
+        let socket = io();
+        let commandCount = 0;
+        let renderCount = 0;
+        let sessionStart = Date.now();
+
+        // ==================== INICIALIZACIÓN ====================
+        document.addEventListener('DOMContentLoaded', () => {
+            initializeUI();
+            checkSystemStatus();
+            setInterval(updateUptime, 1000);
+            setInterval(loadRenders, 5000);
+        });
+
+        function initializeUI() {
+            // Event listeners
+            document.getElementById('send-btn').addEventListener('click', sendCommand);
+            document.getElementById('command-input').addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') sendCommand();
+            });
+            document.getElementById('render-btn').addEventListener('click', startRender);
+            document.getElementById('clear-output').addEventListener('click', clearOutput);
+            document.getElementById('copy-output').addEventListener('click', copyOutput);
+            document.getElementById('close-modal').addEventListener('click', closeModal);
+        }
+
+        // ==================== API CALLS ====================
+        async function checkSystemStatus() {
+            try {
+                const response = await fetch('/api/status');
+                const data = await response.json();
+                
+                const badge = document.getElementById('status-badge');
+                if (data.agent_initialized) {
+                    badge.textContent = '🟢 Conectado';
+                    badge.classList.remove('offline');
+                } else {
+                    badge.textContent = '🔴 Desconectado';
+                    badge.classList.add('offline');
+                }
+            } catch (e) {
+                console.error('Error verificando estado:', e);
+                document.getElementById('status-badge').textContent = '🔴 Error';
+                document.getElementById('status-badge').classList.add('offline');
+            }
+        }
+
+        async function sendCommand() {
+            const input = document.getElementById('command-input');
+            const command = input.value.trim();
+            
+            if (!command) return;
+
+            appendOutput(`📤 > ${command}`, 'info');
+            input.value = '';
+            showLoader(true);
+            commandCount++;
+            updateStats();
+
+            try {
+                const response = await fetch('/api/command', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ request: command })
+                });
+
+                const data = await response.json();
+                
+                if (data.error) {
+                    appendOutput(`❌ Error: ${data.error}`, 'error');
+                } else {
+                    appendOutput(`✅ Comando procesándose...`, 'success');
+                    // Aquí podrías implementar polling para obtener el resultado
+                }
+            } catch (e) {
+                appendOutput(`❌ Error: ${e.message}`, 'error');
+            } finally {
+                showLoader(false);
+            }
+        }
+
+        async function startRender() {
+            const engine = document.getElementById('render-engine').value;
+            const samples = document.getElementById('render-samples').value;
+            const resolution = document.getElementById('render-resolution').value;
+            const gpu = document.getElementById('gpu-acceleration').checked;
+
+            appendOutput(`🎨 Iniciando render: ${engine}, ${samples} muestras, ${resolution}...`, 'info');
+            showLoader(true);
+
+            try {
+                const response = await fetch('/api/render', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        config: {
+                            engine: engine,
+                            samples: parseInt(samples),
+                            resolution: resolution,
+                            gpu: gpu
+                        }
+                    })
+                });
+
+                const data = await response.json();
+                
+                if (data.error) {
+                    appendOutput(`❌ Error en render: ${data.error}`, 'error');
+                } else {
+                    appendOutput(`✅ Render iniciado`, 'success');
+                    renderCount++;
+                    updateStats();
+                }
+            } catch (e) {
+                appendOutput(`❌ Error: ${e.message}`, 'error');
+            } finally {
+                showLoader(false);
+            }
+        }
+
+        async function loadRenders() {
+            try {
+                const response = await fetch('/api/renders');
+                const data = await response.json();
+                
+                const grid = document.getElementById('renders-grid');
+                
+                if (data.renders.length === 0) {
+                    grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; color: #999; padding: 40px;">Sin renders aún</div>';
+                    return;
+                }
+
+                grid.innerHTML = data.renders.map((render, idx) => `
+                    <div class="render-card" onclick="openRenderModal('${render.filename}')">
+                        <img src="/renders/${render.filename}" alt="Render ${idx}">
+                        <div class="render-card-info">
+                            <div>${render.filename}</div>
+                            <div style="font-size: 10px; color: #999;">
+                                ${new Date(render.timestamp).toLocaleString()}
+                            </div>
+                        </div>
+                    </div>
+                `).join('');
+            } catch (e) {
+                console.error('Error cargando renders:', e);
+            }
+        }
+
+        // ==================== UTILIDADES ==================== 
+        function appendOutput(text, type = 'info') {
+            const output = document.getElementById('output');
+            const line = document.createElement('div');
+            line.className = `output-line ${type}`;
+            line.textContent = text;
+            output.appendChild(line);
+            output.scrollTop = output.scrollHeight;
+        }
+
+        function clearOutput() {
+            document.getElementById('output').innerHTML = '';
+        }
+
+        function copyOutput() {
+            const output = document.getElementById('output');
+            const text = Array.from(output.children)
+                .map(line => line.textContent)
+                .join('\n');
+            navigator.clipboard.writeText(text);
+            appendOutput('✅ Output copiado al portapapeles', 'success');
+        }
+
+        function showLoader(show) {
+            document.getElementById('loader').classList.toggle('active', show);
+        }
+
+        function updateStats() {
+            document.getElementById('stat-commands').textContent = commandCount;
+            document.getElementById('stat-renders').textContent = renderCount;
+        }
+
+        function updateUptime() {
+            const uptime = Math.floor((Date.now() - sessionStart) / 1000);
+            document.getElementById('stat-uptime').textContent = `${uptime}s`;
+        }
+
+        function openRenderModal(filename) {
+            const modal = document.getElementById('render-modal');
+            const body = document.getElementById('modal-body');
+            body.innerHTML = `
+                <img src="/renders/${filename}" style="width: 100%; border-radius: 6px; margin-bottom: 20px;">
+                <p><strong>Archivo:</strong> ${filename}</p>
+                <button class="btn" onclick="downloadRender('${filename}')" style="width: 100%; margin-top: 10px;">
+                    Descargar
+                </button>
+                <button class="btn" onclick="analyzeRender('${filename}')" style="width: 100%; margin-top: 10px;">
+                    Analizar con IA
+                </button>
+            `;
+            modal.classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('render-modal').classList.remove('active');
+        }
+
+        function downloadRender(filename) {
+            window.location.href = `/renders/${filename}`;
+        }
+
+        function analyzeRender(filename) {
+            appendOutput(`🔍 Analizando render: ${filename}...`, 'info');
+            // Implementar análisis
+        }
+
+        // ==================== WEBSOCKET EVENTS ====================
+        socket.on('connected', (data) => {
+            appendOutput(`✅ ${data.message}`, 'success');
+            checkSystemStatus();
+        });
+
+        socket.on('command_result', (data) => {
+            appendOutput(`✅ Comando completado`, 'success');
+        });
+
+        socket.on('command_error', (data) => {
+            appendOutput(`❌ Error: ${data.error}`, 'error');
+        });
+
+        socket.on('render_completed', (data) => {
+            appendOutput(`✅ Render completado`, 'success');
+            loadRenders();
+        });
+
+        // Cargar renders al iniciar
+        loadRenders();
+    </script>
+</body>
+</html>

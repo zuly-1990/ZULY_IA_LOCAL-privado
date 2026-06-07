@@ -1,0 +1,65 @@
+# Ejercicio B1.2: Ciudad Procedural (Scripts Externos)
+# Objetivo: Cargar y ejecutar un script Python complejo desde un archivo externo.
+
+name: "Generador de Ciudad"
+fase: "B"
+numero: "B1.2"
+descripcion: "Creación de una ciudad aleatoria mediante script externo"
+dificultad: "avanzado"
+tiempo_estimado_segundos: 10
+
+steps:
+  - action: "clear_scene"
+
+  # 1. Ejecutar script externo
+  - action: "run_python_script"
+    params:
+      # Ruta relativa desde ZULY_IA_LOCAL
+      script_path: "ZULY_LAB/B_automatizacion/scripts/city_generator_v1.py"
+      variables:
+        grid_size: 5
+        block_size: 2.0
+        max_height: 6.0
+
+  # 2. Configurar Escena
+  - action: "create_light"
+    params:
+      light_type: "SUN"
+      location: [10, 10, 20]
+      energy: 8.0
+      name: "Sol_Ciudad"
+
+  - action: "create_camera"
+    params:
+      location: [15, -15, 12]
+      name: "CamaraCiudad"
+
+  - action: "position_camera"
+    params:
+      camera_name: "CamaraCiudad"
+      location: [15, -15, 12]
+      look_at: [4, 4, 0] # Centro estimado de la ciudad (grid 5x5, 2.0 block)
+
+  - action: "set_active_camera"
+    params:
+      camera_name: "CamaraCiudad"
+
+  # 3. Render
+  - action: "render_scene"
+    params:
+      output_path: "ZULY_LAB/resultados_zuly/B1.2_render_ciudad.png"
+      resolution: [1024, 768]
+      samples: 64
+
+  # 4. Guardar
+  - action: "save_project"
+    params:
+      filepath: "ZULY_LAB/resultados_zuly/B1.2_ciudad_procedural.blend"
+
+validation:
+  - type: "object_count"
+    expected: 28 # Aprox: 25 edificios + suelo + sol + camara + default cube?
+                 # Validaremos > 20 para ser flexibles con la aleatoriedad
+
+success_criteria:
+  min_steps_successful: 4

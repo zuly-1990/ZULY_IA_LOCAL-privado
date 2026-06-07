@@ -1,0 +1,14 @@
+{
+  "certificado_id": "CERT-LUZ-001_Iluminacion_3Point-20260404211009",
+  "pattern_id": "LUZ-001_Iluminacion_3Point",
+  "fecha_sello": "2026-04-04T21:10:09.421394",
+  "sellado_por": "Soberano",
+  "decision": "SELLADO",
+  "dictamen_jues": "✅ APTO_PARA_SELLO",
+  "validacion": {
+    "malla": "LIMPIA",
+    "peso_kb": 812.68,
+    "color": "#B0B0B0",
+    "hash": "1c9eb604c13d0584984b58ecbd25a0cc"
+  }
+}

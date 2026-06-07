@@ -1,0 +1,184 @@
+{
+  "ejercicio": "A1.3",
+  "nombre": "Base Estructural",
+  "timestamp": "2026-02-15T15:43:44.414466",
+  "pasos_ejecutados": [
+    {
+      "numero": 1,
+      "action": "create_cube",
+      "params": {
+        "location": [
+          0,
+          0,
+          0
+        ],
+        "name": "Base",
+        "scale": [
+          5,
+          5,
+          0.2
+        ]
+      },
+      "exito": false,
+      "timestamp": "2026-02-15T15:43:44.414500",
+      "resultado": {
+        "success": false,
+        "error": "Invalid scale. Must be positive number",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_cube"
+      },
+      "error": "Invalid scale. Must be positive number"
+    },
+    {
+      "numero": 2,
+      "action": "create_cube",
+      "params": {
+        "location": [
+          -2,
+          -2,
+          0.5
+        ],
+        "name": "Soporte_1",
+        "scale": [
+          0.3,
+          0.3,
+          1.0
+        ]
+      },
+      "exito": false,
+      "timestamp": "2026-02-15T15:43:44.414646",
+      "resultado": {
+        "success": false,
+        "error": "Invalid scale. Must be positive number",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_cube"
+      },
+      "error": "Invalid scale. Must be positive number"
+    },
+    {
+      "numero": 3,
+      "action": "create_cube",
+      "params": {
+        "location": [
+          2,
+          -2,
+          0.5
+        ],
+        "name": "Soporte_2",
+        "scale": [
+          0.3,
+          0.3,
+          1.0
+        ]
+      },
+      "exito": false,
+      "timestamp": "2026-02-15T15:43:44.414751",
+      "resultado": {
+        "success": false,
+        "error": "Invalid scale. Must be positive number",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_cube"
+      },
+      "error": "Invalid scale. Must be positive number"
+    },
+    {
+      "numero": 4,
+      "action": "create_cube",
+      "params": {
+        "location": [
+          -2,
+          2,
+          0.5
+        ],
+        "name": "Soporte_3",
+        "scale": [
+          0.3,
+          0.3,
+          1.0
+        ]
+      },
+      "exito": false,
+      "timestamp": "2026-02-15T15:43:44.414848",
+      "resultado": {
+        "success": false,
+        "error": "Invalid scale. Must be positive number",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_cube"
+      },
+      "error": "Invalid scale. Must be positive number"
+    },
+    {
+      "numero": 5,
+      "action": "create_cube",
+      "params": {
+        "location": [
+          2,
+          2,
+          0.5
+        ],
+        "name": "Soporte_4",
+        "scale": [
+          0.3,
+          0.3,
+          1.0
+        ]
+      },
+      "exito": false,
+      "timestamp": "2026-02-15T15:43:44.414935",
+      "resultado": {
+        "success": false,
+        "error": "Invalid scale. Must be positive number",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_cube"
+      },
+      "error": "Invalid scale. Must be positive number"
+    },
+    {
+      "numero": 6,
+      "action": "save_project",
+      "params": {
+        "filepath": "resultados_zuly/A1.3_base_estructura.blend"
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T15:43:44.415069",
+      "resultado": {
+        "success": true,
+        "output_path": "resultados_zuly/A1.3_base_estructura.blend",
+        "format": "BLEND",
+        "object_count": 0,
+        "message": "Escena exportada a BLEND en modo simulación",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.save_project"
+      }
+    }
+  ],
+  "pasos_exitosos": 1,
+  "pasos_fallidos": 5,
+  "tiempo_total_segundos": 0.0,
+  "exito": false,
+  "objetos_creados": [],
+  "errores": [
+    "Invalid scale. Must be positive number",
+    "Invalid scale. Must be positive number",
+    "Invalid scale. Must be positive number",
+    "Invalid scale. Must be positive number",
+    "Invalid scale. Must be positive number"
+  ],
+  "validacion": {
+    "total": 2,
+    "pasadas": 0,
+    "fallidas": 2,
+    "detalles": [
+      {
+        "tipo": "object_exists",
+        "pasado": false,
+        "error": "Objeto 'Base' no encontrado en escena"
+      },
+      {
+        "tipo": "object_count",
+        "pasado": false,
+        "error": "Se esperaban 5 objetos, hay 0"
+      }
+    ]
+  }
+}

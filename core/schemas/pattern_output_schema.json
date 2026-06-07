@@ -1,0 +1,263 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "zuly-pattern-schema-v1",
+  "title": "ZULY Pattern Schema",
+  "description": "Formato estándar de salida para patrones ZULY que JUES-BOT espera recibir",
+  "type": "object",
+  "required": ["metadata", "candidatos", "justificacion_jues"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "description": "Información del pedido original",
+      "required": ["pedido_id", "descripcion_soberano", "timestamp_generacion"],
+      "properties": {
+        "pedido_id": {
+          "type": "string",
+          "description": "ID único del pedido (ej: PED-20260403-001)"
+        },
+        "descripcion_soberano": {
+          "type": "string",
+          "description": "Descripción original del usuario"
+        },
+        "timestamp_generacion": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "ia_generadora": {
+          "type": "string",
+          "description": "Nombre de la IA que generó (Claude, GPT-4, etc.)"
+        }
+      }
+    },
+    "candidatos": {
+      "type": "array",
+      "description": "Dos propuestas para Fase de Arena",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["id_candidato", "metadata", "cuerpo_tecnico"],
+        "properties": {
+          "id_candidato": {
+            "type": "string",
+            "enum": ["Candidato_A", "Candidato_B"]
+          },
+          "metadata": {
+            "type": "object",
+            "required": ["id", "nombre_tecnico", "nombre_simple", "autor", "nivel_complejidad", "categoria"],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Z]{3}-\\d{3,4}(_v\\d+)?$",
+                "description": "Ej: CUB-001, CUB-001_v1, ESF-002"
+              },
+              "nombre_tecnico": {
+                "type": "string",
+                "description": "Nombre con nomenclatura técnica"
+              },
+              "nombre_simple": {
+                "type": "string",
+                "description": "Nombre legible para humanos"
+              },
+              "autor": {
+                "type": "string",
+                "description": "IA generadora"
+              },
+              "nivel_complejidad": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 5,
+                "description": "1=Simple, 5=Pro"
+              },
+              "categoria": {
+                "type": "string",
+                "enum": ["Hard Surface", "Orgánico", "Arquitectura", "Producto", "Abstracto", "Iluminación", "Material"]
+              }
+            }
+          },
+          "cuerpo_tecnico": {
+            "type": "object",
+            "description": "Datos técnicos del modelo 3D",
+            "required": ["tipo_generacion", "script_python"],
+            "properties": {
+              "tipo_generacion": {
+                "type": "string",
+                "enum": ["script_bpy", "json_descriptivo"],
+                "description": "¿Cómo se genera el modelo?"
+              },
+              "script_python": {
+                "type": "string",
+                "description": "Código Python completo para Blender (bpy)"
+              },
+              "geometria_pura": {
+                "type": "object",
+                "description": "Alternativa: vértices y caras",
+                "properties": {
+                  "vertices": {
+                    "type": "array",
+                    "items": {
+                      "type": "array",
+                      "items": { "type": "number" },
+                      "minItems": 3,
+                      "maxItems": 3
+                    }
+                  },
+                  "caras": {
+                    "type": "array",
+                    "items": {
+                      "type": "array",
+                      "items": { "type": "integer" }
+                    }
+                  }
+                }
+              },
+              "modificadores": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "tipo": { "type": "string" },
+                    "nombre": { "type": "string" },
+                    "parametros": { "type": "object" }
+                  }
+                }
+              },
+              "material": {
+                "type": "object",
+                "required": ["nombre", "tipo_shader", "color_rgb", "roughness"],
+                "properties": {
+                  "nombre": { "type": "string" },
+                  "tipo_shader": { "type": "string", "enum": ["Principled BSDF", "Emission", "Glass", "Metal"] },
+                  "color_rgb": {
+                    "type": "array",
+                    "items": { "type": "number" },
+                    "minItems": 3,
+                    "maxItems": 4
+                  },
+                  "hex": {
+                    "type": "string",
+                    "pattern": "^#[0-9A-Fa-f]{6}$"
+                  },
+                  "roughness": { "type": "number", "minimum": 0, "maximum": 1 },
+                  "metallic": { "type": "number", "minimum": 0, "maximum": 1 },
+                  "extras": { "type": "object" }
+                }
+              },
+              "iluminacion": {
+                "type": "object",
+                "properties": {
+                  "tipo_setup": { "type": "string", "enum": ["3-point", "HDRI", "Studio", "Ambient"] },
+                  "luces": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "tipo": { "type": "string" },
+                        "nombre": { "type": "string" },
+                        "ubicacion": { "type": "array", "items": { "type": "number" }, "minItems": 3, "maxItems": 3 },
+                        "energia": { "type": "number" }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "propiedades_editables": {
+            "type": "object",
+            "description": "Parámetros que el usuario puede modificar",
+            "properties": {
+              "parametros": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "nombre": { "type": "string" },
+                    "descripcion": { "type": "string" },
+                    "tipo": { "type": "string", "enum": ["float", "int", "color", "boolean", "choice"] },
+                    "valor_default": {},
+                    "min": { "type": "number" },
+                    "max": { "type": "number" },
+                    "opciones": { "type": "array" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "justificacion_jues": {
+      "type": "object",
+      "description": "Explicación técnica de por qué estas versiones",
+      "required": ["estrategia", "diferencias_clave", "recomendacion_preliminar"],
+      "properties": {
+        "estrategia": {
+          "type": "string",
+          "description": "¿Qué estrategia usaste? (modificadores vs geometría pura, etc.)"
+        },
+        "diferencias_clave": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Lista de diferencias técnicas entre A y B"
+        },
+        "recomendacion_preliminar": {
+          "type": "string",
+          "enum": ["Candidato_A", "Candidato_B", "Ambos_viables", "Ninguno_apto"],
+          "description": "Tu recomendación antes de JUES-BOT"
+        },
+        "notas_tecnicas": { "type": "string" }
+      }
+    }
+  },
+  "examples": [
+    {
+      "metadata": {
+        "pedido_id": "PED-20260403-001",
+        "descripcion_soberano": "Cubo Rojo con bordes suaves",
+        "timestamp_generacion": "2026-04-03T14:30:00Z",
+        "ia_generadora": "Claude-3"
+      },
+      "candidatos": [
+        {
+          "id_candidato": "Candidato_A",
+          "metadata": {
+            "id": "CUB-001_A",
+            "nombre_tecnico": "CUB-001_A_BevelRapido",
+            "nombre_simple": "Cubo Rojo con Bevel rápido",
+            "autor": "Claude-3",
+            "nivel_complejidad": 1,
+            "categoria": "Hard Surface"
+          },
+          "cuerpo_tecnico": {
+            "tipo_generacion": "script_bpy",
+            "script_python": "import bpy; ...",
+            "modificadores": [
+              {
+                "tipo": "BEVEL",
+                "nombre": "Bevel_Rapido",
+                "parametros": { "width": 0.05, "segments": 2 }
+              }
+            ],
+            "material": {
+              "nombre": "Mat_Rojo_Basico",
+              "tipo_shader": "Principled BSDF",
+              "color_rgb": [1.0, 0.0, 0.0, 1.0],
+              "hex": "#FF0000",
+              "roughness": 0.5
+            }
+          }
+        }
+      ],
+      "justificacion_jues": {
+        "estrategia": "Candidato A usa modificador Bevel (rápido). Candidato B usa geometría pura con bevel manual (más control).",
+        "diferencias_clave": [
+          "A: Menos vértices, más rápido de calcular",
+          "B: Más control de topología, mejor para animación"
+        ],
+        "recomendacion_preliminar": "Ambos_viables",
+        "notas_tecnicas": "Ambos cumplen color rojo exacto #FF0000"
+      }
+    }
+  ]
+}

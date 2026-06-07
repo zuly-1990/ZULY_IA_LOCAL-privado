@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-05-02T17:14:08.571362",
+  "models": [
+    {
+      "id": "MOD-001_Pabellon_Minimalista",
+      "status": "error",
+      "error": "TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize\n"
+    },
+    {
+      "id": "MOD-002_Torre_Corporativa",
+      "status": "error",
+      "error": "TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize\n"
+    },
+    {
+      "id": "MOD-003_Casa_Contenedor",
+      "status": "error",
+      "error": "TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize\n"
+    },
+    {
+      "id": "MOD-004_Museo_Arte",
+      "status": "error",
+      "error": "TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize\n"
+    },
+    {
+      "id": "MOD-005_Estacion_Espacial",
+      "status": "error",
+      "error": "TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize\n"
+    }
+  ],
+  "total": 5,
+  "success": 0
+}

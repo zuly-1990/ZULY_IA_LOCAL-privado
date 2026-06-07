@@ -1,0 +1,59 @@
+{
+  "timestamp": "2026-04-11T21:39:22.883814",
+  "fecha": "2026-04-11 21:39:22",
+  "pattern_id": "TEST_AGENT",
+  "puntuacion_jues": 100.0,
+  "dictamen": "APTO_PARA_SELLO",
+  "findings": [
+    "V0 (Física): OK - OK",
+    "V1 (Estructural): OK - OK",
+    "V2 (Contextual): OK - OK",
+    "V3 (Topológica): OK - Malla perfecta (True)",
+    "Sincronía Cromática: OK - No verificado",
+    "Optimización: OK - OK",
+    "Inmutabilidad: OK - Hash consistente (auto)"
+  ],
+  "errors": [],
+  "warnings": [],
+  "dashboard": {
+    "estado_malla": "LIMPIA",
+    "estado_malla_icon": "✅",
+    "concordancia_color": "MATCH",
+    "concordancia_icon": "🎨",
+    "peso_patron_kb": 100.0,
+    "hash_corto": "auto"
+  },
+  "raw_results": {
+    "v0": {
+      "verified": true,
+      "details": "OK"
+    },
+    "v1": {
+      "verified": true,
+      "details": "OK"
+    },
+    "v2": {
+      "verified": true,
+      "details": "OK"
+    },
+    "v3": {
+      "verified": true,
+      "metrics": {
+        "is_watertight": true
+      }
+    },
+    "chromatic_sync": {
+      "match": true,
+      "details": "No verificado"
+    },
+    "optimization_instinct": {
+      "optimized": true,
+      "details": "OK",
+      "final_size_kb": 100.0
+    },
+    "immutability_seal": {
+      "verified": true,
+      "hash_short": "auto"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-03-15T12:03:25.309120",
+  "fase_d1_setup": "COMPLETED",
+  "c1": {
+    "evaluations": [],
+    "stats": {}
+  },
+  "c2": {
+    "experiences": [],
+    "stats": {}
+  },
+  "c3": {
+    "decompositions": [
+      {
+        "objective": "Crear escena 3D completa con suelo y columnas",
+        "num_tasks": 4,
+        "success": true
+      }
+    ],
+    "stats": {}
+  },
+  "c4": {
+    "optimizations": [
+      {
+        "best_param": 2.75,
+        "best_score": 0.8,
+        "iterations": 5
+      }
+    ],
+    "stats": {}
+  },
+  "total_time": 8.72
+}

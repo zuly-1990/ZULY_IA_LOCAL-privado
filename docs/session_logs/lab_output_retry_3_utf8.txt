@@ -1,0 +1,351 @@
+﻿blender.exe : 
+TBBmalloc: skip 
+allocation functions 
+replacement in 
+ucrtbase.dll: unknown 
+prologue for function 
+_msize
+En línea: 1 Carácter: 1
++ & 'C:\Users\Admin\Des
+ktop\ZULY_IA_LOCAL\blen
+der\v3\blender-3.6.0-zu
+ly ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (TBBmalloc: sk   
+ ip...function _msi    
+ze:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+Blender 3.6.2 (hash e53e55951e7a built 2023-08-16 23:35:13)
+Read prefs: "C:\Users\Admin\AppData\Roaming\Blender Foundation\Blender\3.6\config\userpref.blend"
+Fra:1 Mem:43.28M (Peak 44.37M) | Time:00:02.47 | Syncing Cube
+Fra:1 Mem:43.32M (Peak 44.37M) | Time:00:16.69 | Syncing Light
+Fra:1 Mem:43.32M (Peak 44.37M) | Time:00:16.69 | Syncing Camera
+Fra:1 Mem:43.32M (Peak 44.37M) | Time:00:16.69 | Syncing Cube.001
+Fra:1 Mem:43.33M (Peak 44.37M) | Time:00:16.69 | Syncing Cube.002
+Fra:1 Mem:43.34M (Peak 44.37M) | Time:00:16.69 | Syncing Cube.003
+Fra:1 Mem:43.34M (Peak 44.37M) | Time:00:16.86 | Rendering 1 / 128 samples
+Fra:1 Mem:43.34M (Peak 44.37M) | Time:00:19.71 | Rendering 26 / 128 samples
+Fra:1 Mem:43.34M (Peak 44.37M) | Time:00:21.59 | Rendering 51 / 128 samples
+Fra:1 Mem:43.34M (Peak 44.37M) | Time:00:23.47 | Rendering 76 / 128 samples
+Fra:1 Mem:43.34M (Peak 44.37M) | Time:00:25.43 | Rendering 101 / 128 samples
+Fra:1 Mem:43.34M (Peak 44.37M) | Time:00:27.40 | Rendering 126 / 128 samples
+Fra:1 Mem:43.34M (Peak 44.37M) | Time:00:27.55 | Rendering 128 / 128 samples
+Saved: 'C:\Users\Admin\Desktop\ZULY_IA_LOCAL\render_output.png'
+ Time: 00:30.35 (Saving: 00:02.18)
+
+Fra:1 Mem:43.32M (Peak 43.32M) | Time:00:00.00 | Syncing Cube
+Fra:1 Mem:43.32M (Peak 43.32M) | Time:00:00.00 | Syncing Light
+Fra:1 Mem:43.32M (Peak 43.32M) | Time:00:00.00 | Syncing Camera
+Fra:1 Mem:43.33M (Peak 43.33M) | Time:00:00.00 | Syncing Cube.001
+Fra:1 Mem:43.34M (Peak 43.34M) | Time:00:00.00 | Syncing Cube.002
+Fra:1 Mem:43.34M (Peak 43.34M) | Time:00:00.00 | Syncing Cube.003
+Fra:1 Mem:43.34M (Peak 43.34M) | Time:00:00.00 | Rendering 1 / 128 samples
+Fra:1 Mem:43.34M (Peak 43.34M) | Time:00:01.58 | Rendering 26 / 128 samples
+Fra:1 Mem:43.34M (Peak 43.34M) | Time:00:02.95 | Rendering 51 / 128 samples
+Fra:1 Mem:43.34M (Peak 43.34M) | Time:00:04.21 | Rendering 76 / 128 samples
+Fra:1 Mem:43.34M (Peak 43.34M) | Time:00:05.46 | Rendering 101 / 128 samples
+Fra:1 Mem:43.34M (Peak 43.34M) | Time:00:06.65 | Rendering 126 / 128 samples
+Fra:1 Mem:43.34M (Peak 43.34M) | Time:00:06.74 | Rendering 128 / 128 samples
+Saved: 'C:\Users\Admin\Desktop\ZULY_IA_LOCAL\render_output.png'
+ Time: 00:07.43 (Saving: 00:00.58)
+
+
+======================================================================
+­ƒº¬ INICIALIZANDO PLAN D LABORATORIO (REAL)
+======================================================================
+[2026-03-15 12:06:11] SUCCESS  [LYZU] C1 - Evaluador de Resultados activado (Plan C)
+[2026-03-15 12:06:11] SUCCESS  [LYZU] C2 - Memoria de Experiencias activado (Plan C)
+[2026-03-15 12:06:11] SUCCESS  [LYZU] C3 - Objetivos Abstractos activado (Plan C)
+[2026-03-15 12:06:11] SUCCESS  [LYZU] C4 - Auto-tuning Procedural activado (Plan C)
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.create_cube
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.create_sphere
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.create_cylinder
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.create_plane
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.create_cone
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.move_object
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.rotate_object
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.scale_object
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.render_scene
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: system.get_info
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.save_project
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.save_scene
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.clear_scene
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.rename_object
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.set_object_visibility
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.set_parent
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.create_material
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.create_texture_material
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.apply_material
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.set_material_color
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.create_light
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.set_light_energy
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.set_light_color
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.create_camera
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.set_active_camera
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.position_camera
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.add_subdivision_surface
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.add_array
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.add_bevel
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.add_boolean
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.export_fbx
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.export_obj
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.export_gltf
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.validate_topology
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.scan_and_learn
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.build_structure
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.save_pattern
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.load_pattern
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.list_patterns
+[2026-03-15 12:06:11] INFO     [LYZU] Registrado handler: blender.run_python_script
+[2026-03-15 12:06:11] SUCCESS  [LYZU] Ô£ô 40 handlers de Blender registrados
+[2026-03-15 12:06:11] WARNING  [LYZU] ALERTA: No hay comandos registrados. El agente no podra ejecutar acciones.
+[12:06:11] Learning Freedom Engine inicializado (max_strategies=5)
+[KG] Knowledge Graph inicializado en bitacora/knowledge_graph.db
+[2026-03-15 12:06:11] SUCCESS  [LYZU] Learning Freedom Framework activado
+[2026-03-15 12:06:11] SUCCESS  [LYZU] LYZU Core 3.0 initialized in reactive mode (Learning Freedom: ON, Cognition: ON)
+Ô£à Plan D inicializado correctamente.
+
+======================================================================
+[FASE D2] EJECUCIONES B├üSICAS (REAL)
+======================================================================
+
+ÔûÂ [1/6] Petici├│n: 'Crea un cubo llamado Cubo_D1 en la posici├│n [0,0,0]'
+[2026-03-15 12:06:11] DEBUG    [LYZU] DialogManager analizando comando: blender.create_primitive (Modo: reactive)
+[2026-03-15 12:06:11] INFO     [LYZU] Bypass de DialogManager por modo REACTIVO para: blender.create_primitive
+[2026-03-15 12:06:11] DEBUG    [LYZU] SafeGuard verificando impacto de: blender.create_primitive
+[2026-03-15 12:06:11] INFO     [LYZU] SafeGuard Audit: blender.create_primitive -> APPROVED
+[2026-03-15 12:06:11] INFO     [LYZU] Filtros superados. Procediendo a ejecuci├│n: crear_objeto
+   Ô£ù Resultado: None
+   Error: No handler found for command: blender.create_primitive
+   ÔÜá´©Å Sin evaluaci├│n C1. ├ëxito: False
+
+ÔûÂ [2/6] Petici├│n: 'Mueve el Cubo_D1 a la posici├│n [2, 0, 0]'
+[2026-03-15 12:06:11] DEBUG    [LYZU] DialogManager analizando comando: blender.create_cube (Modo: reactive)
+[2026-03-15 12:06:11] INFO     [LYZU] Bypass de DialogManager por modo REACTIVO para: blender.create_cube
+[2026-03-15 12:06:11] DEBUG    [LYZU] SafeGuard verificando impacto de: blender.create_cube
+[2026-03-15 12:06:11] INFO     [LYZU] SafeGuard Audit: blender.create_cube -> APPROVED
+[2026-03-15 12:06:11] INFO     [LYZU] Filtros superados. Procediendo a ejecuci├│n: crear_cubo
+[2026-03-15 12:06:11] INFO     [LYZU] Ô£ô BlenderAdapter inicializado correctamente
+[2026-03-15 12:06:11] INFO     [LYZU] Ô£ô BlenderAdapter disponible y activo
+!!! DEBUG: create_primitive(cube, {'location': [0, 0, 0], 'scale': 1.0, 'name': None, 'parent': None}) !!!
+[2026-03-15 12:06:11] DEBUG    [LYZU] Operator call: cube, loc=[0, 0, 0], scale=(1.0, 1.0, 1.0)
+[2026-03-15 12:06:11] DEBUG    [LYZU] Ô£ô Primitiva creada: cube ÔåÆ Cube.001
+[2026-03-15 12:06:11] DEBUG    [LYZU] Ô£ô Material creado: CubeMaterial
+[2026-03-15 12:06:11] DEBUG    [LYZU] Ô£ô Material aplicado: CubeMaterial ÔåÆ Cube.001
+[2026-03-15 12:06:11] SUCCESS  [LYZU] Cubo creado en posici├│n [0, 0, 0]
+[2026-03-15 12:06:11] INFO     [LYZU] C1 Evaluaci├│n: [SUCCESS] Objetivo alcanzado exitosamente (100.0%)
+[2026-03-15 12:06:11] INFO     [LYZU] C2: Experiencia registrada en memoria
+   Ô£ô Resultado: {'success': True, 'object_name': 'Cube.001', 'location': [0, 0, 0], 'scale': 1.0, 'message': 'Cubo creado exitosamente en [0, 0, 0]'}
+   Ô£ô C1 Score: 1.00 - [SUCCESS] Objetivo alcanzado exitosamente (100.0%)
+
+ÔûÂ [3/6] Petici├│n: 'Escala el Cubo_D1 a tama├▒o 2.5'
+[2026-03-15 12:06:11] DEBUG    [LYZU] DialogManager analizando comando: blender.create_cube (Modo: reactive)
+[2026-03-15 12:06:11] INFO     [LYZU] Bypass de DialogManager por modo REACTIVO para: blender.create_cube
+[2026-03-15 12:06:11] DEBUG    [LYZU] SafeGuard verificando impacto de: blender.create_cube
+[2026-03-15 12:06:11] INFO     [LYZU] SafeGuard Audit: blender.create_cube -> APPROVED
+[2026-03-15 12:06:11] INFO     [LYZU] Filtros superados. Procediendo a ejecuci├│n: crear_cubo
+[2026-03-15 12:06:11] INFO     [LYZU] Ô£ô BlenderAdapter inicializado correctamente
+[2026-03-15 12:06:11] INFO     [LYZU] Ô£ô BlenderAdapter disponible y activo
+!!! DEBUG: create_primitive(cube, {'location': [0, 0, 0], 'scale': 1.0, 'name': None, 'parent': None}) !!!
+[2026-03-15 12:06:11] DEBUG    [LYZU] Operator call: cube, loc=[0, 0, 0], scale=(1.0, 1.0, 1.0)
+[2026-03-15 12:06:11] DEBUG    [LYZU] Ô£ô Primitiva creada: cube ÔåÆ Cube.002
+[2026-03-15 12:06:11] DEBUG    [LYZU] Ô£ô Material creado: CubeMaterial
+[2026-03-15 12:06:11] DEBUG    [LYZU] Ô£ô Material aplicado: CubeMaterial ÔåÆ Cube.002
+[2026-03-15 12:06:11] SUCCESS  [LYZU] Cubo creado en posici├│n [0, 0, 0]
+Info: Total files 0 | Changed 0 | Failed 0
+[2026-03-15 12:06:11] INFO     [LYZU] C1 Evaluaci├│n: [SUCCESS] Objetivo alcanzado exitosamente (100.0%)
+[2026-03-15 12:06:11] INFO     [LYZU] C2: Experiencia registrada en memoria
+   Ô£ô Resultado: {'success': True, 'object_name': 'Cube.002', 'location': [0, 0, 0], 'scale': 1.0, 'message': 'Cubo creado exitosamente en [0, 0, 0]'}
+   Ô£ô C1 Score: 1.00 - [SUCCESS] Objetivo alcanzado exitosamente (100.0%)
+
+ÔûÂ [4/6] Petici├│n: 'Crea un material rojo llamado Material_D1'
+[2026-03-15 12:06:11] DEBUG    [LYZU] DialogManager analizando comando: blender.create_primitive (Modo: reactive)
+[2026-03-15 12:06:11] INFO     [LYZU] Bypass de DialogManager por modo REACTIVO para: blender.create_primitive
+[2026-03-15 12:06:11] DEBUG    [LYZU] SafeGuard verificando impacto de: blender.create_primitive
+[2026-03-15 12:06:11] INFO     [LYZU] SafeGuard Audit: blender.create_primitive -> APPROVED
+[2026-03-15 12:06:11] INFO     [LYZU] Filtros superados. Procediendo a ejecuci├│n: crear_objeto
+   Ô£ù Resultado: Sin output
+   Error: Invalid parameters
+   Details: ['objeto_requerido']
+   ÔÜá´©Å Sin evaluaci├│n C1. ├ëxito: False
+
+ÔûÂ [5/6] Petici├│n: 'Aplica el Material_D1 al objeto Cubo_D1'
+[2026-03-15 12:06:11] DEBUG    [LYZU] DialogManager analizando comando: blender.create_cube (Modo: reactive)
+[2026-03-15 12:06:11] INFO     [LYZU] Bypass de DialogManager por modo REACTIVO para: blender.create_cube
+[2026-03-15 12:06:11] DEBUG    [LYZU] SafeGuard verificando impacto de: blender.create_cube
+[2026-03-15 12:06:11] INFO     [LYZU] SafeGuard Audit: blender.create_cube -> APPROVED
+[2026-03-15 12:06:11] INFO     [LYZU] Filtros superados. Procediendo a ejecuci├│n: crear_cubo
+[2026-03-15 12:06:11] INFO     [LYZU] Ô£ô BlenderAdapter inicializado correctamente
+[2026-03-15 12:06:11] INFO     [LYZU] Ô£ô BlenderAdapter disponible y activo
+!!! DEBUG: create_primitive(cube, {'location': [0, 0, 0], 'scale': 1.0, 'name': None, 'parent': None}) !!!
+[2026-03-15 12:06:11] DEBUG    [LYZU] Operator call: cube, loc=[0, 0, 0], scale=(1.0, 1.0, 1.0)
+[2026-03-15 12:06:11] DEBUG    [LYZU] Ô£ô Primitiva creada: cube ÔåÆ Cube.003
+[2026-03-15 12:06:11] DEBUG    [LYZU] Ô£ô Material creado: CubeMaterial
+[2026-03-15 12:06:11] DEBUG    [LYZU] Ô£ô Material aplicado: CubeMaterial ÔåÆ Cube.003
+[2026-03-15 12:06:11] SUCCESS  [LYZU] Cubo creado en posici├│n [0, 0, 0]
+[2026-03-15 12:06:11] INFO     [LYZU] C1 Evaluaci├│n: [SUCCESS] Objetivo alcanzado exitosamente (100.0%)
+[2026-03-15 12:06:11] INFO     [LYZU] C2: Experiencia registrada en memoria
+   Ô£ô Resultado: {'success': True, 'object_name': 'Cube.003', 'location': [0, 0, 0], 'scale': 1.0, 'message': 'Cubo creado exitosamente en [0, 0, 0]'}
+   Ô£ô C1 Score: 1.00 - [SUCCESS] Objetivo alcanzado exitosamente (100.0%)
+
+ÔûÂ [6/6] Petici├│n: 'Renderiza la escena actual'
+[2026-03-15 12:06:11] DEBUG    [LYZU] DialogManager analizando comando: blender.render_scene (Modo: reactive)
+[2026-03-15 12:06:11] INFO     [LYZU] Bypass de DialogManager por modo REACTIVO para: blender.render_scene
+[2026-03-15 12:06:11] DEBUG    [LYZU] SafeGuard verificando impacto de: blender.render_scene
+[2026-03-15 12:06:11] INFO     [LYZU] SafeGuard Audit: blender.render_scene -> APPROVED
+[2026-03-15 12:06:11] INFO     [LYZU] Filtros superados. Procediendo a ejecuci├│n: renderizar
+[2026-03-15 12:06:11] INFO     [LYZU] Ô£ô BlenderAdapter inicializado correctamente
+[2026-03-15 12:06:11] INFO     [LYZU] Ô£ô BlenderAdapter disponible y activo
+[2026-03-15 12:06:41] INFO     [LYZU] Ô£ô Render completado: C:\Users\Admin\Desktop\ZULY_IA_LOCAL\render_output.png (30.36s)
+[2026-03-15 12:06:41] SUCCESS  [LYZU] Render completado: render_output.png
+[2026-03-15 12:06:41] INFO     [LYZU] C1 Evaluaci├│n: [SUCCESS] Objetivo alcanzado exitosamente (100.0%)
+[2026-03-15 12:06:41] INFO     [LYZU] C2: Experiencia registrada en memoria
+   Ô£ô Resultado: {'success': True, 'output_path': 'render_output.png', 'resolution': [1920, 1080], 'format': 'PNG', 'samples': 128, 'render_time': 30.357665538787842, 'message': 'Render guardado en render_output.png'}
+   Ô£ô C1 Score: 1.00 - [SUCCESS] Objetivo alcanzado exitosamente (100.0%)
+
+======================================================================
+[FASE D3] DESCOMPOSICI├ôN DE OBJETIVOS (REAL)
+======================================================================
+
+ÔûÂ Objetivo complejo: 'Crear escena 3D completa con suelo y columnas'
+   Ô£ô Descompuesto en 4 tareas.
+   - Ejecutando subtarea (task_0): Crear objetos b├ísicos
+[2026-03-15 12:06:41] DEBUG    [LYZU] DialogManager analizando comando: blender.create_primitive (Modo: reactive)
+[2026-03-15 12:06:41] INFO     [LYZU] Bypass de DialogManager por modo REACTIVO para: blender.create_primitive
+[2026-03-15 12:06:41] DEBUG    [LYZU] SafeGuard verificando impacto de: blender.create_primitive
+[2026-03-15 12:06:41] INFO     [LYZU] SafeGuard Audit: blender.create_primitive -> APPROVED
+[2026-03-15 12:06:41] INFO     [LYZU] Filtros superados. Procediendo a ejecuci├│n: crear_objeto
+     Status: Ô£ù
+     Error: Invalid parameters
+     Details: ['objeto_requerido']
+   - Ejecutando subtarea (task_1): Aplicar materiales
+[2026-03-15 12:06:41] DEBUG    [LYZU] DialogManager analizando comando: blender.apply_material (Modo: reactive)
+[2026-03-15 12:06:41] INFO     [LYZU] Bypass de DialogManager por modo REACTIVO para: blender.apply_material
+[2026-03-15 12:06:41] DEBUG    [LYZU] SafeGuard verificando impacto de: blender.apply_material
+[2026-03-15 12:06:41] INFO     [LYZU] SafeGuard Audit: blender.apply_material -> APPROVED
+[2026-03-15 12:06:41] INFO     [LYZU] Filtros superados. Procediendo a ejecuci├│n: aplicar_material_a_objeto
+[2026-03-15 12:06:41] INFO     [LYZU] Ô£ô BlenderAdapter inicializado correctamente
+[2026-03-15 12:06:41] INFO     [LYZU] Ô£ô BlenderAdapter disponible y activo
+[2026-03-15 12:06:41] INFO     [LYZU] C1 Evaluaci├│n: [SUCCESS] Objetivo alcanzado exitosamente (100.0%)
+[2026-03-15 12:06:41] INFO     [LYZU] C2: Experiencia registrada en memoria
+     Status: Ô£ô
+   - Ejecutando subtarea (task_2): Agregar iluminaci├│n
+[2026-03-15 12:06:41] DEBUG    [LYZU] DialogManager analizando comando: blender.create_primitive (Modo: reactive)
+[2026-03-15 12:06:41] INFO     [LYZU] Bypass de DialogManager por modo REACTIVO para: blender.create_primitive
+[2026-03-15 12:06:41] DEBUG    [LYZU] SafeGuard verificando impacto de: blender.create_primitive
+[2026-03-15 12:06:41] INFO     [LYZU] SafeGuard Audit: blender.create_primitive -> APPROVED
+[2026-03-15 12:06:41] INFO     [LYZU] Filtros superados. Procediendo a ejecuci├│n: crear_objeto
+     Status: Ô£ù
+     Error: Invalid parameters
+     Details: ['objeto_requerido']
+   - Ejecutando subtarea (task_3): Renderizar
+[2026-03-15 12:06:41] DEBUG    [LYZU] DialogManager analizando comando: blender.render_scene (Modo: reactive)
+[2026-03-15 12:06:41] INFO     [LYZU] Bypass de DialogManager por modo REACTIVO para: blender.render_scene
+[2026-03-15 12:06:41] DEBUG    [LYZU] SafeGuard verificando impacto de: blender.render_scene
+[2026-03-15 12:06:41] INFO     [LYZU] SafeGuard Audit: blender.render_scene -> APPROVED
+[2026-03-15 12:06:41] INFO     [LYZU] Filtros superados. Procediendo a ejecuci├│n: renderizar
+[2026-03-15 12:06:41] INFO     [LYZU] Ô£ô BlenderAdapter inicializado correctamente
+[2026-03-15 12:06:41] INFO     [LYZU] Ô£ô BlenderAdapter disponible y activo
+[2026-03-15 12:06:49] INFO     [LYZU] Ô£ô Render completado: C:\Users\Admin\Desktop\ZULY_IA_LOCAL\render_output.png (7.45s)
+[2026-03-15 12:06:49] SUCCESS  [LYZU] Render completado: render_output.png
+[2026-03-15 12:06:49] INFO     [LYZU] C1 Evaluaci├│n: [SUCCESS] Objetivo alcanzado exitosamente (100.0%)
+[2026-03-15 12:06:49] INFO     [LYZU] C2: Experiencia registrada en memoria
+     Status: Ô£ô
+
+======================================================================
+[FASE D4] OPTIMIZACI├ôN DE PAR├üMETROS (REAL)
+======================================================================
+
+ÔûÂ Optimizando par├ímetro de escalado basado en feedback C1
+[2026-03-15 12:06:49] DEBUG    [LYZU] DialogManager analizando comando: blender.create_primitive (Modo: reactive)
+[2026-03-15 12:06:49] INFO     [LYZU] Bypass de DialogManager por modo REACTIVO para: blender.create_primitive
+[2026-03-15 12:06:49] DEBUG    [LYZU] SafeGuard verificando impacto de: blender.create_primitive
+[2026-03-15 12:06:49] INFO     [LYZU] SafeGuard Audit: blender.create_primitive -> APPROVED
+[2026-03-15 12:06:49] INFO     [LYZU] Filtros superados. Procediendo a ejecuci├│n: crear_objeto
+[2026-03-15 12:06:49] DEBUG    [LYZU] DialogManager analizando comando: blender.create_primitive (Modo: reactive)
+[2026-03-15 12:06:49] INFO     [LYZU] Bypass de DialogManager por modo REACTIVO para: blender.create_primitive
+[2026-03-15 12:06:49] DEBUG    [LYZU] SafeGuard verificando impacto de: blender.create_primitive
+[2026-03-15 12:06:49] INFO     [LYZU] SafeGuard Audit: blender.create_primitive -> APPROVED
+[2026-03-15 12:06:49] INFO     [LYZU] Filtros superados. Procediendo a ejecuci├│n: crear_objeto
+[2026-03-15 12:06:49] DEBUG    [LYZU] DialogManager analizando comando: blender.create_primitive (Modo: reactive)
+[2026-03-15 12:06:49] INFO     [LYZU] Bypass de DialogManager por modo REACTIVO para: blender.create_primitive
+[2026-03-15 12:06:49] DEBUG    [LYZU] SafeGuard verificando impacto de: blender.create_primitive
+[2026-03-15 12:06:49] INFO     [LYZU] SafeGuard Audit: blender.create_primitive -> APPROVED
+[2026-03-15 12:06:49] INFO     [LYZU] Filtros superados. Procediendo a ejecuci├│n: crear_objeto
+[2026-03-15 12:06:49] DEBUG    [LYZU] DialogManager analizando comando: blender.create_primitive (Modo: reactive)
+[2026-03-15 12:06:49] INFO     [LYZU] Bypass de DialogManager por modo REACTIVO para: blender.create_primitive
+[2026-03-15 12:06:49] DEBUG    [LYZU] SafeGuard verificando impacto de: blender.create_primitive
+[2026-03-15 12:06:49] INFO     [LYZU] SafeGuard Audit: blender.create_primitive -> APPROVED
+[2026-03-15 12:06:49] INFO     [LYZU] Filtros superados. Procediendo a ejecuci├│n: crear_objeto
+[2026-03-15 12:06:49] DEBUG    [LYZU] DialogManager analizando comando: blender.create_primitive (Modo: reactive)
+[2026-03-15 12:06:49] INFO     [LYZU] Bypass de DialogManager por modo REACTIVO para: blender.create_primitive
+[2026-03-15 12:06:49] DEBUG    [LYZU] SafeGuard verificando impacto de: blender.create_primitive
+[2026-03-15 12:06:49] INFO     [LYZU] SafeGuard Audit: blender.create_primitive -> APPROVED
+[2026-03-15 12:06:49] INFO     [LYZU] Filtros superados. Procediendo a ejecuci├│n: crear_objeto
+[2026-03-15 12:06:49] DEBUG    [LYZU] DialogManager analizando comando: blender.create_primitive (Modo: reactive)
+[2026-03-15 12:06:49] INFO     [LYZU] Bypass de DialogManager por modo REACTIVO para: blender.create_primitive
+[2026-03-15 12:06:49] DEBUG    [LYZU] SafeGuard verificando impacto de: blender.create_primitive
+[2026-03-15 12:06:49] INFO     [LYZU] SafeGuard Audit: blender.create_primitive -> APPROVED
+[2026-03-15 12:06:49] INFO     [LYZU] Filtros superados. Procediendo a ejecuci├│n: crear_objeto
+[2026-03-15 12:06:49] DEBUG    [LYZU] DialogManager analizando comando: blender.create_primitive (Modo: reactive)
+[2026-03-15 12:06:49] INFO     [LYZU] Bypass de DialogManager por modo REACTIVO para: blender.create_primitive
+[2026-03-15 12:06:49] DEBUG    [LYZU] SafeGuard verificando impacto de: blender.create_primitive
+[2026-03-15 12:06:49] INFO     [LYZU] SafeGuard Audit: blender.create_primitive -> APPROVED
+[2026-03-15 12:06:49] INFO     [LYZU] Filtros superados. Procediendo a ejecuci├│n: crear_objeto
+[2026-03-15 12:06:49] DEBUG    [LYZU] DialogManager analizando comando: blender.create_primitive (Modo: reactive)
+[2026-03-15 12:06:49] INFO     [LYZU] Bypass de DialogManager por modo REACTIVO para: blender.create_primitive
+[2026-03-15 12:06:49] DEBUG    [LYZU] SafeGuard verificando impacto de: blender.create_primitive
+[2026-03-15 12:06:49] INFO     [LYZU] SafeGuard Audit: blender.create_primitive -> APPROVED
+[2026-03-15 12:06:49] INFO     [LYZU] Filtros superados. Procediendo a ejecuci├│n: crear_objeto
+[2026-03-15 12:06:49] DEBUG    [LYZU] DialogManager analizando comando: blender.create_primitive (Modo: reactive)
+[2026-03-15 12:06:49] INFO     [LYZU] Bypass de DialogManager por modo REACTIVO para: blender.create_primitive
+[2026-03-15 12:06:49] DEBUG    [LYZU] SafeGuard verificando impacto de: blender.create_primitive
+[2026-03-15 12:06:49] INFO     [LYZU] SafeGuard Audit: blender.create_primitive -> APPROVED
+[2026-03-15 12:06:49] INFO     [LYZU] Filtros superados. Procediendo a ejecuci├│n: crear_objeto
+[2026-03-15 12:06:49] DEBUG    [LYZU] DialogManager analizando comando: blender.create_primitive (Modo: reactive)
+[2026-03-15 12:06:49] INFO     [LYZU] Bypass de DialogManager por modo REACTIVO para: blender.create_primitive
+[2026-03-15 12:06:49] DEBUG    [LYZU] SafeGuard verificando impacto de: blender.create_primitive
+[2026-03-15 12:06:49] INFO     [LYZU] SafeGuard Audit: blender.create_primitive -> APPROVED
+[2026-03-15 12:06:49] INFO     [LYZU] Filtros superados. Procediendo a ejecuci├│n: crear_objeto
+[2026-03-15 12:06:49] DEBUG    [LYZU] DialogManager analizando comando: blender.create_primitive (Modo: reactive)
+[2026-03-15 12:06:49] INFO     [LYZU] Bypass de DialogManager por modo REACTIVO para: blender.create_primitive
+[2026-03-15 12:06:49] DEBUG    [LYZU] SafeGuard verificando impacto de: blender.create_primitive
+[2026-03-15 12:06:49] INFO     [LYZU] SafeGuard Audit: blender.create_primitive -> APPROVED
+[2026-03-15 12:06:49] INFO     [LYZU] Filtros superados. Procediendo a ejecuci├│n: crear_objeto
+[2026-03-15 12:06:49] DEBUG    [LYZU] DialogManager analizando comando: blender.create_primitive (Modo: reactive)
+[2026-03-15 12:06:49] INFO     [LYZU] Bypass de DialogManager por modo REACTIVO para: blender.create_primitive
+[2026-03-15 12:06:49] DEBUG    [LYZU] SafeGuard verificando impacto de: blender.create_primitive
+[2026-03-15 12:06:49] INFO     [LYZU] SafeGuard Audit: blender.create_primitive -> APPROVED
+[2026-03-15 12:06:49] INFO     [LYZU] Filtros superados. Procediendo a ejecuci├│n: crear_objeto
+[2026-03-15 12:06:49] DEBUG    [LYZU] DialogManager analizando comando: blender.create_primitive (Modo: reactive)
+[2026-03-15 12:06:49] INFO     [LYZU] Bypass de DialogManager por modo REACTIVO para: blender.create_primitive
+[2026-03-15 12:06:49] DEBUG    [LYZU] SafeGuard verificando impacto de: blender.create_primitive
+[2026-03-15 12:06:49] INFO     [LYZU] SafeGuard Audit: blender.create_primitive -> APPROVED
+[2026-03-15 12:06:49] INFO     [LYZU] Filtros superados. Procediendo a ejecuci├│n: crear_objeto
+   Ô£ô Optimizaci├│n completada.
+   Mejor escala: 2.75
+   Iteraciones: 5
+
+======================================================================
+­ƒôè FINALIZANDO LABORATORIO Y EXPORTANDO M├ëTRICAS
+======================================================================
+   Score Promedio C1: 1.000
+Ô£à Reporte generado: reports\plan_d_metrics_real_20260315_120649.json
+Info: Saved "PlanD_Final_20260315_120649.blend"
+Ô£à Escena final guardada: ZULY_LAB\resultados_zuly\PlanD_Final_20260315_120649.blend
+
+======================================================================
+Ô£à PLAN D LABORATORIO COMPLETADO EN 38.5s
+======================================================================
+
+
+Blender quit

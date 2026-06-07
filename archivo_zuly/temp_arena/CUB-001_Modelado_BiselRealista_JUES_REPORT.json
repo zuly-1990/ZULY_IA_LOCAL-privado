@@ -1,0 +1,53 @@
+{
+  "candidato_id": "CUB-001_Modelado_BiselRealista",
+  "timestamp": "2026-04-04T16:00:29.769010",
+  "superpoderes": {
+    "vision_rayos_x": {
+      "status": "LIMPIA",
+      "detalle": "Geometría completamente cerrada y válida",
+      "vertices_no_manifold": 0,
+      "edges_no_manifold": 0,
+      "icon": "✨"
+    },
+    "instinto_optimizacion": {
+      "status": "GRASA_DIGITAL",
+      "peso_kb": 812.4,
+      "limite_kb": 500,
+      "alerta": "⚠️ BASURA DIGITAL DETECTADA: 812.4KB > 500KB",
+      "icon": "🐷"
+    },
+    "sincronia_cromatica": {
+      "status": "NO_MATCH",
+      "color_encontrado": "#CCCCCC",
+      "color_esperado": "#1A4DCC",
+      "rgb": [
+        204,
+        204,
+        204
+      ],
+      "diferencia": "39.9%",
+      "icon": "🎨⚠️"
+    },
+    "sello_inmutabilidad": {
+      "hash": "aa0967195c51f9c4219184166db9f67f",
+      "vertices_count": 8,
+      "faces_count": 6,
+      "icon": "🔒"
+    }
+  },
+  "dashboard": {
+    "estado_malla": "LIMPIA",
+    "estado_malla_icon": "✨",
+    "concordancia_color": "NO_MATCH",
+    "color_encontrado": "#CCCCCC",
+    "concordancia_icon": "🎨⚠️",
+    "peso_patron_kb": 812.4,
+    "peso_alerta": "⚠️ BASURA DIGITAL DETECTADA: 812.4KB > 500KB",
+    "hash_inmutabilidad": "aa0967195c51f9c4219184166db9f67f",
+    "hash_corto": "aa0967195c51f9c4...",
+    "vertices_count": 8
+  },
+  "dictamen": "❌ NO_APTO",
+  "errores": 1,
+  "advertencias": 1
+}

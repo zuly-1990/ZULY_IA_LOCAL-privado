@@ -1,0 +1,14 @@
+{
+  "certificado_id": "CERT-P-004A_CilindroAlto-20260404205623",
+  "pattern_id": "P-004A_CilindroAlto",
+  "fecha_sello": "2026-04-04T20:56:23.278466",
+  "sellado_por": "Soberano",
+  "decision": "SELLADO",
+  "dictamen_jues": "✅ APTO_PARA_SELLO",
+  "validacion": {
+    "malla": "LIMPIA",
+    "peso_kb": 839.81,
+    "color": "#795548",
+    "hash": "9ccd9f1b50d441aaf31508ccf97d6a1a"
+  }
+}

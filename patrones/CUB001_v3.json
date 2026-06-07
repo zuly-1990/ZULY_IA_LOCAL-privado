@@ -1,0 +1,56 @@
+{
+  "id": "CUB-001_v3",
+  "nombre_tecnico": "CUB-001_v3_Pronunciado",
+  "nombre_simple": "Cubo con bisel grande metálico",
+  
+  "descripcion_simple": "Cubo grande con bisel pronunciado, material metal plateado brillante.",
+  "descripcion_tecnica": "Bisel width=0.15, segments=5. Cubo size=3. Material metal (metallic=0.9, roughness=0.2). Auto smooth 45°.",
+  "uso": "Metal, hard surface, industrial, showcase",
+  
+  "tags": ["bevel", "cubo", "hard_surface", "metal", "primitivas", "pronunciado"],
+  
+  "propiedades": {
+    "parametros_editables": {
+      "bevel_width": "Ancho del bisel",
+      "bevel_segments": "Cantidad de segmentos",
+      "cube_size": "Tamaño del cubo",
+      "metallic": "Factor metálico"
+    },
+    "valores_default": {
+      "bevel_width": 0.15,
+      "bevel_segments": 5,
+      "cube_size": 3.0,
+      "metallic": 0.9
+    },
+    "limites": {
+      "bevel_width": [0.001, 0.2],
+      "bevel_segments": [1, 6],
+      "cube_size": [0.1, 10.0],
+      "metallic": [0.0, 1.0]
+    },
+    "dependencias": []
+  },
+  
+  "reglas_aplicadas": {
+    "reset": true,
+    "escala": true,
+    "nombres_tecnicos": true,
+    "sin_errores": true,
+    "material": true
+  },
+  
+  "archivos_generados": {
+    "blend": "./ZULY_PROJECTS/CUB001_v3_Pronunciado.blend",
+    "render": "./ZULY_PROJECTS/CUB001_v3_preview.png",
+    "script": "./CUB001_v3_Pronunciado.py"
+  },
+  
+  "validacion": {
+    "ejecutado": "2026-04-03T14:22:00",
+    "status": "COMPLETADO",
+    "tiempo_render": "22.81s"
+  },
+  
+  "variante_de": "CUB-001",
+  "tipo_variacion": "Pronunciado (máximo seguro)"
+}

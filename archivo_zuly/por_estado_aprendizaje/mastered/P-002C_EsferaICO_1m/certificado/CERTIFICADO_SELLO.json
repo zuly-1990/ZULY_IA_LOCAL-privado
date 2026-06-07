@@ -1,0 +1,14 @@
+{
+  "certificado_id": "CERT-P-002C_EsferaICO_1m-20260404204855",
+  "pattern_id": "P-002C_EsferaICO_1m",
+  "fecha_sello": "2026-04-04T20:48:55.229657",
+  "sellado_por": "Soberano",
+  "decision": "SELLADO",
+  "dictamen_jues": "✅ APTO_PARA_SELLO",
+  "validacion": {
+    "malla": "LIMPIA",
+    "peso_kb": 876.32,
+    "color": "#00BCD4",
+    "hash": "d9d71705422ac4ac5c5293681e582887"
+  }
+}

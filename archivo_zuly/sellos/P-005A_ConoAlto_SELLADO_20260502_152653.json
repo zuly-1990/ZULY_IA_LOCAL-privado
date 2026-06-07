@@ -1,0 +1,22 @@
+{
+  "candidato_id": "P-005A_ConoAlto",
+  "timestamp": "2026-05-02T15:26:53.084257",
+  "puntuacion_jues": 100.0,
+  "dictamen": "APTO_PARA_SELLO",
+  "target_color": null,
+  "archivo_original": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\temp_arena\\P-005A_ConoAlto.blend",
+  "archivo_sellado": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-005A_ConoAlto_SELLADO_20260502_152653.blend",
+  "dashboard": {
+    "estado_malla": "LIMPIA",
+    "estado_malla_icon": "✅",
+    "concordancia_color": "MATCH",
+    "concordancia_icon": "🎨",
+    "peso_patron_kb": 872.78,
+    "hash_corto": "fallback"
+  },
+  "validaciones": {
+    "errores": 0,
+    "advertencias": 0,
+    "hallazgos": 7
+  }
+}

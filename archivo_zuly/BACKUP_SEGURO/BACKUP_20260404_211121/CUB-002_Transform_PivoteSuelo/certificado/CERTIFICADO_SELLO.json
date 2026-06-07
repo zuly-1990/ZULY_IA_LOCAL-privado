@@ -1,0 +1,14 @@
+{
+  "certificado_id": "CERT-CUB-002_Transform_PivoteSuelo-20260404162701",
+  "pattern_id": "CUB-002_Transform_PivoteSuelo",
+  "fecha_sello": "2026-04-04T16:27:01.573622",
+  "sellado_por": "Soberano",
+  "decision": "SELLADO",
+  "dictamen_jues": "✅ APTO_PARA_SELLO",
+  "validacion": {
+    "malla": "LIMPIA",
+    "peso_kb": 834.8,
+    "color": "#4CAF50",
+    "hash": "3af34ed300b6d1639a71b6122802f427"
+  }
+}

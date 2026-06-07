@@ -1,0 +1,25 @@
+{
+    "tutorial_ambiguous.txt": {
+        "confianza": "MEDIO",
+        "aclaraciones": [
+            "El paso 'Paso 1: Pon algo más o menos por el centro.' usa lenguaje ambiguo. ¿Podrías ser más específico con las instrucciones?",
+            "El paso 'Paso 2: Hazlo un poco más grande.' usa lenguaje ambiguo. ¿Podrías ser más específico con las instrucciones?",
+            "El paso 'Paso 3: Quizás añade una luz por ahí arriba.' usa lenguaje ambiguo. ¿Podrías ser más específico con las instrucciones?"
+        ],
+        "riesgos": []
+    },
+    "tutorial_missing_data.txt": {
+        "confianza": "ALTO",
+        "aclaraciones": [
+            "En el paso 'Paso 1: Crea un cubo.', detecto vacíos: El objeto 'cube_1' no tiene ubicación definida ni relaciones espaciales.. ¿Podrías dar más detalles técnicos?"
+        ],
+        "riesgos": []
+    },
+    "tutorial_perfect.txt": {
+        "confianza": "ALTO",
+        "aclaraciones": [
+            "En el paso 'Paso 2: Escala el cubo a 2.', detecto vacíos: El objeto 'cube_1' no tiene ubicación definida ni relaciones espaciales.. ¿Podrías dar más detalles técnicos?"
+        ],
+        "riesgos": []
+    }
+}

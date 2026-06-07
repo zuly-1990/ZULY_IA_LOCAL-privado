@@ -1,0 +1,28 @@
+{
+  "pattern_id": "P-002C_EsferaICO_1m",
+  "nombre_tecnico": "P-002C_EsferaICO_1m",
+  "fecha_sello": "2026-04-04T20:48:55.231679",
+  "estado": "SELLADO",
+  "sellado_por": "Soberano",
+  "validacion_jues": {
+    "vision_rayos_x": {
+      "status": "LIMPIA",
+      "icon": "✨"
+    },
+    "instinto_optimizacion": {
+      "status": "OPTIMO",
+      "peso_kb": 876.32,
+      "icon": "⚡"
+    },
+    "sincronia_cromatica": {
+      "status": "MATCH",
+      "color_encontrado": "#00BCD4",
+      "icon": "🎯"
+    },
+    "sello_inmutabilidad": {
+      "hash": "d9d71705422ac4ac5c5293681e582887",
+      "vertices_count": 42,
+      "icon": "🔒"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "mesh_objects": 2,
+  "cameras": 1,
+  "lights": 0,
+  "materials": 3,
+  "vertices": 16,
+  "edges": 24,
+  "faces": 12,
+  "dimensions": [
+    3.5,
+    4.76,
+    2.2
+  ],
+  "materials_detail": [
+    {
+      "name": "Dots Stroke",
+      "color": "#N/A"
+    },
+    {
+      "name": "Material",
+      "color": "#cccccc"
+    },
+    {
+      "name": "Material.001",
+      "color": "#cccccc"
+    }
+  ],
+  "file_size_kb": 835.0
+}

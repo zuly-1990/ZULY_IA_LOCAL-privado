@@ -1,0 +1,165 @@
+﻿blender.exe : 
+TBBmalloc: skip 
+allocation functions 
+replacement in 
+ucrtbase.dll: unknown 
+prologue for function 
+_msize
+En línea: 1 Carácter: 1
++ & $blender 
+--background --python s
+cripts\semana_6_reto_1_
+casa.py > re ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (TBBmalloc: sk   
+ ip...function _msi    
+ze:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+[2026-03-07 20:11:49] INFO     [LYZU] === INICIANDO RETO 1: CASA MODULAR (VERSION BINARIA) ===
+[2026-03-07 20:11:49] INFO     [LYZU] ============================================================
+[2026-03-07 20:11:49] INFO     [LYZU] INICIALIZANDO AGENTE ZULY - VERSI├ôN INTELIGENTE
+[2026-03-07 20:11:49] INFO     [LYZU] ============================================================
+[2026-03-07 20:11:49] INFO     [LYZU] Ô£ô BlenderAdapter inicializado correctamente
+[2026-03-07 20:11:49] INFO     [LYZU] Ô£ô BlenderAdapter disponible y activo
+[2026-03-07 20:11:49] INFO     [LYZU] [FASE 17] Engine Adapter: BlenderAdapter
+[2026-03-07 20:11:49] INFO     [LYZU] Cargando comandos desde: C:\Users\Admin\Desktop\ZULY_IA_LOCAL\core\commands
+[2026-03-07 20:11:49] INFO     [LYZU] Cargados 7 m├│dulos de comandos (0 errores)
+[2026-03-07 20:11:49] INFO     [LYZU] Total de comandos cargados: 0
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.create_cube
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.create_sphere
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.create_cylinder
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.create_plane
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.move_object
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.rotate_object
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.scale_object
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.render_scene
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: system.get_info
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.save_project
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.save_scene
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.clear_scene
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.rename_object
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.set_object_visibility
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.create_material
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.create_texture_material
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.apply_material
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.set_material_color
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.create_light
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.set_light_energy
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.set_light_color
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.create_camera
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.set_active_camera
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.position_camera
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.add_subdivision_surface
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.add_array
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.add_bevel
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.export_fbx
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.export_obj
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.export_gltf
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.build_structure
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.save_pattern
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.load_pattern
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.list_patterns
+[2026-03-07 20:11:49] INFO     [LYZU] Registrado handler: blender.run_python_script
+[2026-03-07 20:11:49] SUCCESS  [LYZU] Ô£ô 35 handlers de Blender registrados
+[2026-03-07 20:11:49] INFO     [LYZU] [FASE 23] IntentRouter: 35 handlers registrados
+[2026-03-07 20:11:49] INFO     [LYZU] NLU inicializado con 0 comandos
+[2026-03-07 20:11:49] INFO     [LYZU] SceneMonitor inicializado
+[2026-03-07 20:11:49] INFO     [LYZU] [PatternMemory] Inicializada con 4 patrones totales (Staging + Verified)
+[2026-03-07 20:11:49] INFO     [COGNITION] CognitionCore inicializado con Memoria Heur├¡stica
+[2026-03-07 20:11:49] INFO     [COGNITION] Evaluador registrado: render
+[2026-03-07 20:11:49] INFO     [LYZU] [FASE 18.5] FailsafeExecutor y ActionLogger integrados
+[2026-03-07 20:11:49] INFO     [LYZU] [OK] 0 comandos cargados
+[2026-03-07 20:11:49] INFO     [LYZU] [OK] Procesador de Lenguaje Natural inicializado
+[2026-03-07 20:11:49] INFO     [LYZU] [OK] Monitor de Escena activo (v├¡a BlenderAdapter)
+[2026-03-07 20:11:49] INFO     [LYZU] [OK] Memoria de Patrones: 4 patrones
+[2026-03-07 20:11:49] INFO     [LYZU] [OK] Autoconciencia Operativa: activa (pasiva)
+[2026-03-07 20:11:49] INFO     [LYZU] [OK] Identidad de Autor: VERIFICADA
+[2026-03-07 20:11:49] INFO     [LYZU] [OK] Estado Inicial: Observaci├│n
+[2026-03-07 20:11:49] INFO     [LYZU] ============================================================
+[2026-03-07 20:11:49] INFO     [LYZU] Agente Zuly listo conforme al Protocolo de Identidad
+[2026-03-07 20:11:49] INFO     [LYZU] [FASE 17] Desacoplamiento: ACTIVO (BlenderAdapter)
+[2026-03-07 20:11:49] INFO     [LYZU] ============================================================
+[2026-03-07 20:11:49] INFO     [LYZU] [FASE 18.5] M├│dulos registrados: 6
+[2026-03-07 20:11:49] INFO     [LYZU] 
+============================================================
+[2026-03-07 20:11:49] INFO     [LYZU] NUEVA PETICI├ôN: Limpia la escena de Blender
+[2026-03-07 20:11:49] INFO     [LYZU] ============================================================
+[2026-03-07 20:11:49] DEBUG    [LYZU] No se encontr├│ comando similar para: limpia la escena de blender
+[2026-03-07 20:11:49] INFO     [LYZU] 
+============================================================
+[2026-03-07 20:11:49] INFO     [LYZU] NUEVA PETICI├ôN: Crea un plano de 10 por 10 para el suelo
+[2026-03-07 20:11:49] INFO     [LYZU] ============================================================
+[2026-03-07 20:11:49] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 20:11:49] INFO     [LYZU]   1. blender.create_plane (85%) (confianza: 85.00%)
+[2026-03-07 20:11:49] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_plane
+[2026-03-07 20:11:49] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 20:11:49] INFO     [LYZU] Estado: Ejecuci├│n (Confianza: 85.00%)
+[2026-03-07 20:11:49] ERROR    [LYZU] [V2] V2 BLOQUEO: Modo de ejecuci├│n inv├ílido 'interactive'. Se requiere: OBJECT. Sal del modo actual antes de ejecutar comandos.
+[2026-03-07 20:11:49] ERROR    [LYZU] [V2] Contexto inv├ílido ÔÇö ejecuci├│n bloqueada: V2 BLOQUEO: Modo de ejecuci├│n inv├ílido 'interactive'. Se requiere: OBJECT. Sal del modo actual antes de ejecutar comandos.
+[2026-03-07 20:11:49] INFO     [LYZU] 
+============================================================
+[2026-03-07 20:11:49] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de 10 por 10 por 3 para el primer piso
+[2026-03-07 20:11:49] INFO     [LYZU] ============================================================
+[2026-03-07 20:11:49] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 20:11:49] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 20:11:49] INFO     [LYZU]   2. blender.create_plane (85%) (confianza: 85.00%)
+[2026-03-07 20:11:49] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 20:11:49] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 20:11:49] INFO     [LYZU] Estado: Ejecuci├│n (Confianza: 85.00%)
+[2026-03-07 20:11:49] ERROR    [LYZU] [V2] V2 BLOQUEO: Modo de ejecuci├│n inv├ílido 'interactive'. Se requiere: OBJECT. Sal del modo actual antes de ejecutar comandos.
+[2026-03-07 20:11:49] ERROR    [LYZU] [V2] Contexto inv├ílido ÔÇö ejecuci├│n bloqueada: V2 BLOQUEO: Modo de ejecuci├│n inv├ílido 'interactive'. Se requiere: OBJECT. Sal del modo actual antes de ejecutar comandos.
+[2026-03-07 20:11:49] INFO     [LYZU] 
+============================================================
+[2026-03-07 20:11:49] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de 10 por 10 por 3 en z=3 para el segundo piso
+[2026-03-07 20:11:49] INFO     [LYZU] ============================================================
+[2026-03-07 20:11:49] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 20:11:49] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 20:11:49] INFO     [LYZU]   2. blender.create_plane (85%) (confianza: 85.00%)
+[2026-03-07 20:11:49] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 20:11:49] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 20:11:49] INFO     [LYZU] Estado: Ejecuci├│n (Confianza: 85.00%)
+[2026-03-07 20:11:49] ERROR    [LYZU] [V2] V2 BLOQUEO: Modo de ejecuci├│n inv├ílido 'interactive'. Se requiere: OBJECT. Sal del modo actual antes de ejecutar comandos.
+[2026-03-07 20:11:49] ERROR    [LYZU] [V2] Contexto inv├ílido ÔÇö ejecuci├│n bloqueada: V2 BLOQUEO: Modo de ejecuci├│n inv├ílido 'interactive'. Se requiere: OBJECT. Sal del modo actual antes de ejecutar comandos.
+[2026-03-07 20:11:49] INFO     [LYZU] 
+============================================================
+[2026-03-07 20:11:49] INFO     [LYZU] NUEVA PETICI├ôN: Crea un cubo de 8 por 8 por 2 en z=6 para el tercer piso
+[2026-03-07 20:11:49] INFO     [LYZU] ============================================================
+[2026-03-07 20:11:49] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 20:11:49] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 20:11:49] INFO     [LYZU]   2. blender.create_plane (85%) (confianza: 85.00%)
+[2026-03-07 20:11:49] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.create_cube
+[2026-03-07 20:11:49] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 20:11:49] INFO     [LYZU] Estado: Ejecuci├│n (Confianza: 85.00%)
+[2026-03-07 20:11:49] ERROR    [LYZU] [V2] V2 BLOQUEO: Modo de ejecuci├│n inv├ílido 'interactive'. Se requiere: OBJECT. Sal del modo actual antes de ejecutar comandos.
+[2026-03-07 20:11:49] ERROR    [LYZU] [V2] Contexto inv├ílido ÔÇö ejecuci├│n bloqueada: V2 BLOQUEO: Modo de ejecuci├│n inv├ílido 'interactive'. Se requiere: OBJECT. Sal del modo actual antes de ejecutar comandos.
+[2026-03-07 20:11:49] INFO     [LYZU] Guardando en: C:\Users\Admin\Desktop\ZULY_IA_LOCAL\ZULY_PROJECTS\SEMANA_6_casa_20260307.blend
+[2026-03-07 20:11:49] INFO     [LYZU] 
+============================================================
+[2026-03-07 20:11:49] INFO     [LYZU] NUEVA PETICI├ôN: Guarda el proyecto de Blender en C:\Users\Admin\Desktop\ZULY_IA_LOCAL\ZULY_PROJECTS\SEMANA_6_casa_20260307.blend
+[2026-03-07 20:11:49] INFO     [LYZU] ============================================================
+[2026-03-07 20:11:49] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 20:11:49] INFO     [LYZU]   1. blender.save_project (70%) (confianza: 70.00%)
+[2026-03-07 20:11:49] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.save_project
+[2026-03-07 20:11:49] INFO     [LYZU] Estado: Evaluaci├│n
+[2026-03-07 20:11:49] INFO     [LYZU] Estado: Ejecuci├│n (Confianza: 70.00%)
+[2026-03-07 20:11:49] ERROR    [LYZU] [V2] V2 BLOQUEO: Modo de ejecuci├│n inv├ílido 'interactive'. Se requiere: OBJECT. Sal del modo actual antes de ejecutar comandos.
+[2026-03-07 20:11:49] ERROR    [LYZU] [V2] Contexto inv├ílido ÔÇö ejecuci├│n bloqueada: V2 BLOQUEO: Modo de ejecuci├│n inv├ílido 'interactive'. Se requiere: OBJECT. Sal del modo actual antes de ejecutar comandos.
+[2026-03-07 20:11:49] ERROR    [LYZU] ÔØî FALLO: No se gener├│ un archivo binario v├ílido.
+Blender 3.6.2 (hash e53e55951e7a built 2023-08-16 23:35:13)
+Read prefs: "C:\Users\Admin\AppData\Roaming\Blender Foundation\Blender\3.6\config\userpref.blend"
+
+Blender quit

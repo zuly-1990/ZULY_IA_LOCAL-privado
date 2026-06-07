@@ -1,0 +1,758 @@
+{
+  "version": "1.1.1-transcription-eval",
+  "full_raw_text": "Tutorial: Modelado de Activos Arquitectónicos en Blender 3.6 - Mujental\n\nIntroducción: En este vídeo te mostramos cómo modelar activos arquitectónicos básicos en Blender 3.6.\n\nPaso 1: Crear una estructura básica. Primero presiona Shift A y añade un plano. Luego entra en modo edición con Tab. Activa la vista de rayos X. Presiona E para extruir el vértice en el eje X, Y o Z. Puedes cambiar su forma si quieres. Luego añade un corte de bucle con Alt R. Presiona Control B para aplicar un bisel (bevel) a este borde y añade más segmentos.\n\nPaso 2: Crear una forma redonda. Ve a la vista frontal presionando numpad 1. Añade una imagen de referencia. Añade un plano y entra en modo edición, presiona M y fusiona en el centro (merge at center) para tener un solo vértice. Mueve el vértice sobre la imagen de referencia y extruye este vértice para crear el diseño. Presiona E para extruir el vértice al centro. Mueve el vértice central a la curva y presiona Control B para biselar el vértice.\n\nPaso 3: Modelar columnas. Presiona Shift A y añade un cilindro. En el menú introduce 12 vértices. Escala en el eje Z. Entra en modo edición y añade cortes de bucle (loop cuts) en la parte superior e inferior. Selecciona las caras y presiona I para insertar (inset), asegúrate de que esté seleccionado 'individual'. Luego extruye las caras a lo largo de las normales. Añade un modificador de subdivisión de superficie y aumenta los niveles.\n\nPaso 4: Finalización y detalles. Presiona F para rellenar con una cara. Haz lo mismo en la parte inferior. Haz clic derecho y elige 'Shade Auto Smooth'. Recalcula las normales hacia fuera con Shift N. Luego añade un modificador de array. Puedes añadir un cubo en la parte superior y biselar los bordes inferiores para terminar el capitel.\n",
+  "cleaned_text": "tutorial: modelado de activos arquitectónicos en blender 3.6 - mujental introducción: en este vídeo te mostramos cómo modelar activos arquitectónicos básicos en blender 3.6. paso 1: crear una estructura básica. primero presiona shift a y añade un plano. luego entra en modo edición con tab. activa la vista de rayos x. presiona e para extruir el vértice en el eje x, y o z. puedes cambiar su forma si quieres. luego añade un corte de bucle con alt r. presiona control b para aplicar un bisel (bevel) a este borde y añade más segmentos. paso 2: crear una forma redonda. ve a la vista frontal presionando numpad 1. añade una imagen de referencia. añade un plano y entra en modo edición, presiona m y fusiona en el centro (merge at center) para tener un solo vértice. mueve el vértice sobre la imagen de referencia y extruye este vértice para crear el diseño. presiona e para extruir el vértice al centro. mueve el vértice central a la curva y presiona control b para biselar el vértice. paso 3: modelar columnas. presiona shift a y añade un cilindro. en el menú introduce 12 vértices. escala en el eje z. entra en modo edición y añade cortes de bucle (loop cuts) en la parte superior e inferior. selecciona las caras y presiona i para insertar (inset), asegúrate de que esté seleccionado 'individual'. luego extruye las caras a lo largo de las normales. añade un modificador de subdivisión de superficie y aumenta los niveles. paso 4: finalización y detalles. presiona f para rellenar con una cara. haz lo mismo en la parte inferior. haz clic derecho y elige 'shade auto smooth'. recalcula las normales hacia fuera con shift n. luego añade un modificador de array. puedes añadir un cubo en la parte superior y biselar los bordes inferiores para terminar el capitel.",
+  "steps_count": 31,
+  "steps": [
+    {
+      "step_number": 1,
+      "original_segment": "tutorial: modelado de activos arquitectónicos en blender 3.6 - mujental introducción: en este vídeo te mostramos cómo modelar activos arquitectónicos básicos en blender 3.6",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "tutorial: modelado de activos arquitectónicos en blender 3.6 - mujental introducción: en este vídeo te mostramos cómo modelar activos arquitectónicos básicos en blender 3.6",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 2,
+      "original_segment": "crear una estructura básica",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "crear una estructura básica",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 3,
+      "original_segment": "presiona shift a y añade un plano",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "presiona shift a y añade un plano",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "añade un plano",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 4,
+      "original_segment": "entra en modo edición con tab",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "entra en modo edición con tab",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 5,
+      "original_segment": "activa la vista de rayos x",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "activa la vista de rayos x",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 6,
+      "original_segment": "presiona e para extruir el vértice en el eje x, y o z",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "presiona e para extruir el vértice en el eje x, y o z",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 7,
+      "original_segment": "puedes cambiar su forma si quieres",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "puedes cambiar su forma si quieres",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 8,
+      "original_segment": "añade un corte de bucle con alt r",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "añade un corte de bucle con alt r",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 9,
+      "original_segment": "presiona control b para aplicar un bisel (bevel) a este borde y añade más segmentos",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "presiona control b para aplicar un bisel (bevel) a este borde y añade más segmentos",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 10,
+      "original_segment": "crear una forma redonda",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "crear una forma redonda",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 11,
+      "original_segment": "ve a la vista frontal presionando numpad 1",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "ve a la vista frontal presionando numpad 1",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 12,
+      "original_segment": "añade una imagen de referencia",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "añade una imagen de referencia",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 13,
+      "original_segment": "añade un plano y entra en modo edición, presiona m y fusiona en el centro (merge at center) para tener un solo vértice",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "añade un plano y entra en modo edición, presiona m y fusiona en el centro (merge at center) para tener un solo vértice",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "añade un plano",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 14,
+      "original_segment": "mueve el vértice sobre la imagen de referencia y extruye este vértice para crear el diseño",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "mueve el vértice sobre la imagen de referencia y extruye este vértice para crear el diseño",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 15,
+      "original_segment": "presiona e para extruir el vértice al centro",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "presiona e para extruir el vértice al centro",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 16,
+      "original_segment": "mueve el vértice central a la curva y presiona control b para biselar el vértice",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "mueve el vértice central a la curva y presiona control b para biselar el vértice",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 17,
+      "original_segment": "modelar columnas",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "modelar columnas",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 18,
+      "original_segment": "presiona shift a y añade un cilindro",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "presiona shift a y añade un cilindro",
+        "elements": [
+          {
+            "id": "cylinder_1",
+            "type": "cylinder",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "añade un cilindro",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "cylinder_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'cylinder_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 19,
+      "original_segment": "en el menú introduce 12 vértices",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "en el menú introduce 12 vértices",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 20,
+      "original_segment": "escala en el eje z",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "escala en el eje z",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 21,
+      "original_segment": "entra en modo edición y añade cortes de bucle (loop cuts) en la parte superior e inferior",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "entra en modo edición y añade cortes de bucle (loop cuts) en la parte superior e inferior",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 22,
+      "original_segment": "selecciona las caras y presiona i para insertar (inset), asegúrate de que esté seleccionado 'individual'",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "selecciona las caras y presiona i para insertar (inset), asegúrate de que esté seleccionado 'individual'",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 23,
+      "original_segment": "extruye las caras a lo largo de las normales",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "extruye las caras a lo largo de las normales",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 24,
+      "original_segment": "añade un modificador de subdivisión de superficie y aumenta los niveles",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "añade un modificador de subdivisión de superficie y aumenta los niveles",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 25,
+      "original_segment": "finalización y detalles",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "finalización y detalles",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 26,
+      "original_segment": "presiona f para rellenar con una cara",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "presiona f para rellenar con una cara",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 27,
+      "original_segment": "haz lo mismo en la parte inferior",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "haz lo mismo en la parte inferior",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 28,
+      "original_segment": "haz clic derecho y elige 'shade auto smooth'",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "haz clic derecho y elige 'shade auto smooth'",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 29,
+      "original_segment": "recalcula las normales hacia fuera con shift n",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "recalcula las normales hacia fuera con shift n",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 30,
+      "original_segment": "añade un modificador de array",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "añade un modificador de array",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 31,
+      "original_segment": "puedes añadir un cubo en la parte superior y biselar los bordes inferiores para terminar el capitel.",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "puedes añadir un cubo en la parte superior y biselar los bordes inferiores para terminar el capitel.",
+        "elements": [
+          {
+            "id": "cube_1",
+            "type": "cube",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "puedes añadir un cubo en la parte superior",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "cube_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'cube_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    }
+  ],
+  "global_warnings": [],
+  "total_elements_detected": 4,
+  "tutorial_confidence_score": 0.6,
+  "confidence_level": "MEDIO",
+  "average_clarity": 1.0,
+  "total_technical_gaps": 4,
+  "recommendation": "Tutorial usable pero requiere supervisión o ajustes manuales.",
+  "ambiguous_language_detected": false,
+  "technical_gaps_detected": true,
+  "ambiguous_steps": [
+    {
+      "step_number": 3,
+      "original_segment": "presiona shift a y añade un plano",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "presiona shift a y añade un plano",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "añade un plano",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 13,
+      "original_segment": "añade un plano y entra en modo edición, presiona m y fusiona en el centro (merge at center) para tener un solo vértice",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "añade un plano y entra en modo edición, presiona m y fusiona en el centro (merge at center) para tener un solo vértice",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "añade un plano",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 18,
+      "original_segment": "presiona shift a y añade un cilindro",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "presiona shift a y añade un cilindro",
+        "elements": [
+          {
+            "id": "cylinder_1",
+            "type": "cylinder",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "añade un cilindro",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "cylinder_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'cylinder_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 31,
+      "original_segment": "puedes añadir un cubo en la parte superior y biselar los bordes inferiores para terminar el capitel.",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "puedes añadir un cubo en la parte superior y biselar los bordes inferiores para terminar el capitel.",
+        "elements": [
+          {
+            "id": "cube_1",
+            "type": "cube",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "puedes añadir un cubo en la parte superior",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "cube_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'cube_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    }
+  ],
+  "detected_concepts": [],
+  "detected_paradigms": {
+    "adherent_paradigms": [
+      "PARADIGM_MODULAR"
+    ],
+    "dominant_paradigm": "PARADIGM_MODULAR",
+    "compatibility_status": "SUPPORTED"
+  }
+}

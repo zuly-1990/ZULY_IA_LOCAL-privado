@@ -1,0 +1,3586 @@
+{
+  "audit_trail_id": "zuly-batch-20260502-155341",
+  "timestamp": "2026-05-02T15:53:41.873178",
+  "batch_source": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\temp_arena\\RESULTADO_JUES_BATCH.json",
+  "handlers_count": 19,
+  "models_evaluated": 32,
+  "blender_execution_ok": true,
+  "jues_weights_v2": {
+    "v0_physical_integrity": 15,
+    "v1_structural_integrity": 15,
+    "v2_contextual_relevance": 10,
+    "v3_topological_quality": 25,
+    "chromatic_sync": 10,
+    "optimization_instinct": 15,
+    "immutability_seal": 10
+  },
+  "thresholds": {
+    "APTO_PARA_SELLO": 90,
+    "APTO_CON_ADVERTENCIAS": 70,
+    "RECHAZADO_POR_CALIDAD": 0
+  },
+  "validations": [
+    {
+      "pattern_id": "CUB-001_Modelado_BiselRealista",
+      "timestamp": "2026-05-02T15:26:52.496844",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\CUB-001_Modelado_BiselRealista_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\CUB-001_Modelado_BiselRealista_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 812.4
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "CUB-002_Transform_PivoteSuelo",
+      "timestamp": "2026-05-02T15:26:52.512224",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\CUB-002_Transform_PivoteSuelo_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\CUB-002_Transform_PivoteSuelo_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 834.8
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "CUB-003_Modelado_MuroPro",
+      "timestamp": "2026-05-02T15:26:52.529430",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\CUB-003_Modelado_MuroPro_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\CUB-003_Modelado_MuroPro_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 834.8
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "CUB-004-HIBRIDO_Prueba",
+      "timestamp": "2026-05-02T15:26:52.544508",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\CUB-004-HIBRIDO_Prueba_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\CUB-004-HIBRIDO_Prueba_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 834.8
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "CUB-005_BooleanExacto",
+      "timestamp": "2026-05-02T15:26:52.560103",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\CUB-005_BooleanExacto_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\CUB-005_BooleanExacto_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 841.28
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "LUZ-001_Iluminacion_3Point",
+      "timestamp": "2026-05-02T15:26:52.599412",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\LUZ-001_Iluminacion_3Point_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\LUZ-001_Iluminacion_3Point_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 812.68
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "LUZ-002_Iluminacion_HDRI",
+      "timestamp": "2026-05-02T15:26:52.684313",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\LUZ-002_Iluminacion_HDRI_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\LUZ-002_Iluminacion_HDRI_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 812.68
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "MAT-001_Material_Metal",
+      "timestamp": "2026-05-02T15:26:52.707509",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MAT-001_Material_Metal_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MAT-001_Material_Metal_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 897.44
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "MAT-002_Material_Vidrio",
+      "timestamp": "2026-05-02T15:26:52.746290",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MAT-002_Material_Vidrio_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MAT-002_Material_Vidrio_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 914.99
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "MAT-003_Material_Emisivo",
+      "timestamp": "2026-05-02T15:26:52.759554",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MAT-003_Material_Emisivo_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MAT-003_Material_Emisivo_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 932.54
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "MOD-001_Pabellon_Minimalista",
+      "timestamp": "2026-05-02T15:26:52.770887",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MOD-001_Pabellon_Minimalista_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MOD-001_Pabellon_Minimalista_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 835.02
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "MOD-002_Torre_Corporativa",
+      "timestamp": "2026-05-02T15:26:52.785183",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MOD-002_Torre_Corporativa_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MOD-002_Torre_Corporativa_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 870.76
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "MOD-003_Casa_Contenedor",
+      "timestamp": "2026-05-02T15:26:52.812042",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MOD-003_Casa_Contenedor_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MOD-003_Casa_Contenedor_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 844.58
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "MOD-004_Museo_Arte",
+      "timestamp": "2026-05-02T15:26:52.821545",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MOD-004_Museo_Arte_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MOD-004_Museo_Arte_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 825.88
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "MOD-005_Estacion_Espacial",
+      "timestamp": "2026-05-02T15:26:52.834549",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MOD-005_Estacion_Espacial_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MOD-005_Estacion_Espacial_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 935.04
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "P-001A_CuboBasico_1m",
+      "timestamp": "2026-05-02T15:26:52.846899",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-001A_CuboBasico_1m_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-001A_CuboBasico_1m_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 834.34
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "P-001B_CuboBasico_2m",
+      "timestamp": "2026-05-02T15:26:52.853353",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-001B_CuboBasico_2m_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-001B_CuboBasico_2m_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 851.89
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "P-001C_CuboBasico_05m",
+      "timestamp": "2026-05-02T15:26:52.865056",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-001C_CuboBasico_05m_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-001C_CuboBasico_05m_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 869.43
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "P-001D_CuboBasico_3m",
+      "timestamp": "2026-05-02T15:26:52.870932",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-001D_CuboBasico_3m_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-001D_CuboBasico_3m_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 886.98
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "P-002A_EsferaUV_1m",
+      "timestamp": "2026-05-02T15:26:52.904254",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-002A_EsferaUV_1m_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-002A_EsferaUV_1m_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 897.44
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "P-002B_EsferaUV_2m",
+      "timestamp": "2026-05-02T15:26:52.946300",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-002B_EsferaUV_2m_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-002B_EsferaUV_2m_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 1110.86
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "P-002C_EsferaICO_1m",
+      "timestamp": "2026-05-02T15:26:52.953830",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-002C_EsferaICO_1m_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-002C_EsferaICO_1m_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 876.32
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "P-002D_EsferaICO_05m",
+      "timestamp": "2026-05-02T15:26:52.965850",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-002D_EsferaICO_05m_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-002D_EsferaICO_05m_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 888.12
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "P-002E_EsferaUV_05m",
+      "timestamp": "2026-05-02T15:26:52.972623",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-002E_EsferaUV_05m_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-002E_EsferaUV_05m_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 919.19
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "P-003A_SphereAltaRes",
+      "timestamp": "2026-05-02T15:26:52.982473",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-003A_SphereAltaRes_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-003A_SphereAltaRes_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 1881.07
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "P-003B_SphereBajaRes",
+      "timestamp": "2026-05-02T15:26:52.993094",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-003B_SphereBajaRes_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-003B_SphereBajaRes_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 854.71
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "P-003C_SphereMini",
+      "timestamp": "2026-05-02T15:26:53.002315",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-003C_SphereMini_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-003C_SphereMini_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 884.1
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "P-004A_CilindroAlto",
+      "timestamp": "2026-05-02T15:26:53.021197",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-004A_CilindroAlto_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-004A_CilindroAlto_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 839.81
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "P-004B_CilindroAncho",
+      "timestamp": "2026-05-02T15:26:53.047737",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-004B_CilindroAncho_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-004B_CilindroAncho_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 863.61
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "P-005A_ConoAlto",
+      "timestamp": "2026-05-02T15:26:53.063562",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-005A_ConoAlto_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-005A_ConoAlto_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 872.78
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "P-005B_ConoChato",
+      "timestamp": "2026-05-02T15:26:53.085752",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-005B_ConoChato_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-005B_ConoChato_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 894.45
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "pattern_id": "P-006A_PlanoBase",
+      "timestamp": "2026-05-02T15:26:53.105985",
+      "dictamen": "APTO_PARA_SELLO",
+      "total_score": 95.0,
+      "status": "SELLADO",
+      "seal_blend_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-006A_PlanoBase_SELLADO_20260502_155341.blend",
+      "seal_metadata_path": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-006A_PlanoBase_SELLADO_20260502_155341.json",
+      "scores_by_layer": {
+        "v0": 15,
+        "v1": 15,
+        "v2": 10,
+        "v3": 25,
+        "chromatic_sync": 10,
+        "optimization_instinct": 15,
+        "immutability_seal": 5.0
+      },
+      "raw_layer_data": {
+        "v0": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v1": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v2": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "v3": {
+          "verified": true,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": {
+            "is_watertight": true,
+            "non_manifold_edges_count": 0
+          },
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "chromatic_sync": {
+          "verified": false,
+          "match": true,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        },
+        "optimization_instinct": {
+          "verified": false,
+          "match": null,
+          "hash_short": null,
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": true,
+          "vertex_count": null,
+          "final_size_kb": 834.34
+        },
+        "immutability_seal": {
+          "verified": true,
+          "match": null,
+          "hash_short": "fallback",
+          "has_camera": null,
+          "has_light": null,
+          "metrics": null,
+          "optimized": null,
+          "vertex_count": null,
+          "final_size_kb": null
+        }
+      },
+      "findings": [
+        "V0 (Física): OK - Objetos de malla presentes",
+        "V1 (Estructural): OK - Archivo estructura OK",
+        "V2 (Contextual): OK - Camara=True, Luz=True",
+        "V3 (Topológica): OK - Malla perfecta (True)",
+        "Sincronía Cromática: OK - Color detectado: None",
+        "Optimización: OK - Vertices: 0 (optimo: <10000)",
+        "Inmutabilidad: OK - Hash consistente (fallback)"
+      ],
+      "warnings": [],
+      "errors": []
+    }
+  ],
+  "summary": {
+    "total": 32,
+    "apto_para_sello": 32,
+    "apto_con_advertencias": 0,
+    "rechazados": 0,
+    "fallo_tecnico": 0,
+    "avg_total_score": 95.0,
+    "avg_v3_score": 25.0,
+    "avg_optimization_score": 15.0
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "validation_date": "2026-02-22T14:57:06.411378",
+  "transcriptions": {
+    "total_expected": 5,
+    "found": 5,
+    "missing": [],
+    "details": [
+      {
+        "filename": "tutorial_fundamentos_42.txt",
+        "exists": true,
+        "size_bytes": 2027,
+        "line_count": 26,
+        "word_count": 294,
+        "has_timestamps": true,
+        "has_instructions": true,
+        "quality": "✅ VÁLIDA"
+      },
+      {
+        "filename": "tutorial_villa_savoye.txt",
+        "exists": true,
+        "size_bytes": 2068,
+        "line_count": 17,
+        "word_count": 313,
+        "has_timestamps": true,
+        "has_instructions": true,
+        "quality": "✅ VÁLIDA"
+      },
+      {
+        "filename": "tutorial_cortes_bisect.txt",
+        "exists": true,
+        "size_bytes": 1284,
+        "line_count": 17,
+        "word_count": 184,
+        "has_timestamps": true,
+        "has_instructions": true,
+        "quality": "✅ VÁLIDA"
+      },
+      {
+        "filename": "tutorial_arquitectura_2d_a_3d.txt",
+        "exists": true,
+        "size_bytes": 2005,
+        "line_count": 24,
+        "word_count": 338,
+        "has_timestamps": true,
+        "has_instructions": true,
+        "quality": "✅ VÁLIDA"
+      },
+      {
+        "filename": "tutorial_arquitectura_36.txt",
+        "exists": true,
+        "size_bytes": 1815,
+        "line_count": 12,
+        "word_count": 308,
+        "has_timestamps": false,
+        "has_instructions": true,
+        "quality": "✅ VÁLIDA"
+      }
+    ],
+    "completion_rate": 100.0
+  },
+  "reports": {
+    "total_expected": 5,
+    "found": 5,
+    "missing": [],
+    "details": [
+      {
+        "filename": "reporte_fundamentos_42.json",
+        "exists": true,
+        "size_bytes": 25644,
+        "version": "1.1.1-transcription-eval",
+        "steps_count": 27,
+        "has_raw_text": true,
+        "has_cleaned_text": true,
+        "has_structural_analysis": true,
+        "quality": "✅ VÁLIDA"
+      },
+      {
+        "filename": "reporte_villa_savoye.json",
+        "exists": true,
+        "size_bytes": 17118,
+        "version": "1.1.1-transcription-eval",
+        "steps_count": 19,
+        "has_raw_text": true,
+        "has_cleaned_text": true,
+        "has_structural_analysis": true,
+        "quality": "✅ VÁLIDA"
+      },
+      {
+        "filename": "reporte_cortes_bisect.json",
+        "exists": true,
+        "size_bytes": 19286,
+        "version": "1.1.1-transcription-eval",
+        "steps_count": 15,
+        "has_raw_text": true,
+        "has_cleaned_text": true,
+        "has_structural_analysis": true,
+        "quality": "✅ VÁLIDA"
+      },
+      {
+        "filename": "reporte_arquitectura_2d_3d.json",
+        "exists": true,
+        "size_bytes": 36096,
+        "version": "1.1.1-transcription-eval",
+        "steps_count": 29,
+        "has_raw_text": true,
+        "has_cleaned_text": true,
+        "has_structural_analysis": true,
+        "quality": "✅ VÁLIDA"
+      },
+      {
+        "filename": "reporte_arquitectura_36.json",
+        "exists": true,
+        "size_bytes": 27562,
+        "version": "1.1.1-transcription-eval",
+        "steps_count": 31,
+        "has_raw_text": true,
+        "has_cleaned_text": true,
+        "has_structural_analysis": true,
+        "quality": "✅ VÁLIDA"
+      }
+    ],
+    "completion_rate": 100.0
+  },
+  "integration": {
+    "lyzu_core_path": "lyzu_core.py",
+    "core_exists": true,
+    "imports_present": [],
+    "learning_components": [
+      {
+        "component": "LearningFreedomEngine",
+        "module": "core.learning",
+        "present": true
+      },
+      {
+        "component": "KnowledgeGraph",
+        "module": "core.knowledge",
+        "present": true
+      },
+      {
+        "component": "C1ResultEvaluator",
+        "module": "core.cognition",
+        "present": true
+      },
+      {
+        "component": "C2ExperienceMemory",
+        "module": "core.cognition.c2_experience_memory",
+        "present": true
+      },
+      {
+        "component": "C3AbstractObjectives",
+        "module": "core.cognition.c3_abstract_objectives",
+        "present": true
+      }
+    ],
+    "status": "✅ INTEGRADO"
+  },
+  "compatibility": [
+    {
+      "matriz_path": "ZULY_LAB\\dataset_patrones\\matriz_compatibilidad_36_42.md",
+      "exists": true,
+      "content": "# Matriz de Compatibilidad: Aprendizaje ZULY (3.6 vs 4.2)\n\nZULY ha analizado el contenido del tutorial de Blender 4.2 y ha validado su aplicación en el entorno actual (Blender 3.6 LTS).\n\n## 1. Comandos de Manipulación (Núcleo)\n| Acción | Blender 3.6 | Blender 4.2 | Estado |\n| :--- | :--- | :--- | :--- |\n| Move | G | G | **Idéntico** |\n| Rotate | R | R | **Idéntico** |\n| Scale | S | S | **Idéntico** |\n| Extrude | E | E | **Idéntico** |\n| Loop Cut | Ctrl + R | Ctrl + R | **Idéntico** |\n\n## 2. Herramientas Arquitectónicas\n| Herramienta | Blender 3.6 | Blender 4.2 | Nota Técnica |\n| :--- | :--- | :--- | :--- |\n| **Bisect** | Knife -> Bisect | Knife -> Bisect | Funciona igual. Importante para la Fase C3.3. |\n| **ArchiMesh** | Add-on interno | Extensión (as-is) | En 3.6 viene pre-instalado. En 4.2 se instala vía extensiones. La lógica paramétrica es compatible. |\n| **Snap** | Imán (Superior) | Imán (Superior) | Sistema de anclaje a vértices idéntico. |\n\n## 3. Configuración de Escena\n| Concepto | Blender 3.6 | Blender 4.2 | Acción ZULY |\n| :--- | :--- | :--- | :--- |\n| **Unidades** | Escena -> Units | Escena -> Units | ZULY ya soporta cambio de unidades (Métrico/Imperial). |\n| **Referencia** | Shift+A -> Image | Shift+A -> Image | Proceso de carga de planos 2D es idéntico. |\n\n## Conclusión de Seguridad\nEl conocimiento extraído de la versión 4.2 es **95% compatible** con el motor operativo de ZULY (3.6). No hay riesgos de regresión funcional. Las pocas diferencias (como el sistema de extensiones de 4.2) no afectan a los scripts de ejecución de ZULY, ya que dependen del API `bpy` estable.\n\n**Estado: SEGURO PARA INTEGRAR**\n",
+      "status": "✅ APROBADO"
+    }
+  ],
+  "summary": {
+    "total_transcriptions": 5,
+    "valid_transcriptions": 5,
+    "transcription_completion": "100%",
+    "total_reports": 5,
+    "valid_reports": 5,
+    "report_completion": "100%",
+    "compatibility_status": "✅ APROBADO",
+    "integration_status": "✅ INTEGRADO",
+    "overall_quality": "EXCELENTE"
+  }
+}

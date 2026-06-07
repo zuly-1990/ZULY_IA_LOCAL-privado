@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-04-11T19:06:56.709443",
+  "fecha": "2026-04-11 19:06:56",
+  "pattern_id": "CUB001_FULL",
+  "puntuacion_jues": 100.0,
+  "dictamen": "APTO_PARA_SELLO",
+  "findings": [
+    "V0 (Física): OK - Objeto físicamente válido",
+    "V1 (Estructural): OK - Estructura correcta",
+    "V2 (Contextual): OK - Contexto apropiado",
+    "V3 (Topológica): OK - Malla perfecta (True)",
+    "Sincronía Cromática: OK - Color #1A4DCC exacto",
+    "Optimización: OK - Patrón optimizado",
+    "Inmutabilidad: OK - Hash consistente (a3f5e2b9)"
+  ],
+  "errors": [],
+  "warnings": [],
+  "dashboard": {
+    "estado_malla": "LIMPIA",
+    "estado_malla_icon": "✅",
+    "concordancia_color": "MATCH",
+    "concordancia_icon": "🎨",
+    "peso_patron_kb": 245.5,
+    "hash_corto": "a3f5e2b9"
+  },
+  "raw_results": {
+    "v0": {
+      "verified": true,
+      "details": "Objeto físicamente válido"
+    },
+    "v1": {
+      "verified": true,
+      "details": "Estructura correcta"
+    },
+    "v2": {
+      "verified": true,
+      "details": "Contexto apropiado"
+    },
+    "v3": {
+      "verified": true,
+      "metrics": {
+        "is_watertight": true,
+        "non_manifold_edges_count": 0
+      }
+    },
+    "chromatic_sync": {
+      "match": true,
+      "details": "Color #1A4DCC exacto"
+    },
+    "optimization_instinct": {
+      "optimized": true,
+      "details": "Patrón optimizado",
+      "final_size_kb": 245.5
+    },
+    "immutability_seal": {
+      "verified": true,
+      "hash_short": "a3f5e2b9"
+    }
+  }
+}

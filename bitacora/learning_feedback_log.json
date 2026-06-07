@@ -1,0 +1,328 @@
+[
+  {
+    "timestamp": "2025-12-27T12:57:15.878127",
+    "command": "crea cuvo",
+    "intent": "create_object",
+    "params": {
+      "object": "cube",
+      "color": "rojo",
+      "size": "normal",
+      "count": 1
+    },
+    "result": "error",
+    "suggestion": "Quizá quiso decir 'cubo'"
+  },
+  {
+    "timestamp": "2025-12-27T12:57:15.879785",
+    "command": "crea cubo",
+    "intent": "create_object",
+    "params": {
+      "object": "cube",
+      "color": "rojo",
+      "size": "normal",
+      "count": 1
+    },
+    "result": "ok",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-12-27T12:58:44.058519",
+    "command": "crea un cubo rojo",
+    "intent": "create_object",
+    "params": {
+      "intent": "create_object",
+      "object": "cube",
+      "color": "rojo",
+      "size": "normal",
+      "count": 1,
+      "advertencias": []
+    },
+    "result": "ok",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-12-27T12:58:50.887344",
+    "command": "crea un cubo rojo",
+    "intent": "create_object",
+    "params": {
+      "intent": "create_object",
+      "object": "cube",
+      "color": "rojo",
+      "size": "normal",
+      "count": 1,
+      "advertencias": []
+    },
+    "result": "ok",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-12-27T12:58:53.023436",
+    "command": "crea un cubo rojo",
+    "intent": "create_object",
+    "params": {
+      "intent": "create_object",
+      "object": "cube",
+      "color": "rojo",
+      "size": "normal",
+      "count": 1,
+      "advertencias": []
+    },
+    "result": "ok",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-12-27T12:58:54.740992",
+    "command": "crea un cubo rojo",
+    "intent": "create_object",
+    "params": {
+      "intent": "create_object",
+      "object": "cube",
+      "color": "rojo",
+      "size": "normal",
+      "count": 1,
+      "advertencias": []
+    },
+    "result": "ok",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-12-27T12:58:56.602641",
+    "command": "crea un cubo rojo",
+    "intent": "create_object",
+    "params": {
+      "intent": "create_object",
+      "object": "cube",
+      "color": "rojo",
+      "size": "normal",
+      "count": 1,
+      "advertencias": []
+    },
+    "result": "ok",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-12-27T12:58:58.462974",
+    "command": "crea un cubo rojo",
+    "intent": "create_object",
+    "params": {
+      "intent": "create_object",
+      "object": "cube",
+      "color": "rojo",
+      "size": "normal",
+      "count": 1,
+      "advertencias": []
+    },
+    "result": "ok",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-12-27T12:59:00.143953",
+    "command": "crea un cubo rojo",
+    "intent": "create_object",
+    "params": {
+      "intent": "create_object",
+      "object": "cube",
+      "color": "rojo",
+      "size": "normal",
+      "count": 1,
+      "advertencias": []
+    },
+    "result": "ok",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-12-27T12:59:01.759143",
+    "command": "crea un cubo rojo",
+    "intent": "create_object",
+    "params": {
+      "intent": "create_object",
+      "object": "cube",
+      "color": "rojo",
+      "size": "normal",
+      "count": 1,
+      "advertencias": []
+    },
+    "result": "ok",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-12-27T12:59:05.518442",
+    "command": "crea un cubo rojo",
+    "intent": "create_object",
+    "params": {
+      "intent": "create_object",
+      "object": "cube",
+      "color": "rojo",
+      "size": "normal",
+      "count": 1,
+      "advertencias": []
+    },
+    "result": "ok",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-12-27T12:59:07.218472",
+    "command": "crea un cubo rojo",
+    "intent": "create_object",
+    "params": {
+      "intent": "create_object",
+      "object": "cube",
+      "color": "rojo",
+      "size": "normal",
+      "count": 1,
+      "advertencias": []
+    },
+    "result": "ok",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-12-27T12:59:08.993545",
+    "command": "crea un cubo rojo",
+    "intent": "create_object",
+    "params": {
+      "intent": "create_object",
+      "object": "cube",
+      "color": "rojo",
+      "size": "normal",
+      "count": 1,
+      "advertencias": []
+    },
+    "result": "ok",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-12-27T12:59:10.572936",
+    "command": "crea un cubo rojo",
+    "intent": "create_object",
+    "params": {
+      "intent": "create_object",
+      "object": "cube",
+      "color": "rojo",
+      "size": "normal",
+      "count": 1,
+      "advertencias": []
+    },
+    "result": "ok",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-12-27T12:59:12.141529",
+    "command": "crea un cubo rojo",
+    "intent": "create_object",
+    "params": {
+      "intent": "create_object",
+      "object": "cube",
+      "color": "rojo",
+      "size": "normal",
+      "count": 1,
+      "advertencias": []
+    },
+    "result": "ok",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-12-27T12:59:13.696145",
+    "command": "crea un cubo rojo",
+    "intent": "create_object",
+    "params": {
+      "intent": "create_object",
+      "object": "cube",
+      "color": "rojo",
+      "size": "normal",
+      "count": 1,
+      "advertencias": []
+    },
+    "result": "ok",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-12-27T12:59:15.228265",
+    "command": "crea un cubo rojo",
+    "intent": "create_object",
+    "params": {
+      "intent": "create_object",
+      "object": "cube",
+      "color": "rojo",
+      "size": "normal",
+      "count": 1,
+      "advertencias": []
+    },
+    "result": "ok",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-12-27T12:59:16.739280",
+    "command": "crea un cubo rojo",
+    "intent": "create_object",
+    "params": {
+      "intent": "create_object",
+      "object": "cube",
+      "color": "rojo",
+      "size": "normal",
+      "count": 1,
+      "advertencias": []
+    },
+    "result": "ok",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-12-27T12:59:18.248006",
+    "command": "crea un cubo rojo",
+    "intent": "create_object",
+    "params": {
+      "intent": "create_object",
+      "object": "cube",
+      "color": "rojo",
+      "size": "normal",
+      "count": 1,
+      "advertencias": []
+    },
+    "result": "ok",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-12-27T12:59:19.835553",
+    "command": "crea un cubo rojo",
+    "intent": "create_object",
+    "params": {
+      "intent": "create_object",
+      "object": "cube",
+      "color": "rojo",
+      "size": "normal",
+      "count": 1,
+      "advertencias": []
+    },
+    "result": "ok",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-12-27T12:59:22.298459",
+    "command": "crea un cubo rojo",
+    "intent": "create_object",
+    "params": {
+      "intent": "create_object",
+      "object": "cube",
+      "color": "rojo",
+      "size": "normal",
+      "count": 1,
+      "advertencias": []
+    },
+    "result": "ok",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-12-27T12:59:23.970791",
+    "command": "crea un cubo rojo",
+    "intent": "create_object",
+    "params": {
+      "intent": "create_object",
+      "object": "cube",
+      "color": "rojo",
+      "size": "normal",
+      "count": 1,
+      "advertencias": []
+    },
+    "result": "ok",
+    "suggestion": null
+  }
+]

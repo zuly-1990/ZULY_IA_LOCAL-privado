@@ -1,0 +1,28 @@
+{
+  "pattern_id": "P-005B_ConoChato",
+  "nombre_tecnico": "P-005B_ConoChato",
+  "fecha_sello": "2026-04-04T20:56:50.660451",
+  "estado": "SELLADO",
+  "sellado_por": "Soberano",
+  "validacion_jues": {
+    "vision_rayos_x": {
+      "status": "LIMPIA",
+      "icon": "✨"
+    },
+    "instinto_optimizacion": {
+      "status": "OPTIMO",
+      "peso_kb": 894.45,
+      "icon": "⚡"
+    },
+    "sincronia_cromatica": {
+      "status": "MATCH",
+      "color_encontrado": "#9C27B0",
+      "icon": "🎯"
+    },
+    "sello_inmutabilidad": {
+      "hash": "7766a36e75fe4513dd216fa5cda2efd2",
+      "vertices_count": 65,
+      "icon": "🔒"
+    }
+  }
+}

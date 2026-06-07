@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-03-29T15:03:15.076600",
+  "original": {
+    "archivo": "laboratorio_dado_parques_v10.blend",
+    "objetos_totales": 10,
+    "mallas": 9,
+    "materiales": 3,
+    "luces": 1,
+    "conceptos": [
+      "Sistema simple",
+      "Display est\u00e1tico",
+      "Rejilla regular"
+    ]
+  },
+  "nuevo": {
+    "archivo": "zuly_nuevo_laberinto.blend",
+    "conceptos": [
+      "Laberinto 3D",
+      "Interactividad",
+      "Estructura libre"
+    ]
+  },
+  "similitud": "0%",
+  "diferencias_principales": [
+    "Geometr\u00eda: Esferas \u2192 Laberinto",
+    "Colores: Azul \u2192 Multicolor",
+    "Estructura: Rejilla \u2192 Libre",
+    "Iluminaci\u00f3n: 1 \u2192 3 luces"
+  ]
+}

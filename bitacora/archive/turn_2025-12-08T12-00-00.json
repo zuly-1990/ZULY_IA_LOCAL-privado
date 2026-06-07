@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-12-08T12:00:00",
+  "user_input": "Command 1",
+  "intent": "test",
+  "entities": {},
+  "command_executed": "test.command",
+  "result": "{}",
+  "confidence": 0.9
+}

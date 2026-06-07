@@ -1,0 +1,5 @@
+Hola Zuly.
+Por favor crea un cubo base en la posición 0, 0, 0.
+Asegúrate de que tenga una escala de 2.0.
+Finalmente, asígnale un color rojo básico.
+Gracias.

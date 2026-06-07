@@ -1,0 +1,13 @@
+{
+  "output_path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\tmpti5i7swh\\render.png",
+  "samples": 64,
+  "resolution_x": 1280,
+  "resolution_y": 720,
+  "engine": "CYCLES",
+  "format": "PNG",
+  "use_denoiser": false,
+  "use_adaptive_sampling": true,
+  "tile_size": 16,
+  "use_gpu": true,
+  "device": "GPU"
+}

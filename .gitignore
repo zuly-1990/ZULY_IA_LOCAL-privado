@@ -1,0 +1,30 @@
+# Entornos virtuales
+.venv/
+zuly_env/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Blender binarios (demasiado pesados para git)
+blender/
+
+# Archivos temporales
+temp/
+*.tmp
+*.log
+
+# Base de datos local
+*.db
+
+# VSCode
+.vscode/
+
+# Exportaciones y renders temporales
+export/
+exports/
+ZULY_PROJECTS/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db

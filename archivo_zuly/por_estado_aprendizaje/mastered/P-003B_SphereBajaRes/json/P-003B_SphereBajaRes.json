@@ -1,0 +1,28 @@
+{
+  "pattern_id": "P-003B_SphereBajaRes",
+  "nombre_tecnico": "P-003B_SphereBajaRes",
+  "fecha_sello": "2026-04-04T20:51:58.071245",
+  "estado": "SELLADO",
+  "sellado_por": "Soberano",
+  "validacion_jues": {
+    "vision_rayos_x": {
+      "status": "LIMPIA",
+      "icon": "✨"
+    },
+    "instinto_optimizacion": {
+      "status": "OPTIMO",
+      "peso_kb": 854.71,
+      "icon": "⚡"
+    },
+    "sincronia_cromatica": {
+      "status": "MATCH",
+      "color_encontrado": "#3F51B5",
+      "icon": "🎯"
+    },
+    "sello_inmutabilidad": {
+      "hash": "00d43a09b3e125a72e4f643ce6abdf6e",
+      "vertices_count": 26,
+      "icon": "🔒"
+    }
+  }
+}

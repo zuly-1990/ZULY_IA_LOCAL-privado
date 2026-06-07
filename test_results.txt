@@ -1,0 +1,102 @@
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.269s
+
+OK
+[2026-03-01 12:42:40] INFO     [LYZU] ============================================================
+[2026-03-01 12:42:40] INFO     [LYZU] INICIALIZANDO AGENTE ZULY - VERSIÓN INTELIGENTE
+[2026-03-01 12:42:40] INFO     [LYZU] ============================================================
+[2026-03-01 12:42:40] INFO     [LYZU] 🔧 Usando MockAdapter (forzado)
+[2026-03-01 12:42:40] INFO     [LYZU] 🔧 MockAdapter inicializado (modo simulación)
+[2026-03-01 12:42:40] INFO     [LYZU] [FASE 17] Engine Adapter: MockAdapter
+[2026-03-01 12:42:40] INFO     [LYZU] Cargando comandos desde: C:\Users\Admin\Desktop\ZULY_IA_LOCAL\core\commands
+[2026-03-01 12:42:40] INFO     [LYZU] Cargados 7 módulos de comandos (0 errores)
+[2026-03-01 12:42:40] INFO     [LYZU] Total de comandos cargados: 0
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.create_cube
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.create_sphere
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.create_cylinder
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.create_plane
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.move_object
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.rotate_object
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.scale_object
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.render_scene
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: system.get_info
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.save_project
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.save_scene
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.clear_scene
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.create_material
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.create_texture_material
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.apply_material
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.set_material_color
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.create_light
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.set_light_energy
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.set_light_color
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.create_camera
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.set_active_camera
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.position_camera
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.add_subdivision_surface
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.add_array
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.add_bevel
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.export_fbx
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.export_obj
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.export_gltf
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.build_structure
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.save_pattern
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.load_pattern
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.list_patterns
+[2026-03-01 12:42:40] INFO     [LYZU] Registrado handler: blender.run_python_script
+[2026-03-01 12:42:40] SUCCESS  [LYZU] ✓ 33 handlers de Blender registrados
+[2026-03-01 12:42:40] INFO     [LYZU] [FASE 23] IntentRouter: 33 handlers registrados
+[2026-03-01 12:42:40] INFO     [LYZU] SceneMonitor inicializado
+[2026-03-01 12:42:40] INFO     [LYZU] [PatternMemory] Inicializada con 0 patrones totales (Staging + Verified)
+[2026-03-01 12:42:40] ERROR    [LYZU] [JSONStorage] Error cargando: Expecting value: line 426 column 21 (char 10751)
+[2026-03-01 12:42:40] INFO     [COGNITION] CognitionCore inicializado con Memoria Heurística
+[2026-03-01 12:42:40] INFO     [COGNITION] Evaluador registrado: render
+[2026-03-01 12:42:40] INFO     [LYZU] [FASE 18.5] FailsafeExecutor y ActionLogger integrados
+[2026-03-01 12:42:40] INFO     [LYZU] [OK] 0 comandos cargados
+[2026-03-01 12:42:40] INFO     [LYZU] [OK] Procesador de Lenguaje Natural inicializado
+[2026-03-01 12:42:40] INFO     [LYZU] [OK] Monitor de Escena activo (vía MockAdapter)
+[2026-03-01 12:42:40] INFO     [LYZU] [OK] Memoria de Patrones: 0 patrones
+[2026-03-01 12:42:40] INFO     [LYZU] [OK] Autoconciencia Operativa: activa (pasiva)
+[2026-03-01 12:42:40] INFO     [LYZU] [OK] Identidad de Autor: VERIFICADA
+[2026-03-01 12:42:40] INFO     [LYZU] [OK] Estado Inicial: Observación
+[2026-03-01 12:42:40] INFO     [LYZU] ============================================================
+[2026-03-01 12:42:40] INFO     [LYZU] Agente Zuly listo conforme al Protocolo de Identidad
+[2026-03-01 12:42:40] INFO     [LYZU] [FASE 17] Desacoplamiento: ACTIVO (MockAdapter)
+[2026-03-01 12:42:40] INFO     [LYZU] ============================================================
+[2026-03-01 12:42:40] INFO     [LYZU] [FASE 18.5] Módulos registrados: 6
+[2026-03-01 12:42:40] INFO     [LYZU] 
+============================================================
+[2026-03-01 12:42:40] INFO     [LYZU] NUEVA PETICIÓN: crear un cubo
+[2026-03-01 12:42:40] INFO     [LYZU] ============================================================
+[2026-03-01 12:42:40] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-01 12:42:40] INFO     [LYZU]   1. <MagicMock id='1342848811088'> (confianza: 95.00%)
+[2026-03-01 12:42:40] INFO     [LYZU] 
+Ejecutando intención principal: crear_cubo
+[2026-03-01 12:42:40] INFO     [LYZU] Estado: Evaluación
+[2026-03-01 12:42:40] INFO     [LYZU] Estado: Ejecución con Aprendizaje (Confianza: 95.00%)
+[2026-03-01 12:42:40] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.create_cube
+[2026-03-01 12:42:40] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.create_cube
+[2026-03-01 12:42:40] DEBUG    [LYZU] [FASE 23] Parámetros: {'location': [0, 0, 0], 'primitive_type': 'cube', 'name': 'Cube_001'}
+[2026-03-01 12:42:40] DEBUG    [LYZU] 🔧 Mock: Creada primitiva cube → Cube_001
+[2026-03-01 12:42:40] DEBUG    [LYZU] 🔧 Mock: Material creado → CubeMaterial
+[2026-03-01 12:42:40] DEBUG    [LYZU] 🔧 Mock: Material 'CubeMaterial' aplicado a 'Cube_001'
+[2026-03-01 12:42:40] SUCCESS  [LYZU] Cubo creado en posición [0, 0, 0]
+[2026-03-01 12:42:40] SUCCESS  [LYZU] [FASE 23] ✓ Handler ejecutado: blender.create_cube
+[2026-03-01 12:42:40] DEBUG    [LYZU] 📝 Action: [12:42:40] ✓ blender.create_cube → Cube_001 (route: IntentRouter)
+[2026-03-01 12:42:40] INFO     [LYZU] ✓ Ejecución procesada y validada (V0+V1): V1 OK
+[2026-03-01 12:42:40] SUCCESS  [LYZU] ✓ Decisión registrada con éxito en bitacora/DECISIONES_APRENDIDAS.md
+[2026-03-01 12:42:40] INFO     [LYZU] [SANEAMIENTO] Auto-memorización desactivada temporalmente (ZULY_LAB Weekend 1)
+[2026-03-01 12:42:40] INFO     [LYZU] 
+Resultado final: ✓ ÉXITO
+[2026-03-01 12:42:40] INFO     [LYZU] Feedback: ✓ Comando ejecutado exitosamente. 
+[2026-03-01 12:42:40] INFO     [LYZU] 🔧 MockAdapter inicializado (modo simulación)
+[2026-03-01 12:42:40] SUCCESS  [LYZU] V1: Integridad estructural de 'Cube_001' verificada.
+[2026-03-01 12:42:40] INFO     [LYZU] 🔧 MockAdapter inicializado (modo simulación)
+[2026-03-01 12:42:40] WARNING  [LYZU] FALLO V1: Se esperaba MESH (CUBE), se obtuvo LIGHT
+[2026-03-01 12:42:40] INFO     [LYZU] 🔧 MockAdapter inicializado (modo simulación)
+[2026-03-01 12:42:40] WARNING  [LYZU] FALLO V1: Integridad geométrica comprometida en 'MyCube'. Vértices: 8 -> 12
+[2026-03-01 12:42:40] INFO     [LYZU] 🔧 MockAdapter inicializado (modo simulación)
+[2026-03-01 12:42:40] WARNING  [LYZU] FALLO V1: Jerarquía incorrecta. 'Child' tiene de padre a 'ParentB', se esperaba 'ParentA'
+[2026-03-01 12:42:40] INFO     [LYZU] 🔧 MockAdapter inicializado (modo simulación)
+[2026-03-01 12:42:40] SUCCESS  [LYZU] V1: Jerarquía de 'ChildObj' verificada.

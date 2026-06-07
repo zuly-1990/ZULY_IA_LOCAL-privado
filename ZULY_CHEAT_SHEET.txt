@@ -1,0 +1,335 @@
+╔════════════════════════════════════════════════════════════════════════════════╗
+║           🎯 ZULY CHEAT SHEET - GUÍA RÁPIDA DE REFERENCIA                     ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+
+📌 INICIO RÁPIDO (30 segundos)
+═════════════════════════════════════════════════════════════════════════════════
+
+from core.agent import Agent
+
+agent = Agent()  # Crea instancia
+
+# Comando simple
+result = agent.process_natural_request("Crea un cubo")
+
+# Acceder a resultado
+print(result['success'])  # True/False
+print(result['message'])  # Descripción
+
+
+🗣️ COMANDOS MÁS COMUNES
+═════════════════════════════════════════════════════════════════════════════════
+
+CREAR OBJETOS:
+  • "Crea un cubo"
+  • "Añade una esfera"
+  • "Haz un cilindro"
+  • "Añade una luz"
+  • "Crea una cámara"
+
+TRANSFORMAR:
+  • "Mueve 5 metros en X"
+  • "Rota 45 grados"
+  • "Escala 2"
+  • "Duplica el cubo"
+
+COLOREAR:
+  • "Colorea de rojo"
+  • "Material azul"
+  • "Dorado"
+
+RENDERIZAR:
+  • "Renderiza la escena"
+  • "Renderiza con 256 samples"
+
+GUARDAR:
+  • "Guarda proyecto"
+  • "Exporta FBX"
+  • "Exporta OBJ"
+
+APRENDIZAJE:
+  • "Confirmar patron_id" (guardar aprendizaje)
+  • "Lista patrones"
+  • "Carga patron_id"
+
+INFO:
+  • "Ayuda"
+  • "Status"
+  • "Historial"
+
+
+🔧 FLUJO DE TRABAJO TÍPICO
+═════════════════════════════════════════════════════════════════════════════════
+
+┌─ STEP 1: Inicializar ──────────────────────────────────────────
+│
+│  agent = Agent(force_mock=False)  # Usar Blender real
+│
+└────────────────────────────────────────────────────────────────
+
+┌─ STEP 2: Crear ───────────────────────────────────────────────
+│
+│  agent.process_natural_request("Crea un cubo en [0,0,0]")
+│
+└────────────────────────────────────────────────────────────────
+
+┌─ STEP 3: Modificar ───────────────────────────────────────────
+│
+│  agent.process_natural_request("Colorea el cubo de rojo")
+│  agent.process_natural_request("Escala a 2")
+│
+└────────────────────────────────────────────────────────────────
+
+┌─ STEP 4: Validar (automático) ────────────────────────────────
+│
+│  # V0 chequea: ¿Objeto existe?
+│  # V1 chequea: ¿Integridad OK?
+│
+└────────────────────────────────────────────────────────────────
+
+┌─ STEP 5: Confirmar aprendizaje ───────────────────────────────
+│
+│  # Usuario ve ID del patrón: c6985b54
+│  agent.process_natural_request("Confirmar c6985b54")
+│
+└────────────────────────────────────────────────────────────────
+
+┌─ STEP 6: Exportar ────────────────────────────────────────────
+│
+│  agent.process_natural_request("Guarda proyecto como 'mi_cubo'")
+│  agent.process_natural_request("Exporta OBJ")
+│
+└────────────────────────────────────────────────────────────────
+
+
+⚡ SHORTCUTS (Comandos Avanzados)
+═════════════════════════════════════════════════════════════════════════════════
+
+PYTHON API DIRECTO:
+│
+├─ agent.scene_monitor.get_scene_state()
+│  └─ Obtiene estado actual de escena
+│
+├─ agent.pattern_memory.get_all_patterns()
+│  └─ Todos los patrones aprendidos
+│
+├─ agent.context.get_summary()
+│  └─ Resumen de sesión
+│
+└─ agent.engine_adapter.get_engine_info()
+   └─ Info de Blender/MockAdapter
+
+
+📊 VALIDACIÓN Y DEBUGGING
+═════════════════════════════════════════════════════════════════════════════════
+
+✅ V0 Validator: Verificación física
+   • ¿Existe objeto en escena?
+   • ¿Está en colección correcta?
+   → Si FALLA: Comando NO se ejecutó
+
+✅ V1 Validator: Integridad estructural
+   • ¿Topología correcta?
+   • ¿Normales válidas?
+   → Si FALLA: Objeto malformado
+
+✅ V2 Validator: Contexto pre-ejecución
+   • ¿Conflictos esperados?
+   • ¿Necesita confirmación?
+   → Si FALLA: Solicita confirmación
+
+✅ V3 Validator: Auditoría (logging)
+   • Análisis de consecuencias
+   • Apenas logging, no bloquea
+
+
+🧠 COGNICIÓN (Auto-evaluación)
+═════════════════════════════════════════════════════════════════════════════════
+
+C1 - Evaluador de Resultados
+     • ¿Resultado mejor/peor de esperado?
+     • Score: 0.0-1.0
+
+C2 - Memoria Experiencial
+     • "Última vez que hice X..."
+     • Retroalimentación
+
+C3 - Descomposición de Objetivos
+     • "Primero paredes, luego techo"
+     • Secuenciación automática
+
+C4 - Auto-tuning
+     • "Próximo: aumentar confianza 5%"
+     • Adaptación automática
+
+
+🎯 APRENDIZAJE (Pattern Memory)
+═════════════════════════════════════════════════════════════════════════════════
+
+4 REPOSITORIOS:
+
+StagingPatternRepository
+├─ Ubicación: memory/patterns_staging.json
+├─ Estado: Experimental
+└─ "Nuevo patrón, no ejecutable"
+
+PendingPatternRepository
+├─ Ubicación: memory/patterns_pending.json
+├─ Estado: En espera
+└─ "Esperando confirmación del usuario"
+
+VerifiedPatternRepository
+├─ Ubicación: memory/patterns_verified.json
+├─ Estado: Cristalizado
+└─ "Aprobado, listo para ejecutar"
+
+QuarantinePatternRepository
+├─ Ubicación: memory/patterns_quarantine.json
+├─ Estado: Aislado
+└─ "Falló, bajo análisis"
+
+
+FLUJO DE APRENDIZAJE:
+1. Comando ejecutado exitosamente
+2. V0 + V1 validators pasan
+3. Confianza >= 0.85
+4. → Guardar en StagingPatternRepository
+5. → Usuario ve: "Patrón aprendido (ID: c6985b54)"
+6. → Usuario ejecuta: "Confirmar c6985b54"
+7. → Mover a VerifiedPatternRepository
+8. → Próxima vez: Usar patrón aprendido
+
+
+🔌 ANATOMÍA DE RESPUESTA
+═════════════════════════════════════════════════════════════════════════════════
+
+result = agent.process_natural_request("Crea un cubo")
+
+# Retorna:
+{
+    'success': True,                    # ¿Se ejecutó?
+    'message': 'Cubo creado',          # Descripción
+    'object': 'Cube.001',              # Nombre del objeto
+    'confidence': 0.85,                 # Confianza NLU
+    'validation': {
+        'v0': {'verified': True},      # Validación física
+        'v1': {'verified': True},      # Integridad
+    },
+    'pattern_memorized': True,          # ¿Se aprendió?
+    'pattern_id': 'c6985b54',          # ID para confirmar
+    'timestamp': '2026-03-30 16:44:53'
+}
+
+
+⚙️ CONFIGURACIÓN
+═════════════════════════════════════════════════════════════════════════════════
+
+Agent Options:
+
+agent = Agent(
+    auto_monitor=True,    # Capturar estado auto tras cada comando
+    force_mock=False      # False = Blender real, True = MockAdapter
+)
+
+Max settings:
+MAX_ACTIONS_PER_SESSION = 50        # Límite de complejidad
+MAX_EXECUTION_HISTORY = 100         # Rolling window historial
+MAX_SCENE_STATES = 20               # Snapshots almacenados
+MAX_ERRORS = 50                     # Errores almacenados
+
+
+🔄 MODO FALLBACK INTELIGENTE
+═════════════════════════════════════════════════════════════════════════════════
+
+Prioridad de Adapters:
+
+1️⃣ BlenderAdapter (si bpy disponible)
+   └─ Ejecución REAL en Blender
+   └─ +50% más rápido que scripts
+
+2️⃣ MockAdapter (fallback automático)
+   └─ Simulación si Blender no existe
+   └─ Mismo contrato (interface compatible)
+   └─ App continúa operando
+
+Sistema NUNCA falla, siempre hay alternative.
+
+
+⚠️ ERRORES COMUNES Y SOLUCIONES
+═════════════════════════════════════════════════════════════════════════════════
+
+ERROR: "Engine adapter not available"
+→ SOLUCIÓN: Activar MockAdapter: Agent(force_mock=True)
+
+ERROR: "V0 Validator: Objeto no encontrado en escena"
+→ SOLUCIÓN: Handler no ejecutó, revisar parámetros
+→ RETRY: agent.scene_monitor.get_scene_state()
+
+ERROR: "Confianza insuficiente (0.70 < 0.85)"
+→ SOLUCIÓN: Frase ambigua, ser más específico
+→ RETRY: "Crea un cubo de cerámica azul de 2 metros"
+
+ERROR: "Patrón en cuarentena, no ejecutable"
+→ SOLUCIÓN: Patrón anterior falló, usar nuevo comando
+
+ERROR: "Session limit exceeded (50 actions)"
+→ SOLUCIÓN: Demasiadas acciones, cerrar y reiniciar sesión
+
+
+📚 ARCHIVOS IMPORTANTES
+═════════════════════════════════════════════════════════════════════════════════
+
+core/agent.py
+└─ Cerebro central, entry point
+
+core/adapters/
+├─ blender_adapter.py (ejecutor real)
+├─ mock_adapter.py (simulador)
+└─ engine_adapter.py (interfaz)
+
+core/commands/blender_handlers/
+├─ primitives.py (crear objetos)
+├─ materials.py (colores)
+├─ rendering.py (renderizar)
+└─ ... 45+ más
+
+core/learning/
+├─ pattern_memory.py (aprendizaje)
+└─ repositories/ (4 storage types)
+
+decision_engine.py
+└─ Routing (patrón vs agente)
+
+memory/
+├─ patterns_staging.json
+├─ patterns_pending.json
+├─ patterns_verified.json
+└─ patterns_quarantine.json
+
+
+🚀 LANZAMIENTO
+═════════════════════════════════════════════════════════════════════════════════
+
+Opción 1: Python Script
+$ python -c "from core.agent import Agent; a = Agent(); print(a.process_natural_request('Cua
+
+un cubo'))"
+
+Opción 2: CLI
+$ python zuly_cli_v2.py
+zuly> crear un cubo
+zuly> confirmar <pattern_id>
+
+Opción 3: Blender Real
+$ python lanzar_blender_zuly.py
+# Ejecuta automáticamente con Blender 3.6.2
+
+Opción 4: Tests
+$ python test_complete_pipeline.py
+# Valida sistema completo
+
+
+═════════════════════════════════════════════════════════════════════════════════
+🎊 ¡ZULY ESTÁ LISTO PARA USAR! 🎊
+═════════════════════════════════════════════════════════════════════════════════

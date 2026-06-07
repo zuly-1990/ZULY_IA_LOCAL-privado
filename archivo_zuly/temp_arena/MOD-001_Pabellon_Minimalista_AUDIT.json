@@ -1,0 +1,39 @@
+{
+  "candidato_id": "MOD-001_Pabellon_Minimalista",
+  "score": 85,
+  "dictamen": "APTO",
+  "timestamp": "2026-04-05T13:38:45.785417",
+  "superpoderes": {
+    "render_engine": {
+      "status": "Motor: BLENDER_EEVEE",
+      "icon": "\ud83c\udfa8"
+    },
+    "geometria": {
+      "status": "2 objetos mesh auditados",
+      "icon": "\ud83d\udd37"
+    },
+    "materiales": {
+      "status": "Color: #CCCCCC (Match: False)",
+      "icon": "\ud83c\udfa8\u26a0\ufe0f"
+    },
+    "escena": {
+      "status": "OK",
+      "icon": "\ud83d\udcf7"
+    }
+  },
+  "metricas": {
+    "Fachada_Vidrio_dims": "3.00x0.02x1.35m",
+    "Fachada_Vidrio_verts": 8,
+    "Fachada_Vidrio_faces": 6,
+    "Techo_dims": "3.50x3.50x0.05m",
+    "Techo_verts": 8,
+    "Techo_faces": 6
+  },
+  "errores": [
+    [
+      "MAYOR",
+      "Color no coincide: #CCCCCC vs #B0B0B0"
+    ]
+  ],
+  "total_objetos": 2
+}

@@ -1,0 +1,28 @@
+{
+  "pattern_id": "P-006A_PlanoBase",
+  "nombre_tecnico": "P-006A_PlanoBase",
+  "fecha_sello": "2026-04-04T20:59:03.555117",
+  "estado": "SELLADO",
+  "sellado_por": "Soberano",
+  "validacion_jues": {
+    "vision_rayos_x": {
+      "status": "LIMPIA",
+      "icon": "✨"
+    },
+    "instinto_optimizacion": {
+      "status": "OPTIMO",
+      "peso_kb": 834.34,
+      "icon": "⚡"
+    },
+    "sincronia_cromatica": {
+      "status": "MATCH",
+      "color_encontrado": "#E5E5E5",
+      "icon": "🎯"
+    },
+    "sello_inmutabilidad": {
+      "hash": "1e70675c168c0611a52b2b972d5d6f2a",
+      "vertices_count": 8,
+      "icon": "🔒"
+    }
+  }
+}

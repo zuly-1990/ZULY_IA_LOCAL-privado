@@ -1,0 +1,350 @@
+{
+  "version": "1.1.1-transcription-eval",
+  "full_raw_text": "Transcripción: Flujo de Trabajo Arquitectónico Avanzado (Villa Savoye)\n\n[5:35] Creación de Columnas Circulares: Shift+A -> Mesh -> Circle. En modo edición: A (seleccionar vértices) -> F (Fill) -> 3 (modo caras) -> E (Extrudear).\n[6:32] Requisito CAD: Los elementos (muros, columnas, vidrios) deben ser polilíneas cerradas para facilitar la extrusión directa en Blender. Uso de 'Join' o 'Pedit' en CAD.\n[7:41] Exportación: Guardar como AutoCAD 2018 DXF.\n[8:36] Resolución de Zoom: Si el zoom falla o es errático, usar el punto (.) del teclado numérico para centrar la vista en el objeto seleccionado. Ajustar 'Navigation' en preferencias para un zoom más suave.\n[11:00] Organización de Niveles: Importar plantas por separado. Unir segmentos con Ctrl+J. Desplazar niveles en el eje Z (G Z) para apilar la estructura.\n[12:10] Fachadas y Cortes: Rotar 90 grados y usar el Snap (Vertex) para alinear las elevaciones con la planta 2D (imanar vértices).\n[14:25] Punto de Pivote: Reubicar el origen del objeto (Set Origin -> Origin to Cursor) usando Shift + Click derecho para posicionar el cursor 3D.\n[20:15] Modelado de Losas: Seleccionar contorno con Alt + Click (si es polilínea) -> F (Fill) -> E (Extrude).\n[28:12] Separación de Objetos: Seleccionar parte del mesh -> L (Linked) -> P (Separate Selection) para crear objetos independientes (columnas, muros).\n[38:53] Limpieza de Geometría: Si hay errores en la extrusión, usar 'Merge by Distance' (M o Clic derecho -> Merge) con distancia 0 para eliminar vértices duplicados o superpuestos.\n[40:35] Ventanas y Carpintería: Duplicar aristas (Shift+D), extrudir y repetir acciones con Shift+R (Array manual rápido para rejas o divisiones).\n[46:50] Selección en X-Ray: Usar Alt+Z para ver y seleccionar caras inferiores o traseras ocultas.\n[53:50] Unión Masiva: Ctrl+J para consolidar elementos similares en un solo objeto antes de organizar colecciones.\n[57:26] Gestión de Colecciones: Crear carpetas por niveles (Nivel 1, 2, 3) en el Outliner para mantener el orden arquitectónico.\n",
+  "cleaned_text": "transcripción: flujo de trabajo arquitectónico avanzado (villa savoye) [5:35] creación de columnas circulares: shift+a -> mesh -> circle. en modo edición: a (seleccionar vértices) -> f (fill) -> 3 (modo caras) -> e (extrudear). [6:32] requisito cad: los elementos (muros, columnas, vidrios) deben ser polilíneas cerradas para facilitar la extrusión directa en blender. uso de 'join' o 'pedit' en cad. [7:41] exportación: guardar como autocad 2018 dxf. [8:36] resolución de zoom: si el zoom falla o es errático, usar el punto (.) del teclado numérico para centrar la vista en el objeto seleccionado. ajustar 'navigation' en preferencias para un zoom más suave. [11:00] organización de niveles: importar plantas por separado. unir segmentos con ctrl+j. desplazar niveles en el eje z (g z) para apilar la estructura. [12:10] fachadas y cortes: rotar 90 grados y usar el snap (vertex) para alinear las elevaciones con la planta 2d (imanar vértices). [14:25] punto de pivote: reubicar el origen del objeto (set origin -> origin to cursor) usando shift + click derecho para posicionar el cursor 3d. [20:15] modelado de losas: seleccionar contorno con alt + click (si es polilínea) -> f (fill) -> e (extrude). [28:12] separación de objetos: seleccionar parte del mesh -> l (linked) -> p (separate selection) para crear objetos independientes (columnas, muros). [38:53] limpieza de geometría: si hay errores en la extrusión, usar 'merge by distance' (m o clic derecho -> merge) con distancia 0 para eliminar vértices duplicados o superpuestos. [40:35] ventanas y carpintería: duplicar aristas (shift+d), extrudir y repetir acciones con shift+r (array manual rápido para rejas o divisiones). [46:50] selección en x-ray: usar alt+z para ver y seleccionar caras inferiores o traseras ocultas. [53:50] unión masiva: ctrl+j para consolidar elementos similares en un solo objeto antes de organizar colecciones. [57:26] gestión de colecciones: crear carpetas por niveles (nivel 1, 2, 3) en el outliner para mantener el orden arquitectónico.",
+  "steps_count": 19,
+  "steps": [
+    {
+      "step_number": 1,
+      "original_segment": "transcripción: flujo de trabajo arquitectónico avanzado (villa savoye) [5:35] creación de columnas circulares: shift+a -> mesh -> circle",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "transcripción: flujo de trabajo arquitectónico avanzado (villa savoye) [5:35] creación de columnas circulares: shift+a -> mesh -> circle",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 2,
+      "original_segment": "en modo edición: a (seleccionar vértices) -> f (fill) -> 3 (modo caras) -> e (extrudear)",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "en modo edición: a (seleccionar vértices) -> f (fill) -> 3 (modo caras) -> e (extrudear)",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 3,
+      "original_segment": "[6:32] requisito cad: los elementos (muros, columnas, vidrios) deben ser polilíneas cerradas para facilitar la extrusión directa en blender",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[6:32] requisito cad: los elementos (muros, columnas, vidrios) deben ser polilíneas cerradas para facilitar la extrusión directa en blender",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 4,
+      "original_segment": "uso de 'join' o 'pedit' en cad",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "uso de 'join' o 'pedit' en cad",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 5,
+      "original_segment": "[7:41] exportación: guardar como autocad 2018 dxf",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[7:41] exportación: guardar como autocad 2018 dxf",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 6,
+      "original_segment": "[8:36] resolución de zoom: si el zoom falla o es errático, usar el punto (.) del teclado numérico para centrar la vista en el objeto seleccionado",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[8:36] resolución de zoom: si el zoom falla o es errático, usar el punto (.) del teclado numérico para centrar la vista en el objeto seleccionado",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 7,
+      "original_segment": "ajustar 'navigation' en preferencias para un zoom más suave",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "ajustar 'navigation' en preferencias para un zoom más suave",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 8,
+      "original_segment": "[11:00] organización de niveles: importar plantas por separado",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[11:00] organización de niveles: importar plantas por separado",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 9,
+      "original_segment": "unir segmentos con ctrl+j",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "unir segmentos con ctrl+j",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 10,
+      "original_segment": "desplazar niveles en el eje z (g z) para apilar la estructura",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "desplazar niveles en el eje z (g z) para apilar la estructura",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 11,
+      "original_segment": "[12:10] fachadas y cortes: rotar 90 grados y usar el snap (vertex) para alinear las elevaciones con la planta 2d (imanar vértices)",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[12:10] fachadas y cortes: rotar 90 grados y usar el snap (vertex) para alinear las elevaciones con la planta 2d (imanar vértices)",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 12,
+      "original_segment": "[14:25] punto de pivote: reubicar el origen del objeto (set origin -> origin to cursor) usando shift + click derecho para posicionar el cursor 3d",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[14:25] punto de pivote: reubicar el origen del objeto (set origin -> origin to cursor) usando shift + click derecho para posicionar el cursor 3d",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 13,
+      "original_segment": "[20:15] modelado de losas: seleccionar contorno con alt + click (si es polilínea) -> f (fill) -> e (extrude)",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[20:15] modelado de losas: seleccionar contorno con alt + click (si es polilínea) -> f (fill) -> e (extrude)",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 14,
+      "original_segment": "[28:12] separación de objetos: seleccionar parte del mesh -> l (linked) -> p (separate selection) para crear objetos independientes (columnas, muros)",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[28:12] separación de objetos: seleccionar parte del mesh -> l (linked) -> p (separate selection) para crear objetos independientes (columnas, muros)",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 15,
+      "original_segment": "[38:53] limpieza de geometría: si hay errores en la extrusión, usar 'merge by distance' (m o clic derecho -> merge) con distancia 0 para eliminar vértices duplicados o superpuestos",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[38:53] limpieza de geometría: si hay errores en la extrusión, usar 'merge by distance' (m o clic derecho -> merge) con distancia 0 para eliminar vértices duplicados o superpuestos",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 16,
+      "original_segment": "[40:35] ventanas y carpintería: duplicar aristas (shift+d), extrudir y repetir acciones con shift+r (array manual rápido para rejas o divisiones)",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[40:35] ventanas y carpintería: duplicar aristas (shift+d), extrudir y repetir acciones con shift+r (array manual rápido para rejas o divisiones)",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 17,
+      "original_segment": "[46:50] selección en x-ray: usar alt+z para ver y seleccionar caras inferiores o traseras ocultas",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[46:50] selección en x-ray: usar alt+z para ver y seleccionar caras inferiores o traseras ocultas",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 18,
+      "original_segment": "[53:50] unión masiva: ctrl+j para consolidar elementos similares en un solo objeto antes de organizar colecciones",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[53:50] unión masiva: ctrl+j para consolidar elementos similares en un solo objeto antes de organizar colecciones",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 19,
+      "original_segment": "[57:26] gestión de colecciones: crear carpetas por niveles (nivel 1, 2, 3) en el outliner para mantener el orden arquitectónico.",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[57:26] gestión de colecciones: crear carpetas por niveles (nivel 1, 2, 3) en el outliner para mantener el orden arquitectónico.",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    }
+  ],
+  "global_warnings": [],
+  "total_elements_detected": 0,
+  "tutorial_confidence_score": 1.0,
+  "confidence_level": "ALTO",
+  "average_clarity": 1.0,
+  "total_technical_gaps": 0,
+  "recommendation": "Tutorial confiable y preciso.",
+  "ambiguous_language_detected": false,
+  "technical_gaps_detected": false,
+  "ambiguous_steps": [],
+  "detected_concepts": [],
+  "detected_paradigms": {
+    "adherent_paradigms": [
+      "PARADIGM_IMPERATIVE",
+      "PARADIGM_MODULAR"
+    ],
+    "dominant_paradigm": "PARADIGM_MODULAR",
+    "compatibility_status": "SUPPORTED"
+  }
+}

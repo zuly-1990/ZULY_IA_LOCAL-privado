@@ -1,0 +1,25 @@
+Transcripción: Fundamentos de Blender 4.2 y ArchiMesh Arquitectónico
+
+[0:48] Versión utilizada: Blender 4.2 LTS.
+[1:52] Escena inicial: Cubo, Luz y Cámara (localización, rotación y escala en 0).
+[3:23] Navegación:
+    - Zoom: Rueda del mouse.
+    - Orbitar: Botón central (MMB).
+    - Panear: Shift + Botón central.
+[4:47] Atajos Clave (Shortcuts):
+    - G (Grab): Mover. Se puede anclar a ejes (X, Y, Z) con el botón central o tecleando la letra del eje.
+    - R (Rotate): Rotar. Se orienta según la vista o se ancla a ejes. Se pueden introducir grados exactos (ej: 45).
+    - S (Scale): Escalar.
+[7:41] Vistas: Uso del Gizmo (Z para vista cenital/Top View) para cambiar entre perspectiva y vista ortogonal.
+[9:52] Importación: Edit -> Preferences -> Add-ons. Activar 'Import-Export AutoCAD DXF'.
+[11:39] Imágenes de Referencia: Drag & Drop directo a Blender. Resetear transformaciones (Alt+G, Alt+R) para alinear.
+[13:30] Unidades: Escena -> Units -> Unit System: Imperial (Pies/Pulgadas) para proyectos en EE.UU. o Puerto Rico.
+[14:23] Escalado de Referencia: Medir con herramienta 'Measure' y ajustar escala del plano/imagen insertando un cubo de medida conocida (ej: 3 pies para una puerta).
+[17:56] Extrude (E): Uso de extrusión desde aristas (Edges) para trazar muros sobre el plano.
+[19:34] Duplicar (Shift + D): Para mover aristas sin extruir (marcar huecos de ventanas).
+[21:02] Bridge Edge Loops: Cerrar paredes seleccionando dos aristas enfrentadas.
+[23:58] Loop Cut (Ctrl + R): Subdividir secciones para crear divisiones internas con precisión de Snap.
+[24:58] Dissolve (X -> Dissolve Faces): Limpiar geometría eliminando aristas redundantes para optimizar el modelo.
+[30:03] ArchiMesh Addon: Herramienta para insertar puertas, ventanas y escaleras paramétricas.
+[31:36] Gestión de Puertas: Seleccionar el 'Door Frame' y ajustar ancho/alto en el panel de propiedades (N-Panel).
+[33:20] Rotación de apertura: Opciones 'Left/Right Open' para definir el giro de la puerta.

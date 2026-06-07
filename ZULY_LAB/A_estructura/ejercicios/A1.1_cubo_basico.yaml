@@ -1,0 +1,75 @@
+# Ejercicio A1.1: Cubo Básico
+# Primera misión de ZULY - Contacto real con Blender
+
+name: "Cubo Básico"
+fase: "A"
+numero: "A1.1"
+descripcion: "Crear cubo, transformar, aplicar material y guardar"
+dificultad: "basico"
+tiempo_estimado_segundos: 5
+
+# Pasos a ejecutar
+steps:
+  - action: "clear_scene"
+
+  - action: "create_cube"
+    params:
+      location: [0, 0, 0]
+      name: "CuboA1"
+    
+  - action: "scale_object"
+    params:
+      object_name: "CuboA1"
+      scale: 2.0
+  
+  - action: "move_object"
+    params:
+      object_name: "CuboA1"
+      location: [2, 0, 0]
+  
+  - action: "create_material"
+    params:
+      name: "MaterialBasico"
+      color: [0.8, 0.2, 0.2, 1.0]  # Rojo
+  
+  - action: "apply_material"
+    params:
+      object_name: "CuboA1"
+      material_name: "MaterialBasico"
+  
+  - action: "save_project"
+    params:
+      filepath: "ZULY_LAB/resultados_zuly/A1.1_cubo_basico.blend"
+
+# Validaciones esperadas
+validation:
+  - type: "object_exists"
+    object_name: "CuboA1"
+  
+  - type: "object_at_location"
+    object_name: "CuboA1"
+    expected_location: [2, 0, 0]
+    tolerance: 0.01
+  
+  - type: "object_scale"
+    object_name: "CuboA1"
+    expected_scale: 2.0
+    tolerance: 0.01
+  
+  - type: "material_applied"
+    object_name: "CuboA1"
+    material_name: "MaterialBasico"
+
+# Métricas a registrar
+metrics:
+  - "tiempo_total"
+  - "pasos_exitosos"
+  - "pasos_fallidos"
+  - "objetos_creados"
+  - "validacion_v0"
+
+# Criterio de éxito
+success_criteria:
+  min_steps_successful: 6
+  all_validations_pass: true
+  max_time_seconds: 10

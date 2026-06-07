@@ -1,0 +1,52 @@
+{
+  "test_date": "2026-05-02T12:00:20.968295",
+  "blender_exit_code": 0,
+  "blender_execution_time_s": 3.6936144828796387,
+  "blender_report": {
+    "success": true,
+    "timestamp": "2026-05-02T12:00:19.937797",
+    "blender_version": "3.6.2",
+    "performance": {
+      "model_creation_s": 0.010128498077392578,
+      "pattern_extraction_s": 0.0010039806365966797,
+      "illumination_s": 0.003999948501586914,
+      "save_s": 0.01599860191345215,
+      "total_s": 0.0351564884185791
+    },
+    "pattern": {
+      "pattern_id": "ARCH-CUB-001",
+      "name": "ARQUITECTURA_CUBO_001",
+      "timestamp": "2026-05-02T12:00:19.917798",
+      "geometry": {
+        "object_name": "ARQUITECTURA_CUBO_001",
+        "object_type": "MESH",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "dimensions": [
+          2.0,
+          2.0,
+          2.0
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "modifiers": [
+        {
+          "type": "BEVEL",
+          "name": "Bevel",
+          "enabled": true
+        }
+      ]
+    },
+    "output_blend": "c:/Users/Admin/Desktop/ZULY_IA_LOCAL/archivo_zuly/temp_arena/ZULY_TEST_REAL.blend"
+  },
+  "output_files": {
+    "blend": "c:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\temp_arena\\ZULY_TEST_REAL.blend",
+    "exists": true,
+    "size_mb": 0.7909698486328125
+  }
+}

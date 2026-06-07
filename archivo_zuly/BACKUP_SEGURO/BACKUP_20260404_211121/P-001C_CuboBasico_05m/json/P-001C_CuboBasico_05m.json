@@ -1,0 +1,28 @@
+{
+  "pattern_id": "P-001C_CuboBasico_05m",
+  "nombre_tecnico": "P-001C_CuboBasico_05m",
+  "fecha_sello": "2026-04-04T20:45:24.516260",
+  "estado": "SELLADO",
+  "sellado_por": "Soberano",
+  "validacion_jues": {
+    "vision_rayos_x": {
+      "status": "LIMPIA",
+      "icon": "✨"
+    },
+    "instinto_optimizacion": {
+      "status": "OPTIMO",
+      "peso_kb": 869.43,
+      "icon": "⚡"
+    },
+    "sincronia_cromatica": {
+      "status": "MATCH",
+      "color_encontrado": "#FF9800",
+      "icon": "🎯"
+    },
+    "sello_inmutabilidad": {
+      "hash": "aed63bf6f9d0d34078f7220dc1db9138",
+      "vertices_count": 8,
+      "icon": "🔒"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "timestamp": "2025-12-07T22:51:26.171137",
+  "stages": {
+    "STAGE_1": [
+      {
+        "timestamp": "22:51:26",
+        "message": "Iniciando agente ZULY...",
+        "status": "INFO"
+      },
+      {
+        "timestamp": "22:51:26",
+        "message": "Agente inicializado. Comandos disponibles: 27",
+        "status": "OK"
+      }
+    ],
+    "STAGE_2": [
+      {
+        "timestamp": "22:51:26",
+        "message": "Verificando disponibilidad de Blender...",
+        "status": "INFO"
+      },
+      {
+        "timestamp": "22:51:26",
+        "message": "Blender encontrado en: C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\blender\\v3\\blender-3.6.0-zuly\\blender.exe",
+        "status": "OK"
+      }
+    ],
+    "STAGE_3": [
+      {
+        "timestamp": "22:51:26",
+        "message": "Creando escena de prueba...",
+        "status": "INFO"
+      },
+      {
+        "timestamp": "22:51:26",
+        "message": "Escena creada: cubo agregado",
+        "status": "OK"
+      }
+    ],
+    "STAGE_4": [
+      {
+        "timestamp": "22:51:26",
+        "message": "Iniciando render con Blender...",
+        "status": "INFO"
+      },
+      {
+        "timestamp": "22:51:26",
+        "message": "Ejecutando: C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\blender\\v3\\blender-3.6.0-zuly\\blender.exe -b --python C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\herramientas\\scripts_externos\\blender_render.py",
+        "status": "INFO"
+      },
+      {
+        "timestamp": "22:51:44",
+        "message": "Blender ejecutó correctamente",
+        "status": "OK"
+      },
+      {
+        "timestamp": "22:51:44",
+        "message": "Archivo generado: ./export/render.png",
+        "status": "OK"
+      }
+    ],
+    "STAGE_5": [
+      {
+        "timestamp": "22:51:44",
+        "message": "Validando archivos de salida...",
+        "status": "INFO"
+      },
+      {
+        "timestamp": "22:51:44",
+        "message": "PNG válido: render.png (214.4 KB)",
+        "status": "OK"
+      },
+      {
+        "timestamp": "22:51:44",
+        "message": "BLEND válido: escena_render.blend (827.2 KB)",
+        "status": "OK"
+      },
+      {
+        "timestamp": "22:51:44",
+        "message": "Ambos archivos validados exitosamente",
+        "status": "OK"
+      }
+    ]
+  },
+  "success": true,
+  "error": null,
+  "passed": 5,
+  "failed": 0
+}

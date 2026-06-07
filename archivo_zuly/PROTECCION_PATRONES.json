@@ -1,0 +1,14 @@
+{
+  "sistema": "ZULY Protección de Patrones",
+  "version": "1.0",
+  "fecha_activacion": "2026-04-04T21:11:26.913933",
+  "advertencia": "⚠️  ESTOS ARCHIVOS SON PATRONES SELLADOS OFICIALES",
+  "instrucciones": {
+    "no_borrar": "No borrar carpetas en mastered/ sin backup previo",
+    "no_mover": "No mover archivos de mastered/ a otras ubicaciones",
+    "no_renombrar": "No renombrar carpetas ni archivos en mastered/",
+    "backup": "Hacer backup antes de cualquier modificación"
+  },
+  "recuperacion": "Si borraste accidentalmente, restaurar desde archivo_zuly/BACKUP_SEGURO/",
+  "contacto": "Cascade - ZULY Lead Developer"
+}

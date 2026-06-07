@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-03-15T12:06:11.343900",
+  "fase_d1_setup": "COMPLETED",
+  "c1": {
+    "evaluations": [
+      {
+        "request": "Mueve el Cubo_D1 a la posici\u00f3n [2, 0, 0]",
+        "score": 1.0,
+        "passed": 4
+      },
+      {
+        "request": "Escala el Cubo_D1 a tama\u00f1o 2.5",
+        "score": 1.0,
+        "passed": 4
+      },
+      {
+        "request": "Aplica el Material_D1 al objeto Cubo_D1",
+        "score": 1.0,
+        "passed": 4
+      },
+      {
+        "request": "Renderiza la escena actual",
+        "score": 1.0,
+        "passed": 4
+      }
+    ],
+    "stats": {
+      "avg_score": 1.0,
+      "count": 4
+    }
+  },
+  "c2": {
+    "experiences": [],
+    "stats": {}
+  },
+  "c3": {
+    "decompositions": [
+      {
+        "objective": "Crear escena 3D completa con suelo y columnas",
+        "num_tasks": 4,
+        "success": true
+      }
+    ],
+    "stats": {}
+  },
+  "c4": {
+    "optimizations": [
+      {
+        "best_param": 2.75,
+        "best_score": 0.8,
+        "iterations": 5
+      }
+    ],
+    "stats": {}
+  },
+  "total_time": 38.5
+}

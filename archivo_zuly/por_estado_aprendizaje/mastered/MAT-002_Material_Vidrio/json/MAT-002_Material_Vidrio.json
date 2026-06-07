@@ -1,0 +1,28 @@
+{
+  "pattern_id": "MAT-002_Material_Vidrio",
+  "nombre_tecnico": "MAT-002_Material_Vidrio",
+  "fecha_sello": "2026-04-04T21:04:08.266074",
+  "estado": "SELLADO",
+  "sellado_por": "Soberano",
+  "validacion_jues": {
+    "vision_rayos_x": {
+      "status": "LIMPIA",
+      "icon": "✨"
+    },
+    "instinto_optimizacion": {
+      "status": "OPTIMO",
+      "peso_kb": 914.99,
+      "icon": "⚡"
+    },
+    "sincronia_cromatica": {
+      "status": "MATCH",
+      "color_encontrado": "#FFFFFF",
+      "icon": "🎯"
+    },
+    "sello_inmutabilidad": {
+      "hash": "2b90ab9f1cabbe9932f22a2f7e9f9cc7",
+      "vertices_count": 482,
+      "icon": "🔒"
+    }
+  }
+}

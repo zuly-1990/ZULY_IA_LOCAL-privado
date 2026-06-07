@@ -1,0 +1,68 @@
+# Ejercicio B1.3: Árbol Fractal (Recursividad Orgánica)
+# Objetivo: Utilizar algoritmos recursivos para generar estructuras naturales complejas.
+
+name: "Árbol Fractal"
+fase: "B"
+numero: "B1.3"
+descripcion: "Generación de vegetación mediante sistema recursivo (L-System simplificado)"
+dificultad: "experto"
+tiempo_estimado_segundos: 20
+
+steps:
+  - action: "clear_scene"
+
+  # 1. Ejecutar generador recursivo
+  - action: "run_python_script"
+    params:
+      script_path: "ZULY_LAB/B_automatizacion/scripts/fractal_tree.py"
+      variables:
+        depth: 5          # Profundidad de recursión (Cuidado: exponencial!)
+        branch_len: 2.0   # Longitud inicial
+        angle: 25.0       # Ángulo de apertura
+
+  # 2. Configurar Escena
+  - action: "create_light"
+    params:
+      light_type: "SUN"
+      location: [5, -10, 15]
+      energy: 6.0
+      name: "Sol_Bosque"
+
+  - action: "create_camera"
+    params:
+      location: [0, -12, 6]
+      name: "CamaraArbol"
+
+  - action: "position_camera"
+    params:
+      camera_name: "CamaraArbol"
+      location: [0, -12, 6]
+      look_at: [0, 0, 3]
+
+  - action: "set_active_camera"
+    params:
+      camera_name: "CamaraArbol"
+
+  # 3. Render
+  - action: "render_scene"
+    params:
+      output_path: "ZULY_LAB/resultados_zuly/B1.3_render_arbol.png"
+      resolution: [800, 800]
+      samples: 32
+
+  # 4. Guardar
+  - action: "save_project"
+    params:
+      filepath: "ZULY_LAB/resultados_zuly/B1.3_arbol_fractal.blend"
+
+validation:
+  - type: "object_count"
+    expected: 63 # Depth 5 bifurcado genera: 1 (tronco) + 2 + 4 + 8 + 16 + 32 = 63 ramas.
+                 # + hojas opcionales
+
+metrics:
+  - "tiempo_total"
+  - "objetos_creados"
+
+success_criteria:
+  min_steps_successful: 4

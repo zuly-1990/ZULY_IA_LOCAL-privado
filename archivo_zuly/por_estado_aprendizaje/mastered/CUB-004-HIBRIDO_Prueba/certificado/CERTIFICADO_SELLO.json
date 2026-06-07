@@ -1,0 +1,14 @@
+{
+  "certificado_id": "CERT-CUB-004-HIBRIDO_Prueba-20260404165604",
+  "pattern_id": "CUB-004-HIBRIDO_Prueba",
+  "fecha_sello": "2026-04-04T16:56:04.581850",
+  "sellado_por": "Soberano",
+  "decision": "SELLADO",
+  "dictamen_jues": "✅ APTO_PARA_SELLO",
+  "validacion": {
+    "malla": "LIMPIA",
+    "peso_kb": 834.8,
+    "color": "#607D8B",
+    "hash": "60540b24555a52cc1efa0afd28a40956"
+  }
+}

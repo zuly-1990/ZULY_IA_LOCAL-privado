@@ -1,0 +1,212 @@
+{
+  "ejercicio": "A1.2",
+  "nombre": "5 Columnas Alineadas",
+  "timestamp": "2026-02-15T15:57:41.479035",
+  "pasos_ejecutados": [
+    {
+      "numero": 1,
+      "action": "create_cylinder",
+      "params": {
+        "location": [
+          0,
+          0,
+          0
+        ],
+        "name": "Columna_1",
+        "scale": [
+          0.3,
+          0.3,
+          2.0
+        ]
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T15:57:41.479035",
+      "resultado": {
+        "success": true,
+        "object_name": "Columna_1",
+        "location": [
+          0,
+          0,
+          0
+        ],
+        "radius": 1.0,
+        "depth": 2.0,
+        "message": "Cilindro creado exitosamente",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_cylinder"
+      }
+    },
+    {
+      "numero": 2,
+      "action": "create_cylinder",
+      "params": {
+        "location": [
+          2,
+          0,
+          0
+        ],
+        "name": "Columna_2",
+        "scale": [
+          0.3,
+          0.3,
+          2.0
+        ]
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T15:57:41.489742",
+      "resultado": {
+        "success": true,
+        "object_name": "Columna_2",
+        "location": [
+          2,
+          0,
+          0
+        ],
+        "radius": 1.0,
+        "depth": 2.0,
+        "message": "Cilindro creado exitosamente",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_cylinder"
+      }
+    },
+    {
+      "numero": 3,
+      "action": "create_cylinder",
+      "params": {
+        "location": [
+          4,
+          0,
+          0
+        ],
+        "name": "Columna_3",
+        "scale": [
+          0.3,
+          0.3,
+          2.0
+        ]
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T15:57:41.492394",
+      "resultado": {
+        "success": true,
+        "object_name": "Columna_3",
+        "location": [
+          4,
+          0,
+          0
+        ],
+        "radius": 1.0,
+        "depth": 2.0,
+        "message": "Cilindro creado exitosamente",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_cylinder"
+      }
+    },
+    {
+      "numero": 4,
+      "action": "create_cylinder",
+      "params": {
+        "location": [
+          6,
+          0,
+          0
+        ],
+        "name": "Columna_4",
+        "scale": [
+          0.3,
+          0.3,
+          2.0
+        ]
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T15:57:41.493476",
+      "resultado": {
+        "success": true,
+        "object_name": "Columna_4",
+        "location": [
+          6,
+          0,
+          0
+        ],
+        "radius": 1.0,
+        "depth": 2.0,
+        "message": "Cilindro creado exitosamente",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_cylinder"
+      }
+    },
+    {
+      "numero": 5,
+      "action": "create_cylinder",
+      "params": {
+        "location": [
+          8,
+          0,
+          0
+        ],
+        "name": "Columna_5",
+        "scale": [
+          0.3,
+          0.3,
+          2.0
+        ]
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T15:57:41.494582",
+      "resultado": {
+        "success": true,
+        "object_name": "Columna_5",
+        "location": [
+          8,
+          0,
+          0
+        ],
+        "radius": 1.0,
+        "depth": 2.0,
+        "message": "Cilindro creado exitosamente",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_cylinder"
+      }
+    },
+    {
+      "numero": 6,
+      "action": "save_project",
+      "params": {
+        "filepath": "ZULY_LAB/resultados_zuly/A1.2_columnas.blend"
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T15:57:41.496140",
+      "resultado": {
+        "success": true,
+        "output_path": "ZULY_LAB/resultados_zuly/A1.2_columnas.blend",
+        "format": "BLEND",
+        "object_count": 8,
+        "route": "INTENT_ROUTER",
+        "handler": "blender.save_project"
+      }
+    }
+  ],
+  "pasos_exitosos": 6,
+  "pasos_fallidos": 0,
+  "tiempo_total_segundos": 0.03,
+  "exito": true,
+  "objetos_creados": [],
+  "errores": [],
+  "validacion": {
+    "total": 2,
+    "pasadas": 1,
+    "fallidas": 1,
+    "detalles": [
+      {
+        "tipo": "object_count",
+        "pasado": false,
+        "error": "Se esperaban 5 objetos, hay 8"
+      },
+      {
+        "tipo": "objects_aligned",
+        "pasado": true,
+        "error": null
+      }
+    ]
+  }
+}

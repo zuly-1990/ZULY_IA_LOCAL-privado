@@ -1,0 +1,14 @@
+{
+  "certificado_id": "CERT-CUB-005_BooleanExacto-20260404203142",
+  "pattern_id": "CUB-005_BooleanExacto",
+  "fecha_sello": "2026-04-04T20:31:42.549529",
+  "sellado_por": "Soberano",
+  "decision": "SELLADO",
+  "dictamen_jues": "✅ APTO_PARA_SELLO",
+  "validacion": {
+    "malla": "LIMPIA",
+    "peso_kb": 841.28,
+    "color": "#D32F2F",
+    "hash": "2928ce6f1552b3ff4c8e57e8b925eef9"
+  }
+}

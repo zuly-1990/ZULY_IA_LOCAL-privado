@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-04-11T19:06:56.431200",
+  "fecha": "2026-04-11 19:06:56",
+  "pattern_id": "TEST_INTEGRATION",
+  "puntuacion_jues": 100.0,
+  "dictamen": "APTO_PARA_SELLO",
+  "findings": [
+    "V0 (Física): OK - V0 checked",
+    "V1 (Estructural): OK - V1 checked",
+    "V2 (Contextual): OK - Context OK",
+    "V3 (Topológica): OK - Malla perfecta (True)",
+    "Sincronía Cromática: OK - Color OK",
+    "Optimización: OK - Optimized",
+    "Inmutabilidad: OK - Hash consistente (quick)"
+  ],
+  "errors": [],
+  "warnings": [],
+  "dashboard": {
+    "estado_malla": "LIMPIA",
+    "estado_malla_icon": "✅",
+    "concordancia_color": "MATCH",
+    "concordancia_icon": "🎨",
+    "peso_patron_kb": 100.0,
+    "hash_corto": "quick"
+  },
+  "raw_results": {
+    "v0": {
+      "verified": true,
+      "details": "V0 checked"
+    },
+    "v1": {
+      "verified": true,
+      "details": "V1 checked"
+    },
+    "v2": {
+      "verified": true,
+      "details": "Context OK"
+    },
+    "v3": {
+      "verified": true,
+      "metrics": {
+        "is_watertight": true,
+        "non_manifold_edges_count": 0
+      }
+    },
+    "chromatic_sync": {
+      "match": true,
+      "details": "Color OK"
+    },
+    "optimization_instinct": {
+      "optimized": true,
+      "details": "Optimized",
+      "final_size_kb": 100.0
+    },
+    "immutability_seal": {
+      "verified": true,
+      "hash_short": "quick"
+    }
+  }
+}

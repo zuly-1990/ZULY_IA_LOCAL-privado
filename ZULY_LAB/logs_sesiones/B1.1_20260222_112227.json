@@ -1,0 +1,205 @@
+{
+  "ejercicio": "B1.1",
+  "nombre": "Espiral de ADN",
+  "timestamp": "2026-02-22T11:22:27.345747",
+  "pasos_ejecutados": [
+    {
+      "numero": 1,
+      "action": "clear_scene",
+      "params": {},
+      "exito": true,
+      "timestamp": "2026-02-22T11:22:27.346884",
+      "resultado": {
+        "success": true,
+        "route": "INTENT_ROUTER",
+        "handler": "blender.clear_scene"
+      }
+    },
+    {
+      "numero": 2,
+      "action": "run_python_script",
+      "params": {
+        "script_content": "import math\n\n# Parámetros de la hélice\nnum_pares = 20\naltura_total = 10.0\nradio_helice = 2.0\nvueltas = 2.0\n\n# Materiales (crearlos primero usando el adapter disponible en el contexto)\nadapter.create_material(name=\"MatBaseA\", color=[1.0, 0.2, 0.2, 1.0]) # Rojo\nadapter.create_material(name=\"MatBaseB\", color=[0.2, 0.2, 1.0, 1.0]) # Azul\nadapter.create_material(name=\"MatPuente\", color=[1.0, 1.0, 1.0, 1.0]) # Blanco\n\nfor i in range(num_pares):\n    t = i / num_pares\n    angulo = t * vueltas * 2 * math.pi\n    z = (t * altura_total) - (altura_total / 2)\n    \n    x = math.cos(angulo) * radio_helice\n    y = math.sin(angulo) * radio_helice\n    \n    # Esfera Cadena A\n    adapter.create_primitive(\n        'sphere', \n        location=[x, y, z], \n        radius=0.3, \n        name=f\"BaseA_{i}\"\n    )\n    adapter.apply_material(f\"BaseA_{i}\", \"MatBaseA\")\n    \n    # Esfera Cadena B (opuesta)\n    adapter.create_primitive(\n        'sphere', \n        location=[-x, -y, z], \n        radius=0.3, \n        name=f\"BaseB_{i}\"\n    )\n    adapter.apply_material(f\"BaseB_{i}\", \"MatBaseB\")\n    \n    # Puente (Cilindro conector)\n    # Calculamos rotación para alinear... o simplificamos usando cubos estirados\n    # Para simplificar matemática de rotación en esta fase inicial, usamos un cubo muy delgado\n    adapter.create_primitive(\n        'cube',\n        location=[0, 0, z],\n        scale=[radio_helice, 0.1, 0.1], # Largo en X, delgado en Y/Z\n        name=f\"Puente_{i}\"\n    )\n    # Rotar el puente para que coincida con el ángulo\n    # El cubo base está en X. Rotamos en Z.\n    adapter.rotate_object(f\"Puente_{i}\", [0, 0, angulo])\n    adapter.apply_material(f\"Puente_{i}\", \"MatPuente\")\n"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:22:27.354112",
+      "resultado": {
+        "success": true,
+        "message": "Script executed",
+        "script_result": "Script executed successfully",
+        "context_keys": [
+          "bpy",
+          "math",
+          "random",
+          "mathutils",
+          "adapter",
+          "num_pares",
+          "altura_total",
+          "radio_helice",
+          "vueltas",
+          "i",
+          "t",
+          "angulo",
+          "z",
+          "x",
+          "y"
+        ],
+        "route": "INTENT_ROUTER",
+        "handler": "blender.run_python_script"
+      }
+    },
+    {
+      "numero": 3,
+      "action": "create_light",
+      "params": {
+        "light_type": "SUN",
+        "location": [
+          5,
+          5,
+          10
+        ],
+        "energy": 5.0,
+        "name": "Sol"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:22:27.530062",
+      "resultado": {
+        "success": true,
+        "light_name": "Sol",
+        "light_type": "SUN",
+        "location": [
+          5,
+          5,
+          10
+        ],
+        "energy": 5.0,
+        "message": "Luz SUN creada exitosamente",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_light"
+      }
+    },
+    {
+      "numero": 4,
+      "action": "create_camera",
+      "params": {
+        "location": [
+          10,
+          -10,
+          5
+        ],
+        "name": "CamaraADN"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:22:27.535722",
+      "resultado": {
+        "success": true,
+        "camera_name": "CamaraADN",
+        "location": [
+          10,
+          -10,
+          5
+        ],
+        "focal_length": 50.0,
+        "message": "Cámara creada exitosamente",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_camera"
+      }
+    },
+    {
+      "numero": 5,
+      "action": "position_camera",
+      "params": {
+        "camera_name": "CamaraADN",
+        "location": [
+          10,
+          -10,
+          5
+        ],
+        "look_at": [
+          0,
+          0,
+          0
+        ]
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:22:27.546415",
+      "resultado": {
+        "success": true,
+        "camera_name": "CamaraADN",
+        "location": [
+          10,
+          -10,
+          5
+        ],
+        "look_at": [
+          0,
+          0,
+          0
+        ],
+        "route": "INTENT_ROUTER",
+        "handler": "blender.position_camera"
+      }
+    },
+    {
+      "numero": 6,
+      "action": "set_active_camera",
+      "params": {
+        "camera_name": "CamaraADN"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:22:27.560413",
+      "resultado": {
+        "success": true,
+        "camera_name": "CamaraADN",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.set_active_camera"
+      }
+    },
+    {
+      "numero": 7,
+      "action": "save_project",
+      "params": {
+        "filepath": "ZULY_LAB/resultados_zuly/B1.1_espiral_adn.blend"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:22:27.563377",
+      "resultado": {
+        "success": true,
+        "output_path": "ZULY_LAB/resultados_zuly/B1.1_espiral_adn.blend",
+        "format": "BLEND",
+        "object_count": 62,
+        "message": "Escena exportada a BLEND en modo simulación",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.save_project"
+      }
+    }
+  ],
+  "pasos_exitosos": 7,
+  "pasos_fallidos": 0,
+  "tiempo_total_segundos": 0.22,
+  "exito": true,
+  "objetos_creados": [],
+  "errores": [],
+  "validacion": {
+    "total": 3,
+    "pasadas": 2,
+    "fallidas": 1,
+    "detalles": [
+      {
+        "tipo": "object_exists",
+        "pasado": true,
+        "error": null
+      },
+      {
+        "tipo": "object_exists",
+        "pasado": true,
+        "error": null
+      },
+      {
+        "tipo": "object_count",
+        "pasado": false,
+        "error": "Se esperaban 63 objetos, hay 62"
+      }
+    ]
+  }
+}

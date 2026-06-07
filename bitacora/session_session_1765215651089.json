@@ -1,0 +1,40 @@
+{
+  "session_id": "session_1765215651089",
+  "creation_time": "2025-12-08T12:40:51.089795",
+  "turns": [
+    {
+      "timestamp": "2025-12-08T12:40:51.379968",
+      "user_input": "Crea un cubo",
+      "intent": "crear_objeto",
+      "entities": {
+        "objeto": {
+          "value": "Cube",
+          "confidence": 0.95,
+          "type": "object"
+        }
+      },
+      "command_executed": "blender.create_primitive",
+      "result": "{\"success\": false, \"output\": null, \"error\": \"No handler found for command: blender.create_primitive\", \"attempts\": 1, \"execution_time_ms\": 10.736465454101562}",
+      "confidence": 0.7
+    },
+    {
+      "timestamp": "2025-12-08T12:40:51.903039",
+      "user_input": "Renderiza",
+      "intent": "renderizar",
+      "entities": {},
+      "command_executed": "blender.render_scene",
+      "result": "{\"success\": true, \"output\": {\"success\": false, \"error\": \"Blender Python API not available\"}, \"error\": null, \"attempts\": 1, \"execution_time_ms\": 3.313779830932617}",
+      "confidence": 1.0
+    }
+  ],
+  "scene_state": {},
+  "user_preferences": {},
+  "learned_patterns": [],
+  "stats": {
+    "turns_in_memory": 2,
+    "max_turns": 500,
+    "archived_turns": 0,
+    "total_turns_processed": 2,
+    "memory_usage_pct": 0.4
+  }
+}

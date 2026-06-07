@@ -1,0 +1,804 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+[2026-03-07 21:01:25] INFO     [LYZU] 🚀 INICIANDO SHOWCASE DE CAPACIDADES AVANZADAS - ZULY_IA
+[2026-03-07 21:01:25] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] INICIALIZANDO AGENTE ZULY - VERSIÓN INTELIGENTE
+[2026-03-07 21:01:25] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 17] Engine Adapter: BlenderAdapter
+[2026-03-07 21:01:25] INFO     [LYZU] Cargando comandos desde: C:\Users\Admin\Desktop\ZULY_IA_LOCAL\core\commands
+[2026-03-07 21:01:25] INFO     [LYZU] Cargados 7 módulos de comandos (0 errores)
+[2026-03-07 21:01:25] INFO     [LYZU] Total de comandos cargados: 0
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.create_cube
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.create_sphere
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.create_cylinder
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.create_plane
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.move_object
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.rotate_object
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.scale_object
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.render_scene
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: system.get_info
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.save_project
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.save_scene
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.clear_scene
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.rename_object
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.set_object_visibility
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.create_material
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.create_texture_material
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.apply_material
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.set_material_color
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.create_light
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.set_light_energy
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.set_light_color
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.create_camera
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.set_active_camera
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.position_camera
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.add_subdivision_surface
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.add_array
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.add_bevel
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.export_fbx
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.export_obj
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.export_gltf
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.build_structure
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.save_pattern
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.load_pattern
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.list_patterns
+[2026-03-07 21:01:25] INFO     [LYZU] Registrado handler: blender.run_python_script
+[2026-03-07 21:01:25] SUCCESS  [LYZU] ✓ 35 handlers de Blender registrados
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] IntentRouter: 35 handlers registrados
+[2026-03-07 21:01:25] INFO     [LYZU] NLU inicializado con 0 comandos
+[2026-03-07 21:01:25] INFO     [LYZU] SceneMonitor inicializado
+[2026-03-07 21:01:25] INFO     [LYZU] [PatternMemory] Inicializada con 4 patrones totales (Staging + Verified)
+[2026-03-07 21:01:25] INFO     [COGNITION] CognitionCore inicializado con Memoria Heurística
+[2026-03-07 21:01:25] INFO     [COGNITION] Evaluador registrado: render
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 18.5] FailsafeExecutor y ActionLogger integrados
+[2026-03-07 21:01:25] INFO     [LYZU] [OK] 0 comandos cargados
+[2026-03-07 21:01:25] INFO     [LYZU] [OK] Procesador de Lenguaje Natural inicializado
+[2026-03-07 21:01:25] INFO     [LYZU] [OK] Monitor de Escena activo (vía BlenderAdapter)
+[2026-03-07 21:01:25] INFO     [LYZU] [OK] Memoria de Patrones: 4 patrones
+[2026-03-07 21:01:25] INFO     [LYZU] [OK] Autoconciencia Operativa: activa (pasiva)
+[2026-03-07 21:01:25] INFO     [LYZU] [OK] Identidad de Autor: VERIFICADA
+[2026-03-07 21:01:25] INFO     [LYZU] [OK] Estado Inicial: Observación
+[2026-03-07 21:01:25] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] Agente Zuly listo conforme al Protocolo de Identidad
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 17] Desacoplamiento: ACTIVO (BlenderAdapter)
+[2026-03-07 21:01:25] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 18.5] Módulos registrados: 6
+[2026-03-07 21:01:25] INFO     [LYZU] 
+============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] NUEVA PETICIÓN: Limpiar escena
+[2026-03-07 21:01:25] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 21:01:25] INFO     [LYZU]   1. blender.clear_scene (70%) (confianza: 70.00%)
+[2026-03-07 21:01:25] INFO     [LYZU] 
+Ejecutando intención principal: blender.clear_scene
+[2026-03-07 21:01:25] INFO     [LYZU] Estado: Evaluación
+[2026-03-07 21:01:25] INFO     [LYZU] Estado: Ejecución (Confianza: 70.00%)
+[2026-03-07 21:01:25] INFO     [LYZU] [V2] Colección no detectada en background, asumiendo Master Collection.
+[2026-03-07 21:01:25] SUCCESS  [LYZU] [V2] Contexto válido — ejecución autorizada.
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.clear_scene
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.clear_scene
+[2026-03-07 21:01:25] DEBUG    [LYZU] [FASE 23] Parámetros: {}
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ Escena limpiada correctamente
+[2026-03-07 21:01:25] SUCCESS  [LYZU] [FASE 23] ✓ Handler ejecutado: blender.clear_scene
+[2026-03-07 21:01:25] DEBUG    [LYZU] 📝 Action: [21:01:25] ✓ blender.clear_scene → scene (route: IntentRouter)
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:25] WARNING  [LYZU] ⚠ Ejecución exitosa pero validación V0 fallida: No se especificó objeto a eliminar
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.clear_scene
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.clear_scene
+[2026-03-07 21:01:25] DEBUG    [LYZU] [FASE 23] Parámetros: {}
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ Escena limpiada correctamente
+[2026-03-07 21:01:25] SUCCESS  [LYZU] [FASE 23] ✓ Handler ejecutado: blender.clear_scene
+[2026-03-07 21:01:25] DEBUG    [LYZU] 📝 Action: [21:01:25] ✓ blender.clear_scene → scene (route: IntentRouter)
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:25] WARNING  [LYZU] ⚠ Ejecución exitosa pero validación V0 fallida: No se especificó objeto a eliminar
+[2026-03-07 21:01:25] INFO     [LYZU] Estado capturado: 0 objetos, 0 luces
+[2026-03-07 21:01:25] INFO     [LYZU] 
+Resultado final: ✗ FALLO
+[2026-03-07 21:01:25] INFO     [LYZU] Feedback: ✗ Hubo un problema: Error de Validación V0: No se especificó objeto a eliminar. 
+[2026-03-07 21:01:25] INFO     [LYZU] --- Paso 1: Creando Base de Oro ---
+[2026-03-07 21:01:25] INFO     [LYZU] 
+============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] NUEVA PETICIÓN: Crea un plano llamado 'Base_Showcase' en [0, 0, 0] con escala [5, 5, 1]
+[2026-03-07 21:01:25] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 21:01:25] INFO     [LYZU]   1. blender.create_plane (85%) (confianza: 85.00%)
+[2026-03-07 21:01:25] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 21:01:25] INFO     [LYZU] 
+Ejecutando intención principal: blender.create_plane
+[2026-03-07 21:01:25] INFO     [LYZU] Estado: Evaluación
+[2026-03-07 21:01:25] INFO     [LYZU] Estado: Ejecución (Confianza: 85.00%)
+[2026-03-07 21:01:25] INFO     [LYZU] [V2] Colección no detectada en background, asumiendo Master Collection.
+[2026-03-07 21:01:25] SUCCESS  [LYZU] [V2] Contexto válido — ejecución autorizada.
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.create_plane
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.create_plane
+[2026-03-07 21:01:25] DEBUG    [LYZU] [FASE 23] Parámetros: {'location': [5.0, 5.0, 1.0], 'scale': [5.0, 5.0, 1.0], 'name': 'base_showcase', 'object_name': 'base_showcase'}
+!!! DEBUG: create_primitive(plane, {'location': [5.0, 5.0, 1.0], 'scale': [5.0, 5.0, 1.0], 'name': 'base_showcase', 'parent': None}) !!!
+[2026-03-07 21:01:25] DEBUG    [LYZU] Operator call: plane, loc=[5.0, 5.0, 1.0], scale=(5.0, 5.0, 1.0)
+[2026-03-07 21:01:25] DEBUG    [LYZU] ✓ Primitiva creada: plane → base_showcase
+[2026-03-07 21:01:25] DEBUG    [LYZU] ✓ Material creado: PlaneMaterial
+[2026-03-07 21:01:25] DEBUG    [LYZU] ✓ Material aplicado: PlaneMaterial → base_showcase
+[2026-03-07 21:01:25] SUCCESS  [LYZU] Plano creado: base_showcase
+[2026-03-07 21:01:25] SUCCESS  [LYZU] [FASE 23] ✓ Handler ejecutado: blender.create_plane
+[2026-03-07 21:01:25] DEBUG    [LYZU] 📝 Action: [21:01:25] ✓ blender.create_plane → base_showcase (route: IntentRouter)
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:25] SUCCESS  [LYZU] VALIDACIÓN V0 EXITOSA: Objeto 'base_showcase' confirmado en escena.
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:25] SUCCESS  [LYZU] V1: Integridad estructural de 'base_showcase' verificada.
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ Ejecución procesada y validada (V0+V1): Estructura de 'base_showcase' correcta.
+[2026-03-07 21:01:25] INFO     [LYZU] Estado capturado: 1 objetos, 0 luces
+[2026-03-07 21:01:25] INFO     [LYZU] 
+Resultado final: ✓ ÉXITO
+[2026-03-07 21:01:25] INFO     [LYZU] Feedback: ✓ Comando ejecutado exitosamente. Escena actualizada: 1 objeto(s) en la escena.
+[2026-03-07 21:01:25] INFO     [LYZU] 
+============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] NUEVA PETICIÓN: Aplica material 'oro' a 'Base_Showcase'
+[2026-03-07 21:01:25] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 21:01:25] INFO     [LYZU]   1. blender.apply_material (70%) (confianza: 70.00%)
+[2026-03-07 21:01:25] INFO     [LYZU] 
+Ejecutando intención principal: blender.apply_material
+[2026-03-07 21:01:25] INFO     [LYZU] Estado: Evaluación
+[2026-03-07 21:01:25] INFO     [LYZU] Estado: Ejecución (Confianza: 70.00%)
+[2026-03-07 21:01:25] INFO     [LYZU] [V2] Colección no detectada en background, asumiendo Master Collection.
+[2026-03-07 21:01:25] SUCCESS  [LYZU] [V2] Contexto válido — ejecución autorizada.
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.apply_material
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.apply_material
+[2026-03-07 21:01:25] DEBUG    [LYZU] [FASE 23] Parámetros: {'parent': 'oro', 'name': 'base_showcase', 'object_name': 'base_showcase', 'material': 'oro', 'material_name': 'oro', 'color': 'oro'}
+[2026-03-07 21:01:25] WARNING  [LYZU] [FASE 23] Handler falló: OBJECT_NOT_FOUND
+[2026-03-07 21:01:25] DEBUG    [LYZU] 📝 Action: [21:01:25] ✗ blender.apply_material → base_showcase (OBJECT_NOT_FOUND)
+[2026-03-07 21:01:25] WARNING  [LYZU] Intento 1 no completado: OBJECT_NOT_FOUND
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.apply_material
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.apply_material
+[2026-03-07 21:01:25] DEBUG    [LYZU] [FASE 23] Parámetros: {'parent': 'oro', 'name': 'base_showcase', 'object_name': 'base_showcase', 'material': 'oro', 'material_name': 'oro', 'color': 'oro'}
+[2026-03-07 21:01:25] WARNING  [LYZU] [FASE 23] Handler falló: OBJECT_NOT_FOUND
+[2026-03-07 21:01:25] DEBUG    [LYZU] 📝 Action: [21:01:25] ✗ blender.apply_material → base_showcase (OBJECT_NOT_FOUND)
+[2026-03-07 21:01:25] WARNING  [LYZU] Intento 2 no completado: OBJECT_NOT_FOUND
+[2026-03-07 21:01:25] INFO     [LYZU] Estado capturado: 1 objetos, 0 luces
+[2026-03-07 21:01:25] INFO     [LYZU] 
+Resultado final: ✗ FALLO
+[2026-03-07 21:01:25] INFO     [LYZU] Feedback: ✗ Hubo un problema: OBJECT_NOT_FOUND. 
+[2026-03-07 21:01:25] INFO     [LYZU] --- Paso 2: Escultura con Modificadores ---
+[2026-03-07 21:01:25] INFO     [LYZU] 
+============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] NUEVA PETICIÓN: Crea un cubo llamado 'Escultura_Core' en [0, 0, 1.5] con escala 0.8
+[2026-03-07 21:01:25] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 21:01:25] INFO     [LYZU]   1. blender.create_cube (85%) (confianza: 85.00%)
+[2026-03-07 21:01:25] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 21:01:25] INFO     [LYZU] 
+Ejecutando intención principal: blender.create_cube
+[2026-03-07 21:01:25] INFO     [LYZU] Estado: Evaluación
+[2026-03-07 21:01:25] INFO     [LYZU] Estado: Ejecución (Confianza: 85.00%)
+[2026-03-07 21:01:25] INFO     [LYZU] [V2] Colección no detectada en background, asumiendo Master Collection.
+[2026-03-07 21:01:25] SUCCESS  [LYZU] [V2] Contexto válido — ejecución autorizada.
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.create_cube
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.create_cube
+[2026-03-07 21:01:25] DEBUG    [LYZU] [FASE 23] Parámetros: {'location': [0.0, 0.0, 1.5], 'scale': 0.8, 'name': 'escultura_core', 'object_name': 'escultura_core'}
+!!! DEBUG: create_primitive(cube, {'location': [0.0, 0.0, 1.5], 'scale': 0.8, 'name': 'escultura_core', 'parent': None}) !!!
+[2026-03-07 21:01:25] DEBUG    [LYZU] Operator call: cube, loc=[0.0, 0.0, 1.5], scale=(0.8, 0.8, 0.8)
+[2026-03-07 21:01:25] DEBUG    [LYZU] ✓ Primitiva creada: cube → escultura_core
+[2026-03-07 21:01:25] DEBUG    [LYZU] ✓ Material creado: CubeMaterial
+[2026-03-07 21:01:25] DEBUG    [LYZU] ✓ Material aplicado: CubeMaterial → escultura_core
+[2026-03-07 21:01:25] SUCCESS  [LYZU] Cubo creado en posición [0.0, 0.0, 1.5]
+[2026-03-07 21:01:25] SUCCESS  [LYZU] [FASE 23] ✓ Handler ejecutado: blender.create_cube
+[2026-03-07 21:01:25] DEBUG    [LYZU] 📝 Action: [21:01:25] ✓ blender.create_cube → escultura_core (route: IntentRouter)
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:25] SUCCESS  [LYZU] VALIDACIÓN V0 EXITOSA: Objeto 'escultura_core' confirmado en escena.
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:25] SUCCESS  [LYZU] V1: Integridad estructural de 'escultura_core' verificada.
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ Ejecución procesada y validada (V0+V1): Estructura de 'escultura_core' correcta.
+[2026-03-07 21:01:25] INFO     [LYZU] Estado capturado: 2 objetos, 0 luces
+[2026-03-07 21:01:25] INFO     [LYZU] 
+Resultado final: ✓ ÉXITO
+[2026-03-07 21:01:25] INFO     [LYZU] Feedback: ✓ Comando ejecutado exitosamente. Escena actualizada: 2 objeto(s) en la escena.
+[2026-03-07 21:01:25] INFO     [LYZU] 
+============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] NUEVA PETICIÓN: Aplica modificador 'subdivision' a 'Escultura_Core' con niveles 2
+[2026-03-07 21:01:25] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:25] DEBUG    [LYZU] No se encontró comando similar para: aplica modificador 'subdivision' a 'escultura_core' con niveles 2
+[2026-03-07 21:01:25] INFO     [LYZU] 
+============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] NUEVA PETICIÓN: Aplica material 'vidrio' a 'Escultura_Core'
+[2026-03-07 21:01:25] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 21:01:25] INFO     [LYZU]   1. blender.apply_material (70%) (confianza: 70.00%)
+[2026-03-07 21:01:25] INFO     [LYZU] 
+Ejecutando intención principal: blender.apply_material
+[2026-03-07 21:01:25] INFO     [LYZU] Estado: Evaluación
+[2026-03-07 21:01:25] INFO     [LYZU] Estado: Ejecución (Confianza: 70.00%)
+[2026-03-07 21:01:25] INFO     [LYZU] [V2] Colección no detectada en background, asumiendo Master Collection.
+[2026-03-07 21:01:25] SUCCESS  [LYZU] [V2] Contexto válido — ejecución autorizada.
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.apply_material
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.apply_material
+[2026-03-07 21:01:25] DEBUG    [LYZU] [FASE 23] Parámetros: {'parent': 'vidrio', 'name': 'escultura_core', 'object_name': 'escultura_core', 'material': 'vidrio', 'material_name': 'vidrio', 'color': 'vidrio'}
+[2026-03-07 21:01:25] WARNING  [LYZU] [FASE 23] Handler falló: OBJECT_NOT_FOUND
+[2026-03-07 21:01:25] DEBUG    [LYZU] 📝 Action: [21:01:25] ✗ blender.apply_material → escultura_core (OBJECT_NOT_FOUND)
+[2026-03-07 21:01:25] WARNING  [LYZU] Intento 1 no completado: OBJECT_NOT_FOUND
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.apply_material
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.apply_material
+[2026-03-07 21:01:25] DEBUG    [LYZU] [FASE 23] Parámetros: {'parent': 'vidrio', 'name': 'escultura_core', 'object_name': 'escultura_core', 'material': 'vidrio', 'material_name': 'vidrio', 'color': 'vidrio'}
+[2026-03-07 21:01:25] WARNING  [LYZU] [FASE 23] Handler falló: OBJECT_NOT_FOUND
+[2026-03-07 21:01:25] DEBUG    [LYZU] 📝 Action: [21:01:25] ✗ blender.apply_material → escultura_core (OBJECT_NOT_FOUND)
+[2026-03-07 21:01:25] WARNING  [LYZU] Intento 2 no completado: OBJECT_NOT_FOUND
+[2026-03-07 21:01:25] INFO     [LYZU] Estado capturado: 2 objetos, 0 luces
+[2026-03-07 21:01:25] INFO     [LYZU] 
+Resultado final: ✗ FALLO
+[2026-03-07 21:01:25] INFO     [LYZU] Feedback: ✗ Hubo un problema: OBJECT_NOT_FOUND. 
+[2026-03-07 21:01:25] INFO     [LYZU] --- Paso 3: Jerarquía y Orbitales ---
+[2026-03-07 21:01:25] INFO     [LYZU] 
+============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] NUEVA PETICIÓN: Crea una esfera llamada 'Orbital_0' en [2.0, 0, 2.0] con escala 0.3
+[2026-03-07 21:01:25] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 21:01:25] INFO     [LYZU]   1. blender.create_sphere (85%) (confianza: 85.00%)
+[2026-03-07 21:01:25] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 21:01:25] INFO     [LYZU] 
+Ejecutando intención principal: blender.create_sphere
+[2026-03-07 21:01:25] INFO     [LYZU] Estado: Evaluación
+[2026-03-07 21:01:25] INFO     [LYZU] Estado: Ejecución (Confianza: 85.00%)
+[2026-03-07 21:01:25] INFO     [LYZU] [V2] Colección no detectada en background, asumiendo Master Collection.
+[2026-03-07 21:01:25] SUCCESS  [LYZU] [V2] Contexto válido — ejecución autorizada.
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.create_sphere
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.create_sphere
+[2026-03-07 21:01:25] DEBUG    [LYZU] [FASE 23] Parámetros: {'location': [0.0, 2.0, 0.3], 'scale': [0.0, 2.0, 0.3], 'name': 'orbital_0', 'object_name': 'orbital_0'}
+!!! DEBUG: create_primitive(sphere, {'location': [0.0, 2.0, 0.3], 'radius': 1.0, 'name': 'orbital_0', 'parent': None}) !!!
+[2026-03-07 21:01:25] DEBUG    [LYZU] Operator call: sphere, loc=[0.0, 2.0, 0.3], scale=(1.0, 1.0, 1.0)
+[2026-03-07 21:01:25] DEBUG    [LYZU] ✓ Primitiva creada: sphere → orbital_0
+[2026-03-07 21:01:25] DEBUG    [LYZU] ✓ Material creado: SphereMaterial
+[2026-03-07 21:01:25] DEBUG    [LYZU] ✓ Material aplicado: SphereMaterial → orbital_0
+[2026-03-07 21:01:25] SUCCESS  [LYZU] Esfera creada con radio 1.0
+[2026-03-07 21:01:25] SUCCESS  [LYZU] [FASE 23] ✓ Handler ejecutado: blender.create_sphere
+[2026-03-07 21:01:25] DEBUG    [LYZU] 📝 Action: [21:01:25] ✓ blender.create_sphere → orbital_0 (route: IntentRouter)
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:25] SUCCESS  [LYZU] VALIDACIÓN V0 EXITOSA: Objeto 'orbital_0' confirmado en escena.
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:25] SUCCESS  [LYZU] V1: Integridad estructural de 'orbital_0' verificada.
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ Ejecución procesada y validada (V0+V1): Estructura de 'orbital_0' correcta.
+[2026-03-07 21:01:25] INFO     [LYZU] Estado capturado: 3 objetos, 0 luces
+[2026-03-07 21:01:25] INFO     [LYZU] 
+Resultado final: ✓ ÉXITO
+[2026-03-07 21:01:25] INFO     [LYZU] Feedback: ✓ Comando ejecutado exitosamente. Escena actualizada: 3 objeto(s) en la escena.
+[2026-03-07 21:01:25] INFO     [LYZU] 
+============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] NUEVA PETICIÓN: Emparenta 'Orbital_0' a 'Escultura_Core'
+[2026-03-07 21:01:25] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 21:01:25] INFO     [LYZU]   1. blender.move_object (70%) (confianza: 70.00%)
+[2026-03-07 21:01:25] INFO     [LYZU] 
+Ejecutando intención principal: blender.move_object
+[2026-03-07 21:01:25] INFO     [LYZU] Estado: Evaluación
+[2026-03-07 21:01:25] INFO     [LYZU] Estado: Ejecución (Confianza: 70.00%)
+[2026-03-07 21:01:25] INFO     [LYZU] [V2] Colección no detectada en background, asumiendo Master Collection.
+[2026-03-07 21:01:25] SUCCESS  [LYZU] [V2] Contexto válido — ejecución autorizada.
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.move_object
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.move_object
+[2026-03-07 21:01:25] DEBUG    [LYZU] [FASE 23] Parámetros: {'parent': 'orbital_0', 'name': 'escultura_core', 'object_name': 'escultura_core'}
+[2026-03-07 21:01:25] WARNING  [LYZU] [FASE 23] Handler falló: INVALID_PARAMS
+[2026-03-07 21:01:25] DEBUG    [LYZU] 📝 Action: [21:01:25] ✗ blender.move_object → escultura_core (INVALID_PARAMS)
+[2026-03-07 21:01:25] WARNING  [LYZU] Intento 1 no completado: INVALID_PARAMS
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.move_object
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.move_object
+[2026-03-07 21:01:25] DEBUG    [LYZU] [FASE 23] Parámetros: {'parent': 'orbital_0', 'name': 'escultura_core', 'object_name': 'escultura_core'}
+[2026-03-07 21:01:25] WARNING  [LYZU] [FASE 23] Handler falló: INVALID_PARAMS
+[2026-03-07 21:01:25] DEBUG    [LYZU] 📝 Action: [21:01:25] ✗ blender.move_object → escultura_core (INVALID_PARAMS)
+[2026-03-07 21:01:25] WARNING  [LYZU] Intento 2 no completado: INVALID_PARAMS
+[2026-03-07 21:01:25] INFO     [LYZU] Estado capturado: 3 objetos, 0 luces
+[2026-03-07 21:01:25] INFO     [LYZU] 
+Resultado final: ✗ FALLO
+[2026-03-07 21:01:25] INFO     [LYZU] Feedback: ✗ Hubo un problema: INVALID_PARAMS. 
+[2026-03-07 21:01:25] INFO     [LYZU] 
+============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] NUEVA PETICIÓN: Aplica material 'plata' a 'Orbital_0'
+[2026-03-07 21:01:25] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 21:01:25] INFO     [LYZU]   1. blender.apply_material (70%) (confianza: 70.00%)
+[2026-03-07 21:01:25] INFO     [LYZU] 
+Ejecutando intención principal: blender.apply_material
+[2026-03-07 21:01:25] INFO     [LYZU] Estado: Evaluación
+[2026-03-07 21:01:25] INFO     [LYZU] Estado: Ejecución (Confianza: 70.00%)
+[2026-03-07 21:01:25] INFO     [LYZU] [V2] Colección no detectada en background, asumiendo Master Collection.
+[2026-03-07 21:01:25] SUCCESS  [LYZU] [V2] Contexto válido — ejecución autorizada.
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.apply_material
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.apply_material
+[2026-03-07 21:01:25] DEBUG    [LYZU] [FASE 23] Parámetros: {'parent': 'plata', 'name': 'orbital_0', 'object_name': 'orbital_0', 'material': 'plata', 'material_name': 'plata', 'color': 'plata'}
+[2026-03-07 21:01:25] WARNING  [LYZU] [FASE 23] Handler falló: OBJECT_NOT_FOUND
+[2026-03-07 21:01:25] DEBUG    [LYZU] 📝 Action: [21:01:25] ✗ blender.apply_material → orbital_0 (OBJECT_NOT_FOUND)
+[2026-03-07 21:01:25] WARNING  [LYZU] Intento 1 no completado: OBJECT_NOT_FOUND
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.apply_material
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.apply_material
+[2026-03-07 21:01:25] DEBUG    [LYZU] [FASE 23] Parámetros: {'parent': 'plata', 'name': 'orbital_0', 'object_name': 'orbital_0', 'material': 'plata', 'material_name': 'plata', 'color': 'plata'}
+[2026-03-07 21:01:25] WARNING  [LYZU] [FASE 23] Handler falló: OBJECT_NOT_FOUND
+[2026-03-07 21:01:25] DEBUG    [LYZU] 📝 Action: [21:01:25] ✗ blender.apply_material → orbital_0 (OBJECT_NOT_FOUND)
+[2026-03-07 21:01:25] WARNING  [LYZU] Intento 2 no completado: OBJECT_NOT_FOUND
+[2026-03-07 21:01:25] INFO     [LYZU] Estado capturado: 3 objetos, 0 luces
+[2026-03-07 21:01:25] INFO     [LYZU] 
+Resultado final: ✗ FALLO
+[2026-03-07 21:01:25] INFO     [LYZU] Feedback: ✗ Hubo un problema: OBJECT_NOT_FOUND. 
+[2026-03-07 21:01:25] INFO     [LYZU] 
+============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] NUEVA PETICIÓN: Crea una esfera llamada 'Orbital_1' en [-2.0, 0, 2.0] con escala 0.3
+[2026-03-07 21:01:25] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 21:01:25] INFO     [LYZU]   1. blender.create_sphere (85%) (confianza: 85.00%)
+[2026-03-07 21:01:25] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 21:01:25] INFO     [LYZU] 
+Ejecutando intención principal: blender.create_sphere
+[2026-03-07 21:01:25] INFO     [LYZU] Estado: Evaluación
+[2026-03-07 21:01:25] INFO     [LYZU] Estado: Ejecución (Confianza: 85.00%)
+[2026-03-07 21:01:25] INFO     [LYZU] [V2] Colección no detectada en background, asumiendo Master Collection.
+[2026-03-07 21:01:25] SUCCESS  [LYZU] [V2] Contexto válido — ejecución autorizada.
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.create_sphere
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.create_sphere
+[2026-03-07 21:01:25] DEBUG    [LYZU] [FASE 23] Parámetros: {'location': [0.0, 2.0, 0.3], 'scale': [0.0, 2.0, 0.3], 'name': 'orbital_1', 'object_name': 'orbital_1'}
+!!! DEBUG: create_primitive(sphere, {'location': [0.0, 2.0, 0.3], 'radius': 1.0, 'name': 'orbital_1', 'parent': None}) !!!
+[2026-03-07 21:01:25] DEBUG    [LYZU] Operator call: sphere, loc=[0.0, 2.0, 0.3], scale=(1.0, 1.0, 1.0)
+[2026-03-07 21:01:25] DEBUG    [LYZU] ✓ Primitiva creada: sphere → orbital_1
+[2026-03-07 21:01:25] DEBUG    [LYZU] ✓ Material creado: SphereMaterial
+[2026-03-07 21:01:25] DEBUG    [LYZU] ✓ Material aplicado: SphereMaterial → orbital_1
+[2026-03-07 21:01:25] SUCCESS  [LYZU] Esfera creada con radio 1.0
+[2026-03-07 21:01:25] SUCCESS  [LYZU] [FASE 23] ✓ Handler ejecutado: blender.create_sphere
+[2026-03-07 21:01:25] DEBUG    [LYZU] 📝 Action: [21:01:25] ✓ blender.create_sphere → orbital_1 (route: IntentRouter)
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:25] SUCCESS  [LYZU] VALIDACIÓN V0 EXITOSA: Objeto 'orbital_1' confirmado en escena.
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:25] SUCCESS  [LYZU] V1: Integridad estructural de 'orbital_1' verificada.
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ Ejecución procesada y validada (V0+V1): Estructura de 'orbital_1' correcta.
+[2026-03-07 21:01:25] INFO     [LYZU] Estado capturado: 4 objetos, 0 luces
+[2026-03-07 21:01:25] INFO     [LYZU] 
+Resultado final: ✓ ÉXITO
+[2026-03-07 21:01:25] INFO     [LYZU] Feedback: ✓ Comando ejecutado exitosamente. Escena actualizada: 4 objeto(s) en la escena.
+[2026-03-07 21:01:25] INFO     [LYZU] 
+============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] NUEVA PETICIÓN: Emparenta 'Orbital_1' a 'Escultura_Core'
+[2026-03-07 21:01:25] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 21:01:25] INFO     [LYZU]   1. blender.move_object (70%) (confianza: 70.00%)
+[2026-03-07 21:01:25] INFO     [LYZU] 
+Ejecutando intención principal: blender.move_object
+[2026-03-07 21:01:25] INFO     [LYZU] Estado: Evaluación
+[2026-03-07 21:01:25] INFO     [LYZU] Estado: Ejecución (Confianza: 70.00%)
+[2026-03-07 21:01:25] INFO     [LYZU] [V2] Colección no detectada en background, asumiendo Master Collection.
+[2026-03-07 21:01:25] SUCCESS  [LYZU] [V2] Contexto válido — ejecución autorizada.
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.move_object
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.move_object
+[2026-03-07 21:01:25] DEBUG    [LYZU] [FASE 23] Parámetros: {'parent': 'orbital_1', 'name': 'escultura_core', 'object_name': 'escultura_core'}
+[2026-03-07 21:01:25] WARNING  [LYZU] [FASE 23] Handler falló: INVALID_PARAMS
+[2026-03-07 21:01:25] DEBUG    [LYZU] 📝 Action: [21:01:25] ✗ blender.move_object → escultura_core (INVALID_PARAMS)
+[2026-03-07 21:01:25] WARNING  [LYZU] Intento 1 no completado: INVALID_PARAMS
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.move_object
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.move_object
+[2026-03-07 21:01:25] DEBUG    [LYZU] [FASE 23] Parámetros: {'parent': 'orbital_1', 'name': 'escultura_core', 'object_name': 'escultura_core'}
+[2026-03-07 21:01:25] WARNING  [LYZU] [FASE 23] Handler falló: INVALID_PARAMS
+[2026-03-07 21:01:25] DEBUG    [LYZU] 📝 Action: [21:01:25] ✗ blender.move_object → escultura_core (INVALID_PARAMS)
+[2026-03-07 21:01:25] WARNING  [LYZU] Intento 2 no completado: INVALID_PARAMS
+[2026-03-07 21:01:25] INFO     [LYZU] Estado capturado: 4 objetos, 0 luces
+[2026-03-07 21:01:25] INFO     [LYZU] 
+Resultado final: ✗ FALLO
+[2026-03-07 21:01:25] INFO     [LYZU] Feedback: ✗ Hubo un problema: INVALID_PARAMS. 
+[2026-03-07 21:01:25] INFO     [LYZU] 
+============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] NUEVA PETICIÓN: Aplica material 'plata' a 'Orbital_1'
+[2026-03-07 21:01:25] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:25] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 21:01:25] INFO     [LYZU]   1. blender.apply_material (70%) (confianza: 70.00%)
+[2026-03-07 21:01:25] INFO     [LYZU] 
+Ejecutando intención principal: blender.apply_material
+[2026-03-07 21:01:25] INFO     [LYZU] Estado: Evaluación
+[2026-03-07 21:01:25] INFO     [LYZU] Estado: Ejecución (Confianza: 70.00%)
+[2026-03-07 21:01:25] INFO     [LYZU] [V2] Colección no detectada en background, asumiendo Master Collection.
+[2026-03-07 21:01:25] SUCCESS  [LYZU] [V2] Contexto válido — ejecución autorizada.
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:25] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.apply_material
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.apply_material
+[2026-03-07 21:01:25] DEBUG    [LYZU] [FASE 23] Parámetros: {'parent': 'plata', 'name': 'orbital_1', 'object_name': 'orbital_1', 'material': 'plata', 'material_name': 'plata', 'color': 'plata'}
+[2026-03-07 21:01:25] WARNING  [LYZU] [FASE 23] Handler falló: OBJECT_NOT_FOUND
+[2026-03-07 21:01:25] DEBUG    [LYZU] 📝 Action: [21:01:25] ✗ blender.apply_material → orbital_1 (OBJECT_NOT_FOUND)
+[2026-03-07 21:01:25] WARNING  [LYZU] Intento 1 no completado: OBJECT_NOT_FOUND
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.apply_material
+[2026-03-07 21:01:25] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.apply_material
+[2026-03-07 21:01:25] DEBUG    [LYZU] [FASE 23] Parámetros: {'parent': 'plata', 'name': 'orbital_1', 'object_name': 'orbital_1', 'material': 'plata', 'material_name': 'plata', 'color': 'plata'}
+[2026-03-07 21:01:25] WARNING  [LYZU] [FASE 23] Handler falló: OBJECT_NOT_FOUND
+[2026-03-07 21:01:25] DEBUG    [LYZU] 📝 Action: [21:01:25] ✗ blender.apply_material → orbital_1 (OBJECT_NOT_FOUND)
+[2026-03-07 21:01:25] WARNING  [LYZU] Intento 2 no completado: OBJECT_NOT_FOUND
+[2026-03-07 21:01:26] INFO     [LYZU] Estado capturado: 4 objetos, 0 luces
+[2026-03-07 21:01:26] INFO     [LYZU] 
+Resultado final: ✗ FALLO
+[2026-03-07 21:01:26] INFO     [LYZU] Feedback: ✗ Hubo un problema: OBJECT_NOT_FOUND. 
+[2026-03-07 21:01:26] INFO     [LYZU] 
+============================================================
+[2026-03-07 21:01:26] INFO     [LYZU] NUEVA PETICIÓN: Crea una esfera llamada 'Orbital_2' en [0, 2.0, 2.0] con escala 0.3
+[2026-03-07 21:01:26] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:26] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 21:01:26] INFO     [LYZU]   1. blender.create_sphere (85%) (confianza: 85.00%)
+[2026-03-07 21:01:26] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 21:01:26] INFO     [LYZU] 
+Ejecutando intención principal: blender.create_sphere
+[2026-03-07 21:01:26] INFO     [LYZU] Estado: Evaluación
+[2026-03-07 21:01:26] INFO     [LYZU] Estado: Ejecución (Confianza: 85.00%)
+[2026-03-07 21:01:26] INFO     [LYZU] [V2] Colección no detectada en background, asumiendo Master Collection.
+[2026-03-07 21:01:26] SUCCESS  [LYZU] [V2] Contexto válido — ejecución autorizada.
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.create_sphere
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.create_sphere
+[2026-03-07 21:01:26] DEBUG    [LYZU] [FASE 23] Parámetros: {'location': [2.0, 2.0, 0.3], 'scale': [2.0, 2.0, 0.3], 'name': 'orbital_2', 'object_name': 'orbital_2'}
+!!! DEBUG: create_primitive(sphere, {'location': [2.0, 2.0, 0.3], 'radius': 1.0, 'name': 'orbital_2', 'parent': None}) !!!
+[2026-03-07 21:01:26] DEBUG    [LYZU] Operator call: sphere, loc=[2.0, 2.0, 0.3], scale=(1.0, 1.0, 1.0)
+[2026-03-07 21:01:26] DEBUG    [LYZU] ✓ Primitiva creada: sphere → orbital_2
+[2026-03-07 21:01:26] DEBUG    [LYZU] ✓ Material creado: SphereMaterial
+[2026-03-07 21:01:26] DEBUG    [LYZU] ✓ Material aplicado: SphereMaterial → orbital_2
+[2026-03-07 21:01:26] SUCCESS  [LYZU] Esfera creada con radio 1.0
+[2026-03-07 21:01:26] SUCCESS  [LYZU] [FASE 23] ✓ Handler ejecutado: blender.create_sphere
+[2026-03-07 21:01:26] DEBUG    [LYZU] 📝 Action: [21:01:26] ✓ blender.create_sphere → orbital_2 (route: IntentRouter)
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:26] SUCCESS  [LYZU] VALIDACIÓN V0 EXITOSA: Objeto 'orbital_2' confirmado en escena.
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:26] SUCCESS  [LYZU] V1: Integridad estructural de 'orbital_2' verificada.
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ Ejecución procesada y validada (V0+V1): Estructura de 'orbital_2' correcta.
+[2026-03-07 21:01:26] INFO     [LYZU] Estado capturado: 5 objetos, 0 luces
+[2026-03-07 21:01:26] INFO     [LYZU] 
+Resultado final: ✓ ÉXITO
+[2026-03-07 21:01:26] INFO     [LYZU] Feedback: ✓ Comando ejecutado exitosamente. Escena actualizada: 5 objeto(s) en la escena.
+[2026-03-07 21:01:26] INFO     [LYZU] 
+============================================================
+[2026-03-07 21:01:26] INFO     [LYZU] NUEVA PETICIÓN: Emparenta 'Orbital_2' a 'Escultura_Core'
+[2026-03-07 21:01:26] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:26] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 21:01:26] INFO     [LYZU]   1. blender.move_object (70%) (confianza: 70.00%)
+[2026-03-07 21:01:26] INFO     [LYZU] 
+Ejecutando intención principal: blender.move_object
+[2026-03-07 21:01:26] INFO     [LYZU] Estado: Evaluación
+[2026-03-07 21:01:26] INFO     [LYZU] Estado: Ejecución (Confianza: 70.00%)
+[2026-03-07 21:01:26] INFO     [LYZU] [V2] Colección no detectada en background, asumiendo Master Collection.
+[2026-03-07 21:01:26] SUCCESS  [LYZU] [V2] Contexto válido — ejecución autorizada.
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.move_object
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.move_object
+[2026-03-07 21:01:26] DEBUG    [LYZU] [FASE 23] Parámetros: {'parent': 'orbital_2', 'name': 'escultura_core', 'object_name': 'escultura_core'}
+[2026-03-07 21:01:26] WARNING  [LYZU] [FASE 23] Handler falló: INVALID_PARAMS
+[2026-03-07 21:01:26] DEBUG    [LYZU] 📝 Action: [21:01:26] ✗ blender.move_object → escultura_core (INVALID_PARAMS)
+[2026-03-07 21:01:26] WARNING  [LYZU] Intento 1 no completado: INVALID_PARAMS
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.move_object
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.move_object
+[2026-03-07 21:01:26] DEBUG    [LYZU] [FASE 23] Parámetros: {'parent': 'orbital_2', 'name': 'escultura_core', 'object_name': 'escultura_core'}
+[2026-03-07 21:01:26] WARNING  [LYZU] [FASE 23] Handler falló: INVALID_PARAMS
+[2026-03-07 21:01:26] DEBUG    [LYZU] 📝 Action: [21:01:26] ✗ blender.move_object → escultura_core (INVALID_PARAMS)
+[2026-03-07 21:01:26] WARNING  [LYZU] Intento 2 no completado: INVALID_PARAMS
+[2026-03-07 21:01:26] INFO     [LYZU] Estado capturado: 5 objetos, 0 luces
+[2026-03-07 21:01:26] INFO     [LYZU] 
+Resultado final: ✗ FALLO
+[2026-03-07 21:01:26] INFO     [LYZU] Feedback: ✗ Hubo un problema: INVALID_PARAMS. 
+[2026-03-07 21:01:26] INFO     [LYZU] 
+============================================================
+[2026-03-07 21:01:26] INFO     [LYZU] NUEVA PETICIÓN: Aplica material 'plata' a 'Orbital_2'
+[2026-03-07 21:01:26] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:26] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 21:01:26] INFO     [LYZU]   1. blender.apply_material (70%) (confianza: 70.00%)
+[2026-03-07 21:01:26] INFO     [LYZU] 
+Ejecutando intención principal: blender.apply_material
+[2026-03-07 21:01:26] INFO     [LYZU] Estado: Evaluación
+[2026-03-07 21:01:26] INFO     [LYZU] Estado: Ejecución (Confianza: 70.00%)
+[2026-03-07 21:01:26] INFO     [LYZU] [V2] Colección no detectada en background, asumiendo Master Collection.
+[2026-03-07 21:01:26] SUCCESS  [LYZU] [V2] Contexto válido — ejecución autorizada.
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.apply_material
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.apply_material
+[2026-03-07 21:01:26] DEBUG    [LYZU] [FASE 23] Parámetros: {'parent': 'plata', 'name': 'orbital_2', 'object_name': 'orbital_2', 'material': 'plata', 'material_name': 'plata', 'color': 'plata'}
+[2026-03-07 21:01:26] WARNING  [LYZU] [FASE 23] Handler falló: OBJECT_NOT_FOUND
+[2026-03-07 21:01:26] DEBUG    [LYZU] 📝 Action: [21:01:26] ✗ blender.apply_material → orbital_2 (OBJECT_NOT_FOUND)
+[2026-03-07 21:01:26] WARNING  [LYZU] Intento 1 no completado: OBJECT_NOT_FOUND
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.apply_material
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.apply_material
+[2026-03-07 21:01:26] DEBUG    [LYZU] [FASE 23] Parámetros: {'parent': 'plata', 'name': 'orbital_2', 'object_name': 'orbital_2', 'material': 'plata', 'material_name': 'plata', 'color': 'plata'}
+[2026-03-07 21:01:26] WARNING  [LYZU] [FASE 23] Handler falló: OBJECT_NOT_FOUND
+[2026-03-07 21:01:26] DEBUG    [LYZU] 📝 Action: [21:01:26] ✗ blender.apply_material → orbital_2 (OBJECT_NOT_FOUND)
+[2026-03-07 21:01:26] WARNING  [LYZU] Intento 2 no completado: OBJECT_NOT_FOUND
+[2026-03-07 21:01:26] INFO     [LYZU] Estado capturado: 5 objetos, 0 luces
+[2026-03-07 21:01:26] INFO     [LYZU] 
+Resultado final: ✗ FALLO
+[2026-03-07 21:01:26] INFO     [LYZU] Feedback: ✗ Hubo un problema: OBJECT_NOT_FOUND. 
+[2026-03-07 21:01:26] INFO     [LYZU] 
+============================================================
+[2026-03-07 21:01:26] INFO     [LYZU] NUEVA PETICIÓN: Crea una esfera llamada 'Orbital_3' en [0, -2.0, 2.0] con escala 0.3
+[2026-03-07 21:01:26] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:26] INFO     [LYZU] Intenciones detectadas: 2
+[2026-03-07 21:01:26] INFO     [LYZU]   1. blender.create_sphere (85%) (confianza: 85.00%)
+[2026-03-07 21:01:26] INFO     [LYZU]   2. blender.scale_object (75%) (confianza: 75.00%)
+[2026-03-07 21:01:26] INFO     [LYZU] 
+Ejecutando intención principal: blender.create_sphere
+[2026-03-07 21:01:26] INFO     [LYZU] Estado: Evaluación
+[2026-03-07 21:01:26] INFO     [LYZU] Estado: Ejecución (Confianza: 85.00%)
+[2026-03-07 21:01:26] INFO     [LYZU] [V2] Colección no detectada en background, asumiendo Master Collection.
+[2026-03-07 21:01:26] SUCCESS  [LYZU] [V2] Contexto válido — ejecución autorizada.
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.create_sphere
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.create_sphere
+[2026-03-07 21:01:26] DEBUG    [LYZU] [FASE 23] Parámetros: {'location': [-2.0, 2.0, 0.3], 'scale': [-2.0, 2.0, 0.3], 'name': 'orbital_3', 'object_name': 'orbital_3'}
+!!! DEBUG: create_primitive(sphere, {'location': [-2.0, 2.0, 0.3], 'radius': 1.0, 'name': 'orbital_3', 'parent': None}) !!!
+[2026-03-07 21:01:26] DEBUG    [LYZU] Operator call: sphere, loc=[-2.0, 2.0, 0.3], scale=(1.0, 1.0, 1.0)
+[2026-03-07 21:01:26] DEBUG    [LYZU] ✓ Primitiva creada: sphere → orbital_3
+[2026-03-07 21:01:26] DEBUG    [LYZU] ✓ Material creado: SphereMaterial
+[2026-03-07 21:01:26] DEBUG    [LYZU] ✓ Material aplicado: SphereMaterial → orbital_3
+[2026-03-07 21:01:26] SUCCESS  [LYZU] Esfera creada con radio 1.0
+[2026-03-07 21:01:26] SUCCESS  [LYZU] [FASE 23] ✓ Handler ejecutado: blender.create_sphere
+[2026-03-07 21:01:26] DEBUG    [LYZU] 📝 Action: [21:01:26] ✓ blender.create_sphere → orbital_3 (route: IntentRouter)
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:26] SUCCESS  [LYZU] VALIDACIÓN V0 EXITOSA: Objeto 'orbital_3' confirmado en escena.
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:26] SUCCESS  [LYZU] V1: Integridad estructural de 'orbital_3' verificada.
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ Ejecución procesada y validada (V0+V1): Estructura de 'orbital_3' correcta.
+[2026-03-07 21:01:26] INFO     [LYZU] Estado capturado: 6 objetos, 0 luces
+[2026-03-07 21:01:26] INFO     [LYZU] 
+Resultado final: ✓ ÉXITO
+[2026-03-07 21:01:26] INFO     [LYZU] Feedback: ✓ Comando ejecutado exitosamente. Escena actualizada: 6 objeto(s) en la escena.
+[2026-03-07 21:01:26] INFO     [LYZU] 
+============================================================
+[2026-03-07 21:01:26] INFO     [LYZU] NUEVA PETICIÓN: Emparenta 'Orbital_3' a 'Escultura_Core'
+[2026-03-07 21:01:26] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:26] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 21:01:26] INFO     [LYZU]   1. blender.move_object (70%) (confianza: 70.00%)
+[2026-03-07 21:01:26] INFO     [LYZU] 
+Ejecutando intención principal: blender.move_object
+[2026-03-07 21:01:26] INFO     [LYZU] Estado: Evaluación
+[2026-03-07 21:01:26] INFO     [LYZU] Estado: Ejecución (Confianza: 70.00%)
+[2026-03-07 21:01:26] INFO     [LYZU] [V2] Colección no detectada en background, asumiendo Master Collection.
+[2026-03-07 21:01:26] SUCCESS  [LYZU] [V2] Contexto válido — ejecución autorizada.
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.move_object
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.move_object
+[2026-03-07 21:01:26] DEBUG    [LYZU] [FASE 23] Parámetros: {'parent': 'orbital_3', 'name': 'escultura_core', 'object_name': 'escultura_core'}
+[2026-03-07 21:01:26] WARNING  [LYZU] [FASE 23] Handler falló: INVALID_PARAMS
+[2026-03-07 21:01:26] DEBUG    [LYZU] 📝 Action: [21:01:26] ✗ blender.move_object → escultura_core (INVALID_PARAMS)
+[2026-03-07 21:01:26] WARNING  [LYZU] Intento 1 no completado: INVALID_PARAMS
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.move_object
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.move_object
+[2026-03-07 21:01:26] DEBUG    [LYZU] [FASE 23] Parámetros: {'parent': 'orbital_3', 'name': 'escultura_core', 'object_name': 'escultura_core'}
+[2026-03-07 21:01:26] WARNING  [LYZU] [FASE 23] Handler falló: INVALID_PARAMS
+[2026-03-07 21:01:26] DEBUG    [LYZU] 📝 Action: [21:01:26] ✗ blender.move_object → escultura_core (INVALID_PARAMS)
+[2026-03-07 21:01:26] WARNING  [LYZU] Intento 2 no completado: INVALID_PARAMS
+[2026-03-07 21:01:26] INFO     [LYZU] Estado capturado: 6 objetos, 0 luces
+[2026-03-07 21:01:26] INFO     [LYZU] 
+Resultado final: ✗ FALLO
+[2026-03-07 21:01:26] INFO     [LYZU] Feedback: ✗ Hubo un problema: INVALID_PARAMS. 
+[2026-03-07 21:01:26] INFO     [LYZU] 
+============================================================
+[2026-03-07 21:01:26] INFO     [LYZU] NUEVA PETICIÓN: Aplica material 'plata' a 'Orbital_3'
+[2026-03-07 21:01:26] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:26] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 21:01:26] INFO     [LYZU]   1. blender.apply_material (70%) (confianza: 70.00%)
+[2026-03-07 21:01:26] INFO     [LYZU] 
+Ejecutando intención principal: blender.apply_material
+[2026-03-07 21:01:26] INFO     [LYZU] Estado: Evaluación
+[2026-03-07 21:01:26] INFO     [LYZU] Estado: Ejecución (Confianza: 70.00%)
+[2026-03-07 21:01:26] INFO     [LYZU] [V2] Colección no detectada en background, asumiendo Master Collection.
+[2026-03-07 21:01:26] SUCCESS  [LYZU] [V2] Contexto válido — ejecución autorizada.
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.apply_material
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.apply_material
+[2026-03-07 21:01:26] DEBUG    [LYZU] [FASE 23] Parámetros: {'parent': 'plata', 'name': 'orbital_3', 'object_name': 'orbital_3', 'material': 'plata', 'material_name': 'plata', 'color': 'plata'}
+[2026-03-07 21:01:26] WARNING  [LYZU] [FASE 23] Handler falló: OBJECT_NOT_FOUND
+[2026-03-07 21:01:26] DEBUG    [LYZU] 📝 Action: [21:01:26] ✗ blender.apply_material → orbital_3 (OBJECT_NOT_FOUND)
+[2026-03-07 21:01:26] WARNING  [LYZU] Intento 1 no completado: OBJECT_NOT_FOUND
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.apply_material
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.apply_material
+[2026-03-07 21:01:26] DEBUG    [LYZU] [FASE 23] Parámetros: {'parent': 'plata', 'name': 'orbital_3', 'object_name': 'orbital_3', 'material': 'plata', 'material_name': 'plata', 'color': 'plata'}
+[2026-03-07 21:01:26] WARNING  [LYZU] [FASE 23] Handler falló: OBJECT_NOT_FOUND
+[2026-03-07 21:01:26] DEBUG    [LYZU] 📝 Action: [21:01:26] ✗ blender.apply_material → orbital_3 (OBJECT_NOT_FOUND)
+[2026-03-07 21:01:26] WARNING  [LYZU] Intento 2 no completado: OBJECT_NOT_FOUND
+[2026-03-07 21:01:26] INFO     [LYZU] Estado capturado: 6 objetos, 0 luces
+[2026-03-07 21:01:26] INFO     [LYZU] 
+Resultado final: ✗ FALLO
+[2026-03-07 21:01:26] INFO     [LYZU] Feedback: ✗ Hubo un problema: OBJECT_NOT_FOUND. 
+[2026-03-07 21:01:26] INFO     [LYZU] --- Paso 4: Iluminación Cinemática ---
+[2026-03-07 21:01:26] INFO     [LYZU] 
+============================================================
+[2026-03-07 21:01:26] INFO     [LYZU] NUEVA PETICIÓN: Crea una luz llamada 'Key_Light' en [5, -5, 10] con energía 1000
+[2026-03-07 21:01:26] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:26] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 21:01:26] INFO     [LYZU]   1. blender.create_light (70%) (confianza: 70.00%)
+[2026-03-07 21:01:26] INFO     [LYZU] 
+Ejecutando intención principal: blender.create_light
+[2026-03-07 21:01:26] INFO     [LYZU] Estado: Evaluación
+[2026-03-07 21:01:26] INFO     [LYZU] Estado: Ejecución (Confianza: 70.00%)
+[2026-03-07 21:01:26] INFO     [LYZU] [V2] Colección no detectada en background, asumiendo Master Collection.
+[2026-03-07 21:01:26] SUCCESS  [LYZU] [V2] Contexto válido — ejecución autorizada.
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.create_light
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.create_light
+[2026-03-07 21:01:26] DEBUG    [LYZU] [FASE 23] Parámetros: {'location': [-5.0, 10.0, 1000.0], 'name': 'key_light', 'object_name': 'key_light'}
+[2026-03-07 21:01:26] DEBUG    [LYZU] ✓ Luz creada: POINT → key_light
+[2026-03-07 21:01:26] SUCCESS  [LYZU] Luz POINT 'key_light' creada
+[2026-03-07 21:01:26] SUCCESS  [LYZU] [FASE 23] ✓ Handler ejecutado: blender.create_light
+[2026-03-07 21:01:26] DEBUG    [LYZU] 📝 Action: [21:01:26] ✓ blender.create_light → key_light (route: IntentRouter)
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:26] SUCCESS  [LYZU] VALIDACIÓN V0 EXITOSA: Objeto 'key_light' confirmado en escena.
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:26] SUCCESS  [LYZU] V1: Integridad estructural de 'key_light' verificada.
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ Ejecución procesada y validada (V0+V1): Estructura de 'key_light' correcta.
+[2026-03-07 21:01:26] INFO     [LYZU] Estado capturado: 6 objetos, 1 luces
+Blender 3.6.2 (hash e53e55951e7a built 2023-08-16 23:35:13)
+Read prefs: "C:\Users\Admin\AppData\Roaming\Blender Foundation\Blender\3.6\config\userpref.blend"
+Info: Total files 0 | Changed 0 | Failed 0
+[2026-03-07 21:01:26] INFO     [LYZU] 
+Resultado final: ✓ ÉXITO
+[2026-03-07 21:01:26] INFO     [LYZU] Feedback: ✓ Comando ejecutado exitosamente. Escena actualizada: 6 objeto(s) en la escena.
+[2026-03-07 21:01:26] INFO     [LYZU] 
+============================================================
+[2026-03-07 21:01:26] INFO     [LYZU] NUEVA PETICIÓN: Crea una luz llamada 'Fill_Light' en [-5, -5, 5] con energía 300
+[2026-03-07 21:01:26] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:26] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 21:01:26] INFO     [LYZU]   1. blender.create_light (70%) (confianza: 70.00%)
+[2026-03-07 21:01:26] INFO     [LYZU] 
+Ejecutando intención principal: blender.create_light
+[2026-03-07 21:01:26] INFO     [LYZU] Estado: Evaluación
+[2026-03-07 21:01:26] INFO     [LYZU] Estado: Ejecución (Confianza: 70.00%)
+[2026-03-07 21:01:26] INFO     [LYZU] [V2] Colección no detectada en background, asumiendo Master Collection.
+[2026-03-07 21:01:26] SUCCESS  [LYZU] [V2] Contexto válido — ejecución autorizada.
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.create_light
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.create_light
+[2026-03-07 21:01:26] DEBUG    [LYZU] [FASE 23] Parámetros: {'location': [-5.0, 5.0, 300.0], 'name': 'fill_light', 'object_name': 'fill_light'}
+[2026-03-07 21:01:26] DEBUG    [LYZU] ✓ Luz creada: POINT → fill_light
+[2026-03-07 21:01:26] SUCCESS  [LYZU] Luz POINT 'fill_light' creada
+[2026-03-07 21:01:26] SUCCESS  [LYZU] [FASE 23] ✓ Handler ejecutado: blender.create_light
+[2026-03-07 21:01:26] DEBUG    [LYZU] 📝 Action: [21:01:26] ✓ blender.create_light → fill_light (route: IntentRouter)
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:26] SUCCESS  [LYZU] VALIDACIÓN V0 EXITOSA: Objeto 'fill_light' confirmado en escena.
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:26] SUCCESS  [LYZU] V1: Integridad estructural de 'fill_light' verificada.
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ Ejecución procesada y validada (V0+V1): Estructura de 'fill_light' correcta.
+[2026-03-07 21:01:26] INFO     [LYZU] Estado capturado: 6 objetos, 2 luces
+[2026-03-07 21:01:26] INFO     [LYZU] 
+Resultado final: ✓ ÉXITO
+[2026-03-07 21:01:26] INFO     [LYZU] Feedback: ✓ Comando ejecutado exitosamente. Escena actualizada: 6 objeto(s) en la escena.
+[2026-03-07 21:01:26] INFO     [LYZU] 
+============================================================
+[2026-03-07 21:01:26] INFO     [LYZU] NUEVA PETICIÓN: Crea una luz llamada 'Rim_Light' en [0, 10, 5] con energía 500
+[2026-03-07 21:01:26] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:26] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 21:01:26] INFO     [LYZU]   1. blender.create_light (70%) (confianza: 70.00%)
+[2026-03-07 21:01:26] INFO     [LYZU] 
+Ejecutando intención principal: blender.create_light
+[2026-03-07 21:01:26] INFO     [LYZU] Estado: Evaluación
+[2026-03-07 21:01:26] INFO     [LYZU] Estado: Ejecución (Confianza: 70.00%)
+[2026-03-07 21:01:26] INFO     [LYZU] [V2] Colección no detectada en background, asumiendo Master Collection.
+[2026-03-07 21:01:26] SUCCESS  [LYZU] [V2] Contexto válido — ejecución autorizada.
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.create_light
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.create_light
+[2026-03-07 21:01:26] DEBUG    [LYZU] [FASE 23] Parámetros: {'location': [10.0, 5.0, 500.0], 'name': 'rim_light', 'object_name': 'rim_light'}
+[2026-03-07 21:01:26] DEBUG    [LYZU] ✓ Luz creada: POINT → rim_light
+[2026-03-07 21:01:26] SUCCESS  [LYZU] Luz POINT 'rim_light' creada
+[2026-03-07 21:01:26] SUCCESS  [LYZU] [FASE 23] ✓ Handler ejecutado: blender.create_light
+[2026-03-07 21:01:26] DEBUG    [LYZU] 📝 Action: [21:01:26] ✓ blender.create_light → rim_light (route: IntentRouter)
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:26] SUCCESS  [LYZU] VALIDACIÓN V0 EXITOSA: Objeto 'rim_light' confirmado en escena.
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:26] SUCCESS  [LYZU] V1: Integridad estructural de 'rim_light' verificada.
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ Ejecución procesada y validada (V0+V1): Estructura de 'rim_light' correcta.
+[2026-03-07 21:01:26] INFO     [LYZU] Estado capturado: 6 objetos, 3 luces
+[2026-03-07 21:01:26] INFO     [LYZU] 
+Resultado final: ✓ ÉXITO
+[2026-03-07 21:01:26] INFO     [LYZU] Feedback: ✓ Comando ejecutado exitosamente. Escena actualizada: 6 objeto(s) en la escena.
+[2026-03-07 21:01:26] INFO     [LYZU] --- Paso 5: Cámara con Look-At ---
+[2026-03-07 21:01:26] INFO     [LYZU] 
+============================================================
+[2026-03-07 21:01:26] INFO     [LYZU] NUEVA PETICIÓN: Crea una camara llamada 'Main_Cam' en [8, -8, 6]
+[2026-03-07 21:01:26] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:26] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 21:01:26] INFO     [LYZU]   1. blender.create_camera (70%) (confianza: 70.00%)
+[2026-03-07 21:01:26] INFO     [LYZU] 
+Ejecutando intención principal: blender.create_camera
+[2026-03-07 21:01:26] INFO     [LYZU] Estado: Evaluación
+[2026-03-07 21:01:26] INFO     [LYZU] Estado: Ejecución (Confianza: 70.00%)
+[2026-03-07 21:01:26] INFO     [LYZU] [V2] Colección no detectada en background, asumiendo Master Collection.
+[2026-03-07 21:01:26] SUCCESS  [LYZU] [V2] Contexto válido — ejecución autorizada.
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.create_camera
+[2026-03-07 21:01:26] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.create_camera
+[2026-03-07 21:01:26] DEBUG    [LYZU] [FASE 23] Parámetros: {'location': [8.0, -8.0, 6.0], 'name': 'main_cam', 'object_name': 'main_cam'}
+[2026-03-07 21:01:26] DEBUG    [LYZU] ✓ Cámara creada y activada: main_cam
+[2026-03-07 21:01:26] SUCCESS  [LYZU] Cámara 'main_cam' creada
+[2026-03-07 21:01:26] SUCCESS  [LYZU] [FASE 23] ✓ Handler ejecutado: blender.create_camera
+[2026-03-07 21:01:26] DEBUG    [LYZU] 📝 Action: [21:01:26] ✓ blender.create_camera → main_cam (route: IntentRouter)
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:26] SUCCESS  [LYZU] VALIDACIÓN V0 EXITOSA: Objeto 'main_cam' confirmado en escena.
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:26] SUCCESS  [LYZU] V1: Integridad estructural de 'main_cam' verificada.
+[2026-03-07 21:01:26] INFO     [LYZU] ✓ Ejecución procesada y validada (V0+V1): Estructura de 'main_cam' correcta.
+[2026-03-07 21:01:27] INFO     [LYZU] Estado capturado: 6 objetos, 3 luces
+[2026-03-07 21:01:27] INFO     [LYZU] 
+Resultado final: ✓ ÉXITO
+[2026-03-07 21:01:27] INFO     [LYZU] Feedback: ✓ Comando ejecutado exitosamente. Escena actualizada: 6 objeto(s) en la escena.
+[2026-03-07 21:01:27] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:27] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:27] INFO     [LYZU] --- Paso 6: Persistencia Binaria ---
+[2026-03-07 21:01:27] INFO     [LYZU] 
+============================================================
+[2026-03-07 21:01:27] INFO     [LYZU] NUEVA PETICIÓN: Guardar proyecto en 'C:\Users\Admin\Desktop\ZULY_IA_LOCAL\ZULY_PROJECTS\ZULY_SHOWCASE_20260307_2101.blend'
+[2026-03-07 21:01:27] INFO     [LYZU] ============================================================
+[2026-03-07 21:01:27] DEBUG    [LYZU] NLU: Filepath detectado -> c:\users\admin\desktop\zuly_ia_local\zuly_projects\zuly_showcase_20260307_2101.blend
+[2026-03-07 21:01:27] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 21:01:27] INFO     [LYZU]   1. blender.save_project (70%) (confianza: 70.00%)
+[2026-03-07 21:01:27] INFO     [LYZU] 
+Ejecutando intención principal: blender.save_project
+[2026-03-07 21:01:27] INFO     [LYZU] Estado: Evaluación
+[2026-03-07 21:01:27] INFO     [LYZU] Estado: Ejecución (Confianza: 70.00%)
+[2026-03-07 21:01:27] INFO     [LYZU] [V2] Colección no detectada en background, asumiendo Master Collection.
+[2026-03-07 21:01:27] SUCCESS  [LYZU] [V2] Contexto válido — ejecución autorizada.
+[2026-03-07 21:01:27] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:27] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:27] INFO     [LYZU] [FASE 23] Ruta: IntentRouter → blender.save_project
+[2026-03-07 21:01:27] INFO     [LYZU] [FASE 23] Ejecutando vía IntentRouter: blender.save_project
+[2026-03-07 21:01:27] DEBUG    [LYZU] [FASE 23] Parámetros: {'name': 'c:\\users\\admin\\desktop\\zuly_ia_local\\zuly_projects\\zuly_showcase_20260307_2101.blend', 'object_name': 'c:\\users\\admin\\desktop\\zuly_ia_local\\zuly_projects\\zuly_showcase_20260307_2101.blend', 'filepath': 'c:\\users\\admin\\desktop\\zuly_ia_local\\zuly_projects\\zuly_showcase_20260307_2101.blend', 'path': 'c:\\users\\admin\\desktop\\zuly_ia_local\\zuly_projects\\zuly_showcase_20260307_2101.blend'}
+[2026-03-07 21:01:27] INFO     [LYZU] Guardando archivo en: c:\users\admin\desktop\zuly_ia_local\zuly_projects\zuly_showcase_20260307_2101.blend
+Info: Saved "zuly_showcase_20260307_2101.blend"
+[2026-03-07 21:01:27] INFO     [LYZU] ✓ Escena exportada: c:\users\admin\desktop\zuly_ia_local\zuly_projects\zuly_showcase_20260307_2101.blend (BLEND)
+[2026-03-07 21:01:27] SUCCESS  [LYZU] Archivo guardado exitosamente: c:\users\admin\desktop\zuly_ia_local\zuly_projects\zuly_showcase_20260307_2101.blend
+[2026-03-07 21:01:27] SUCCESS  [LYZU] [FASE 23] ✓ Handler ejecutado: blender.save_project
+[2026-03-07 21:01:27] DEBUG    [LYZU] 📝 Action: [21:01:27] ✓ blender.save_project → c:\users\admin\desktop\zuly_ia_local\zuly_projects\zuly_showcase_20260307_2101.blend (route: IntentRouter)
+[2026-03-07 21:01:27] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:27] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:27] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-07 21:01:27] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-07 21:01:27] INFO     [LYZU] ✓ Ejecución procesada y validada (V0+V1): V1: Sin anomalías estructurales detectadas.
+[2026-03-07 21:01:27] INFO     [LYZU] Estado capturado: 6 objetos, 3 luces
+[2026-03-07 21:01:27] INFO     [LYZU] 
+Resultado final: ✓ ÉXITO
+[2026-03-07 21:01:27] INFO     [LYZU] Feedback: ✓ Comando ejecutado exitosamente. Escena actualizada: 6 objeto(s) en la escena.
+[2026-03-07 21:01:27] SUCCESS  [LYZU] 💎 SHOWCASE COMPLETADO: C:\Users\Admin\Desktop\ZULY_IA_LOCAL\ZULY_PROJECTS\ZULY_SHOWCASE_20260307_2101.blend (1171268 bytes)
+
+Blender quit

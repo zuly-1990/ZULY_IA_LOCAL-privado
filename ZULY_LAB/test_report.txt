@@ -1,0 +1,57 @@
+======================================================================
+REPORTE DE PRUEBAS - INTEGRACIÓN LYZU + YOUTUBE
+======================================================================
+
+Fecha: 2026-02-22T14:58:08.912894
+
+RESUMEN GLOBAL:
+----------------------------------------------------------------------
+Total de pruebas ejecutadas: 21
+Pruebas pasadas: 17
+Pruebas fallidas: 4
+Tasa de éxito global: 81.0%
+
+DETALLE POR TRANSCRIPCIÓN:
+----------------------------------------------------------------------
+
+📄 tutorial_arquitectura_2d_a_3d.txt
+   - Comandos totales: 5
+   - Ejecutados: 5
+   - Fallidos: 0
+   - Tasa éxito: 100%
+   - Tipos: {'scale': 2, 'extrude': 2, 'transform': 1}
+
+📄 tutorial_arquitectura_36.txt
+   - Comandos totales: 3
+   - Ejecutados: 2
+   - Fallidos: 1
+   - Tasa éxito: 67%
+   - Tipos: {'rotate': 2, 'scale': 1}
+
+📄 tutorial_cortes_bisect.txt
+   - Comandos totales: 2
+   - Ejecutados: 2
+   - Fallidos: 0
+   - Tasa éxito: 100%
+   - Tipos: {'scale': 1, 'cut': 1}
+
+📄 tutorial_fundamentos_42.txt
+   - Comandos totales: 5
+   - Ejecutados: 4
+   - Fallidos: 1
+   - Tasa éxito: 80%
+   - Tipos: {'scale': 2, 'extrude': 1, 'rotate': 1, 'other': 1}
+
+📄 tutorial_villa_savoye.txt
+   - Comandos totales: 6
+   - Ejecutados: 4
+   - Fallidos: 2
+   - Tasa éxito: 67%
+   - Tipos: {'create': 1, 'rotate': 2, 'scale': 2, 'transform': 1}
+
+======================================================================
+CONCLUSIÓN:
+----------------------------------------------------------------------
+✅ BUENA - La integración funciona con algunos ajustes necesarios.
+
+======================================================================

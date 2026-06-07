@@ -1,0 +1,28 @@
+{
+  "pattern_id": "P-004B_CilindroAncho",
+  "nombre_tecnico": "P-004B_CilindroAncho",
+  "fecha_sello": "2026-04-04T20:56:31.387947",
+  "estado": "SELLADO",
+  "sellado_por": "Soberano",
+  "validacion_jues": {
+    "vision_rayos_x": {
+      "status": "LIMPIA",
+      "icon": "✨"
+    },
+    "instinto_optimizacion": {
+      "status": "OPTIMO",
+      "peso_kb": 863.61,
+      "icon": "⚡"
+    },
+    "sincronia_cromatica": {
+      "status": "MATCH",
+      "color_encontrado": "#607D8B",
+      "icon": "🎯"
+    },
+    "sello_inmutabilidad": {
+      "hash": "7d40ad902c7167be167e8c93ad264391",
+      "vertices_count": 128,
+      "icon": "🔒"
+    }
+  }
+}

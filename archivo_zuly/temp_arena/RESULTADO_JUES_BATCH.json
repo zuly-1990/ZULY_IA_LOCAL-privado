@@ -1,0 +1,360 @@
+{
+  "timestamp": "2026-05-02T15:53:41.873178",
+  "handlers_count": 19,
+  "models_evaluated": 32,
+  "blender_execution_ok": true,
+  "results": [
+    {
+      "candidato_id": "CUB-001_Modelado_BiselRealista",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "CUB-001_Modelado_BiselRealista",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\CUB-001_Modelado_BiselRealista_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\CUB-001_Modelado_BiselRealista_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "CUB-002_Transform_PivoteSuelo",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "CUB-002_Transform_PivoteSuelo",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\CUB-002_Transform_PivoteSuelo_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\CUB-002_Transform_PivoteSuelo_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "CUB-003_Modelado_MuroPro",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "CUB-003_Modelado_MuroPro",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\CUB-003_Modelado_MuroPro_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\CUB-003_Modelado_MuroPro_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "CUB-004-HIBRIDO_Prueba",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "CUB-004-HIBRIDO_Prueba",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\CUB-004-HIBRIDO_Prueba_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\CUB-004-HIBRIDO_Prueba_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "CUB-005_BooleanExacto",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "CUB-005_BooleanExacto",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\CUB-005_BooleanExacto_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\CUB-005_BooleanExacto_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "LUZ-001_Iluminacion_3Point",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "LUZ-001_Iluminacion_3Point",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\LUZ-001_Iluminacion_3Point_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\LUZ-001_Iluminacion_3Point_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "LUZ-002_Iluminacion_HDRI",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "LUZ-002_Iluminacion_HDRI",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\LUZ-002_Iluminacion_HDRI_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\LUZ-002_Iluminacion_HDRI_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "MAT-001_Material_Metal",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "MAT-001_Material_Metal",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MAT-001_Material_Metal_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MAT-001_Material_Metal_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "MAT-002_Material_Vidrio",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "MAT-002_Material_Vidrio",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MAT-002_Material_Vidrio_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MAT-002_Material_Vidrio_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "MAT-003_Material_Emisivo",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "MAT-003_Material_Emisivo",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MAT-003_Material_Emisivo_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MAT-003_Material_Emisivo_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "MOD-001_Pabellon_Minimalista",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "MOD-001_Pabellon_Minimalista",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MOD-001_Pabellon_Minimalista_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MOD-001_Pabellon_Minimalista_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "MOD-002_Torre_Corporativa",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "MOD-002_Torre_Corporativa",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MOD-002_Torre_Corporativa_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MOD-002_Torre_Corporativa_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "MOD-003_Casa_Contenedor",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "MOD-003_Casa_Contenedor",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MOD-003_Casa_Contenedor_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MOD-003_Casa_Contenedor_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "MOD-004_Museo_Arte",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "MOD-004_Museo_Arte",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MOD-004_Museo_Arte_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MOD-004_Museo_Arte_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "MOD-005_Estacion_Espacial",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "MOD-005_Estacion_Espacial",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MOD-005_Estacion_Espacial_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\MOD-005_Estacion_Espacial_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "P-001A_CuboBasico_1m",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "P-001A_CuboBasico_1m",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-001A_CuboBasico_1m_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-001A_CuboBasico_1m_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "P-001B_CuboBasico_2m",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "P-001B_CuboBasico_2m",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-001B_CuboBasico_2m_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-001B_CuboBasico_2m_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "P-001C_CuboBasico_05m",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "P-001C_CuboBasico_05m",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-001C_CuboBasico_05m_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-001C_CuboBasico_05m_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "P-001D_CuboBasico_3m",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "P-001D_CuboBasico_3m",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-001D_CuboBasico_3m_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-001D_CuboBasico_3m_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "P-002A_EsferaUV_1m",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "P-002A_EsferaUV_1m",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-002A_EsferaUV_1m_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-002A_EsferaUV_1m_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "P-002B_EsferaUV_2m",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "P-002B_EsferaUV_2m",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-002B_EsferaUV_2m_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-002B_EsferaUV_2m_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "P-002C_EsferaICO_1m",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "P-002C_EsferaICO_1m",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-002C_EsferaICO_1m_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-002C_EsferaICO_1m_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "P-002D_EsferaICO_05m",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "P-002D_EsferaICO_05m",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-002D_EsferaICO_05m_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-002D_EsferaICO_05m_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "P-002E_EsferaUV_05m",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "P-002E_EsferaUV_05m",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-002E_EsferaUV_05m_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-002E_EsferaUV_05m_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "P-003A_SphereAltaRes",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "P-003A_SphereAltaRes",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-003A_SphereAltaRes_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-003A_SphereAltaRes_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "P-003B_SphereBajaRes",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "P-003B_SphereBajaRes",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-003B_SphereBajaRes_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-003B_SphereBajaRes_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "P-003C_SphereMini",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "P-003C_SphereMini",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-003C_SphereMini_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-003C_SphereMini_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "P-004A_CilindroAlto",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "P-004A_CilindroAlto",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-004A_CilindroAlto_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-004A_CilindroAlto_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "P-004B_CilindroAncho",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "P-004B_CilindroAncho",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-004B_CilindroAncho_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-004B_CilindroAncho_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "P-005A_ConoAlto",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "P-005A_ConoAlto",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-005A_ConoAlto_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-005A_ConoAlto_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "P-005B_ConoChato",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "P-005B_ConoChato",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-005B_ConoChato_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-005B_ConoChato_SELLADO_20260502_155341.json"
+      }
+    },
+    {
+      "candidato_id": "P-006A_PlanoBase",
+      "jues": {
+        "status": "SELLADO",
+        "candidato_id": "P-006A_PlanoBase",
+        "puntuacion_jues": 95.0,
+        "dictamen": "APTO_PARA_SELLO",
+        "ubicacion": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-006A_PlanoBase_SELLADO_20260502_155341.blend",
+        "metadata": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\sellos\\P-006A_PlanoBase_SELLADO_20260502_155341.json"
+      }
+    }
+  ]
+}

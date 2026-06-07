@@ -1,0 +1,484 @@
+{
+  "version": "1.1.1-transcription-eval",
+  "full_raw_text": "Transcripción: Cortes de Sección en Blender (Herramienta Bisect)\n\n[0:22] Técnica para realizar cortes de sección transversales en modelos 3D.\n[0:36] Proceso: Seleccionar el modelo, entrar en modo edición (Tab), seleccionar todo (A).\n[1:06] Herramienta: Knife -> Bisect (Biseccionar).\n[1:22] Ejecución: Clic sostenido y arrastrar. Usar tecla Control para cortes rectos.\n[1:33] La línea amarilla indica el plano de corte.\n[1:46] Panel de control (F9/Ajustes): Usar el eje Z para desplazar la altura del corte.\n[2:00] Para ocultar una mitad: Activar 'Clear Inner' o 'Clear Outer'.\n[2:15] Relleno: Activar la opción 'Fill' para cerrar la geometría cortada (requiere geometría limpia).\n[3:00] Visualización: Funciona en modo Sólido y Render (EEVEE/Cycles).\n[3:32] Advertencia: El corte afecta la geometría permanentemente; se recomienda trabajar en copias.\n[3:55] Protección de objetos: Para evitar que el corte afecte al suelo o terreno, desmarcar la opción de \"selectable\" (icono de flecha) en el Outliner.\n[4:55] Cortes frontales: Repetir proceso en vista superior (7) para cortes longitudinales.\n[5:32] Uso de 'Clear Outer' para avanzar o retroceder el plano de corte frontal.\n[6:44] Aplicación: Generación de planos 2D a partir del modelo 3D cortado.\n",
+  "cleaned_text": "transcripción: cortes de sección en blender (herramienta bisect) [0:22] técnica para realizar cortes de sección transversales en modelos 3d. [0:36] proceso: seleccionar el modelo, entrar en modo edición (tab), seleccionar todo (a). [1:06] herramienta: knife -> bisect (biseccionar). [1:22] ejecución: clic sostenido y arrastrar. usar tecla control para cortes rectos. [1:33] la línea amarilla indica el plano de corte. [1:46] panel de control (f9/ajustes): usar el eje z para desplazar la altura del corte. [2:00] para ocultar una mitad: activar 'clear inner' o 'clear outer'. [2:15] relleno: activar la opción 'fill' para cerrar la geometría cortada (requiere geometría limpia). [3:00] visualización: funciona en modo sólido y render (eevee/cycles). [3:32] advertencia: el corte afecta la geometría permanentemente; se recomienda trabajar en copias. [3:55] protección de objetos: para evitar que el corte afecte al suelo o terreno, desmarcar la opción de \"selectable\" (icono de flecha) en el outliner. [4:55] cortes frontales: repetir proceso en vista superior (7) para cortes longitudinales. [5:32] uso de 'clear outer' para avanzar o retroceder el plano de corte frontal. [6:44] aplicación: generación de planos 2d a partir del modelo 3d cortado.",
+  "steps_count": 15,
+  "steps": [
+    {
+      "step_number": 1,
+      "original_segment": "transcripción: cortes de sección en blender (herramienta bisect) [0:22] técnica para realizar cortes de sección transversales en modelos 3d",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "transcripción: cortes de sección en blender (herramienta bisect) [0:22] técnica para realizar cortes de sección transversales en modelos 3d",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 2,
+      "original_segment": "[0:36] proceso: seleccionar el modelo, entrar en modo edición (tab), seleccionar todo (a)",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[0:36] proceso: seleccionar el modelo, entrar en modo edición (tab), seleccionar todo (a)",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 3,
+      "original_segment": "[1:06] herramienta: knife -> bisect (biseccionar)",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[1:06] herramienta: knife -> bisect (biseccionar)",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 4,
+      "original_segment": "[1:22] ejecución: clic sostenido y arrastrar",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[1:22] ejecución: clic sostenido y arrastrar",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 5,
+      "original_segment": "usar tecla control para cortes rectos",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "usar tecla control para cortes rectos",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 6,
+      "original_segment": "[1:33] la línea amarilla indica el plano de corte",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[1:33] la línea amarilla indica el plano de corte",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "[1:33] la línea amarilla indica el plano de corte",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 7,
+      "original_segment": "[1:46] panel de control (f9/ajustes): usar el eje z para desplazar la altura del corte",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[1:46] panel de control (f9/ajustes): usar el eje z para desplazar la altura del corte",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 8,
+      "original_segment": "[2:00] para ocultar una mitad: activar 'clear inner' o 'clear outer'",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[2:00] para ocultar una mitad: activar 'clear inner' o 'clear outer'",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 9,
+      "original_segment": "[2:15] relleno: activar la opción 'fill' para cerrar la geometría cortada (requiere geometría limpia)",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[2:15] relleno: activar la opción 'fill' para cerrar la geometría cortada (requiere geometría limpia)",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 10,
+      "original_segment": "[3:00] visualización: funciona en modo sólido y render (eevee/cycles)",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[3:00] visualización: funciona en modo sólido y render (eevee/cycles)",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 11,
+      "original_segment": "[3:32] advertencia: el corte afecta la geometría permanentemente; se recomienda trabajar en copias",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[3:32] advertencia: el corte afecta la geometría permanentemente; se recomienda trabajar en copias",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 12,
+      "original_segment": "[3:55] protección de objetos: para evitar que el corte afecte al suelo o terreno, desmarcar la opción de \"selectable\" (icono de flecha) en el outliner",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[3:55] protección de objetos: para evitar que el corte afecte al suelo o terreno, desmarcar la opción de \"selectable\" (icono de flecha) en el outliner",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "base",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "[3:55] protección de objetos: para evitar que el corte afecte al suelo o terreno, desmarcar la opción de \"selectable\" (icono de flecha) en el outliner",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 13,
+      "original_segment": "[4:55] cortes frontales: repetir proceso en vista superior (7) para cortes longitudinales",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[4:55] cortes frontales: repetir proceso en vista superior (7) para cortes longitudinales",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 14,
+      "original_segment": "[5:32] uso de 'clear outer' para avanzar o retroceder el plano de corte frontal",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[5:32] uso de 'clear outer' para avanzar o retroceder el plano de corte frontal",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "[5:32] uso de 'clear outer' para avanzar o retroceder el plano de corte frontal",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 15,
+      "original_segment": "[6:44] aplicación: generación de planos 2d a partir del modelo 3d cortado.",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[6:44] aplicación: generación de planos 2d a partir del modelo 3d cortado.",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "[6:44] aplicación: generación de planos 2d a partir del modelo 3d cortado",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    }
+  ],
+  "global_warnings": [],
+  "total_elements_detected": 4,
+  "tutorial_confidence_score": 0.6,
+  "confidence_level": "MEDIO",
+  "average_clarity": 1.0,
+  "total_technical_gaps": 4,
+  "recommendation": "Tutorial usable pero requiere supervisión o ajustes manuales.",
+  "ambiguous_language_detected": false,
+  "technical_gaps_detected": true,
+  "ambiguous_steps": [
+    {
+      "step_number": 6,
+      "original_segment": "[1:33] la línea amarilla indica el plano de corte",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[1:33] la línea amarilla indica el plano de corte",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "[1:33] la línea amarilla indica el plano de corte",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 12,
+      "original_segment": "[3:55] protección de objetos: para evitar que el corte afecte al suelo o terreno, desmarcar la opción de \"selectable\" (icono de flecha) en el outliner",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[3:55] protección de objetos: para evitar que el corte afecte al suelo o terreno, desmarcar la opción de \"selectable\" (icono de flecha) en el outliner",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "base",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "[3:55] protección de objetos: para evitar que el corte afecte al suelo o terreno, desmarcar la opción de \"selectable\" (icono de flecha) en el outliner",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 14,
+      "original_segment": "[5:32] uso de 'clear outer' para avanzar o retroceder el plano de corte frontal",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[5:32] uso de 'clear outer' para avanzar o retroceder el plano de corte frontal",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "[5:32] uso de 'clear outer' para avanzar o retroceder el plano de corte frontal",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 15,
+      "original_segment": "[6:44] aplicación: generación de planos 2d a partir del modelo 3d cortado.",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[6:44] aplicación: generación de planos 2d a partir del modelo 3d cortado.",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "[6:44] aplicación: generación de planos 2d a partir del modelo 3d cortado",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    }
+  ],
+  "detected_concepts": [],
+  "detected_paradigms": {
+    "adherent_paradigms": [],
+    "dominant_paradigm": "PARADIGM_IMPERATIVE",
+    "compatibility_status": "SUPPORTED"
+  }
+}

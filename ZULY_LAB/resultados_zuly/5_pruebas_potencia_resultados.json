@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-05-31T18:34:56.403020",
+  "pruebas": [
+    {
+      "numero": 1,
+      "nombre": "Primitiva Compleja + Material + Transformaci\u00f3n",
+      "exitosa": false,
+      "error": "Fallo en creaci\u00f3n o transformaci\u00f3n"
+    },
+    {
+      "numero": 2,
+      "nombre": "Escena Arquitect\u00f3nica (Muro + Ventana + Puerta)",
+      "exitosa": true,
+      "detalles": {
+        "muro": null,
+        "ventana": null,
+        "puerta": null,
+        "componentes": 3
+      }
+    },
+    {
+      "numero": 3,
+      "nombre": "Escena Multi-Objeto con Iluminaci\u00f3n Realista",
+      "exitosa": true,
+      "detalles": {
+        "primitivas": 3,
+        "luces": 2,
+        "total_objetos": 5
+      }
+    },
+    {
+      "numero": 4,
+      "nombre": "Modificadores Avanzados (Subdiv + Bevel + Array)",
+      "exitosa": false,
+      "error": "Fallo en aplicaci\u00f3n de modificadores"
+    },
+    {
+      "numero": 5,
+      "nombre": "Integraci\u00f3n Completa (Crear + Render + Guardar)",
+      "exitosa": false,
+      "error": "Fallo en integraci\u00f3n completa"
+    }
+  ],
+  "resumen": {
+    "total": 5,
+    "exitosas": 2,
+    "fallidas": 3
+  }
+}

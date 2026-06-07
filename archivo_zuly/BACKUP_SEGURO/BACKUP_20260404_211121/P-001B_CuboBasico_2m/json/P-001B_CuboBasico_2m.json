@@ -1,0 +1,28 @@
+{
+  "pattern_id": "P-001B_CuboBasico_2m",
+  "nombre_tecnico": "P-001B_CuboBasico_2m",
+  "fecha_sello": "2026-04-04T20:45:12.662691",
+  "estado": "SELLADO",
+  "sellado_por": "Soberano",
+  "validacion_jues": {
+    "vision_rayos_x": {
+      "status": "LIMPIA",
+      "icon": "✨"
+    },
+    "instinto_optimizacion": {
+      "status": "OPTIMO",
+      "peso_kb": 851.89,
+      "icon": "⚡"
+    },
+    "sincronia_cromatica": {
+      "status": "MATCH",
+      "color_encontrado": "#4CAF50",
+      "icon": "🎯"
+    },
+    "sello_inmutabilidad": {
+      "hash": "ef305bb9c2537dfa432b96457333eb06",
+      "vertices_count": 8,
+      "icon": "🔒"
+    }
+  }
+}

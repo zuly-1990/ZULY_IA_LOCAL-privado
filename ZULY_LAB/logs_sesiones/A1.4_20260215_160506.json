@@ -1,0 +1,379 @@
+{
+  "ejercicio": "A1.4",
+  "nombre": "Altar de Zuly",
+  "timestamp": "2026-02-15T16:05:06.785250",
+  "pasos_ejecutados": [
+    {
+      "numero": 1,
+      "action": "create_primitive",
+      "params": {
+        "primitive_type": "plane",
+        "location": [
+          0,
+          0,
+          0
+        ],
+        "scale": 10.0,
+        "name": "Suelo"
+      },
+      "exito": false,
+      "timestamp": "2026-02-15T16:05:06.785250",
+      "error": "Acción desconocida: create_primitive"
+    },
+    {
+      "numero": 2,
+      "action": "create_material",
+      "params": {
+        "name": "MatSuelo",
+        "color": [
+          0.1,
+          0.1,
+          0.1,
+          1.0
+        ],
+        "roughness": 0.8
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T16:05:06.785250",
+      "resultado": {
+        "success": true,
+        "material_name": "MatSuelo",
+        "color": [
+          0.1,
+          0.1,
+          0.1,
+          1.0
+        ],
+        "metallic": 0.0,
+        "roughness": 0.8,
+        "message": "Material MatSuelo creado exitosamente",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_material"
+      }
+    },
+    {
+      "numero": 3,
+      "action": "apply_material",
+      "params": {
+        "object_name": "Suelo",
+        "material_name": "MatSuelo"
+      },
+      "exito": false,
+      "timestamp": "2026-02-15T16:05:06.785250",
+      "resultado": {
+        "success": false,
+        "error": "OBJECT_NOT_FOUND",
+        "message": "Objeto 'Suelo' no encontrado",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.apply_material"
+      },
+      "error": "OBJECT_NOT_FOUND"
+    },
+    {
+      "numero": 4,
+      "action": "create_primitive",
+      "params": {
+        "primitive_type": "cube",
+        "location": [
+          0,
+          0,
+          2
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          4.0
+        ],
+        "name": "Monolito"
+      },
+      "exito": false,
+      "timestamp": "2026-02-15T16:05:06.785250",
+      "error": "Acción desconocida: create_primitive"
+    },
+    {
+      "numero": 5,
+      "action": "create_material",
+      "params": {
+        "name": "MatMonolito",
+        "color": [
+          0.0,
+          0.8,
+          1.0,
+          1.0
+        ],
+        "metallic": 0.8,
+        "roughness": 0.2
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T16:05:06.786838",
+      "resultado": {
+        "success": true,
+        "material_name": "MatMonolito",
+        "color": [
+          0.0,
+          0.8,
+          1.0,
+          1.0
+        ],
+        "metallic": 0.8,
+        "roughness": 0.2,
+        "message": "Material MatMonolito creado exitosamente",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_material"
+      }
+    },
+    {
+      "numero": 6,
+      "action": "apply_material",
+      "params": {
+        "object_name": "Monolito",
+        "material_name": "MatMonolito"
+      },
+      "exito": false,
+      "timestamp": "2026-02-15T16:05:06.786838",
+      "resultado": {
+        "success": false,
+        "error": "OBJECT_NOT_FOUND",
+        "message": "Objeto 'Monolito' no encontrado",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.apply_material"
+      },
+      "error": "OBJECT_NOT_FOUND"
+    },
+    {
+      "numero": 7,
+      "action": "create_primitive",
+      "params": {
+        "primitive_type": "sphere",
+        "location": [
+          3,
+          3,
+          2
+        ],
+        "radius": 0.5,
+        "name": "Orbe_1"
+      },
+      "exito": false,
+      "timestamp": "2026-02-15T16:05:06.786838",
+      "error": "Acción desconocida: create_primitive"
+    },
+    {
+      "numero": 8,
+      "action": "create_primitive",
+      "params": {
+        "primitive_type": "sphere",
+        "location": [
+          -3,
+          -3,
+          2
+        ],
+        "radius": 0.5,
+        "name": "Orbe_2"
+      },
+      "exito": false,
+      "timestamp": "2026-02-15T16:05:06.786838",
+      "error": "Acción desconocida: create_primitive"
+    },
+    {
+      "numero": 9,
+      "action": "apply_material",
+      "params": {
+        "object_name": "Orbe_1",
+        "material_name": "MatMonolito"
+      },
+      "exito": false,
+      "timestamp": "2026-02-15T16:05:06.786838",
+      "resultado": {
+        "success": false,
+        "error": "OBJECT_NOT_FOUND",
+        "message": "Objeto 'Orbe_1' no encontrado",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.apply_material"
+      },
+      "error": "OBJECT_NOT_FOUND"
+    },
+    {
+      "numero": 10,
+      "action": "apply_material",
+      "params": {
+        "object_name": "Orbe_2",
+        "material_name": "MatMonolito"
+      },
+      "exito": false,
+      "timestamp": "2026-02-15T16:05:06.786838",
+      "resultado": {
+        "success": false,
+        "error": "OBJECT_NOT_FOUND",
+        "message": "Objeto 'Orbe_2' no encontrado",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.apply_material"
+      },
+      "error": "OBJECT_NOT_FOUND"
+    },
+    {
+      "numero": 11,
+      "action": "create_light",
+      "params": {
+        "light_type": "POINT",
+        "location": [
+          5,
+          -5,
+          8
+        ],
+        "energy": 1000.0,
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "name": "LuzPrincipal"
+      },
+      "exito": false,
+      "timestamp": "2026-02-15T16:05:06.787406",
+      "error": "Acción desconocida: create_light"
+    },
+    {
+      "numero": 12,
+      "action": "create_light",
+      "params": {
+        "light_type": "POINT",
+        "location": [
+          -4,
+          2,
+          3
+        ],
+        "energy": 500.0,
+        "color": [
+          1.0,
+          0.0,
+          0.5
+        ],
+        "name": "LuzRelleno"
+      },
+      "exito": false,
+      "timestamp": "2026-02-15T16:05:06.787406",
+      "error": "Acción desconocida: create_light"
+    },
+    {
+      "numero": 13,
+      "action": "create_camera",
+      "params": {
+        "location": [
+          12,
+          -12,
+          10
+        ],
+        "name": "CamaraPrincipal"
+      },
+      "exito": false,
+      "timestamp": "2026-02-15T16:05:06.787406",
+      "error": "Acción desconocida: create_camera"
+    },
+    {
+      "numero": 14,
+      "action": "position_camera",
+      "params": {
+        "camera_name": "CamaraPrincipal",
+        "location": [
+          12,
+          -12,
+          8
+        ],
+        "look_at": [
+          0,
+          0,
+          2
+        ]
+      },
+      "exito": false,
+      "timestamp": "2026-02-15T16:05:06.787406",
+      "error": "Acción desconocida: position_camera"
+    },
+    {
+      "numero": 15,
+      "action": "set_active_camera",
+      "params": {
+        "camera_name": "CamaraPrincipal"
+      },
+      "exito": false,
+      "timestamp": "2026-02-15T16:05:06.787406",
+      "error": "Acción desconocida: set_active_camera"
+    },
+    {
+      "numero": 16,
+      "action": "render_scene",
+      "params": {
+        "output_path": "ZULY_LAB/resultados_zuly/A1.4_render_altar.png",
+        "resolution": [
+          800,
+          600
+        ],
+        "samples": 32,
+        "engine": "CYCLES"
+      },
+      "exito": false,
+      "timestamp": "2026-02-15T16:05:06.787406",
+      "error": "Acción desconocida: render_scene"
+    },
+    {
+      "numero": 17,
+      "action": "save_project",
+      "params": {
+        "filepath": "ZULY_LAB/resultados_zuly/A1.4_altar_completo.blend"
+      },
+      "exito": true,
+      "timestamp": "2026-02-15T16:05:06.787406",
+      "resultado": {
+        "success": true,
+        "output_path": "ZULY_LAB/resultados_zuly/A1.4_altar_completo.blend",
+        "format": "BLEND",
+        "object_count": 3,
+        "route": "INTENT_ROUTER",
+        "handler": "blender.save_project"
+      }
+    }
+  ],
+  "pasos_exitosos": 3,
+  "pasos_fallidos": 14,
+  "tiempo_total_segundos": 0.01,
+  "exito": false,
+  "objetos_creados": [],
+  "errores": [
+    "Acción desconocida: create_primitive",
+    "OBJECT_NOT_FOUND",
+    "Acción desconocida: create_primitive",
+    "OBJECT_NOT_FOUND",
+    "Acción desconocida: create_primitive",
+    "Acción desconocida: create_primitive",
+    "OBJECT_NOT_FOUND",
+    "OBJECT_NOT_FOUND",
+    "Acción desconocida: create_light",
+    "Acción desconocida: create_light",
+    "Acción desconocida: create_camera",
+    "Acción desconocida: position_camera",
+    "Acción desconocida: set_active_camera",
+    "Acción desconocida: render_scene"
+  ],
+  "validacion": {
+    "total": 3,
+    "pasadas": 0,
+    "fallidas": 3,
+    "detalles": [
+      {
+        "tipo": "object_exists",
+        "pasado": false,
+        "error": "Objeto 'Monolito' no encontrado en escena"
+      },
+      {
+        "tipo": "object_exists",
+        "pasado": false,
+        "error": "Objeto 'CamaraPrincipal' no encontrado en escena"
+      },
+      {
+        "tipo": "material_applied",
+        "pasado": false,
+        "error": "Objeto 'Monolito' no existe"
+      }
+    ]
+  }
+}

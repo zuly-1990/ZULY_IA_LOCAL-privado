@@ -1,0 +1,23 @@
+Transcripción: Trazado 3D desde Plano 2D (AutoCAD a Blender)
+
+[0:07] En este video vamos a trazar el 3D en base al plano en 2D que trajimos de Autocad.
+[0:31] Lo primero es convertir las entidades de Autocad en una colección separada llamada 'calco subyacente'.
+[1:22] Creamos el trazado fuera de esta colección.
+[2:03] Vamos a usar planos para el trazado. Shift A -> Mesh -> Plano.
+[2:44] Entramos en modo edición (Tab). Ubicamos el plano sobre el muro.
+[3:15] Editamos bordes. Seleccionamos un borde y con la tecla G lo movemos sobre el eje I o X, usando el Snap activado para precisión.
+[4:06] Estiramos el borde en el eje X para cubrir la longitud del muro.
+[4:35] Nominamos el objeto como 'muro fg'.
+[5:21] Repetimos: Shift A -> Plano -> Ubicar con G -> Modo Edición -> Modificar bordes en X e Y.
+[9:44] Para divisiones internas ramificadas: usamos un solo plano y lo llamamos 'divisiones internas'.
+[10:35] Para hacer codos o ramificaciones: usamos Control R (Loop Cut). Nace una Línea Amarilla. Con la ruedita del mouse podemos multiplicar los cortes.
+[12:10] Una vez hecho el corte, usamos la tecla E (Extruir) para hacer nacer el nuevo muro desde el segmento cortado.
+[14:15] Seguimos extruyendo con E en los ejes X o I según el plano.
+[16:52] Alturas: seleccionamos el muro, modo edición, tecla A (seleccionar todo), tecla E para extruir en el eje Z. Escribimos la altura (ej: 2.62).
+[19:37] Método del Single Vert (vértice simple) para cielos rasos y pisos.
+[19:53] Activar Addon: Edit -> Preferences -> Add-ons -> Add Mesh Extra Objects.
+[20:09] Shift A -> Mesh -> Single Vert -> Add Single Vert.
+[21:18] Usamos la tecla E para extruir el vértice siguiendo las esquinas de la habitación.
+[23:12] Una vez cerrado el perímetro de vértices, presionamos A y luego F (Fill) para crear la cara.
+[23:23] Damos espesor: seleccionamos la cara (A), extruimos (E) en el eje Z (ej: 0.15 para cielo raso).
+[24:44] Repetimos para el suelo cubriendo toda la geometría.

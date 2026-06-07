@@ -1,0 +1,88 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+Blender 3.6.2 (hash e53e55951e7a built 2023-08-16 23:35:13)
+Read prefs: "C:\Users\Admin\AppData\Roaming\Blender Foundation\Blender\3.6\config\userpref.blend"
+Error: Python: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\Admin\Desktop\ZULY_IA_LOCAL\scripts\zuly_lab_model_inspirado.py", line 113, in <module>
+    main()
+  File "C:\Users\Admin\Desktop\ZULY_IA_LOCAL\scripts\zuly_lab_model_inspirado.py", line 62, in main
+    adapter.create_primitive('cube', {
+TypeError: BlenderAdapter.create_primitive() takes 2 positional arguments but 3 were given
+[2026-03-15 09:53:25] INFO     [LYZU] =======================================================
+[2026-03-15 09:53:25] INFO     [LYZU] ZULY LAB - SÍNTESIS ARQUITECTÓNICA
+[2026-03-15 09:53:25] INFO     [LYZU] Modelado Inspirado por Ingeniería Inversa
+[2026-03-15 09:53:25] INFO     [LYZU] =======================================================
+[2026-03-15 09:53:25] INFO     [LYZU] ============================================================
+[2026-03-15 09:53:25] INFO     [LYZU] INICIALIZANDO AGENTE ZULY - VERSIÓN INTELIGENTE
+[2026-03-15 09:53:25] INFO     [LYZU] ============================================================
+[2026-03-15 09:53:25] INFO     [LYZU] ✓ BlenderAdapter inicializado correctamente
+[2026-03-15 09:53:25] INFO     [LYZU] ✓ BlenderAdapter disponible y activo
+[2026-03-15 09:53:25] INFO     [LYZU] [FASE 17] Engine Adapter: BlenderAdapter
+[2026-03-15 09:53:25] INFO     [LYZU] Cargando comandos desde: C:\Users\Admin\Desktop\ZULY_IA_LOCAL\core\commands
+[2026-03-15 09:53:25] INFO     [LYZU] Cargados 7 módulos de comandos (0 errores)
+[2026-03-15 09:53:25] INFO     [LYZU] Total de comandos cargados: 0
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.create_cube
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.create_sphere
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.create_cylinder
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.create_plane
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.create_cone
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.move_object
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.rotate_object
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.scale_object
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.render_scene
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: system.get_info
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.save_project
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.save_scene
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.clear_scene
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.rename_object
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.set_object_visibility
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.set_parent
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.create_material
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.create_texture_material
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.apply_material
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.set_material_color
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.create_light
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.set_light_energy
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.set_light_color
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.create_camera
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.set_active_camera
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.position_camera
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.add_subdivision_surface
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.add_array
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.add_bevel
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.add_boolean
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.export_fbx
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.export_obj
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.export_gltf
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.validate_topology
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.scan_and_learn
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.build_structure
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.save_pattern
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.load_pattern
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.list_patterns
+[2026-03-15 09:53:25] INFO     [LYZU] Registrado handler: blender.run_python_script
+[2026-03-15 09:53:25] SUCCESS  [LYZU] ✓ 40 handlers de Blender registrados
+[2026-03-15 09:53:25] INFO     [LYZU] [FASE 23] IntentRouter: 40 handlers registrados
+[2026-03-15 09:53:25] INFO     [LYZU] NLU inicializado con 0 comandos
+[2026-03-15 09:53:25] INFO     [LYZU] SceneMonitor inicializado
+[2026-03-15 09:53:25] INFO     [LYZU] [PatternMemory] Inicializada con 4 patrones totales (Staging + Verified)
+[2026-03-15 09:53:25] INFO     [COGNITION] CognitionCore inicializado con Memoria Heurística
+[2026-03-15 09:53:25] INFO     [COGNITION] Evaluador registrado: render
+[2026-03-15 09:53:25] INFO     [LYZU] [FASE 18.5] FailsafeExecutor y ActionLogger integrados
+[2026-03-15 09:53:25] INFO     [LYZU] [OK] 0 comandos cargados
+[2026-03-15 09:53:25] INFO     [LYZU] [OK] Procesador de Lenguaje Natural inicializado
+[2026-03-15 09:53:25] INFO     [LYZU] [OK] Monitor de Escena activo (vía BlenderAdapter)
+[2026-03-15 09:53:25] INFO     [LYZU] [OK] Memoria de Patrones: 4 patrones
+[2026-03-15 09:53:25] INFO     [LYZU] [OK] Autoconciencia Operativa: activa (pasiva)
+[2026-03-15 09:53:25] INFO     [LYZU] [OK] Identidad de Autor: VERIFICADA
+[2026-03-15 09:53:25] INFO     [LYZU] [OK] Estado Inicial: Observación
+[2026-03-15 09:53:25] INFO     [LYZU] ============================================================
+[2026-03-15 09:53:25] INFO     [LYZU] Agente Zuly listo conforme al Protocolo de Identidad
+[2026-03-15 09:53:25] INFO     [LYZU] [FASE 17] Desacoplamiento: ACTIVO (BlenderAdapter)
+[2026-03-15 09:53:25] INFO     [LYZU] ============================================================
+[2026-03-15 09:53:25] INFO     [LYZU] [FASE 18.5] Módulos registrados: 6
+[2026-03-15 09:53:25] INFO     [LYZU] ADN Casa Rural → altura promedio piezas: 1.16m
+[2026-03-15 09:53:25] INFO     [LYZU] ADN Edificio 2 → anchura promedio: 11.80m | mayor dim: 208.65m
+[2026-03-15 09:53:25] INFO     [LYZU] ✓ Escena limpiada correctamente
+
+Blender quit

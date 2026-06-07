@@ -1,0 +1,149 @@
+{
+  "crear_cubo": {
+    "handler": "create_cube_handler",
+    "tags": [
+      "cubo",
+      "crear",
+      "objeto",
+      "primitiva",
+      "blender",
+      "crea",
+      "haz",
+      "hacer",
+      "quiero"
+    ],
+    "origin": "manual",
+    "created": "2026-03-30T00:00:00"
+  },
+  "crear_esfera": {
+    "handler": "create_sphere_handler",
+    "tags": [
+      "esfera",
+      "sphere",
+      "crear",
+      "objeto",
+      "primitiva",
+      "blender",
+      "crea",
+      "haz",
+      "bola"
+    ],
+    "origin": "manual",
+    "created": "2026-03-30T00:00:00"
+  },
+  "crear_cilindro": {
+    "handler": "create_cylinder_handler",
+    "tags": [
+      "cilindro",
+      "cylinder",
+      "crear",
+      "objeto",
+      "primitiva",
+      "blender"
+    ],
+    "origin": "manual",
+    "created": "2026-03-30T00:00:00"
+  },
+  "mover_objeto": {
+    "handler": "move_object_handler",
+    "tags": [
+      "mover",
+      "move",
+      "posicion",
+      "traslacion",
+      "transformar",
+      "blender",
+      "desplazar",
+      "ubicacion"
+    ],
+    "origin": "manual",
+    "created": "2026-03-30T00:00:00"
+  },
+  "rotar_objeto": {
+    "handler": "rotate_object_handler",
+    "tags": [
+      "rotar",
+      "rotate",
+      "rotacion",
+      "giro",
+      "transformar",
+      "blender",
+      "girar"
+    ],
+    "origin": "manual",
+    "created": "2026-03-30T00:00:00"
+  },
+  "escalar_objeto": {
+    "handler": "scale_object_handler",
+    "tags": [
+      "escalar",
+      "scale",
+      "escala",
+      "tamaño",
+      "transformar",
+      "blender",
+      "agrandar",
+      "cambiar"
+    ],
+    "origin": "manual",
+    "created": "2026-03-30T00:00:00"
+  },
+  "eliminar_objeto": {
+    "handler": "delete_object_handler",
+    "tags": [
+      "eliminar",
+      "delete",
+      "borrar",
+      "delete",
+      "blender",
+      "quitar",
+      "remover"
+    ],
+    "origin": "manual",
+    "created": "2026-03-30T00:00:00"
+  },
+  "duplicar_objeto": {
+    "handler": "duplicate_object_handler",
+    "tags": [
+      "duplicar",
+      "duplicate",
+      "copiar",
+      "copy",
+      "clone",
+      "blender",
+      "repetir"
+    ],
+    "origin": "manual",
+    "created": "2026-03-30T00:00:00"
+  },
+  "renderizar": {
+    "handler": "render_scene_handler",
+    "tags": [
+      "render",
+      "renderizar",
+      "imagen",
+      "blender",
+      "renderear",
+      "exportar",
+      "visualizar",
+      "output"
+    ],
+    "origin": "manual",
+    "created": "2026-03-30T00:00:00"
+  },
+  "guardar_blend": {
+    "handler": "save_blend_handler",
+    "tags": [
+      "guardar",
+      "save",
+      "archivo",
+      "blender",
+      "almacenar",
+      "escribir",
+      "proyecto"
+    ],
+    "origin": "manual",
+    "created": "2026-03-30T00:00:00"
+  }
+}
+

@@ -1,0 +1,14 @@
+{
+  "certificado_id": "CERT-P-004B_CilindroAncho-20260404205631",
+  "pattern_id": "P-004B_CilindroAncho",
+  "fecha_sello": "2026-04-04T20:56:31.387947",
+  "sellado_por": "Soberano",
+  "decision": "SELLADO",
+  "dictamen_jues": "✅ APTO_PARA_SELLO",
+  "validacion": {
+    "malla": "LIMPIA",
+    "peso_kb": 863.61,
+    "color": "#607D8B",
+    "hash": "7d40ad902c7167be167e8c93ad264391"
+  }
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "accion": "seleccionar_objeto",
+    "parametros": {
+      "nombre": "Cubo"
+    },
+    "estado": "COHERENTE",
+    "timestamp": "2026-03-22 12:44:26"
+  }
+]

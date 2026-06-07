@@ -1,0 +1,977 @@
+{
+  "version": "1.1.1-transcription-eval",
+  "full_raw_text": "Transcripción: Trazado 3D desde Plano 2D (AutoCAD a Blender)\n\n[0:07] En este video vamos a trazar el 3D en base al plano en 2D que trajimos de Autocad.\n[0:31] Lo primero es convertir las entidades de Autocad en una colección separada llamada 'calco subyacente'.\n[1:22] Creamos el trazado fuera de esta colección.\n[2:03] Vamos a usar planos para el trazado. Shift A -> Mesh -> Plano.\n[2:44] Entramos en modo edición (Tab). Ubicamos el plano sobre el muro.\n[3:15] Editamos bordes. Seleccionamos un borde y con la tecla G lo movemos sobre el eje I o X, usando el Snap activado para precisión.\n[4:06] Estiramos el borde en el eje X para cubrir la longitud del muro.\n[4:35] Nominamos el objeto como 'muro fg'.\n[5:21] Repetimos: Shift A -> Plano -> Ubicar con G -> Modo Edición -> Modificar bordes en X e Y.\n[9:44] Para divisiones internas ramificadas: usamos un solo plano y lo llamamos 'divisiones internas'.\n[10:35] Para hacer codos o ramificaciones: usamos Control R (Loop Cut). Nace una Línea Amarilla. Con la ruedita del mouse podemos multiplicar los cortes.\n[12:10] Una vez hecho el corte, usamos la tecla E (Extruir) para hacer nacer el nuevo muro desde el segmento cortado.\n[14:15] Seguimos extruyendo con E en los ejes X o I según el plano.\n[16:52] Alturas: seleccionamos el muro, modo edición, tecla A (seleccionar todo), tecla E para extruir en el eje Z. Escribimos la altura (ej: 2.62).\n[19:37] Método del Single Vert (vértice simple) para cielos rasos y pisos.\n[19:53] Activar Addon: Edit -> Preferences -> Add-ons -> Add Mesh Extra Objects.\n[20:09] Shift A -> Mesh -> Single Vert -> Add Single Vert.\n[21:18] Usamos la tecla E para extruir el vértice siguiendo las esquinas de la habitación.\n[23:12] Una vez cerrado el perímetro de vértices, presionamos A y luego F (Fill) para crear la cara.\n[23:23] Damos espesor: seleccionamos la cara (A), extruimos (E) en el eje Z (ej: 0.15 para cielo raso).\n[24:44] Repetimos para el suelo cubriendo toda la geometría.\n",
+  "cleaned_text": "transcripción: trazado 3d desde plano 2d (autocad a blender) [0:07] en este video vamos a trazar el 3d en base al plano en 2d que trajimos de autocad. [0:31] lo primero es convertir las entidades de autocad en una colección separada llamada 'calco subyacente'. [1:22] creamos el trazado fuera de esta colección. [2:03] vamos a usar planos para el trazado. shift a -> mesh -> plano. [2:44] entramos en modo edición (tab). ubicamos el plano sobre el muro. [3:15] editamos bordes. seleccionamos un borde y con la tecla g lo movemos sobre el eje i o x, usando el snap activado para precisión. [4:06] estiramos el borde en el eje x para cubrir la longitud del muro. [4:35] nominamos el objeto como 'muro fg'. [5:21] repetimos: shift a -> plano -> ubicar con g -> modo edición -> modificar bordes en x e y. [9:44] para divisiones internas ramificadas: usamos un solo plano y lo llamamos 'divisiones internas'. [10:35] para hacer codos o ramificaciones: usamos control r (loop cut). nace una línea amarilla. con la ruedita del mouse podemos multiplicar los cortes. [12:10] una vez hecho el corte, usamos la tecla e (extruir) para hacer nacer el nuevo muro desde el segmento cortado. [14:15] seguimos extruyendo con e en los ejes x o i según el plano. [16:52] alturas: seleccionamos el muro, modo edición, tecla a (seleccionar todo), tecla e para extruir en el eje z. escribimos la altura (ej: 2.62). [19:37] método del single vert (vértice simple) para cielos rasos y pisos. [19:53] activar addon: edit -> preferences -> add-ons -> add mesh extra objects. [20:09] shift a -> mesh -> single vert -> add single vert. [21:18] usamos la tecla e para extruir el vértice siguiendo las esquinas de la habitación. [23:12] una vez cerrado el perímetro de vértices, presionamos a y luego f (fill) para crear la cara. [23:23] damos espesor: seleccionamos la cara (a), extruimos (e) en el eje z (ej: 0.15 para cielo raso). [24:44] repetimos para el suelo cubriendo toda la geometría.",
+  "steps_count": 29,
+  "steps": [
+    {
+      "step_number": 1,
+      "original_segment": "transcripción: trazado 3d desde plano 2d (autocad a blender) [0:07] en este video vamos a trazar el 3d en base al plano en 2d que trajimos de autocad",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "transcripción: trazado 3d desde plano 2d (autocad a blender) [0:07] en este video vamos a trazar el 3d en base al plano en 2d que trajimos de autocad",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "base",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "transcripción: trazado 3d desde plano 2d (autocad a blender) [0:07] en este video vamos a trazar el 3d en base al plano en 2d que trajimos de autocad",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 2,
+      "original_segment": "[0:31] lo",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[0:31] lo",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 3,
+      "original_segment": "es convertir las entidades de autocad en una colección separada llamada 'calco subyacente'",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "es convertir las entidades de autocad en una colección separada llamada 'calco subyacente'",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 4,
+      "original_segment": "[1:22] creamos el trazado fuera de esta colección",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[1:22] creamos el trazado fuera de esta colección",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 5,
+      "original_segment": "[2:03] vamos a usar planos para el trazado",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[2:03] vamos a usar planos para el trazado",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "[2:03] vamos a usar planos para el trazado",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 6,
+      "original_segment": "shift a -> mesh -> plano",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "shift a -> mesh -> plano",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "shift a -> mesh -> plano",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 7,
+      "original_segment": "[2:44] entramos en modo edición (tab)",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[2:44] entramos en modo edición (tab)",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 8,
+      "original_segment": "ubicamos el plano sobre el muro",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "ubicamos el plano sobre el muro",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "ubicamos el plano sobre el muro",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 9,
+      "original_segment": "[3:15] editamos bordes",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[3:15] editamos bordes",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 10,
+      "original_segment": "seleccionamos un borde y con la tecla g lo movemos sobre el eje i o x, usando el snap activado para precisión",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "seleccionamos un borde y con la tecla g lo movemos sobre el eje i o x, usando el snap activado para precisión",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 11,
+      "original_segment": "[4:06] estiramos el borde en el eje x para cubrir la longitud del muro",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[4:06] estiramos el borde en el eje x para cubrir la longitud del muro",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 12,
+      "original_segment": "[4:35] nominamos el objeto como 'muro fg'",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[4:35] nominamos el objeto como 'muro fg'",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 13,
+      "original_segment": "[5:21] repetimos: shift a -> plano -> ubicar con g -> modo edición -> modificar bordes en x e y",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[5:21] repetimos: shift a -> plano -> ubicar con g -> modo edición -> modificar bordes en x e y",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "[5:21] repetimos: shift a -> plano -> ubicar con g -> modo edición -> modificar bordes en x e",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 14,
+      "original_segment": "[9:44] para divisiones internas ramificadas: usamos un solo plano y lo llamamos 'divisiones internas'",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[9:44] para divisiones internas ramificadas: usamos un solo plano y lo llamamos 'divisiones internas'",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "[9:44] para divisiones internas ramificadas: usamos un solo plano",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 15,
+      "original_segment": "[10:35] para hacer codos o ramificaciones: usamos control r (loop cut)",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[10:35] para hacer codos o ramificaciones: usamos control r (loop cut)",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 16,
+      "original_segment": "nace una línea amarilla",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "nace una línea amarilla",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 17,
+      "original_segment": "con la ruedita del mouse podemos multiplicar los cortes",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "con la ruedita del mouse podemos multiplicar los cortes",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 18,
+      "original_segment": "[12:10] una vez hecho el corte, usamos la tecla e (extruir) para hacer nacer el nuevo muro desde el segmento cortado",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[12:10] una vez hecho el corte, usamos la tecla e (extruir) para hacer nacer el nuevo muro desde el segmento cortado",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 19,
+      "original_segment": "[14:15] seguimos extruyendo con e en los ejes x o i según el plano",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[14:15] seguimos extruyendo con e en los ejes x o i según el plano",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "[14:15] seguimos extruyendo con e en los ejes x o i según el plano",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 20,
+      "original_segment": "[16:52] alturas: seleccionamos el muro, modo edición, tecla a (seleccionar todo), tecla e para extruir en el eje z",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[16:52] alturas: seleccionamos el muro, modo edición, tecla a (seleccionar todo), tecla e para extruir en el eje z",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 21,
+      "original_segment": "escribimos la altura (ej: 2.62)",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "escribimos la altura (ej: 2.62)",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 22,
+      "original_segment": "[19:37] método del single vert (vértice simple) para cielos rasos y pisos",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[19:37] método del single vert (vértice simple) para cielos rasos y pisos",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "pisos",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 23,
+      "original_segment": "[19:53] activar addon: edit -> preferences -> add-ons -> add mesh extra objects",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[19:53] activar addon: edit -> preferences -> add-ons -> add mesh extra objects",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 24,
+      "original_segment": "[20:09] shift a -> mesh -> single vert -> add single vert",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[20:09] shift a -> mesh -> single vert -> add single vert",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 25,
+      "original_segment": "[21:18] usamos la tecla e para extruir el vértice siguiendo las esquinas de la habitación",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[21:18] usamos la tecla e para extruir el vértice siguiendo las esquinas de la habitación",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 26,
+      "original_segment": "[23:12] una vez cerrado el perímetro de vértices, presionamos a y",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[23:12] una vez cerrado el perímetro de vértices, presionamos a y",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 27,
+      "original_segment": "f (fill) para crear la cara",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "f (fill) para crear la cara",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 28,
+      "original_segment": "[23:23] damos espesor: seleccionamos la cara (a), extruimos (e) en el eje z (ej: 0.15 para cielo raso)",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[23:23] damos espesor: seleccionamos la cara (a), extruimos (e) en el eje z (ej: 0.15 para cielo raso)",
+        "elements": [],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": []
+    },
+    {
+      "step_number": 29,
+      "original_segment": "[24:44] repetimos para el suelo cubriendo toda la geometría.",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[24:44] repetimos para el suelo cubriendo toda la geometría.",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "base",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "[24:44] repetimos para el suelo cubriendo toda la geometría",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    }
+  ],
+  "global_warnings": [],
+  "total_elements_detected": 9,
+  "tutorial_confidence_score": 0.1,
+  "confidence_level": "BAJO",
+  "average_clarity": 1.0,
+  "total_technical_gaps": 9,
+  "recommendation": "Riesgo de mala práctica o instrucciones altamente ambiguas.",
+  "ambiguous_language_detected": false,
+  "technical_gaps_detected": true,
+  "ambiguous_steps": [
+    {
+      "step_number": 1,
+      "original_segment": "transcripción: trazado 3d desde plano 2d (autocad a blender) [0:07] en este video vamos a trazar el 3d en base al plano en 2d que trajimos de autocad",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "transcripción: trazado 3d desde plano 2d (autocad a blender) [0:07] en este video vamos a trazar el 3d en base al plano en 2d que trajimos de autocad",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "base",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "transcripción: trazado 3d desde plano 2d (autocad a blender) [0:07] en este video vamos a trazar el 3d en base al plano en 2d que trajimos de autocad",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 5,
+      "original_segment": "[2:03] vamos a usar planos para el trazado",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[2:03] vamos a usar planos para el trazado",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "[2:03] vamos a usar planos para el trazado",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 6,
+      "original_segment": "shift a -> mesh -> plano",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "shift a -> mesh -> plano",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "shift a -> mesh -> plano",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 8,
+      "original_segment": "ubicamos el plano sobre el muro",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "ubicamos el plano sobre el muro",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "ubicamos el plano sobre el muro",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 13,
+      "original_segment": "[5:21] repetimos: shift a -> plano -> ubicar con g -> modo edición -> modificar bordes en x e y",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[5:21] repetimos: shift a -> plano -> ubicar con g -> modo edición -> modificar bordes en x e y",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "[5:21] repetimos: shift a -> plano -> ubicar con g -> modo edición -> modificar bordes en x e",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 14,
+      "original_segment": "[9:44] para divisiones internas ramificadas: usamos un solo plano y lo llamamos 'divisiones internas'",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[9:44] para divisiones internas ramificadas: usamos un solo plano y lo llamamos 'divisiones internas'",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "[9:44] para divisiones internas ramificadas: usamos un solo plano",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 19,
+      "original_segment": "[14:15] seguimos extruyendo con e en los ejes x o i según el plano",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[14:15] seguimos extruyendo con e en los ejes x o i según el plano",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "[14:15] seguimos extruyendo con e en los ejes x o i según el plano",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 22,
+      "original_segment": "[19:37] método del single vert (vértice simple) para cielos rasos y pisos",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[19:37] método del single vert (vértice simple) para cielos rasos y pisos",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "undefined",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "pisos",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    },
+    {
+      "step_number": 29,
+      "original_segment": "[24:44] repetimos para el suelo cubriendo toda la geometría.",
+      "structural_map": {
+        "version": "1.1.1",
+        "source_text": "[24:44] repetimos para el suelo cubriendo toda la geometría.",
+        "elements": [
+          {
+            "id": "plane_1",
+            "type": "plane",
+            "role": "base",
+            "parameters": {},
+            "missing_parameters": [
+              "location"
+            ],
+            "raw_context": "[24:44] repetimos para el suelo cubriendo toda la geometría",
+            "structurally_complete": false,
+            "is_complete": false
+          }
+        ],
+        "relations": [],
+        "structurally_complete": false,
+        "is_complete": false,
+        "missing_parameters": [
+          "plane_1:location"
+        ],
+        "warnings": [],
+        "executable": false
+      },
+      "clarity_score": 1.0,
+      "technical_gaps": [
+        "El objeto 'plane_1' no tiene ubicación definida ni relaciones espaciales."
+      ]
+    }
+  ],
+  "detected_concepts": [],
+  "detected_paradigms": {
+    "adherent_paradigms": [],
+    "dominant_paradigm": "PARADIGM_IMPERATIVE",
+    "compatibility_status": "SUPPORTED"
+  }
+}

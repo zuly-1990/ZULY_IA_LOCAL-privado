@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-03-29T15:22:00.185075",
+  "archivos_encontrados": 4,
+  "archivos": [
+    {
+      "nombre": "dado_parques_zuly_v10.blend",
+      "tama\u00f1o_bytes": 2109548,
+      "tama\u00f1o_mb": 2.01,
+      "tama\u00f1o_kb": 2060.1,
+      "tama\u00f1o_formateado": "2.01 MB",
+      "modificado": "2026-03-22 16:34",
+      "ruta": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\ZULY_PROJECTS\\pruebas\\dado_parques_zuly_v10.blend",
+      "estado": "OK"
+    },
+    {
+      "nombre": "dado_parques_zuly_v9.blend1",
+      "tama\u00f1o_bytes": 2019624,
+      "tama\u00f1o_mb": 1.93,
+      "tama\u00f1o_kb": 1972.3,
+      "tama\u00f1o_formateado": "1.93 MB",
+      "modificado": "2026-03-21 21:54",
+      "ruta": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\ZULY_PROJECTS\\pruebas\\dado_parques_zuly_v9.blend1",
+      "estado": "OK"
+    },
+    {
+      "nombre": "dado_parques_crazy_cut.11.blend",
+      "tama\u00f1o_bytes": 3724920,
+      "tama\u00f1o_mb": 3.55,
+      "tama\u00f1o_kb": 3637.6,
+      "tama\u00f1o_formateado": "3.55 MB",
+      "modificado": "2026-03-22 16:44",
+      "ruta": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\ZULY_PROJECTS\\pruebas\\dado_parques_crazy_cut.11.blend",
+      "estado": "OK"
+    },
+    {
+      "nombre": "dado_redondo_zuly.blend",
+      "tama\u00f1o_bytes": 2267340,
+      "tama\u00f1o_mb": 2.16,
+      "tama\u00f1o_kb": 2214.2,
+      "tama\u00f1o_formateado": "2.16 MB",
+      "modificado": "2026-03-22 16:55",
+      "ruta": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\ZULY_PROJECTS\\pruebas\\dado_redondo_zuly.blend",
+      "estado": "OK"
+    }
+  ],
+  "estadisticas": {
+    "archivos_totales": 4,
+    "archivos_encontrados": 4,
+    "archivos_faltantes": 0,
+    "tama\u00f1o_total_bytes": 10121432,
+    "tama\u00f1o_total_mb": 9.65,
+    "tama\u00f1o_promedio_mb": 2.41
+  }
+}

@@ -1,0 +1,67 @@
+# ZULY_LAB/C_texturizado/ejercicios/C1.1_textura_fuego.yaml
+metadata:
+  code: C1.1
+  title: Experimento Llamado de Fuego
+  description: Carga de textura externa procedimental y renderizado avanzado.
+  phase: C
+  difficulty: Experto
+
+steps:
+  - action: blender.clear_scene
+    parameters: {}
+    
+  - action: blender.create_sphere
+    parameters:
+      name: BolaDeFuego
+      radius: 2.0
+      location: [0, 0, 2]
+      
+  - action: blender.create_texture_material
+    parameters:
+      name: MatFuego
+      image_path: "ZULY_LAB/assets/textures/fire_texture.png"
+      metallic: 0.1
+      roughness: 0.2
+      
+  - action: blender.apply_material
+    parameters:
+      object_name: BolaDeFuego
+      material_name: MatFuego
+      
+  - action: blender.create_light
+    parameters:
+      light_type: POINT
+      location: [4, 4, 8]
+      energy: 3000.0
+      name: LuzFuego
+      
+  - action: blender.create_camera
+    parameters:
+      name: CamaraFinal
+      location: [10, -10, 6]
+      
+  - action: blender.position_camera
+    parameters:
+      camera_name: CamaraFinal
+      location: [10, -10, 6]
+      look_at: [0, 0, 2]
+      
+  - action: blender.render_scene
+    parameters:
+      output_path: "ZULY_LAB/resultados_zuly/EXPERIMENTO_FUEGO_FINAL.png"
+      engine: BLENDER_EEVEE
+      samples: 32
+      
+  - action: blender.save_project
+    parameters:
+      filepath: "ZULY_LAB/resultados_zuly/EXPERIMENTO_FUEGO_FINAL.blend"
+
+validation:
+  object_count: 3  # Esfera + Luz + Camara
+  objects:
+    - name: BolaDeFuego
+      type: MESH
+    - name: LuzFuego
+      type: LIGHT
+    - name: CamaraFinal
+      type: CAMERA

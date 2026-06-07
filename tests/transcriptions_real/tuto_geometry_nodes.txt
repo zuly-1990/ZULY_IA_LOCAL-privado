@@ -1,0 +1,5 @@
+Bienvenidos a este tutorial avanzado.
+Hoy vamos a usar geometry nodes para crear un sistema de distribución.
+Necesitamos instanciar puntos sobre la superficie del objeto base.
+Conectaremos el nodo de distribución de puntos en caras.
+Es un flujo procedural no destructivo.

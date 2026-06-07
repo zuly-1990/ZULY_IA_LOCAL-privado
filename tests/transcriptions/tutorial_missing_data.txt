@@ -1,0 +1,4 @@
+Paso 1: Crea un cubo.
+Paso 2: Aplica un color rojo.
+Paso 3: Mueve el objeto a la derecha.
+Paso 4: Renderiza.

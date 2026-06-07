@@ -1,0 +1,48 @@
+{
+  "candidato_id": "MOD-004_Museo_Arte",
+  "score": 70,
+  "dictamen": "APTO_CON_ADVERTENCIAS",
+  "timestamp": "2026-04-05T13:38:53.515478",
+  "superpoderes": {
+    "render_engine": {
+      "status": "Motor: BLENDER_EEVEE",
+      "icon": "\ud83c\udfa8"
+    },
+    "geometria": {
+      "status": "5 objetos mesh auditados",
+      "icon": "\ud83d\udd37"
+    },
+    "materiales": {
+      "status": "Color: N/A (Match: False)",
+      "icon": "\ud83c\udfa8\u26a0\ufe0f"
+    },
+    "escena": {
+      "status": "OK",
+      "icon": "\ud83d\udcf7"
+    }
+  },
+  "metricas": {
+    "Suelo_dims": "8.00x8.00x0.00m",
+    "Suelo_verts": 4,
+    "Suelo_faces": 1,
+    "Pedestal_1_dims": "0.60x0.60x0.25m",
+    "Pedestal_1_verts": 8,
+    "Pedestal_1_faces": 6,
+    "Pedestal_2_dims": "0.60x0.60x0.25m",
+    "Pedestal_2_verts": 8,
+    "Pedestal_2_faces": 6,
+    "Pedestal_3_dims": "0.60x0.60x0.25m",
+    "Pedestal_3_verts": 8,
+    "Pedestal_3_faces": 6,
+    "Pedestal_4_dims": "0.60x0.60x0.25m",
+    "Pedestal_4_verts": 8,
+    "Pedestal_4_faces": 6
+  },
+  "errores": [
+    [
+      "CRITICO",
+      "Suelo: 4 non-manifold"
+    ]
+  ],
+  "total_objetos": 5
+}

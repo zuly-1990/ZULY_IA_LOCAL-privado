@@ -1,0 +1,93 @@
+{
+  "ranking": [
+    {
+      "candidato_id": "Candidato_A",
+      "puntuacion": 100,
+      "dictamen": "APTO",
+      "manifold": {
+        "status": "LIMPIA",
+        "detalle": "Geometria manifold OK (56 verts, 0 wire, 0 non-manifold)"
+      },
+      "efficiency": {
+        "status": "OPTIMO",
+        "peso_kb": 807.45
+      },
+      "color": {
+        "status": "MATCH",
+        "color_encontrado": "#F2F2F2"
+      },
+      "hash": {
+        "hash": "ef305bb9c2537dfa432b96457333eb06",
+        "vertices_count": 8,
+        "faces_count": 6
+      }
+    },
+    {
+      "candidato_id": "Candidato_B",
+      "puntuacion": 100,
+      "dictamen": "APTO",
+      "manifold": {
+        "status": "LIMPIA",
+        "detalle": "Geometria manifold OK (96 verts, 0 wire, 0 non-manifold)"
+      },
+      "efficiency": {
+        "status": "OPTIMO",
+        "peso_kb": 809.93
+      },
+      "color": {
+        "status": "MATCH",
+        "color_encontrado": "#999999"
+      },
+      "hash": {
+        "hash": "ef305bb9c2537dfa432b96457333eb06",
+        "vertices_count": 8,
+        "faces_count": 6
+      }
+    },
+    {
+      "candidato_id": "Candidato_C",
+      "puntuacion": 75,
+      "dictamen": "NO_APTO",
+      "manifold": {
+        "status": "LIMPIA",
+        "detalle": "Geometria manifold OK (216 verts, 0 wire, 0 non-manifold)"
+      },
+      "efficiency": {
+        "status": "OPTIMO",
+        "peso_kb": 807.45
+      },
+      "color": {
+        "status": "NO_MATCH",
+        "color_encontrado": "#CCD8E5",
+        "color_esperado": "#CCD9E6"
+      },
+      "hash": {
+        "hash": "5e9a4e2343ec75f6517565574f43214e",
+        "vertices_count": 8,
+        "faces_count": 6
+      }
+    }
+  ],
+  "ganador": {
+    "candidato_id": "Candidato_A",
+    "puntuacion": 100,
+    "dictamen": "APTO",
+    "manifold": {
+      "status": "LIMPIA",
+      "detalle": "Geometria manifold OK (56 verts, 0 wire, 0 non-manifold)"
+    },
+    "efficiency": {
+      "status": "OPTIMO",
+      "peso_kb": 807.45
+    },
+    "color": {
+      "status": "MATCH",
+      "color_encontrado": "#F2F2F2"
+    },
+    "hash": {
+      "hash": "ef305bb9c2537dfa432b96457333eb06",
+      "vertices_count": 8,
+      "faces_count": 6
+    }
+  }
+}

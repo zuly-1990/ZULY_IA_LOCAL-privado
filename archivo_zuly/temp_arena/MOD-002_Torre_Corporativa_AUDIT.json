@@ -1,0 +1,60 @@
+{
+  "candidato_id": "MOD-002_Torre_Corporativa",
+  "score": 85,
+  "dictamen": "APTO",
+  "timestamp": "2026-04-05T13:38:48.003470",
+  "superpoderes": {
+    "render_engine": {
+      "status": "Motor: BLENDER_EEVEE",
+      "icon": "\ud83c\udfa8"
+    },
+    "geometria": {
+      "status": "9 objetos mesh auditados",
+      "icon": "\ud83d\udd37"
+    },
+    "materiales": {
+      "status": "Color: #CCCCCC (Match: False)",
+      "icon": "\ud83c\udfa8\u26a0\ufe0f"
+    },
+    "escena": {
+      "status": "OK",
+      "icon": "\ud83d\udcf7"
+    }
+  },
+  "metricas": {
+    "Nivel_1_dims": "2.50x2.50x0.10m",
+    "Nivel_1_verts": 8,
+    "Nivel_1_faces": 6,
+    "Ventana_1_L_dims": "0.30x0.10x0.50m",
+    "Ventana_1_L_verts": 8,
+    "Ventana_1_L_faces": 6,
+    "Ventana_1_R_dims": "0.30x0.10x0.50m",
+    "Ventana_1_R_verts": 8,
+    "Ventana_1_R_faces": 6,
+    "Nivel_2_dims": "2.50x2.50x0.10m",
+    "Nivel_2_verts": 8,
+    "Nivel_2_faces": 6,
+    "Ventana_2_L_dims": "0.30x0.10x0.50m",
+    "Ventana_2_L_verts": 8,
+    "Ventana_2_L_faces": 6,
+    "Ventana_2_R_dims": "0.30x0.10x0.50m",
+    "Ventana_2_R_verts": 8,
+    "Ventana_2_R_faces": 6,
+    "Nivel_3_dims": "2.50x2.50x0.10m",
+    "Nivel_3_verts": 8,
+    "Nivel_3_faces": 6,
+    "Ventana_3_L_dims": "0.30x0.10x0.50m",
+    "Ventana_3_L_verts": 8,
+    "Ventana_3_L_faces": 6,
+    "Ventana_3_R_dims": "0.30x0.10x0.50m",
+    "Ventana_3_R_verts": 8,
+    "Ventana_3_R_faces": 6
+  },
+  "errores": [
+    [
+      "MAYOR",
+      "Color no coincide: #CCCCCC vs #B0B0B0"
+    ]
+  ],
+  "total_objetos": 9
+}

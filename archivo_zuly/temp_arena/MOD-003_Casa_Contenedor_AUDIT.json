@@ -1,0 +1,45 @@
+{
+  "candidato_id": "MOD-003_Casa_Contenedor",
+  "score": 85,
+  "dictamen": "APTO",
+  "timestamp": "2026-04-05T13:38:50.851675",
+  "superpoderes": {
+    "render_engine": {
+      "status": "Motor: BLENDER_EEVEE",
+      "icon": "\ud83c\udfa8"
+    },
+    "geometria": {
+      "status": "4 objetos mesh auditados",
+      "icon": "\ud83d\udd37"
+    },
+    "materiales": {
+      "status": "Color: #CCCCCC (Match: False)",
+      "icon": "\ud83c\udfa8\u26a0\ufe0f"
+    },
+    "escena": {
+      "status": "OK",
+      "icon": "\ud83d\udcf7"
+    }
+  },
+  "metricas": {
+    "Base_dims": "4.00x3.00x0.20m",
+    "Base_verts": 8,
+    "Base_faces": 6,
+    "Luz_1_dims": "0.20x0.20x0.20m",
+    "Luz_1_verts": 8,
+    "Luz_1_faces": 6,
+    "Luz_2_dims": "0.20x0.20x0.20m",
+    "Luz_2_verts": 8,
+    "Luz_2_faces": 6,
+    "Luz_3_dims": "0.20x0.20x0.20m",
+    "Luz_3_verts": 8,
+    "Luz_3_faces": 6
+  },
+  "errores": [
+    [
+      "MAYOR",
+      "Color no coincide: #CCCCCC vs #B0B0B0"
+    ]
+  ],
+  "total_objetos": 4
+}

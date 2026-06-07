@@ -1,0 +1,57 @@
+{
+  "id": "CUB-001_v5",
+  "nombre_tecnico": "CUB-001_v5_Organico",
+  "nombre_simple": "Cubo orgánico suavizado",
+  
+  "descripcion_simple": "Cubo con bisel y subsurf para look orgánico, material plástico brillante azul.",
+  "descripcion_tecnica": "Bisel width=0.08, segments=6. Subsurf 2 niveles. Auto smooth 60°. Material plástico azul brillante (roughness=0.1) con clearcoat.",
+  "uso": "Orgánico, producto, diseño industrial, formas suaves",
+  
+  "tags": ["bevel", "cubo", "modificador", "organico", "primitivas", "subsurf"],
+  
+  "propiedades": {
+    "parametros_editables": {
+      "bevel_width": "Ancho del bisel",
+      "bevel_segments": "Cantidad de segmentos",
+      "subsurf_levels": "Niveles de subdivisión",
+      "clearcoat": "Intensidad del barniz"
+    },
+    "valores_default": {
+      "bevel_width": 0.08,
+      "bevel_segments": 6,
+      "subsurf_levels": 2,
+      "clearcoat": 0.5
+    },
+    "limites": {
+      "bevel_width": [0.001, 0.2],
+      "bevel_segments": [1, 6],
+      "subsurf_levels": [1, 4],
+      "clearcoat": [0.0, 1.0]
+    },
+    "dependencias": []
+  },
+  
+  "reglas_aplicadas": {
+    "reset": true,
+    "escala": true,
+    "nombres_tecnicos": true,
+    "sin_errores": true,
+    "modificadores": true
+  },
+  
+  "archivos_generados": {
+    "blend": "./ZULY_PROJECTS/CUB001_v5_Organico.blend",
+    "render": "./ZULY_PROJECTS/CUB001_v5_preview.png",
+    "script": "./CUB001_v5_Organico.py"
+  },
+  
+  "validacion": {
+    "ejecutado": "2026-04-03T14:25:00",
+    "status": "COMPLETADO",
+    "tiempo_render": "28.37s",
+    "correcciones": "Fixed AREA light scale parameter"
+  },
+  
+  "variante_de": "CUB-001",
+  "tipo_variacion": "Orgánico (suavizado)"
+}

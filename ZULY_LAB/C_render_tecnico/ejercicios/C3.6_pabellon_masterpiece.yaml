@@ -1,0 +1,17 @@
+fase: "C"
+name: "Pabellón Modernista: Síntesis de Conocimientos"
+descripcion: "Construcción de un pabellón basado en la Villa Savoye que integra columnas circulares, apilamiento de losas y un corte de sección técnico (Bisect) para visualización arquitectónica."
+steps:
+  - action: "run_python_script"
+    params:
+      script_path: "ZULY_LAB/C_render_tecnico/ejercicios/pavilion_masterpiece.py"
+validation:
+  - type: "object_exists"
+    object_name: "Suelo_Base"
+  - type: "object_exists"
+    object_name: "Losa_N2"
+  - type: "object_exists"
+    object_name: "Columna_-4_-4"
+success_criteria:
+  min_steps_successful: 1
+  max_time_seconds: 60

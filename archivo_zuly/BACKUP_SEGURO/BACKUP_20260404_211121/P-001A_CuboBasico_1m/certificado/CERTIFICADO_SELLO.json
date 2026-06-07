@@ -1,0 +1,14 @@
+{
+  "certificado_id": "CERT-P-001A_CuboBasico_1m-20260404204503",
+  "pattern_id": "P-001A_CuboBasico_1m",
+  "fecha_sello": "2026-04-04T20:45:03.370420",
+  "sellado_por": "Soberano",
+  "decision": "SELLADO",
+  "dictamen_jues": "✅ APTO_PARA_SELLO",
+  "validacion": {
+    "malla": "LIMPIA",
+    "peso_kb": 834.34,
+    "color": "#2196F3",
+    "hash": "b5e1448a02e657da46ee3b12a462ecfb"
+  }
+}

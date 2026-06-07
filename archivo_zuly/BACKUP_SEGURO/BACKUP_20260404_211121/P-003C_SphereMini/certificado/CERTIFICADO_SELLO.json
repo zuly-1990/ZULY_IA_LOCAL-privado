@@ -1,0 +1,14 @@
+{
+  "certificado_id": "CERT-P-003C_SphereMini-20260404205204",
+  "pattern_id": "P-003C_SphereMini",
+  "fecha_sello": "2026-04-04T20:52:04.709183",
+  "sellado_por": "Soberano",
+  "decision": "SELLADO",
+  "dictamen_jues": "✅ APTO_PARA_SELLO",
+  "validacion": {
+    "malla": "LIMPIA",
+    "peso_kb": 884.1,
+    "color": "#009688",
+    "hash": "24f426ec60c6b75adb34a9a8cff63ac9"
+  }
+}

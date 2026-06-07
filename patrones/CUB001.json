@@ -1,0 +1,72 @@
+{
+  "id": "CUB-001",
+  "nombre_tecnico": "CUB-001_Modelado_BiselRealista",
+  "nombre_simple": "Cubo con bordes suaves",
+  
+  "descripcion_simple": "Crea un cubo con bordes redondeados para que se vea más realista.",
+  "descripcion_tecnica": "Aplica modificador Bevel con 3 segmentos y sombreado suave. Incluye iluminación 3-point y material base.",
+  "uso": "Arquitectura, objetos realistas, hard surface",
+  
+  "tags": [
+    "cubo",
+    "modelado",
+    "modificador",
+    "hard_surface",
+    "arquitectura",
+    "bevel"
+  ],
+  
+  "propiedades": {
+    "parametros_editables": {
+      "bevel_width": "Ancho del bisel",
+      "bevel_segments": "Cantidad de segmentos",
+      "auto_smooth_angle": "Ángulo de suavizado",
+      "cube_size": "Tamaño del cubo base",
+      "material_roughness": "Rugosidad del material"
+    },
+    "valores_default": {
+      "bevel_width": 0.05,
+      "bevel_segments": 3,
+      "auto_smooth_angle": 30,
+      "cube_size": 2.0,
+      "material_roughness": 0.4
+    },
+    "limites": {
+      "bevel_width": [0.001, 0.2],
+      "bevel_segments": [1, 6],
+      "auto_smooth_angle": [10, 90],
+      "cube_size": [0.1, 10.0],
+      "material_roughness": [0.0, 1.0]
+    },
+    "dependencias": []
+  },
+  
+  "reglas_aplicadas": {
+    "reset": true,
+    "escala": true,
+    "nombres_tecnicos": true,
+    "sin_errores": true,
+    "iluminacion": true,
+    "material": true,
+    "render": true
+  },
+  
+  "archivos_generados": {
+    "blend": "./ZULY_PROJECTS/CUB001_Modelado_BiselRealista.blend",
+    "render": "./ZULY_PROJECTS/CUB001_render.png",
+    "script": "./CUB001_ejecutar.py"
+  },
+  
+  "validacion": {
+    "ejecutado": "2026-04-03T13:05:00",
+    "status": "PENDIENTE_APROBACION",
+    "resultado_ejecucion": {
+      "objeto_creado": "CUB001_BiselRealista",
+      "modificadores": ["Bevel_Edges"],
+      "materiales": 1,
+      "luces": 2,
+      "camara": 1,
+      "errores": 0
+    }
+  }
+}

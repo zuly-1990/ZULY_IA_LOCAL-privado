@@ -1,0 +1,151 @@
+{
+  "timestamp": "2026-05-02T16:42:26.299595",
+  "models": {
+    "MOD-001_Pabellon_Minimalista": {
+      "mesh_objects": 2,
+      "cameras": 1,
+      "lights": 0,
+      "materials": 3,
+      "vertices": 16,
+      "edges": 24,
+      "faces": 12,
+      "dimensions": [
+        3.5,
+        4.76,
+        2.2
+      ],
+      "materials_detail": [
+        {
+          "name": "Dots Stroke",
+          "color": "#N/A"
+        },
+        {
+          "name": "Material",
+          "color": "#cccccc"
+        },
+        {
+          "name": "Material.001",
+          "color": "#cccccc"
+        }
+      ],
+      "file_size_kb": 835.0
+    },
+    "MOD-002_Torre_Corporativa": {
+      "mesh_objects": 9,
+      "cameras": 1,
+      "lights": 0,
+      "materials": 3,
+      "vertices": 72,
+      "edges": 108,
+      "faces": 54,
+      "dimensions": [
+        2.5,
+        3.9,
+        4.5
+      ],
+      "materials_detail": [
+        {
+          "name": "Dots Stroke",
+          "color": "#N/A"
+        },
+        {
+          "name": "Material",
+          "color": "#cccccc"
+        },
+        {
+          "name": "Material.001",
+          "color": "#cccccc"
+        }
+      ],
+      "file_size_kb": 870.8
+    },
+    "MOD-003_Casa_Contenedor": {
+      "mesh_objects": 4,
+      "cameras": 1,
+      "lights": 0,
+      "materials": 3,
+      "vertices": 32,
+      "edges": 48,
+      "faces": 24,
+      "dimensions": [
+        4.0,
+        3.0,
+        0.3
+      ],
+      "materials_detail": [
+        {
+          "name": "Dots Stroke",
+          "color": "#N/A"
+        },
+        {
+          "name": "Material",
+          "color": "#cccccc"
+        },
+        {
+          "name": "Material.001",
+          "color": "#cccccc"
+        }
+      ],
+      "file_size_kb": 844.6
+    },
+    "MOD-004_Museo_Arte": {
+      "mesh_objects": 5,
+      "cameras": 1,
+      "lights": 0,
+      "materials": 2,
+      "vertices": 36,
+      "edges": 52,
+      "faces": 25,
+      "dimensions": [
+        8.6,
+        8.0,
+        0.375
+      ],
+      "materials_detail": [
+        {
+          "name": "Dots Stroke",
+          "color": "#N/A"
+        },
+        {
+          "name": "Material",
+          "color": "#cccccc"
+        }
+      ],
+      "file_size_kb": 825.9
+    },
+    "MOD-005_Estacion_Espacial": {
+      "mesh_objects": 12,
+      "cameras": 1,
+      "lights": 0,
+      "materials": 4,
+      "vertices": 232,
+      "edges": 576,
+      "faces": 368,
+      "dimensions": [
+        9.765,
+        9.0,
+        2.238
+      ],
+      "materials_detail": [
+        {
+          "name": "Dots Stroke",
+          "color": "#N/A"
+        },
+        {
+          "name": "Material",
+          "color": "#cccccc"
+        },
+        {
+          "name": "Material.001",
+          "color": "#cccccc"
+        },
+        {
+          "name": "Material.002",
+          "color": "#cccccc"
+        }
+      ],
+      "file_size_kb": 935.0
+    }
+  },
+  "previews_dir": "C:\\Users\\Admin\\Desktop\\ZULY_IA_LOCAL\\archivo_zuly\\temp_arena\\previews_revision"
+}

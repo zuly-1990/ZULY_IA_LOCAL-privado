@@ -1,0 +1,28 @@
+{
+  "pattern_id": "CUB-005_BooleanExacto",
+  "nombre_tecnico": "CUB-005_BooleanExacto",
+  "fecha_sello": "2026-04-04T20:31:42.557095",
+  "estado": "SELLADO",
+  "sellado_por": "Soberano",
+  "validacion_jues": {
+    "vision_rayos_x": {
+      "status": "LIMPIA",
+      "icon": "✨"
+    },
+    "instinto_optimizacion": {
+      "status": "OPTIMO",
+      "peso_kb": 841.28,
+      "icon": "⚡"
+    },
+    "sincronia_cromatica": {
+      "status": "MATCH",
+      "color_encontrado": "#D32F2F",
+      "icon": "🎯"
+    },
+    "sello_inmutabilidad": {
+      "hash": "2928ce6f1552b3ff4c8e57e8b925eef9",
+      "vertices_count": 72,
+      "icon": "🔒"
+    }
+  }
+}

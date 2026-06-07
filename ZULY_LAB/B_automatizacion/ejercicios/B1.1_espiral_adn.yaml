@@ -1,0 +1,114 @@
+# Ejercicio B1.1: Espiral de ADN (Generación Procedural)
+# Objetivo: Utilizar lógica matemática (Seno/Coseno) y bucles para generar geometría compleja.
+
+name: "Espiral de ADN"
+fase: "B"
+numero: "B1.1"
+descripcion: "Generación de doble hélice mediante script procedural"
+dificultad: "intermedio"
+tiempo_estimado_segundos: 5
+
+steps:
+  - action: "clear_scene"
+
+  # 1. Ejecutar script generador
+  - action: "run_python_script"
+    params:
+      script_content: |
+        import math
+        
+        # Parámetros de la hélice
+        num_pares = 20
+        altura_total = 10.0
+        radio_helice = 2.0
+        vueltas = 2.0
+        
+        # Materiales (crearlos primero usando el adapter disponible en el contexto)
+        adapter.create_material(name="MatBaseA", color=[1.0, 0.2, 0.2, 1.0]) # Rojo
+        adapter.create_material(name="MatBaseB", color=[0.2, 0.2, 1.0, 1.0]) # Azul
+        adapter.create_material(name="MatPuente", color=[1.0, 1.0, 1.0, 1.0]) # Blanco
+        
+        for i in range(num_pares):
+            t = i / num_pares
+            angulo = t * vueltas * 2 * math.pi
+            z = (t * altura_total) - (altura_total / 2)
+            
+            x = math.cos(angulo) * radio_helice
+            y = math.sin(angulo) * radio_helice
+            
+            # Esfera Cadena A
+            adapter.create_primitive(
+                'sphere', 
+                location=[x, y, z], 
+                radius=0.3, 
+                name=f"BaseA_{i}"
+            )
+            adapter.apply_material(f"BaseA_{i}", "MatBaseA")
+            
+            # Esfera Cadena B (opuesta)
+            adapter.create_primitive(
+                'sphere', 
+                location=[-x, -y, z], 
+                radius=0.3, 
+                name=f"BaseB_{i}"
+            )
+            adapter.apply_material(f"BaseB_{i}", "MatBaseB")
+            
+            # Puente (Cilindro conector)
+            # Calculamos rotación para alinear... o simplificamos usando cubos estirados
+            # Para simplificar matemática de rotación en esta fase inicial, usamos un cubo muy delgado
+            adapter.create_primitive(
+                'cube',
+                location=[0, 0, z],
+                scale=[radio_helice, 0.1, 0.1], # Largo en X, delgado en Y/Z
+                name=f"Puente_{i}"
+            )
+            # Rotar el puente para que coincida con el ángulo
+            # El cubo base está en X. Rotamos en Z.
+            adapter.rotate_object(f"Puente_{i}", [0, 0, angulo])
+            adapter.apply_material(f"Puente_{i}", "MatPuente")
+
+  # 2. Configurar Escena para visualización
+  - action: "create_light"
+    params:
+      light_type: "SUN"
+      location: [5, 5, 10]
+      energy: 5.0
+      name: "Sol"
+
+  - action: "create_camera"
+    params:
+      location: [10, -10, 5]
+      name: "CamaraADN"
+
+  - action: "position_camera"
+    params:
+      camera_name: "CamaraADN"
+      location: [10, -10, 5]
+      look_at: [0, 0, 0]
+
+  - action: "set_active_camera"
+    params:
+      camera_name: "CamaraADN"
+
+  # 3. Guardar
+  - action: "save_project"
+    params:
+      filepath: "ZULY_LAB/resultados_zuly/B1.1_espiral_adn.blend"
+
+validation:
+  - type: "object_exists"
+    object_name: "BaseA_0"
+  - type: "object_exists"
+    object_name: "BaseB_19"
+  - type: "object_count"
+    expected: 63 # 20 pares * 2 esferas + 20 puentes + 1 luz + 1 camara + 1 cubo default? (60 + 2 + ?)
+                 # Asumimos que la escena empieza sucia con 3 objetos (cam, cube, ligth).
+                 # Total generados: 20*3 = 60. + 1 luz + 1 cam = 62.
+                 # Total esperado aprox 65. Ponemos 60 como min check si count > 60
+
+metrics:
+  - "tiempo_total"
+
+success_criteria:
+  min_steps_successful: 3

@@ -1,0 +1,59 @@
+{
+  "id": "CUB-001_v4",
+  "nombre_tecnico": "CUB-001_v4_Arquitectonico",
+  "nombre_simple": "Muro arquitectónico con bisel",
+  
+  "descripcion_simple": "Muro con proporción arquitectónica (ancho 4x, alto 2x, profundo 0.5x), material concreto.",
+  "descripcion_tecnica": "Escala no uniforme (4, 0.5, 2). Bisel width=0.03, segments=4. Suelo de contexto. Material concreto gris oscuro (roughness=0.9).",
+  "uso": "Arquitectura, muros, estructuras, contexto urbano",
+  
+  "tags": ["arquitectura", "bevel", "cubo", "escala", "muro", "primitivas"],
+  
+  "propiedades": {
+    "parametros_editables": {
+      "bevel_width": "Ancho del bisel",
+      "bevel_segments": "Cantidad de segmentos",
+      "ancho": "Ancho del muro",
+      "alto": "Altura del muro",
+      "profundidad": "Grosor del muro"
+    },
+    "valores_default": {
+      "bevel_width": 0.03,
+      "bevel_segments": 4,
+      "ancho": 4.0,
+      "alto": 2.0,
+      "profundidad": 0.5
+    },
+    "limites": {
+      "bevel_width": [0.001, 0.2],
+      "bevel_segments": [1, 6],
+      "ancho": [0.5, 20.0],
+      "alto": [0.5, 10.0],
+      "profundidad": [0.1, 2.0]
+    },
+    "dependencias": []
+  },
+  
+  "reglas_aplicadas": {
+    "reset": true,
+    "escala": true,
+    "nombres_tecnicos": true,
+    "sin_errores": true,
+    "contexto": true
+  },
+  
+  "archivos_generados": {
+    "blend": "./ZULY_PROJECTS/CUB001_v4_Arquitectonico.blend",
+    "render": "./ZULY_PROJECTS/CUB001_v4_preview.png",
+    "script": "./CUB001_v4_Arquitectonico.py"
+  },
+  
+  "validacion": {
+    "ejecutado": "2026-04-03T14:23:00",
+    "status": "COMPLETADO",
+    "tiempo_render": "13.83s"
+  },
+  
+  "variante_de": "CUB-001",
+  "tipo_variacion": "Arquitectónico (proporción muro)"
+}

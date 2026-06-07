@@ -1,0 +1,57 @@
+{
+  "1. Rutas": {
+    "all_ok": false,
+    "paths": {
+      "ZULY_ROOT": true,
+      "ZULY_PROJECTS/pruebas": false,
+      "export": true,
+      "knowledge_base": true,
+      "knowledge_base/patterns/learned": true,
+      "ZULY_LAB": true,
+      "bitacora": true,
+      "core": true,
+      "core/adapters": true,
+      "core/commands": true,
+      "core/commands/blender_handlers": true
+    }
+  },
+  "2. Handlers": {
+    "all_ok": true,
+    "handlers": {
+      "create_cube_handler": true,
+      "create_sphere_handler": true,
+      "create_cylinder_handler": true,
+      "create_plane_handler": true,
+      "create_cone_handler": true,
+      "move_object_handler": true,
+      "rotate_object_handler": true,
+      "scale_object_handler": true,
+      "render_scene_handler": true,
+      "delete_object_handler": true,
+      "duplicate_object_handler": true,
+      "select_object_handler": true
+    }
+  },
+  "3. Adapter Blender": {
+    "all_ok": true,
+    "blender_available": false,
+    "adapter_type": "BlenderAdapter"
+  },
+  "4. Archivos de Proyecto": {
+    "all_ok": false,
+    "files": {}
+  },
+  "5. Configuraci\u00f3n": {
+    "all_ok": true
+  },
+  "6. M\u00f3dulos Core": {
+    "all_ok": true,
+    "modules": {
+      "agent": true,
+      "adapters": true,
+      "nlu": true,
+      "scene_monitor": true,
+      "learning_engine": true
+    }
+  }
+}

@@ -1,0 +1,203 @@
+"""
+blender_command_registry.py
+
+Registra todos los handlers de Blender en el IntentRouter.
+"""
+
+from typing import TYPE_CHECKING
+from core.utils.logging import log_success, log_info
+from core.commands.blender_handlers import (
+    create_cube_handler,
+    create_sphere_handler,
+    create_cylinder_handler,
+    create_plane_handler,
+    create_cone_handler,
+    move_object_handler,
+    rotate_object_handler,
+    scale_object_handler,
+    render_scene_handler,
+    get_system_info_handler,
+    save_blend_handler,
+    delete_object_handler,
+    duplicate_object_handler,
+    select_object_handler,
+    deselect_all_handler,
+    select_all_by_type_handler,
+)
+from core.commands.blender_handlers.scene import (
+    clear_scene_handler,
+    rename_object_handler,
+    set_object_visibility_handler,
+    set_parent_handler
+)
+
+# Import handlers avanzados
+from core.commands.blender_handlers.advanced import (
+    create_material_handler,
+    create_texture_material_handler,
+    apply_material_handler,
+    set_material_color_handler,
+    create_light_handler,
+    set_light_energy_handler,
+    set_light_color_handler,
+    create_camera_handler,
+    set_active_camera_handler,
+    position_camera_handler,
+    add_subdivision_surface_handler,
+    add_array_modifier_handler,
+    add_bevel_modifier_handler,
+    add_boolean_modifier_handler,
+    apply_modifier_handler,
+    add_weighted_normal_handler,
+    export_fbx_handler,
+    export_obj_handler,
+    export_gltf_handler,
+    validate_topology_handler,
+    scan_and_learn_handler
+)
+
+from core.commands.blender_handlers.advanced.dice import create_parques_dice_handler
+
+# Import handlers de assembly (FASE 20)
+from core.commands.blender_handlers.assembly import (
+    build_structure_handler,
+    save_pattern_handler,
+    load_pattern_handler,
+    list_patterns_handler,
+)
+
+# Import handlers de scripting (FASE B)
+from core.commands.blender_handlers.scripting import run_python_script_handler
+
+# Import handlers arquitectónicos (Assembly Patterns)
+from core.commands.blender_handlers.architectural import (
+    crear_columna_handler,
+    crear_muro_handler,
+    crear_piso_handler,
+    crear_techo_handler,
+    crear_habitacion_handler,
+    listar_patrones_handler as listar_patrones_arquitectonicos_handler
+)
+
+# Import handlers AADD (Architecture-Augmented Data-Driven) - FASE 5
+from core.commands.blender_handlers.architectural_pro import (
+    crear_ventana_pro_handler,
+    crear_puerta_pro_handler,
+    crear_muro_pro_handler
+)
+
+
+if TYPE_CHECKING:
+    from core.intents.intent_router import IntentRouter
+
+
+def register_blender_handlers(router: 'IntentRouter') -> None:
+    """
+    Registra todos los handlers de Blender en el router.
+    
+    Args:
+        router: IntentRouter instance
+    """
+    
+    handlers = {
+        # Handlers básicos (Primitivas)
+        'blender.create_cube': create_cube_handler,
+        'blender.create_sphere': create_sphere_handler,
+        'blender.create_cylinder': create_cylinder_handler,
+        'blender.create_plane': create_plane_handler,
+        'blender.create_cone': create_cone_handler,
+        
+        # Handlers básicos (Transformaciones)
+        'blender.move_object': move_object_handler,
+        'blender.rotate_object': rotate_object_handler,
+        'blender.scale_object': scale_object_handler,
+        
+        # Handlers básicos (Render)
+        'blender.render_scene': render_scene_handler,
+        'system.get_info': get_system_info_handler,
+        'blender.save_project': save_blend_handler,
+        'blender.save_scene': save_blend_handler,
+        'blender.clear_scene': clear_scene_handler,
+        'blender.rename_object': rename_object_handler,
+        'blender.set_object_visibility': set_object_visibility_handler,
+        'blender.set_parent': set_parent_handler,
+        
+        # Handlers avanzados (Materiales)
+        'blender.create_material': create_material_handler,
+        'blender.create_texture_material': create_texture_material_handler,
+        'blender.apply_material': apply_material_handler,
+        'blender.set_material_color': set_material_color_handler,
+        
+        # Handlers avanzados (Luces)
+        'blender.create_light': create_light_handler,
+        'blender.set_light_energy': set_light_energy_handler,
+        'blender.set_light_color': set_light_color_handler,
+        
+        # Handlers avanzados (Cámaras)
+        'blender.create_camera': create_camera_handler,
+        'blender.set_active_camera': set_active_camera_handler,
+        'blender.position_camera': position_camera_handler,
+        
+        # Handlers avanzados (Modificadores)
+        'blender.add_subdivision_surface': add_subdivision_surface_handler,
+        'blender.add_array': add_array_modifier_handler,
+        'blender.add_bevel': add_bevel_modifier_handler,
+        'blender.add_boolean': add_boolean_modifier_handler,
+        'blender.apply_modifier': apply_modifier_handler,
+        'blender.add_weighted_normal': add_weighted_normal_handler,
+
+        # Handlers avanzados (Exportación)
+        'blender.export_fbx': export_fbx_handler,
+        'blender.export_obj': export_obj_handler,
+        'blender.export_gltf': export_gltf_handler,
+        
+        # Handlers avanzados (Validación Topológica V3)
+        'blender.validate_topology': validate_topology_handler,
+        
+        # Handlers avanzados (ZULY LAB - Escáner Inverso)
+        'blender.scan_and_learn': scan_and_learn_handler,
+        
+        # Handlers avanzados (Patrones de alta fidelidad)
+        'blender.create_parques_dice': create_parques_dice_handler,
+        
+        # Handlers de Assembly (FASE 20)
+        'blender.build_structure': build_structure_handler,
+        'blender.save_pattern': save_pattern_handler,
+        'blender.load_pattern': load_pattern_handler,
+        'blender.list_patterns': list_patterns_handler,
+        
+        # Handlers Arquitectónicos (Assembly Patterns)
+        'blender.create_column': crear_columna_handler,
+        'blender.create_wall': crear_muro_handler,
+        'blender.create_floor': crear_piso_handler,
+        'blender.create_ceiling': crear_techo_handler,
+        'blender.create_room': crear_habitacion_handler,
+        'blender.list_architectural_patterns': listar_patrones_arquitectonicos_handler,
+        'blender.list_patterns': listar_patrones_arquitectonicos_handler,
+        
+        # Handlers AADD (FASE 5 - Componentes Inteligentes)
+        'blender.create_window': crear_ventana_pro_handler,
+        'blender.create_intelligent_window': crear_ventana_pro_handler,
+        'blender.create_door': crear_puerta_pro_handler,
+        'blender.create_intelligent_door': crear_puerta_pro_handler,
+        'blender.create_pro_wall': crear_muro_pro_handler,
+        
+        # Handlers de Scripting (FASE B)
+        'blender.run_python_script': run_python_script_handler,
+        
+        # Handlers de Selección/Eliminación (ULTRA EMERGENCIA)
+        'blender.delete_object': delete_object_handler,
+        'blender.duplicate_object': duplicate_object_handler,
+        'blender.select_object': select_object_handler,
+        'blender.deselect_all': deselect_all_handler,
+        'blender.select_all_by_type': select_all_by_type_handler,
+    }
+
+    
+    for command_name, handler_func in handlers.items():
+        router.register_handler(command_name, handler_func)
+        log_info(f"Registrado handler: {command_name}")
+    
+    log_success(f"✓ {len(handlers)} handlers de Blender registrados")
+    
+    return handlers

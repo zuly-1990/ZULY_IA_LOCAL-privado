@@ -1,0 +1,1000 @@
+﻿blender.exe : 
+TBBmalloc: skip 
+allocation functions 
+replacement in 
+ucrtbase.dll: unknown 
+prologue for function 
+_msize
+En línea: 1 Carácter: 1
++ & 'C:\Users\Admin\Des
+ktop\ZULY_IA_LOCAL\blen
+der\v3\blender-3.6.0-zu
+ly ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (TBBmalloc: sk   
+ ip...function _msi    
+ze:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+[2026-03-15 13:49:16] INFO     [LYZU] --- Iniciando S├¡ntesis Arquitect├│nica Urbana (v1) ---
+[2026-03-15 13:49:16] INFO     [LYZU] Ô£ô BlenderAdapter inicializado correctamente
+[2026-03-15 13:49:16] INFO     [LYZU] Ô£ô Escena limpiada correctamente
+[2026-03-15 13:49:16] DEBUG    [LYZU] Ô£ô Material creado: Cristal_Fachada
+[2026-03-15 13:49:16] DEBUG    [LYZU] Ô£ô Material creado: Hormigon_Estructura
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle', 'location': [-1.2069940567016602e-06, 2.6941299438476562e-05, 191.40965270996094], 'scale': [1.0827996730804443, 1.03095281124115, 0.4215658903121948]}) !!!
+[2026-03-15 13:49:16] DEBUG    [LYZU] Operator call: cylinder, loc=[-1.2069940567016602e-06, 2.6941299438476562e-05, 191.40965270996094], scale=(1.0827996730804443, 1.03095281124115, 0.4215658903121948)
+[2026-03-15 13:49:16] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle
+[2026-03-15 13:49:16] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:16] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Circle
+[2026-03-15 13:49:16] DEBUG    [LYZU] Ô£ô Modificador SUBSURF agregado a Synthesized_Circle
+[2026-03-15 13:49:16] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.001', 'location': [-1.2069940567016602e-06, 2.6941299438476562e-05, 10.063166618347168], 'scale': [1.0, 1.0, 0.4215658903121948]}) !!!
+[2026-03-15 13:49:16] DEBUG    [LYZU] Operator call: cylinder, loc=[-1.2069940567016602e-06, 2.6941299438476562e-05, 10.063166618347168], scale=(1.0, 1.0, 0.4215658903121948)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.001
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.001 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Circle.001
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Circle.001
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.001
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.002', 'location': [-1.2069940567016602e-06, 2.6941299438476562e-05, 9.248891830444336], 'scale': [1.1765944957733154, 1.051310420036316, 0.4215658903121948]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: cylinder, loc=[-1.2069940567016602e-06, 2.6941299438476562e-05, 9.248891830444336], scale=(1.1765944957733154, 1.051310420036316, 0.4215658903121948)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.002
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.002 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Circle.002
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador SUBSURF agregado a Synthesized_Circle.002
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.002
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane', 'location': [-1.2069941703884979e-06, 2.688169843167998e-05, 0.07144816964864731], 'scale': [1.0000001192092896, 1.0000001192092896, 1.0]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-1.2069941703884979e-06, 2.688169843167998e-05, 0.07144816964864731], scale=(1.0000001192092896, 1.0000001192092896, 1.0)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.001', 'location': [16.614700317382812, 2.670289541129023e-05, 2.7501277923583984], 'scale': [1.0000004768371582, 1.0000004768371582, 1.0]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[16.614700317382812, 2.670289541129023e-05, 2.7501277923583984], scale=(1.0000004768371582, 1.0000004768371582, 1.0)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.001
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.001 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.001
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.001
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.002', 'location': [-30.310243606567383, 22.20591926574707, 4.30439567565918], 'scale': [4.670429229736328, 3.1394548416137695, 4.670429229736328]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-30.310243606567383, 22.20591926574707, 4.30439567565918], scale=(4.670429229736328, 3.1394548416137695, 4.670429229736328)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.002
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.002 ÔåÆ [-0.0, 1.570796251296997, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.002
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.003', 'location': [-29.80988121032715, 17.238420486450195, 4.30439567565918], 'scale': [4.670429229736328, 3.1394548416137695, 4.670429229736328]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-29.80988121032715, 17.238420486450195, 4.30439567565918], scale=(4.670429229736328, 3.1394548416137695, 4.670429229736328)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.003
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.003 ÔåÆ [-0.0, 1.570796251296997, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.003
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.004', 'location': [-29.80988121032715, 12.23487377166748, 4.30439567565918], 'scale': [4.670429229736328, 3.179949998855591, 4.670429229736328]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-29.80988121032715, 12.23487377166748, 4.30439567565918], scale=(4.670429229736328, 3.179949998855591, 4.670429229736328)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.004
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.004 ÔåÆ [-0.0, 1.570796251296997, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.004
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.005', 'location': [-30.310243606567383, 7.327193737030029, 4.30439567565918], 'scale': [4.670429229736328, 3.1394548416137695, 4.670429229736328]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-30.310243606567383, 7.327193737030029, 4.30439567565918], scale=(4.670429229736328, 3.1394548416137695, 4.670429229736328)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.005
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.005 ÔåÆ [-0.0, 1.570796251296997, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.005
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.006', 'location': [-30.310243606567383, 2.407963275909424, 4.30439567565918], 'scale': [4.670429229736328, 3.1394548416137695, 4.670429229736328]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-30.310243606567383, 2.407963275909424, 4.30439567565918], scale=(4.670429229736328, 3.1394548416137695, 4.670429229736328)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.006
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.006 ÔåÆ [-0.0, 1.570796251296997, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.006
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.007', 'location': [-29.80988121032715, -2.4946608543395996, 4.30439567565918], 'scale': [4.670429229736328, 3.1394548416137695, 4.670429229736328]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-29.80988121032715, -2.4946608543395996, 4.30439567565918], scale=(4.670429229736328, 3.1394548416137695, 4.670429229736328)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.007
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.007 ÔåÆ [-0.0, 1.570796251296997, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.007
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.008', 'location': [-29.80988121032715, -7.498208522796631, 4.30439567565918], 'scale': [4.670429229736328, 3.211164951324463, 4.670429229736328]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-29.80988121032715, -7.498208522796631, 4.30439567565918], scale=(4.670429229736328, 3.211164951324463, 4.670429229736328)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.008
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.008 ÔåÆ [-0.0, 1.570796251296997, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.008
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.009', 'location': [-30.310243606567383, -12.366230964660645, 4.30439567565918], 'scale': [4.670429229736328, 3.1394548416137695, 4.670429229736328]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-30.310243606567383, -12.366230964660645, 4.30439567565918], scale=(4.670429229736328, 3.1394548416137695, 4.670429229736328)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.009
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.009 ÔåÆ [-0.0, 1.570796251296997, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.009
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.010', 'location': [-29.80988121032715, -17.1878719329834, 4.30439567565918], 'scale': [4.670429229736328, 3.1394548416137695, 4.670429229736328]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-29.80988121032715, -17.1878719329834, 4.30439567565918], scale=(4.670429229736328, 3.1394548416137695, 4.670429229736328)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.010
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.010 ÔåÆ [-0.0, 1.570796251296997, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.010
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.011', 'location': [-30.310243606567383, -22.073484420776367, 4.30439567565918], 'scale': [4.670429229736328, 3.1394548416137695, 4.670429229736328]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-30.310243606567383, -22.073484420776367, 4.30439567565918], scale=(4.670429229736328, 3.1394548416137695, 4.670429229736328)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.011
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.011 ÔåÆ [-0.0, 1.570796251296997, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.011
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.012', 'location': [-10.100379943847656, 91.5946273803711, 3.2273831367492676], 'scale': [3.4240200519561768, 2.3016204833984375, 3.424020290374756]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-10.100379943847656, 91.5946273803711, 3.2273831367492676], scale=(3.4240200519561768, 2.3016204833984375, 3.424020290374756)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.012
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.012 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.012
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.012
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.013', 'location': [1.056950569152832, 104.16634368896484, 2.506513833999634], 'scale': [2.8087265491485596, 1.8880215883255005, 2.808727502822876]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[1.056950569152832, 104.16634368896484, 2.506513833999634], scale=(2.8087265491485596, 1.8880215883255005, 2.808727502822876)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.013
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.013 ÔåÆ [1.570979356765747, 1.570796251296997, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.013
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.013
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.014', 'location': [-1.410032868385315, 104.41758728027344, 2.506513833999634], 'scale': [2.8087265491485596, 1.3099775314331055, 2.808727502822876]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-1.410032868385315, 104.41758728027344, 2.506513833999634], scale=(2.8087265491485596, 1.3099775314331055, 2.808727502822876)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.014
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.014 ÔåÆ [1.570979356765747, 1.570796251296997, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.014
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.014
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.015', 'location': [10.027134895324707, 91.68472290039062, 3.2273831367492676], 'scale': [3.424020290374756, 2.3016204833984375, 3.424020290374756]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[10.027134895324707, 91.68472290039062, 3.2273831367492676], scale=(3.424020290374756, 2.3016204833984375, 3.424020290374756)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.015
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.015 ÔåÆ [0.0, 0.0, -2.5408387184143066]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.015
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.015
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.016', 'location': [37.601531982421875, -22.247150421142578, 4.1665849685668945], 'scale': [4.670429229736328, 3.1394548416137695, 4.670429229736328]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[37.601531982421875, -22.247150421142578, 4.1665849685668945], scale=(4.670429229736328, 3.1394548416137695, 4.670429229736328)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.016
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.016 ÔåÆ [3.141592264175415, 1.570796251296997, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.016
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.017', 'location': [37.101173400878906, -17.279651641845703, 4.1665849685668945], 'scale': [4.670429229736328, 3.222564220428467, 4.670429229736328]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[37.101173400878906, -17.279651641845703, 4.1665849685668945], scale=(4.670429229736328, 3.222564220428467, 4.670429229736328)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.017
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.017 ÔåÆ [3.141592264175415, 1.570796251296997, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.017
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.018', 'location': [37.101173400878906, -12.276102066040039, 4.1665849685668945], 'scale': [4.670429229736328, 3.1394548416137695, 4.670429229736328]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[37.101173400878906, -12.276102066040039, 4.1665849685668945], scale=(4.670429229736328, 3.1394548416137695, 4.670429229736328)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.018
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.018 ÔåÆ [3.141592264175415, 1.570796251296997, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.018
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.019', 'location': [37.601531982421875, -7.368422031402588, 4.1665849685668945], 'scale': [4.670429229736328, 3.1394548416137695, 4.670429229736328]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[37.601531982421875, -7.368422031402588, 4.1665849685668945], scale=(4.670429229736328, 3.1394548416137695, 4.670429229736328)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.019
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.019 ÔåÆ [3.141592264175415, 1.570796251296997, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.019
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.020', 'location': [37.601531982421875, -2.4491920471191406, 4.1665849685668945], 'scale': [4.670429229736328, 3.1394548416137695, 4.670429229736328]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[37.601531982421875, -2.4491920471191406, 4.1665849685668945], scale=(4.670429229736328, 3.1394548416137695, 4.670429229736328)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.020
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.020 ÔåÆ [3.141592264175415, 1.570796251296997, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.020
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.021', 'location': [37.101173400878906, 2.453432083129883, 4.1665849685668945], 'scale': [4.670429229736328, 3.1394548416137695, 4.670429229736328]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[37.101173400878906, 2.453432083129883, 4.1665849685668945], scale=(4.670429229736328, 3.1394548416137695, 4.670429229736328)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.021
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.021 ÔåÆ [3.141592264175415, 1.570796251296997, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.021
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.022', 'location': [37.101173400878906, 7.456980228424072, 4.1665849685668945], 'scale': [4.670429229736328, 3.1834492683410645, 4.670429229736328]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[37.101173400878906, 7.456980228424072, 4.1665849685668945], scale=(4.670429229736328, 3.1834492683410645, 4.670429229736328)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.022
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.022 ÔåÆ [3.141592264175415, 1.570796251296997, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.022
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.023', 'location': [37.601531982421875, 12.325002670288086, 4.1665849685668945], 'scale': [4.670429229736328, 3.1394548416137695, 4.670429229736328]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[37.601531982421875, 12.325002670288086, 4.1665849685668945], scale=(4.670429229736328, 3.1394548416137695, 4.670429229736328)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.023
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.023 ÔåÆ [3.141592264175415, 1.570796251296997, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.023
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.024', 'location': [37.101173400878906, 17.14664077758789, 4.1665849685668945], 'scale': [4.670429229736328, 3.1394548416137695, 4.670429229736328]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[37.101173400878906, 17.14664077758789, 4.1665849685668945], scale=(4.670429229736328, 3.1394548416137695, 4.670429229736328)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.024
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.024 ÔåÆ [3.141592264175415, 1.570796251296997, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.024
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.025', 'location': [37.601531982421875, 22.03225326538086, 4.1665849685668945], 'scale': [4.670429229736328, 3.3031957149505615, 4.670429229736328]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[37.601531982421875, 22.03225326538086, 4.1665849685668945], scale=(4.670429229736328, 3.3031957149505615, 4.670429229736328)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.025
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.025 ÔåÆ [3.141592264175415, 1.570796251296997, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.025
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.026', 'location': [4.177732467651367, -95.6416015625, 3.2004904747009277], 'scale': [2.8087265491485596, 1.309977412223816, 2.808727264404297]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[4.177732467651367, -95.6416015625, 3.2004904747009277], scale=(2.8087265491485596, 1.309977412223816, 2.808727264404297)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.026
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.026 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.026
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.026
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.027', 'location': [3.635077953338623, -98.9190902709961, 3.2004904747009277], 'scale': [2.8087265491485596, 1.309977412223816, 2.808727264404297]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[3.635077953338623, -98.9190902709961, 3.2004904747009277], scale=(2.8087265491485596, 1.309977412223816, 2.808727264404297)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.027
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.027 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.027
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.027
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.028', 'location': [3.0319061279296875, -102.30602264404297, 3.2004904747009277], 'scale': [2.8087265491485596, 1.309977412223816, 2.808727264404297]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[3.0319061279296875, -102.30602264404297, 3.2004904747009277], scale=(2.8087265491485596, 1.309977412223816, 2.808727264404297)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.028
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.028 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.028
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.028
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.029', 'location': [-2.99875807762146, -102.48995208740234, 3.2004904747009277], 'scale': [2.8087265491485596, 1.309977412223816, 2.808727264404297]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-2.99875807762146, -102.48995208740234, 3.2004904747009277], scale=(2.8087265491485596, 1.309977412223816, 2.808727264404297)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.029
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.029 ÔåÆ [0.0, 0.0, -2.80265212059021]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.029
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.029
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.030', 'location': [-3.556314706802368, -99.12799072265625, 3.2004904747009277], 'scale': [2.8087265491485596, 1.309977412223816, 2.808727264404297]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-3.556314706802368, -99.12799072265625, 3.2004904747009277], scale=(2.8087265491485596, 1.309977412223816, 2.808727264404297)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.030
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.030 ÔåÆ [0.0, 0.0, -2.80265212059021]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.030
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.030
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.031', 'location': [-4.136868476867676, -95.88876342773438, 3.2004904747009277], 'scale': [2.8087265491485596, 1.309977412223816, 2.808727264404297]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-4.136868476867676, -95.88876342773438, 3.2004904747009277], scale=(2.8087265491485596, 1.309977412223816, 2.808727264404297)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.031
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.031 ÔåÆ [0.0, 0.0, -2.80265212059021]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.031
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.031
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.032', 'location': [-16.468551635742188, -65.97451782226562, 5.776963233947754], 'scale': [4.875398635864258, 2.3748843669891357, 4.8696064949035645]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-16.468551635742188, -65.97451782226562, 5.776963233947754], scale=(4.875398635864258, 2.3748843669891357, 4.8696064949035645)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.032
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.032 ÔåÆ [0.0, 0.0, -2.9832937717437744]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.032
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.032
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.033', 'location': [-16.433351516723633, -59.56410217285156, 5.731414794921875], 'scale': [4.86960506439209, 2.2711620330810547, 4.8696064949035645]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-16.433351516723633, -59.56410217285156, 5.731414794921875], scale=(4.86960506439209, 2.2711620330810547, 4.8696064949035645)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.033
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.033 ÔåÆ [0.0, 0.0, -2.9832944869995117]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.033
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.033
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.034', 'location': [-16.454153060913086, -49.91493606567383, 5.716195583343506], 'scale': [4.86960506439209, 2.2711620330810547, 4.8696064949035645]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-16.454153060913086, -49.91493606567383, 5.716195583343506], scale=(4.86960506439209, 2.2711620330810547, 4.8696064949035645)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.034
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.034 ÔåÆ [0.0, 0.0, -2.9832944869995117]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.034
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.034
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.035', 'location': [-16.452251434326172, -43.546688079833984, 5.662322044372559], 'scale': [4.86960506439209, 2.2711620330810547, 4.8696064949035645]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-16.452251434326172, -43.546688079833984, 5.662322044372559], scale=(4.86960506439209, 2.2711620330810547, 4.8696064949035645)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.035
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.035 ÔåÆ [0.0, 0.0, -2.9832944869995117]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.035
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.035
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.036', 'location': [-16.44809913635254, -37.16654968261719, 5.752922534942627], 'scale': [4.875931739807129, 2.3842177391052246, 4.8696064949035645]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-16.44809913635254, -37.16654968261719, 5.752922534942627], scale=(4.875931739807129, 2.3842177391052246, 4.8696064949035645)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.036
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.036 ÔåÆ [0.0, 0.0, -2.9832942485809326]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.036
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.036
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.037', 'location': [-16.422412872314453, -30.74599838256836, 5.751871109008789], 'scale': [4.86960506439209, 2.2711620330810547, 4.8696064949035645]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-16.422412872314453, -30.74599838256836, 5.751871109008789], scale=(4.86960506439209, 2.2711620330810547, 4.8696064949035645)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.037
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.037 ÔåÆ [0.0, 0.0, -2.9832944869995117]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.037
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.037
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.038', 'location': [-20.744604110717773, -25.651195526123047, 5.776963233947754], 'scale': [4.86960506439209, 2.2711617946624756, 4.8696064949035645]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-20.744604110717773, -25.651195526123047, 5.776963233947754], scale=(4.86960506439209, 2.2711617946624756, 4.8696064949035645)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.038
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.038 ÔåÆ [0.0, 0.0, -1.4124979972839355]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.038
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.038
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.039', 'location': [-26.602895736694336, -25.65017318725586, 5.885953903198242], 'scale': [5.0093889236450195, 2.3363566398620605, 5.009390354156494]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-26.602895736694336, -25.65017318725586, 5.885953903198242], scale=(5.0093889236450195, 2.3363566398620605, 5.009390354156494)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.039
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.039 ÔåÆ [0.0, 0.0, -1.4124977588653564]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.039
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.039
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.040', 'location': [-32.4547004699707, -25.66154670715332, 5.885953903198242], 'scale': [5.0093889236450195, 2.3363566398620605, 5.009390354156494]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[-32.4547004699707, -25.66154670715332, 5.885953903198242], scale=(5.0093889236450195, 2.3363566398620605, 5.009390354156494)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.040
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.040 ÔåÆ [0.0, 0.0, -1.4124977588653564]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.040
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.040
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.041', 'location': [32.88406753540039, -25.602529525756836, 5.874621391296387], 'scale': [4.968884468078613, 2.3174657821655273, 4.968885898590088]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[32.88406753540039, -25.602529525756836, 5.874621391296387], scale=(4.968884468078613, 2.3174657821655273, 4.968885898590088)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.041
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.041 ÔåÆ [0.0, 0.0, -1.4124979972839355]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.041
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.041
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.042', 'location': [27.05398941040039, -25.595552444458008, 5.885953903198242], 'scale': [5.0093889236450195, 2.3363566398620605, 5.009390354156494]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[27.05398941040039, -25.595552444458008, 5.885953903198242], scale=(5.0093889236450195, 2.3363566398620605, 5.009390354156494)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.042
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.042 ÔåÆ [0.0, 0.0, -1.4124977588653564]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.042
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.042
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.043', 'location': [21.173973083496094, -25.64221954345703, 5.885953903198242], 'scale': [5.0093889236450195, 2.3363566398620605, 5.009390354156494]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[21.173973083496094, -25.64221954345703, 5.885953903198242], scale=(5.0093889236450195, 2.3363566398620605, 5.009390354156494)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.043
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.043 ÔåÆ [0.0, 0.0, -1.4124977588653564]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.043
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.043
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.044', 'location': [16.495458602905273, -65.6324234008789, 5.691612243652344], 'scale': [4.873305797576904, 2.3379175662994385, 4.8696064949035645]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[16.495458602905273, -65.6324234008789, 5.691612243652344], scale=(4.873305797576904, 2.3379175662994385, 4.8696064949035645)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.044
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.044 ÔåÆ [0.0, -0.0, 0.15829864144325256]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.044
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.044
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.045', 'location': [16.495384216308594, -59.18175506591797, 5.7232489585876465], 'scale': [4.877594947814941, 2.413072109222412, 4.8696064949035645]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[16.495384216308594, -59.18175506591797, 5.7232489585876465], scale=(4.877594947814941, 2.413072109222412, 4.8696064949035645)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.045
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.045 ÔåÆ [0.0, -0.0, 0.15829865634441376]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.045
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.045
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.046', 'location': [16.488218307495117, -49.59014129638672, 5.7148542404174805], 'scale': [4.874506950378418, 2.3592095375061035, 4.8696064949035645]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[16.488218307495117, -49.59014129638672, 5.7148542404174805], scale=(4.874506950378418, 2.3592095375061035, 4.8696064949035645)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.046
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.046 ÔåÆ [0.0, -0.0, 0.15829865634441376]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.046
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.046
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.047', 'location': [16.512226104736328, -43.18619918823242, 5.739740371704102], 'scale': [4.875259876251221, 2.3724539279937744, 4.8696064949035645]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[16.512226104736328, -43.18619918823242, 5.739740371704102], scale=(4.875259876251221, 2.3724539279937744, 4.8696064949035645)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.047
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.047 ÔåÆ [0.0, -0.0, 0.15829865634441376]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.047
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.047
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.048', 'location': [16.515979766845703, -36.73337173461914, 5.7396955490112305], 'scale': [4.880695343017578, 2.4660089015960693, 4.8696064949035645]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[16.515979766845703, -36.73337173461914, 5.7396955490112305], scale=(4.880695343017578, 2.4660089015960693, 4.8696064949035645)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.048
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.048 ÔåÆ [0.0, -0.0, 0.15829865634441376]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.048
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.048
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.049', 'location': [16.51289939880371, -30.386554718017578, 5.747483730316162], 'scale': [4.875804424285889, 2.381983995437622, 4.8696064949035645]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: plane, loc=[16.51289939880371, -30.386554718017578, 5.747483730316162], scale=(4.875804424285889, 2.381983995437622, 4.8696064949035645)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.049
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.049 ÔåÆ [0.0, -0.0, 0.15829865634441376]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.049
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.049
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.003', 'location': [22.377050399780273, -33.82735824584961, 10.039388656616211], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: cylinder, loc=[22.377050399780273, -33.82735824584961, 10.039388656616211], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.003
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.003 ÔåÆ [0.0, -0.0, 1.5707964897155762]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Circle.003
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador CURVE agregado a Synthesized_Circle.003
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.003
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.004', 'location': [20.640647888183594, -32.911930084228516, 192.2353057861328], 'scale': [1.0053796768188477, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: cylinder, loc=[20.640647888183594, -32.911930084228516, 192.2353057861328], scale=(1.0053796768188477, 1.0, 1.0)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.004
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.004 ÔåÆ [0.0, -0.0, 1.5707964897155762]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Circle.004
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador CURVE agregado a Synthesized_Circle.004
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.004
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.005', 'location': [23.299306869506836, -24.739530563354492, 10.034830093383789], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: cylinder, loc=[23.299306869506836, -24.739530563354492, 10.034830093383789], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.005
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.005 ÔåÆ [0.0, 0.0, -1.5707964897155762]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Circle.005
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador CURVE agregado a Synthesized_Circle.005
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.005
+!!! DEBUG: create_primitive(cube, {'name': 'Synthesized_Cube', 'location': [23.082489013671875, -8.108778953552246, 10.527506828308105], 'scale': [1.295927882194519, 1.295927882194519, 1.295927882194519]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: cube, loc=[23.082489013671875, -8.108778953552246, 10.527506828308105], scale=(1.295927882194519, 1.295927882194519, 1.295927882194519)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: cube ÔåÆ Synthesized_Cube
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Cube ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Cube
+!!! DEBUG: create_primitive(cube, {'name': 'Synthesized_Cube.001', 'location': [0.7407940626144409, 81.05523681640625, 193.2762451171875], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: cube, loc=[0.7407940626144409, 81.05523681640625, 193.2762451171875], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: cube ÔåÆ Synthesized_Cube.001
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Cube.001 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Cube.001
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Cube.001
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Cube.001
+!!! DEBUG: create_primitive(cube, {'name': 'Synthesized_Cube.002', 'location': [-5.5107340812683105, 4.322813987731934, 195.1717529296875], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: cube, loc=[-5.5107340812683105, 4.322813987731934, 195.1717529296875], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: cube ÔåÆ Synthesized_Cube.002
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Cube.002 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Cube.002
+!!! DEBUG: create_primitive(cube, {'name': 'Synthesized_Cylinder', 'location': [-3.4244816303253174, 0.19414806365966797, 200.53128051757812], 'scale': [0.36118513345718384, 0.36118513345718384, 1.6147011518478394]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: cube, loc=[-3.4244816303253174, 0.19414806365966797, 200.53128051757812], scale=(0.36118513345718384, 0.36118513345718384, 1.6147011518478394)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: cube ÔåÆ Synthesized_Cylinder
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Cylinder ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Cylinder
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Cylinder
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Cylinder
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.006', 'location': [0.8985786437988281, 44.790618896484375, 203.1281280517578], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: cylinder, loc=[0.8985786437988281, 44.790618896484375, 203.1281280517578], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.006
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.006 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.006
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.007', 'location': [0.9023900628089905, 44.79731750488281, 203.05902099609375], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: cylinder, loc=[0.9023900628089905, 44.79731750488281, 203.05902099609375], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.007
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.007 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Modificador SUBSURF agregado a Synthesized_Circle.007
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.007
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.008', 'location': [0.8985786437988281, 44.790618896484375, 199.06224060058594], 'scale': [0.6740357875823975, 0.6740357875823975, 0.6740357875823975]}) !!!
+[2026-03-15 13:49:17] DEBUG    [LYZU] Operator call: cylinder, loc=[0.8985786437988281, 44.790618896484375, 199.06224060058594], scale=(0.6740357875823975, 0.6740357875823975, 0.6740357875823975)
+[2026-03-15 13:49:17] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.008
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.008 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Modificador SUBSURF agregado a Synthesized_Circle.008
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.008
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.009', 'location': [0.8985786437988281, 44.790618896484375, 203.1281280517578], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: cylinder, loc=[0.8985786437988281, 44.790618896484375, 203.1281280517578], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.009
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.009 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.009
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.050', 'location': [2.7842509746551514, 49.214263916015625, 194.92510986328125], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[2.7842509746551514, 49.214263916015625, 194.92510986328125], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.050
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.050 ÔåÆ [-0.0, 1.570796251296997, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.050
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.051', 'location': [-0.5286350250244141, 49.214263916015625, 194.92510986328125], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[-0.5286350250244141, 49.214263916015625, 194.92510986328125], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.051
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.051 ÔåÆ [-0.0, 1.570796251296997, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.051
+!!! DEBUG: create_primitive(cube, {'name': 'Synthesized_Cylinder.001', 'location': [0.9345300197601318, 49.2192268371582, 197.1264190673828], 'scale': [0.3488631248474121, 0.3488631248474121, 1.9624344110488892]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: cube, loc=[0.9345300197601318, 49.2192268371582, 197.1264190673828], scale=(0.3488631248474121, 0.3488631248474121, 1.9624344110488892)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: cube ÔåÆ Synthesized_Cylinder.001
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Cylinder.001 ÔåÆ [-0.0, 1.570796251296997, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Cylinder.001
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.052', 'location': [1.2493562698364258, 48.591270446777344, 199.8518829345703], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[1.2493562698364258, 48.591270446777344, 199.8518829345703], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.052
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.052 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.052
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.053', 'location': [-1.9077398777008057, 49.81476974487305, 197.91744995117188], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[-1.9077398777008057, 49.81476974487305, 197.91744995117188], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.053
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.053 ÔåÆ [0.9712532162666321, -0.8263197541236877, -1.5623362064361572]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.053
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.054', 'location': [0.3620176315307617, 51.91337585449219, 195.54042053222656], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[0.3620176315307617, 51.91337585449219, 195.54042053222656], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.054
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.054 ÔåÆ [1.8094151020050049, 0.09376948326826096, -3.0223331451416016]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.054
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.055', 'location': [3.5191128253936768, 50.689876556396484, 197.474853515625], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[3.5191128253936768, 50.689876556396484, 197.474853515625], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.055
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.055 ÔåÆ [0.8178374171257019, 0.977450966835022, -4.722641944885254]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.055
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.056', 'location': [-0.799274206161499, 48.76838302612305, 199.37696838378906], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[-0.799274206161499, 48.76838302612305, 199.37696838378906], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.056
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.056 ÔåÆ [0.23395970463752747, -0.5697579979896545, -0.5702670812606812]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.056
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.057', 'location': [-1.4267175197601318, 51.11747360229492, 196.3282928466797], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[-1.4267175197601318, 51.11747360229492, 196.3282928466797], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.057
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.057 ÔåÆ [1.6326030492782593, -0.4929428994655609, -2.4841554164886475]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.057
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.058', 'location': [2.410646677017212, 51.736263275146484, 196.0153350830078], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[2.410646677017212, 51.736263275146484, 196.0153350830078], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.058
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.058 ÔåÆ [1.6411468982696533, 0.6855003833770752, -3.5907528400421143]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.058
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.059', 'location': [3.038100481033325, 49.387176513671875, 199.0640106201172], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[3.038100481033325, 49.387176513671875, 199.0640106201172], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.059
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.059 ÔåÆ [0.10718853771686554, 0.6026801466941833, -5.74837589263916]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.059
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.060', 'location': [0.1772003173828125, 48.550262451171875, 199.77247619628906], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[0.1772003173828125, 48.550262451171875, 199.77247619628906], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.060
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.060 ÔåÆ [0.06893008202314377, -0.30028635263442993, -0.2551918029785156]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.060
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.061', 'location': [-1.8709776401519775, 50.483734130859375, 197.0756378173828], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[-1.8709776401519775, 50.483734130859375, 197.0756378173828], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.061
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.061 ÔåÆ [1.3757189512252808, -0.7181344628334045, -2.09169864654541]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.061
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.062', 'location': [1.4341729879379272, 51.954383850097656, 195.6198272705078], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[1.4341729879379272, 51.954383850097656, 195.6198272705078], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.062
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.062 ÔåÆ [1.7766931056976318, 0.4000082314014435, -3.2751855850219727]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.062
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.063', 'location': [3.482355833053589, 50.020912170410156, 198.31666564941406], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[3.482355833053589, 50.020912170410156, 198.31666564941406], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.063
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.063 ÔåÆ [0.3539869785308838, 0.8505042791366577, -5.337931156158447]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.063
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.064', 'location': [-1.5314085483551025, 49.2124137878418, 198.72557067871094], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[-1.5314085483551025, 49.2124137878418, 198.72557067871094], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.064
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.064 ÔåÆ [0.5372287034988403, -0.7667694687843323, -1.0047446489334106]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.064
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.065', 'location': [-0.6425855159759521, 51.6194953918457, 195.78919982910156], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[-0.6425855159759521, 51.6194953918457, 195.78919982910156], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.065
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.065 ÔåÆ [1.7645771503448486, -0.21084783971309662, -2.774918794631958]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.065
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.066', 'location': [3.1427860260009766, 51.292232513427734, 196.66673278808594], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[3.1427860260009766, 51.292232513427734, 196.66673278808594], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.066
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.066 ÔåÆ [1.3317086696624756, 0.9066521525382996, -4.058860778808594]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.066
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.067', 'location': [2.2539725303649902, 48.885154724121094, 199.6031036376953], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[2.2539725303649902, 48.885154724121094, 199.6031036376953], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.067
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.067 ÔåÆ [0.008232488296926022, 0.30775609612464905, -6.037148952484131]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.067
+!!! DEBUG: create_primitive(cube, {'name': 'Synthesized_Cylinder.002', 'location': [0.8720338344573975, 49.36052322387695, 199.87069702148438], 'scale': [3.7715706825256348, 3.7715706825256348, 0.4970022439956665]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: cube, loc=[0.8720338344573975, 49.36052322387695, 199.87069702148438], scale=(3.7715706825256348, 3.7715706825256348, 0.4970022439956665)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: cube ÔåÆ Synthesized_Cylinder.002
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Cylinder.002 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Cylinder.002
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.010', 'location': [0.8985786437988281, 44.790618896484375, 203.1281280517578], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: cylinder, loc=[0.8985786437988281, 44.790618896484375, 203.1281280517578], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.010
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.010 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.010
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.011', 'location': [0.9398337602615356, 44.73273849487305, 203.0160675048828], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: cylinder, loc=[0.9398337602615356, 44.73273849487305, 203.0160675048828], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.011
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.011 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Modificador SUBSURF agregado a Synthesized_Circle.011
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.011
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.012', 'location': [0.8985786437988281, 44.790618896484375, 199.06224060058594], 'scale': [0.6740357875823975, 0.6740357875823975, 0.6740357875823975]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: cylinder, loc=[0.8985786437988281, 44.790618896484375, 199.06224060058594], scale=(0.6740357875823975, 0.6740357875823975, 0.6740357875823975)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.012
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.012 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Modificador SUBSURF agregado a Synthesized_Circle.012
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.012
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.013', 'location': [0.8985786437988281, 44.790618896484375, 203.1281280517578], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: cylinder, loc=[0.8985786437988281, 44.790618896484375, 203.1281280517578], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.013
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.013 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.013
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.068', 'location': [2.7842509746551514, 49.214263916015625, 194.92510986328125], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[2.7842509746551514, 49.214263916015625, 194.92510986328125], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.068
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.068 ÔåÆ [-0.0, 1.570796251296997, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.068
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.069', 'location': [-0.5286350250244141, 49.214263916015625, 194.92510986328125], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[-0.5286350250244141, 49.214263916015625, 194.92510986328125], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.069
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.069 ÔåÆ [-0.0, 1.570796251296997, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.069
+!!! DEBUG: create_primitive(cube, {'name': 'Synthesized_Cylinder.003', 'location': [0.9345300197601318, 49.2192268371582, 197.1264190673828], 'scale': [0.3488631248474121, 0.3488631248474121, 1.9624344110488892]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: cube, loc=[0.9345300197601318, 49.2192268371582, 197.1264190673828], scale=(0.3488631248474121, 0.3488631248474121, 1.9624344110488892)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: cube ÔåÆ Synthesized_Cylinder.003
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Cylinder.003 ÔåÆ [-0.0, 1.570796251296997, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Cylinder.003
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.070', 'location': [1.2493562698364258, 48.591270446777344, 199.8518829345703], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[1.2493562698364258, 48.591270446777344, 199.8518829345703], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.070
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.070 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.070
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.071', 'location': [-1.9077398777008057, 49.81476974487305, 197.91744995117188], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[-1.9077398777008057, 49.81476974487305, 197.91744995117188], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.071
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.071 ÔåÆ [0.9712532162666321, -0.8263197541236877, -1.5623362064361572]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.071
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.072', 'location': [0.3620176315307617, 51.91337585449219, 195.54042053222656], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[0.3620176315307617, 51.91337585449219, 195.54042053222656], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.072
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.072 ÔåÆ [1.8094151020050049, 0.09376948326826096, -3.0223331451416016]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.072
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.073', 'location': [3.5191128253936768, 50.689876556396484, 197.474853515625], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[3.5191128253936768, 50.689876556396484, 197.474853515625], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.073
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.073 ÔåÆ [0.8178374171257019, 0.977450966835022, -4.722641944885254]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.073
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.074', 'location': [-0.799274206161499, 48.76838302612305, 199.37696838378906], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[-0.799274206161499, 48.76838302612305, 199.37696838378906], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.074
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.074 ÔåÆ [0.23395970463752747, -0.5697579979896545, -0.5702670812606812]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.074
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.075', 'location': [-1.4267175197601318, 51.11747360229492, 196.3282928466797], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[-1.4267175197601318, 51.11747360229492, 196.3282928466797], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.075
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.075 ÔåÆ [1.6326030492782593, -0.4929428994655609, -2.4841554164886475]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.075
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.076', 'location': [2.410646677017212, 51.736263275146484, 196.0153350830078], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[2.410646677017212, 51.736263275146484, 196.0153350830078], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.076
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.076 ÔåÆ [1.6411468982696533, 0.6855003833770752, -3.5907528400421143]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.076
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.077', 'location': [3.038100481033325, 49.387176513671875, 199.0640106201172], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[3.038100481033325, 49.387176513671875, 199.0640106201172], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.077
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.077 ÔåÆ [0.10718853771686554, 0.6026801466941833, -5.74837589263916]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.077
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.078', 'location': [0.1772003173828125, 48.550262451171875, 199.77247619628906], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[0.1772003173828125, 48.550262451171875, 199.77247619628906], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.078
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.078 ÔåÆ [0.06893008202314377, -0.30028635263442993, -0.2551918029785156]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.078
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.079', 'location': [-1.8709776401519775, 50.483734130859375, 197.0756378173828], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[-1.8709776401519775, 50.483734130859375, 197.0756378173828], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.079
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.079 ÔåÆ [1.3757189512252808, -0.7181344628334045, -2.09169864654541]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.079
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.080', 'location': [1.4341729879379272, 51.954383850097656, 195.6198272705078], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[1.4341729879379272, 51.954383850097656, 195.6198272705078], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.080
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.080 ÔåÆ [1.7766931056976318, 0.4000082314014435, -3.2751855850219727]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.080
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.081', 'location': [3.482355833053589, 50.020912170410156, 198.31666564941406], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[3.482355833053589, 50.020912170410156, 198.31666564941406], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.081
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.081 ÔåÆ [0.3539869785308838, 0.8505042791366577, -5.337931156158447]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.081
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.082', 'location': [-1.5314085483551025, 49.2124137878418, 198.72557067871094], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[-1.5314085483551025, 49.2124137878418, 198.72557067871094], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.082
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.082 ÔåÆ [0.5372287034988403, -0.7667694687843323, -1.0047446489334106]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.082
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.083', 'location': [-0.6425855159759521, 51.6194953918457, 195.78919982910156], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[-0.6425855159759521, 51.6194953918457, 195.78919982910156], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.083
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.083 ÔåÆ [1.7645771503448486, -0.21084783971309662, -2.774918794631958]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.083
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.084', 'location': [3.1427860260009766, 51.292232513427734, 196.66673278808594], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[3.1427860260009766, 51.292232513427734, 196.66673278808594], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.084
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.084 ÔåÆ [1.3317086696624756, 0.9066521525382996, -4.058860778808594]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.084
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.085', 'location': [2.2539725303649902, 48.885154724121094, 199.6031036376953], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: plane, loc=[2.2539725303649902, 48.885154724121094, 199.6031036376953], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.085
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.085 ÔåÆ [0.008232488296926022, 0.30775609612464905, -6.037148952484131]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.085
+!!! DEBUG: create_primitive(cube, {'name': 'Synthesized_Cylinder.004', 'location': [0.8720338344573975, 49.36052322387695, 199.87069702148438], 'scale': [3.7715706825256348, 3.7715706825256348, 0.4970022439956665]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: cube, loc=[0.8720338344573975, 49.36052322387695, 199.87069702148438], scale=(3.7715706825256348, 3.7715706825256348, 0.4970022439956665)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: cube ÔåÆ Synthesized_Cylinder.004
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Cylinder.004 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Cylinder.004
+!!! DEBUG: create_primitive(cube, {'name': 'Synthesized_Cube.003', 'location': [-1.2069940567016602e-06, -17.41225242614746, 195.1717529296875], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: cube, loc=[-1.2069940567016602e-06, -17.41225242614746, 195.1717529296875], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: cube ÔåÆ Synthesized_Cube.003
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Cube.003 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Cube.003
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Cube.003
+!!! DEBUG: create_primitive(cube, {'name': 'Synthesized_Cube.004', 'location': [-1.2069940567016602e-06, -17.41225242614746, 195.1717529296875], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: cube, loc=[-1.2069940567016602e-06, -17.41225242614746, 195.1717529296875], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: cube ÔåÆ Synthesized_Cube.004
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Cube.004 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Cube.004
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Cube.004
+!!! DEBUG: create_primitive(cube, {'name': 'Synthesized_Cube.005', 'location': [-1.2069940567016602e-06, -17.404918670654297, 194.66603088378906], 'scale': [0.8359958529472351, 0.8359958529472351, 0.8359958529472351]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: cube, loc=[-1.2069940567016602e-06, -17.404918670654297, 194.66603088378906], scale=(0.8359958529472351, 0.8359958529472351, 0.8359958529472351)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: cube ÔåÆ Synthesized_Cube.005
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Cube.005 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Cube.005
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.014', 'location': [-0.14969408512115479, -21.622039794921875, 199.19566345214844], 'scale': [1.8668824434280396, 1.8668824434280396, 1.8668824434280396]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: cylinder, loc=[-0.14969408512115479, -21.622039794921875, 199.19566345214844], scale=(1.8668824434280396, 1.8668824434280396, 1.8668824434280396)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.014
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.014 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Circle.014
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.014
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.015', 'location': [-0.14700426161289215, -21.622058868408203, 199.34732055664062], 'scale': [1.6983158588409424, 1.6983158588409424, 0.24187147617340088]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: cylinder, loc=[-0.14700426161289215, -21.622058868408203, 199.34732055664062], scale=(1.6983158588409424, 1.6983158588409424, 0.24187147617340088)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.015
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.015 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Circle.015
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.015
+!!! DEBUG: create_primitive(cube, {'name': 'Synthesized_Cube.006', 'location': [-1.2069940567016602e-06, -17.41225242614746, 195.1717529296875], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: cube, loc=[-1.2069940567016602e-06, -17.41225242614746, 195.1717529296875], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: cube ÔåÆ Synthesized_Cube.006
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Cube.006 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Cube.006
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Cube.006
+!!! DEBUG: create_primitive(cube, {'name': 'Synthesized_Cube.007', 'location': [-1.2069940567016602e-06, -17.41225242614746, 195.1717529296875], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: cube, loc=[-1.2069940567016602e-06, -17.41225242614746, 195.1717529296875], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: cube ÔåÆ Synthesized_Cube.007
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Cube.007 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Cube.007
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Cube.007
+!!! DEBUG: create_primitive(cube, {'name': 'Synthesized_Cube.008', 'location': [-1.2069940567016602e-06, -17.404918670654297, 194.66603088378906], 'scale': [0.8359958529472351, 0.8359958529472351, 0.8359958529472351]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: cube, loc=[-1.2069940567016602e-06, -17.404918670654297, 194.66603088378906], scale=(0.8359958529472351, 0.8359958529472351, 0.8359958529472351)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: cube ÔåÆ Synthesized_Cube.008
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Cube.008 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Cube.008
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.016', 'location': [-0.14969408512115479, -21.622039794921875, 199.18768310546875], 'scale': [1.8668824434280396, 1.8668824434280396, 1.8668824434280396]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: cylinder, loc=[-0.14969408512115479, -21.622039794921875, 199.18768310546875], scale=(1.8668824434280396, 1.8668824434280396, 1.8668824434280396)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.016
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.016 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Circle.016
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.016
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.017', 'location': [-0.14700426161289215, -21.622058868408203, 199.34732055664062], 'scale': [1.6983158588409424, 1.6983158588409424, 0.24187147617340088]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: cylinder, loc=[-0.14700426161289215, -21.622058868408203, 199.34732055664062], scale=(1.6983158588409424, 1.6983158588409424, 0.24187147617340088)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.017
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.017 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Circle.017
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.017
+!!! DEBUG: create_primitive(cube, {'name': 'Synthesized_Cube.009', 'location': [-1.2069940567016602e-06, -17.41225242614746, 195.1717529296875], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: cube, loc=[-1.2069940567016602e-06, -17.41225242614746, 195.1717529296875], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: cube ÔåÆ Synthesized_Cube.009
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Cube.009 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Cube.009
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Cube.009
+!!! DEBUG: create_primitive(cube, {'name': 'Synthesized_Cube.010', 'location': [-1.2069940567016602e-06, -17.41225242614746, 195.1717529296875], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: cube, loc=[-1.2069940567016602e-06, -17.41225242614746, 195.1717529296875], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Primitiva creada: cube ÔåÆ Synthesized_Cube.010
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Cube.010 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Cube.010
+[2026-03-15 13:49:18] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Cube.010
+!!! DEBUG: create_primitive(cube, {'name': 'Synthesized_Cube.011', 'location': [-1.2069940567016602e-06, -17.404918670654297, 194.66603088378906], 'scale': [0.8359958529472351, 0.8359958529472351, 0.8359958529472351]}) !!!
+[2026-03-15 13:49:18] DEBUG    [LYZU] Operator call: cube, loc=[-1.2069940567016602e-06, -17.404918670654297, 194.66603088378906], scale=(0.8359958529472351, 0.8359958529472351, 0.8359958529472351)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cube ÔåÆ Synthesized_Cube.011
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Cube.011 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Cube.011
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.018', 'location': [-0.14969408512115479, -21.622039794921875, 199.19566345214844], 'scale': [1.8668824434280396, 1.8668824434280396, 1.8668824434280396]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[-0.14969408512115479, -21.622039794921875, 199.19566345214844], scale=(1.8668824434280396, 1.8668824434280396, 1.8668824434280396)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.018
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.018 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Circle.018
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.018
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.019', 'location': [-0.14700426161289215, -21.622058868408203, 199.34732055664062], 'scale': [1.6983158588409424, 1.6983158588409424, 0.24187147617340088]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[-0.14700426161289215, -21.622058868408203, 199.34732055664062], scale=(1.6983158588409424, 1.6983158588409424, 0.24187147617340088)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.019
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.019 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Circle.019
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.019
+!!! DEBUG: create_primitive(cube, {'name': 'Synthesized_Cube.012', 'location': [3.0068883895874023, 4.322813987731934, 195.1717529296875], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cube, loc=[3.0068883895874023, 4.322813987731934, 195.1717529296875], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cube ÔåÆ Synthesized_Cube.012
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Cube.012 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Cube.012
+!!! DEBUG: create_primitive(cube, {'name': 'Synthesized_Cylinder.005', 'location': [5.093140602111816, 0.19414806365966797, 200.53128051757812], 'scale': [0.36118513345718384, 0.36118513345718384, 1.6147011518478394]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cube, loc=[5.093140602111816, 0.19414806365966797, 200.53128051757812], scale=(0.36118513345718384, 0.36118513345718384, 1.6147011518478394)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cube ÔåÆ Synthesized_Cylinder.005
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Cylinder.005 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Cylinder.005
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Cylinder.005
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Cylinder.005
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.020', 'location': [44.53485107421875, -28.436983108520508, -6.949901580810547e-05], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[44.53485107421875, -28.436983108520508, -6.949901580810547e-05], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.020
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.020 ÔåÆ [0.0, -0.0, -3.141592264175415]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Circle.020
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.020
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.021', 'location': [44.526084899902344, -104.15618896484375, -6.949901580810547e-05], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[44.526084899902344, -104.15618896484375, -6.949901580810547e-05], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.021
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.021 ÔåÆ [0.0, -0.0, 1.5707966089248657]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Circle.021
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.021
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.022', 'location': [-44.33156967163086, -104.15618896484375, 0.0007412135601043701], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[-44.33156967163086, -104.15618896484375, 0.0007412135601043701], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.022
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.022 ÔåÆ [0.0, 0.0, -1.5707957744598389]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Circle.022
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.022
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.023', 'location': [3.209486484527588, -104.15618896484375, -6.949901580810547e-05], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[3.209486484527588, -104.15618896484375, -6.949901580810547e-05], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.023
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.023 ÔåÆ [0.0, 0.0, -1.5707957744598389]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.023
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.024', 'location': [-3.065570831298828, -104.15618896484375, 0.0007412135601043701], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[-3.065570831298828, -104.15618896484375, 0.0007412135601043701], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.024
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.024 ÔåÆ [0.0, -0.0, 1.570797085762024]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.024
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.025', 'location': [-44.31938171386719, -28.436983108520508, 0.0007412135601043701], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[-44.31938171386719, -28.436983108520508, 0.0007412135601043701], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.025
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.025 ÔåÆ [0.0, -0.0, -3.141592264175415]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Circle.025
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.025
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.026', 'location': [-44.31938171386719, 28.378170013427734, 0.03554549813270569], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[-44.31938171386719, 28.378170013427734, 0.03554549813270569], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.026
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.026 ÔåÆ [0.0, -0.0, 6.516827397717861e-07]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Circle.026
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.026
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.027', 'location': [-44.33156967163086, 104.14036560058594, 0.03554549813270569], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[-44.33156967163086, 104.14036560058594, 0.03554549813270569], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.027
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.027 ÔåÆ [0.0, 0.0, -1.5707957744598389]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Circle.027
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.027
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.028', 'location': [44.526084899902344, 104.140625, 0.004173874855041504], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[44.526084899902344, 104.140625, 0.004173874855041504], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.028
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.028 ÔåÆ [0.0, -0.0, 1.5707966089248657]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Circle.028
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.028
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.029', 'location': [3.209486484527588, 104.140625, 0.002768576145172119], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[3.209486484527588, 104.140625, 0.002768576145172119], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.029
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.029 ÔåÆ [0.0, 0.0, -1.5707957744598389]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.029
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.030', 'location': [-3.065570831298828, 104.140625, 0.03554549813270569], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[-3.065570831298828, 104.140625, 0.03554549813270569], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.030
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.030 ÔåÆ [0.0, -0.0, 1.570797085762024]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.030
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.031', 'location': [44.514041900634766, 28.378170013427734, 0.019540101289749146], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[44.514041900634766, 28.378170013427734, 0.019540101289749146], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.031
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.031 ÔåÆ [0.0, -0.0, 6.516827397717861e-07]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Circle.031
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.031
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.032', 'location': [41.41840744018555, -24.551408767700195, 0.012783467769622803], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[41.41840744018555, -24.551408767700195, 0.012783467769622803], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.032
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.032 ÔåÆ [0.0, 0.0, -1.5707957744598389]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.032
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.038', 'location': [41.22280502319336, 10.289730072021484, 0.03469386696815491], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[41.22280502319336, 10.289730072021484, 0.03469386696815491], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.038
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.038 ÔåÆ [0.0, 0.0, -1.5707957744598389]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.038
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.042', 'location': [41.39056396484375, 24.226816177368164, 0.01623249053955078], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[41.39056396484375, 24.226816177368164, 0.01623249053955078], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.042
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.042 ÔåÆ [0.0, 0.0, -1.5707957744598389]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.042
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.033', 'location': [41.22280502319336, -9.961908340454102, 0.04321259260177612], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[41.22280502319336, -9.961908340454102, 0.04321259260177612], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.033
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.033 ÔåÆ [0.0, 0.0, -1.5707957744598389]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.033
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.034', 'location': [44.51033401489258, -27.82154083251953, 0.012783467769622803], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[44.51033401489258, -27.82154083251953, 0.012783467769622803], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.034
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.034 ÔåÆ [0.0, -0.0, 6.516827397717861e-07]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.034
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.035', 'location': [44.51033401489258, 25.376636505126953, 0.012783467769622803], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[44.51033401489258, 25.376636505126953, 0.012783467769622803], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.035
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.035 ÔåÆ [0.0, -0.0, 6.516827397717861e-07]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.035
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.036', 'location': [-44.3111457824707, 25.376636505126953, 0.012783467769622803], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[-44.3111457824707, 25.376636505126953, 0.012783467769622803], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.036
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.036 ÔåÆ [0.0, -0.0, 6.516827397717861e-07]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.036
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.037', 'location': [-44.3111457824707, -27.440277099609375, 0.012783467769622803], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[-44.3111457824707, -27.440277099609375, 0.012783467769622803], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.037
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.037 ÔåÆ [0.0, -0.0, 6.516827397717861e-07]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.037
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.039', 'location': [-40.6097526550293, -24.832685470581055, 0.012783467769622803], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[-40.6097526550293, -24.832685470581055, 0.012783467769622803], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.039
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.039 ÔåÆ [0.0, 0.0, -1.5707957744598389]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.039
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.040', 'location': [-40.390586853027344, 10.045318603515625, 0.03469386696815491], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[-40.390586853027344, 10.045318603515625, 0.03469386696815491], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.040
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.040 ÔåÆ [0.0, 0.0, -1.5707957744598389]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.040
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.041', 'location': [-40.51251220703125, 24.673879623413086, 0.01623249053955078], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[-40.51251220703125, 24.673879623413086, 0.01623249053955078], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.041
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.041 ÔåÆ [0.0, 0.0, -1.5707957744598389]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.041
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.043', 'location': [-40.3796272277832, -9.961908340454102, 0.04321259260177612], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[-40.3796272277832, -9.961908340454102, 0.04321259260177612], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.043
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.043 ÔåÆ [0.0, 0.0, -1.5707957744598389]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.043
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.044', 'location': [-34.298583984375, 10.045318603515625, 0.03469386696815491], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[-34.298583984375, 10.045318603515625, 0.03469386696815491], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.044
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.044 ÔåÆ [0.0, 0.0, -1.5707957744598389]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.044
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.045', 'location': [-34.28762435913086, -9.961908340454102, 0.04321259260177612], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[-34.28762435913086, -9.961908340454102, 0.04321259260177612], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.045
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.045 ÔåÆ [0.0, 0.0, -1.5707957744598389]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.045
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.086', 'location': [-2.649308681488037, -24.169883728027344, 192.408935546875], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: plane, loc=[-2.649308681488037, -24.169883728027344, 192.408935546875], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.086
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.086 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Plane.086
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador SOLIDIFY agregado a Synthesized_Plane.086
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.086
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.087', 'location': [-2.649308681488037, -2.4107627868652344, 192.4139862060547], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: plane, loc=[-2.649308681488037, -2.4107627868652344, 192.4139862060547], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.087
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.087 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Plane.087
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador SOLIDIFY agregado a Synthesized_Plane.087
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.087
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.088', 'location': [0.15223190188407898, -2.4107627868652344, 192.4139862060547], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: plane, loc=[0.15223190188407898, -2.4107627868652344, 192.4139862060547], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.088
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.088 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Plane.088
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador SOLIDIFY agregado a Synthesized_Plane.088
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.088
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.089', 'location': [-2.6963040828704834, 33.88885498046875, 192.4139862060547], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: plane, loc=[-2.6963040828704834, 33.88885498046875, 192.4139862060547], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.089Blender 3.6.2 (hash e53e55951e7a built 2023-08-16 23:35:13)
+Read prefs: "C:\Users\Admin\AppData\Roaming\Blender Foundation\Blender\3.6\config\userpref.blend"
+Info: Total files 0 | Changed 0 | Failed 0
+
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.089 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Plane.089
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador SOLIDIFY agregado a Synthesized_Plane.089
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.089
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.090', 'location': [-2.649308681488037, -59.69042205810547, 192.408935546875], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: plane, loc=[-2.649308681488037, -59.69042205810547, 192.408935546875], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.090
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.090 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Plane.090
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador SOLIDIFY agregado a Synthesized_Plane.090
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.090
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.091', 'location': [-1.279181957244873, 7.2869086265563965, 198.3882293701172], 'scale': [1.423557162284851, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: plane, loc=[-1.279181957244873, 7.2869086265563965, 198.3882293701172], scale=(1.423557162284851, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.091
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.091 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador SOLIDIFY agregado a Synthesized_Plane.091
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.091
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.092', 'location': [-1.279181957244873, 2.012131690979004, 198.3882293701172], 'scale': [1.423557162284851, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: plane, loc=[-1.279181957244873, 2.012131690979004, 198.3882293701172], scale=(1.423557162284851, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.092
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.092 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador SOLIDIFY agregado a Synthesized_Plane.092
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.092
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.093', 'location': [-32.62207794189453, -24.741592407226562, 5.098719596862793], 'scale': [5.0093889236450195, 2.3363566398620605, 5.009390354156494]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: plane, loc=[-32.62207794189453, -24.741592407226562, 5.098719596862793], scale=(5.0093889236450195, 2.3363566398620605, 5.009390354156494)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.093
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.093 ÔåÆ [0.0, 0.0, -1.4124977588653564]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador MIRROR agregado a Synthesized_Plane.093
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.093
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.046', 'location': [41.22280502319336, -0.1629934310913086, 0.04321259260177612], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[41.22280502319336, -0.1629934310913086, 0.04321259260177612], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.046
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.046 ÔåÆ [0.0, 0.0, -1.5707957744598389]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.046
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.047', 'location': [44.746559143066406, -1.688299536705017, 0.04321259260177612], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[44.746559143066406, -1.688299536705017, 0.04321259260177612], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.047
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.047 ÔåÆ [0.0, -0.0, 6.516827397717861e-07]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.047
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.048', 'location': [44.746559143066406, -7.402176856994629, 0.04321259260177612], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[44.746559143066406, -7.402176856994629, 0.04321259260177612], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.048
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.048 ÔåÆ [0.0, -0.0, 6.516827397717861e-07]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.048
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.051', 'location': [-44.719600677490234, 8.327609062194824, 0.04321259260177612], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[-44.719600677490234, 8.327609062194824, 0.04321259260177612], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.051
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.051 ÔåÆ [0.0, -0.0, 6.516827397717861e-07]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.051
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.052', 'location': [-44.719600677490234, 2.613731861114502, 0.04321259260177612], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[-44.719600677490234, 2.613731861114502, 0.04321259260177612], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.052
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.052 ÔåÆ [0.0, -0.0, 6.516827397717861e-07]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.052
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.049', 'location': [-40.390586853027344, -0.1293649673461914, 0.03469386696815491], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[-40.390586853027344, -0.1293649673461914, 0.03469386696815491], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.049
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.049 ÔåÆ [0.0, 0.0, -1.5707957744598389]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.049
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.050', 'location': [-34.298583984375, -0.1293649673461914, 0.03469386696815491], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[-34.298583984375, -0.1293649673461914, 0.03469386696815491], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.050
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.050 ÔåÆ [0.0, 0.0, -1.5707957744598389]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.050
+!!! DEBUG: create_primitive(cylinder, {'name': 'Synthesized_Circle.053', 'location': [-22.830400466918945, 24.628713607788086, 10.034830093383789], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cylinder, loc=[-22.830400466918945, 24.628713607788086, 10.034830093383789], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cylinder ÔåÆ Synthesized_Circle.053
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Circle.053 ÔåÆ [0.0, -0.0, 1.5707966089248657]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador ARRAY agregado a Synthesized_Circle.053
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Modificador CURVE agregado a Synthesized_Circle.053
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Cristal_Fachada ÔåÆ Synthesized_Circle.053
+!!! DEBUG: create_primitive(cube, {'name': 'Synthesized_Cube.013', 'location': [-23.312955856323242, -8.314859390258789, 10.527506828308105], 'scale': [1.295927882194519, 1.295927882194519, 1.295927882194519]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: cube, loc=[-23.312955856323242, -8.314859390258789, 10.527506828308105], scale=(1.295927882194519, 1.295927882194519, 1.295927882194519)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: cube ÔåÆ Synthesized_Cube.013
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Cube.013 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Cube.013
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.094', 'location': [-37.7713508605957, -9.70543384552002, 4.6509108543396], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: plane, loc=[-37.7713508605957, -9.70543384552002, 4.6509108543396], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.094
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.094 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.094
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.095', 'location': [-34.717464447021484, -9.782267570495605, 4.6509108543396], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: plane, loc=[-34.717464447021484, -9.782267570495605, 4.6509108543396], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.095
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.095 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.095
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.096', 'location': [-37.7713508605957, 0.14079776406288147, 4.6509108543396], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: plane, loc=[-37.7713508605957, 0.14079776406288147, 4.6509108543396], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.096
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.096 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.096
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.097', 'location': [-34.71746826171875, 0.06396404653787613, 4.6509108543396], 'scale': [1.0000001192092896, 1.0000001192092896, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: plane, loc=[-34.71746826171875, 0.06396404653787613, 4.6509108543396], scale=(1.0000001192092896, 1.0000001192092896, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.097
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.097 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.097
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.098', 'location': [-40.88731002807617, 0.14079776406288147, 4.6509108543396], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: plane, loc=[-40.88731002807617, 0.14079776406288147, 4.6509108543396], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.098
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.098 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.098
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.099', 'location': [-37.7713508605957, 10.2850341796875, 4.6509108543396], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: plane, loc=[-37.7713508605957, 10.2850341796875, 4.6509108543396], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.099
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.099 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:19] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.099
+!!! DEBUG: create_primitive(plane, {'name': 'Synthesized_Plane.100', 'location': [-34.717464447021484, 10.208200454711914, 4.6509108543396], 'scale': [1.0, 1.0, 1.0]}) !!!
+[2026-03-15 13:49:19] DEBUG    [LYZU] Operator call: plane, loc=[-34.717464447021484, 10.208200454711914, 4.6509108543396], scale=(1.0, 1.0, 1.0)
+[2026-03-15 13:49:20] DEBUG    [LYZU] Ô£ô Primitiva creada: plane ÔåÆ Synthesized_Plane.100
+[2026-03-15 13:49:20] DEBUG    [LYZU] Ô£ô Objeto rotado: Synthesized_Plane.100 ÔåÆ [0.0, -0.0, 0.0]
+[2026-03-15 13:49:20] DEBUG    [LYZU] Ô£ô Material aplicado: Hormigon_Estructura ÔåÆ Synthesized_Plane.100
+Info: Saved "urban_synthesis_alpha.blend"
+[2026-03-15 13:49:20] INFO     [LYZU] Ô£ô Escena exportada: C:\Users\Admin\Desktop\ZULY_IA_LOCAL\ZULY_PROJECTS\laboratorio\urban_synthesis_alpha.blend (BLEND)
+[2026-03-15 13:49:20] SUCCESS  [LYZU] --- S├¡ntesis Completada: C:\Users\Admin\Desktop\ZULY_IA_LOCAL\ZULY_PROJECTS\laboratorio\urban_synthesis_alpha.blend ---
+
+Blender quit

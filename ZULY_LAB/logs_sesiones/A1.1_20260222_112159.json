@@ -1,0 +1,193 @@
+{
+  "ejercicio": "A1.1",
+  "nombre": "Cubo Básico",
+  "timestamp": "2026-02-22T11:21:59.292020",
+  "pasos_ejecutados": [
+    {
+      "numero": 1,
+      "action": "clear_scene",
+      "params": {},
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.292424",
+      "resultado": {
+        "success": true,
+        "route": "INTENT_ROUTER",
+        "handler": "blender.clear_scene"
+      }
+    },
+    {
+      "numero": 2,
+      "action": "create_cube",
+      "params": {
+        "location": [
+          0,
+          0,
+          0
+        ],
+        "name": "CuboA1"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.302862",
+      "resultado": {
+        "success": true,
+        "object_name": "CuboA1",
+        "location": [
+          0,
+          0,
+          0
+        ],
+        "scale": 1.0,
+        "message": "Cubo creado exitosamente en [0, 0, 0]",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_cube"
+      }
+    },
+    {
+      "numero": 3,
+      "action": "scale_object",
+      "params": {
+        "object_name": "CuboA1",
+        "scale": 2.0
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.331511",
+      "resultado": {
+        "success": true,
+        "object_name": "CuboA1",
+        "scale": [
+          2.0,
+          2.0,
+          2.0
+        ],
+        "message": "Objeto escalado en modo simulación",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.scale_object"
+      }
+    },
+    {
+      "numero": 4,
+      "action": "move_object",
+      "params": {
+        "object_name": "CuboA1",
+        "location": [
+          2,
+          0,
+          0
+        ]
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.335297",
+      "resultado": {
+        "success": true,
+        "object_name": "CuboA1",
+        "new_location": [
+          2,
+          0,
+          0
+        ],
+        "message": "Objeto movido a [2, 0, 0]",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.move_object"
+      }
+    },
+    {
+      "numero": 5,
+      "action": "create_material",
+      "params": {
+        "name": "MaterialBasico",
+        "color": [
+          0.8,
+          0.2,
+          0.2,
+          1.0
+        ]
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.341789",
+      "resultado": {
+        "success": true,
+        "material_name": "MaterialBasico",
+        "color": [
+          0.8,
+          0.2,
+          0.2,
+          1.0
+        ],
+        "metallic": 0.0,
+        "roughness": 0.5,
+        "message": "Material MaterialBasico creado exitosamente",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_material"
+      }
+    },
+    {
+      "numero": 6,
+      "action": "apply_material",
+      "params": {
+        "object_name": "CuboA1",
+        "material_name": "MaterialBasico"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.357026",
+      "resultado": {
+        "success": true,
+        "object_name": "CuboA1",
+        "material_name": "MaterialBasico",
+        "message": "Material aplicado en modo simulación",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.apply_material"
+      }
+    },
+    {
+      "numero": 7,
+      "action": "save_project",
+      "params": {
+        "filepath": "ZULY_LAB/resultados_zuly/A1.1_cubo_basico.blend"
+      },
+      "exito": true,
+      "timestamp": "2026-02-22T11:21:59.368335",
+      "resultado": {
+        "success": true,
+        "output_path": "ZULY_LAB/resultados_zuly/A1.1_cubo_basico.blend",
+        "format": "BLEND",
+        "object_count": 1,
+        "message": "Escena exportada a BLEND en modo simulación",
+        "route": "INTENT_ROUTER",
+        "handler": "blender.save_project"
+      }
+    }
+  ],
+  "pasos_exitosos": 7,
+  "pasos_fallidos": 0,
+  "tiempo_total_segundos": 0.08,
+  "exito": true,
+  "objetos_creados": [],
+  "errores": [],
+  "validacion": {
+    "total": 4,
+    "pasadas": 4,
+    "fallidas": 0,
+    "detalles": [
+      {
+        "tipo": "object_exists",
+        "pasado": true,
+        "error": null
+      },
+      {
+        "tipo": "object_at_location",
+        "pasado": true,
+        "error": null
+      },
+      {
+        "tipo": "object_scale",
+        "pasado": true,
+        "error": null
+      },
+      {
+        "tipo": "material_applied",
+        "pasado": true,
+        "error": null
+      }
+    ]
+  }
+}

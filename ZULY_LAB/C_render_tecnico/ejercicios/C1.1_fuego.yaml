@@ -1,0 +1,60 @@
+# ZULY_LAB/C_render_tecnico/ejercicios/C1.1_fuego.yaml
+name: "Fuego de Zuly"
+fase: "C"
+numero: "C1.1"
+descripcion: "Experimento avanzado de texturizado y renderizado de fuego"
+dificultad: "experto"
+tiempo_estimado_segundos: 20
+
+steps:
+  - action: "clear_scene"
+  
+  - action: "create_sphere"
+    params:
+      name: "BolaDeFuego"
+      radius: 2.0
+      location: [0, 0, 2]
+      
+  - action: "create_texture_material"
+    params:
+      name: "MatFuego"
+      image_path: "ZULY_LAB/assets/textures/fire_texture.png"
+      metallic: 0.1
+      roughness: 0.2
+      
+  - action: "apply_material"
+    params:
+      object_name: "BolaDeFuego"
+      material_name: "MatFuego"
+      
+  - action: "create_light"
+    params:
+      light_type: "POINT"
+      location: [4, 4, 8]
+      energy: 3000.0
+      name: "LuzFuego"
+      
+  - action: "create_camera"
+    params:
+      name: "CamaraFinal"
+      location: [10, -10, 6]
+      
+  - action: "position_camera"
+    params:
+      camera_name: "CamaraFinal"
+      location: [10, -10, 6]
+      look_at: [0, 0, 2]
+      
+  - action: "render_scene"
+    params:
+      output_path: "ZULY_LAB/resultados_zuly/EXPERIMENTO_FUEGO_FINAL.png"
+      engine: "BLENDER_EEVEE"
+      samples: 32
+      
+  - action: "save_project"
+    params:
+      filepath: "ZULY_LAB/resultados_zuly/EXPERIMENTO_FUEGO_FINAL.blend"
+
+validation:
+  - type: "object_exists"
+    object_name: "BolaDeFuego"

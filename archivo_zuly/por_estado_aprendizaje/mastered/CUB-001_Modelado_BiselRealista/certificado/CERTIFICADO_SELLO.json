@@ -1,0 +1,24 @@
+{
+  "certificado_id": "CERT-CUB-001-20260404",
+  "pattern_id": "CUB-001",
+  "pattern_nombre": "CUB-001_Modelado_BiselRealista",
+  "categoria": "CUB",
+  "version": "1.0",
+  "fecha_sello": "2026-04-04T16:11:10.935399",
+  "sellado_por": "Soberano",
+  "decision": "SELLADO",
+  "observaciones": "Primer patrón aprobado del sistema ZULY",
+  "hash_inmutabilidad": "ef305bb9c2537dfa",
+  "validacion": {
+    "estado_malla": "LIMPIA",
+    "color_match": true,
+    "peso_kb": 812.4,
+    "dictamen_jues": "APTO_PARA_SELLO"
+  },
+  "jerarquia_zei": {
+    "zuly_genero": true,
+    "jues_valido": true,
+    "lyzu_registro": true,
+    "soberano_aprobo": true
+  }
+}

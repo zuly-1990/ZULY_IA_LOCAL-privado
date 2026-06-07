@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "pedido_id": "PED-20260403-001",
+    "descripcion_soberano": "Cubo Rojo con bordes suaves para validación inicial",
+    "timestamp_generacion": "2026-04-03T14:30:00Z",
+    "ia_generadora": "Cascade-Agent"
+  },
+  "candidatos": [
+    {
+      "id_candidato": "Candidato_A",
+      "metadata": {
+        "id": "CUB-001_A",
+        "nombre_tecnico": "CUB-001_A_BevelRapido",
+        "nombre_simple": "Cubo Rojo con Bevel rápido",
+        "autor": "Cascade-Agent",
+        "nivel_complejidad": 1,
+        "categoria": "Hard Surface"
+      },
+      "cuerpo_tecnico": {
+        "tipo_generacion": "script_bpy",
+        "script_python": "import bpy; bpy.ops.mesh.primitive_cube_add(size=2); obj = bpy.context.active_object; obj.name='CUB001_A'; bevel = obj.modifiers.new(name='Bevel', type='BEVEL'); bevel.width=0.05; bevel.segments=2; mat = bpy.data.materials.new(name='Rojo'); mat.use_nodes=True; mat.node_tree.nodes['Principled BSDF'].inputs['Base Color'].default_value=(1,0,0,1); obj.data.materials.append(mat)",
+        "modificadores": [
+          {
+            "tipo": "BEVEL",
+            "nombre": "Bevel_Rapido",
+            "parametros": {
+              "width": 0.05,
+              "segments": 2,
+              "limit_method": "ANGLE",
+              "angle_limit": 0.5236
+            }
+          }
+        ],
+        "material": {
+          "nombre": "Mat_Rojo_A",
+          "tipo_shader": "Principled BSDF",
+          "color_rgb": [1.0, 0.0, 0.0, 1.0],
+          "hex": "#FF0000",
+          "roughness": 0.5,
+          "metallic": 0.0,
+          "extras": {
+            "specular": 0.5
+          }
+        },
+        "iluminacion": {
+          "tipo_setup": "3-point",
+          "luces": [
+            {
+              "tipo": "SUN",
+              "nombre": "Key_Light_A",
+              "ubicacion": [5, 5, 10],
+              "energia": 5.0
+            },
+            {
+              "tipo": "AREA",
+              "nombre": "Fill_Light_A",
+              "ubicacion": [-5, 2, 5],
+              "energia": 2.0
+            }
+          ]
+        }
+      },
+      "propiedades_editables": {
+        "parametros": [
+          {
+            "nombre": "bevel_width",
+            "descripcion": "Ancho del bisel",
+            "tipo": "float",
+            "valor_default": 0.05,
+            "min": 0.001,
+            "max": 0.2
+          },
+          {
+            "nombre": "bevel_segments",
+            "descripcion": "Cantidad de segmentos",
+            "tipo": "int",
+            "valor_default": 2,
+            "min": 1,
+            "max": 6
+          }
+        ]
+      }
+    },
+    {
+      "id_candidato": "Candidato_B",
+      "metadata": {
+        "id": "CUB-001_B",
+        "nombre_tecnico": "CUB-001_B_GeometriaPura",
+        "nombre_simple": "Cubo Rojo con geometría pura",
+        "autor": "Cascade-Agent",
+        "nivel_complejidad": 2,
+        "categoria": "Hard Surface"
+      },
+      "cuerpo_tecnico": {
+        "tipo_generacion": "script_bpy",
+        "script_python": "import bpy, bmesh; bpy.ops.mesh.primitive_cube_add(size=2); obj = bpy.context.active_object; obj.name='CUB001_B'; bm = bmesh.new(); bm.from_mesh(obj.data); bmesh.ops.bevel(bm, geom=bm.edges, offset=0.05, segments=4); bm.to_mesh(obj.data); bm.free(); mat = bpy.data.materials.new(name='RojoB'); mat.use_nodes=True; mat.node_tree.nodes['Principled BSDF'].inputs['Base Color'].default_value=(1,0,0,1); obj.data.materials.append(mat)",
+        "modificadores": [],
+        "geometria_pura": {
+          "metodo": "bmesh_bevel",
+          "vertices_pre": 8,
+          "vertices_post": 48,
+          "topologia": "all_quads"
+        },
+        "material": {
+          "nombre": "Mat_Rojo_B",
+          "tipo_shader": "Principled BSDF",
+          "color_rgb": [1.0, 0.0, 0.0, 1.0],
+          "hex": "#FF0000",
+          "roughness": 0.4,
+          "metallic": 0.0,
+          "extras": {
+            "specular": 0.6
+          }
+        },
+        "iluminacion": {
+          "tipo_setup": "Studio",
+          "luces": [
+            {
+              "tipo": "AREA",
+              "nombre": "Main_Light_B",
+              "ubicacion": [3, -3, 5],
+              "energia": 4.0
+            },
+            {
+              "tipo": "AREA",
+              "nombre": "Rim_Light_B",
+              "ubicacion": [-3, 3, 4],
+              "energia": 2.5
+            }
+          ]
+        }
+      },
+      "propiedades_editables": {
+        "parametros": [
+          {
+            "nombre": "bevel_offset",
+            "descripcion": "Offset del bevel bmesh",
+            "tipo": "float",
+            "valor_default": 0.05,
+            "min": 0.001,
+            "max": 0.2
+          },
+          {
+            "nombre": "segments",
+            "descripcion": "Segmentos del bevel",
+            "tipo": "int",
+            "valor_default": 4,
+            "min": 1,
+            "max": 8
+          }
+        ]
+      }
+    }
+  ],
+  "justificacion_jues": {
+    "estrategia": "Candidato A usa modificador Bevel (rápido, editable). Candidato B usa bmesh bevel (geometría pura, más control de topología).",
+    "diferencias_clave": [
+      "A: Usa modificador BEVEL - editable en viewport, menos polígonos",
+      "B: Usa bmesh.ops.bevel - geometría estática, más polígonos, mejor para exportar",
+      "A: Render más rápido en viewport por modificador",
+      "B: Topología más limpia (all quads), mejor para subdivisión posterior"
+    ],
+    "recomendacion_preliminar": "Ambos_viables",
+    "notas_tecnicas": "Ambos cumplen color rojo exacto #FF0000. Ambos tienen geometría manifold cerrada. A tiene menos vértices (mejor performance). B tiene mejor topología (mejor para animación)."
+  }
+}

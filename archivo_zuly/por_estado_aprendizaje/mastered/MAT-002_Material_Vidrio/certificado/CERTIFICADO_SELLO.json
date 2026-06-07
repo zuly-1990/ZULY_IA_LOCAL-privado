@@ -1,0 +1,14 @@
+{
+  "certificado_id": "CERT-MAT-002_Material_Vidrio-20260404210408",
+  "pattern_id": "MAT-002_Material_Vidrio",
+  "fecha_sello": "2026-04-04T21:04:08.264059",
+  "sellado_por": "Soberano",
+  "decision": "SELLADO",
+  "dictamen_jues": "✅ APTO_PARA_SELLO",
+  "validacion": {
+    "malla": "LIMPIA",
+    "peso_kb": 914.99,
+    "color": "#FFFFFF",
+    "hash": "2b90ab9f1cabbe9932f22a2f7e9f9cc7"
+  }
+}

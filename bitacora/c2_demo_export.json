@@ -1,0 +1,222 @@
+{
+  "exported_at": "2026-02-15T17:20:43.632632",
+  "total_experiences": 49,
+  "insights": {
+    "total_experiences": 49,
+    "success_rate": 0.8571428571428571,
+    "average_score": 0.7789795918367347,
+    "successes": 35,
+    "failures": 7,
+    "common_issues": {
+      "Necesita revisión": 6,
+      "Error genérico": 4,
+      "Material incompleto": 1,
+      "Error de geometría": 1,
+      "Baja resolución": 1
+    },
+    "failure_reasons": {
+      "Error genérico": 4,
+      "Necesita revisión": 2,
+      "Error de geometría": 1
+    },
+    "top_patterns": [
+      {
+        "objective": "Crear cubo",
+        "parameters": {},
+        "score": 0.95,
+        "recommendations": [
+          "OK"
+        ]
+      },
+      {
+        "objective": "Crear cubo",
+        "parameters": {
+          "size": 10,
+          "color": "red",
+          "position": 0
+        },
+        "score": 0.95,
+        "recommendations": [
+          "Excelente"
+        ]
+      },
+      {
+        "objective": "Crear cubo 3D",
+        "parameters": {
+          "size": 10
+        },
+        "score": 0.95,
+        "recommendations": [
+          "Excelente geometría"
+        ]
+      },
+      {
+        "objective": "Renderizar",
+        "parameters": {},
+        "score": 0.94,
+        "recommendations": [
+          "OK"
+        ]
+      },
+      {
+        "objective": "Tarea 9",
+        "parameters": {},
+        "score": 0.94,
+        "recommendations": []
+      }
+    ]
+  },
+  "learnings": [
+    {
+      "type": "positive",
+      "learning": "Alta tasa de éxito detectada",
+      "confidence": 0.8571428571428571
+    },
+    {
+      "type": "problem",
+      "learning": "Problema frecuente: Necesita revisión",
+      "frequency": 6,
+      "confidence": 0.12244897959183673
+    }
+  ],
+  "recent_experiences": [
+    {
+      "objective": "Agregar cámara",
+      "evaluation_status": "success",
+      "evaluation_score": 0.88,
+      "parameters": {},
+      "metrics_passed": 3,
+      "metrics_total": 4,
+      "issues": [],
+      "recommendations": [
+        "OK"
+      ],
+      "timestamp": "2026-02-15T17:20:43.611684"
+    },
+    {
+      "objective": "Agregar luz",
+      "evaluation_status": "success",
+      "evaluation_score": 0.91,
+      "parameters": {},
+      "metrics_passed": 3,
+      "metrics_total": 4,
+      "issues": [],
+      "recommendations": [
+        "OK"
+      ],
+      "timestamp": "2026-02-15T17:20:43.603123"
+    },
+    {
+      "objective": "Agregar textura",
+      "evaluation_status": "failed",
+      "evaluation_score": 0.25,
+      "parameters": {},
+      "metrics_passed": 1,
+      "metrics_total": 4,
+      "issues": [
+        "Necesita revisión"
+      ],
+      "recommendations": [
+        "OK"
+      ],
+      "timestamp": "2026-02-15T17:20:43.591419"
+    },
+    {
+      "objective": "Hacer material",
+      "evaluation_status": "partial",
+      "evaluation_score": 0.62,
+      "parameters": {},
+      "metrics_passed": 2,
+      "metrics_total": 4,
+      "issues": [
+        "Necesita revisión"
+      ],
+      "recommendations": [
+        "OK"
+      ],
+      "timestamp": "2026-02-15T17:20:43.581509"
+    },
+    {
+      "objective": "Desagrupar",
+      "evaluation_status": "partial",
+      "evaluation_score": 0.7,
+      "parameters": {},
+      "metrics_passed": 2,
+      "metrics_total": 4,
+      "issues": [
+        "Necesita revisión"
+      ],
+      "recommendations": [
+        "OK"
+      ],
+      "timestamp": "2026-02-15T17:20:43.573586"
+    },
+    {
+      "objective": "Agrupar",
+      "evaluation_status": "success",
+      "evaluation_score": 0.89,
+      "parameters": {},
+      "metrics_passed": 3,
+      "metrics_total": 4,
+      "issues": [],
+      "recommendations": [
+        "OK"
+      ],
+      "timestamp": "2026-02-15T17:20:43.562284"
+    },
+    {
+      "objective": "Duplicar",
+      "evaluation_status": "success",
+      "evaluation_score": 0.93,
+      "parameters": {},
+      "metrics_passed": 3,
+      "metrics_total": 4,
+      "issues": [],
+      "recommendations": [
+        "OK"
+      ],
+      "timestamp": "2026-02-15T17:20:43.549293"
+    },
+    {
+      "objective": "Animar",
+      "evaluation_status": "partial",
+      "evaluation_score": 0.6,
+      "parameters": {},
+      "metrics_passed": 2,
+      "metrics_total": 4,
+      "issues": [
+        "Necesita revisión"
+      ],
+      "recommendations": [
+        "OK"
+      ],
+      "timestamp": "2026-02-15T17:20:43.540107"
+    },
+    {
+      "objective": "Renderizar",
+      "evaluation_status": "success",
+      "evaluation_score": 0.94,
+      "parameters": {},
+      "metrics_passed": 3,
+      "metrics_total": 4,
+      "issues": [],
+      "recommendations": [
+        "OK"
+      ],
+      "timestamp": "2026-02-15T17:20:43.528532"
+    },
+    {
+      "objective": "Escalar objeto",
+      "evaluation_status": "success",
+      "evaluation_score": 0.9,
+      "parameters": {},
+      "metrics_passed": 3,
+      "metrics_total": 4,
+      "issues": [],
+      "recommendations": [
+        "OK"
+      ],
+      "timestamp": "2026-02-15T17:20:43.515161"
+    }
+  ]
+}

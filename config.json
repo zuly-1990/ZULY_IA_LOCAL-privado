@@ -1,0 +1,40 @@
+{
+  "objeto_3d": {
+    "tipo": "cubo",
+    "opciones_validas": [
+      "cubo", "plano", "esfera", "cilindro", "torus", "mono", 
+      "circulo", "cono", "ico_esfera", "uv_esfera"
+    ]
+  },
+  "transformacion": {
+    "posicion": [0, 0, 0],
+    "rotacion_grados": [0, 0, 0],
+    "escala": [1, 1, 1]
+  },
+  "material": {
+    "nombre": "oro",
+    "opciones_validas": [
+      "oro", "plata", "negro_mate", "blanco_brillante", 
+      "vidrio", "emision_azul", null
+    ]
+  },
+  "entorno": {
+    "modo": "blender",
+    "version_blender": "3.6",
+    "motor_render": "cycles",
+    "muestras_render": 32,
+    "escena": "default",
+    "directorio_salida": "./ZULY_PROJECTS/"
+  },
+  "pruebas": {
+    "test_creacion": true,
+    "test_material": true,
+    "test_transformaciones": true
+  },
+  "logs": {
+    "nivel": "INFO",
+    "archivo": "./logs/proceso.log",
+    "guardar_tiempos": true,
+    "guardar_errores": true
+  }
+}

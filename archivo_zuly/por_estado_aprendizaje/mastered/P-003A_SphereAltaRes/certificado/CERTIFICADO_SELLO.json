@@ -1,0 +1,14 @@
+{
+  "certificado_id": "CERT-P-003A_SphereAltaRes-20260404205153",
+  "pattern_id": "P-003A_SphereAltaRes",
+  "fecha_sello": "2026-04-04T20:51:53.514986",
+  "sellado_por": "Soberano",
+  "decision": "SELLADO",
+  "dictamen_jues": "✅ APTO_PARA_SELLO",
+  "validacion": {
+    "malla": "LIMPIA",
+    "peso_kb": 1881.07,
+    "color": "#FF5722",
+    "hash": "c7adc6b7049bc6d2a70f28bc12a48acc"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "certificado_id": "CERT-P-006A_PlanoBase-20260404205903",
+  "pattern_id": "P-006A_PlanoBase",
+  "fecha_sello": "2026-04-04T20:59:03.551022",
+  "sellado_por": "Soberano",
+  "decision": "SELLADO",
+  "dictamen_jues": "✅ APTO_PARA_SELLO",
+  "validacion": {
+    "malla": "LIMPIA",
+    "peso_kb": 834.34,
+    "color": "#E5E5E5",
+    "hash": "1e70675c168c0611a52b2b972d5d6f2a"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "CUB-001_v2",
+  "nombre_tecnico": "CUB-001_v2_Estandar",
+  "nombre_simple": "Cubo con bisel estándar",
+  
+  "descripcion_simple": "Cubo con bisel estándar, material gris técnico, iluminación 3-point.",
+  "descripcion_tecnica": "Bisel width=0.05, segments=3. Iluminación 3-point (key, fill, rim). Material gris con roughness=0.4.",
+  "uso": "Default, técnico, referencia estándar",
+  
+  "tags": ["bevel", "cubo", "estandar", "iluminacion", "primitivas", "tecnico"],
+  
+  "propiedades": {
+    "parametros_editables": {
+      "bevel_width": "Ancho del bisel",
+      "bevel_segments": "Cantidad de segmentos"
+    },
+    "valores_default": {
+      "bevel_width": 0.05,
+      "bevel_segments": 3
+    },
+    "limites": {
+      "bevel_width": [0.001, 0.2],
+      "bevel_segments": [1, 6]
+    },
+    "dependencias": []
+  },
+  
+  "reglas_aplicadas": {
+    "reset": true,
+    "escala": true,
+    "nombres_tecnicos": true,
+    "sin_errores": true,
+    "iluminacion": true
+  },
+  
+  "archivos_generados": {
+    "blend": "./ZULY_PROJECTS/CUB001_v2_Estandar.blend",
+    "render": "./ZULY_PROJECTS/CUB001_v2_preview.png",
+    "script": "./CUB001_v2_Estandar.py"
+  },
+  
+  "validacion": {
+    "ejecutado": "2026-04-03T14:21:00",
+    "status": "COMPLETADO",
+    "tiempo_render": "46.04s"
+  },
+  
+  "variante_de": "CUB-001",
+  "tipo_variacion": "Estándar (default)"
+}

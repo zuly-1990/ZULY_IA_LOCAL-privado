@@ -1,0 +1,26 @@
+{
+  "candidato_id": "CUB-001_v1",
+  "puntuacion": 100,
+  "dictamen": "APTO_PARA_SELLO",
+  "errores": 0,
+  "superpoderes": {
+    "malla": {
+      "status": "LIMPIA",
+      "wire": 0,
+      "non_manifold": 0
+    },
+    "peso": {
+      "status": "OPTIMO",
+      "kb": 807.45
+    },
+    "color": {
+      "status": "MATCH",
+      "encontrado": "#FF0000",
+      "esperado": "#FF0000"
+    },
+    "hash": {
+      "md5": "2af2a745cdf6e720df0df74349f55039",
+      "vertices": 96
+    }
+  }
+}

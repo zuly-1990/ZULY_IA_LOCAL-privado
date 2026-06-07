@@ -1,0 +1,60 @@
+{
+  "objective": "export_demo",
+  "best_parameter_value": "5",
+  "best_score": 0.8,
+  "total_iterations": 6,
+  "converged": true,
+  "convergence_reason": "no_improvement",
+  "strategy": "hill_climbing",
+  "execution_time": 0.0001494884490966797,
+  "history": [
+    {
+      "step_number": 1,
+      "parameter_value": "5",
+      "c1_score": 0.8,
+      "is_improvement": true,
+      "best_so_far": true,
+      "timestamp": "2026-02-15T17:45:52.030673"
+    },
+    {
+      "step_number": 2,
+      "parameter_value": "5",
+      "c1_score": 0.8,
+      "is_improvement": false,
+      "best_so_far": true,
+      "timestamp": "2026-02-15T17:45:52.030693"
+    },
+    {
+      "step_number": 3,
+      "parameter_value": "5",
+      "c1_score": 0.8,
+      "is_improvement": false,
+      "best_so_far": true,
+      "timestamp": "2026-02-15T17:45:52.030705"
+    },
+    {
+      "step_number": 4,
+      "parameter_value": "5",
+      "c1_score": 0.8,
+      "is_improvement": false,
+      "best_so_far": true,
+      "timestamp": "2026-02-15T17:45:52.030715"
+    },
+    {
+      "step_number": 5,
+      "parameter_value": "5",
+      "c1_score": 0.8,
+      "is_improvement": false,
+      "best_so_far": true,
+      "timestamp": "2026-02-15T17:45:52.030726"
+    },
+    {
+      "step_number": 6,
+      "parameter_value": "5",
+      "c1_score": 0.8,
+      "is_improvement": false,
+      "best_so_far": true,
+      "timestamp": "2026-02-15T17:45:52.030735"
+    }
+  ]
+}

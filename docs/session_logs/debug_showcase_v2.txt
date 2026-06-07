@@ -1,0 +1,113 @@
+﻿blender.exe : 
+TBBmalloc: skip 
+allocation functions 
+replacement in 
+ucrtbase.dll: unknown 
+prologue for function 
+_msize
+En línea: 1 Carácter: 1
++ & $blender 
+--background --python s
+cripts\zuly_advanced_sh
+owcase.py 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (TBBmalloc: sk   
+ ip...function _msi    
+ze:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+Blender 3.6.2 (hash e53e55951e7a built 2023-08-16 23:35:13)
+Read prefs: "C:\Users\Admin\AppData\Roaming\Blender Foundation\Blender\3.6\config\userpref.blend"
+Error: Python: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\Admin\Desktop\ZULY_IA_LOCAL\scripts\zuly_advanced_showcase.py", line 76, in <module>
+    run_advanced_showcase()
+  File "C:\Users\Admin\Desktop\ZULY_IA_LOCAL\scripts\zuly_advanced_showcase.py", line 22, in run_advanced_showcase
+    agent.process_natural_request("Limpiar escena")
+  File "C:\Users\Admin\Desktop\ZULY_IA_LOCAL\core\agent.py", line 404, in process_natural_request
+    auth_result = self.human_gate.authorize(best_intent.command_name)
+TypeError: <lambda>() missing 1 required positional argument: 'agent'
+[2026-03-07 20:55:31] INFO     [LYZU] ­ƒÜÇ INICIANDO SHOWCASE DE CAPACIDADES AVANZADAS - ZULY_IA
+[2026-03-07 20:55:31] INFO     [LYZU] ============================================================
+[2026-03-07 20:55:31] INFO     [LYZU] INICIALIZANDO AGENTE ZULY - VERSI├ôN INTELIGENTE
+[2026-03-07 20:55:31] INFO     [LYZU] ============================================================
+[2026-03-07 20:55:31] INFO     [LYZU] Ô£ô BlenderAdapter inicializado correctamente
+[2026-03-07 20:55:31] INFO     [LYZU] Ô£ô BlenderAdapter disponible y activo
+[2026-03-07 20:55:31] INFO     [LYZU] [FASE 17] Engine Adapter: BlenderAdapter
+[2026-03-07 20:55:31] INFO     [LYZU] Cargando comandos desde: C:\Users\Admin\Desktop\ZULY_IA_LOCAL\core\commands
+[2026-03-07 20:55:31] INFO     [LYZU] Cargados 7 m├│dulos de comandos (0 errores)
+[2026-03-07 20:55:31] INFO     [LYZU] Total de comandos cargados: 0
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.create_cube
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.create_sphere
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.create_cylinder
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.create_plane
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.move_object
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.rotate_object
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.scale_object
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.render_scene
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: system.get_info
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.save_project
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.save_scene
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.clear_scene
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.rename_object
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.set_object_visibility
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.create_material
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.create_texture_material
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.apply_material
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.set_material_color
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.create_light
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.set_light_energy
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.set_light_color
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.create_camera
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.set_active_camera
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.position_camera
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.add_subdivision_surface
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.add_array
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.add_bevel
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.export_fbx
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.export_obj
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.export_gltf
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.build_structure
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.save_pattern
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.load_pattern
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.list_patterns
+[2026-03-07 20:55:31] INFO     [LYZU] Registrado handler: blender.run_python_script
+[2026-03-07 20:55:31] SUCCESS  [LYZU] Ô£ô 35 handlers de Blender registrados
+[2026-03-07 20:55:31] INFO     [LYZU] [FASE 23] IntentRouter: 35 handlers registrados
+[2026-03-07 20:55:31] INFO     [LYZU] NLU inicializado con 0 comandos
+[2026-03-07 20:55:31] INFO     [LYZU] SceneMonitor inicializado
+[2026-03-07 20:55:31] INFO     [LYZU] [PatternMemory] Inicializada con 4 patrones totales (Staging + Verified)
+[2026-03-07 20:55:31] INFO     [COGNITION] CognitionCore inicializado con Memoria Heur├¡stica
+[2026-03-07 20:55:31] INFO     [COGNITION] Evaluador registrado: render
+[2026-03-07 20:55:31] INFO     [LYZU] [FASE 18.5] FailsafeExecutor y ActionLogger integrados
+[2026-03-07 20:55:31] INFO     [LYZU] [OK] 0 comandos cargados
+[2026-03-07 20:55:31] INFO     [LYZU] [OK] Procesador de Lenguaje Natural inicializado
+[2026-03-07 20:55:31] INFO     [LYZU] [OK] Monitor de Escena activo (v├¡a BlenderAdapter)
+[2026-03-07 20:55:31] INFO     [LYZU] [OK] Memoria de Patrones: 4 patrones
+[2026-03-07 20:55:31] INFO     [LYZU] [OK] Autoconciencia Operativa: activa (pasiva)
+[2026-03-07 20:55:31] INFO     [LYZU] [OK] Identidad de Autor: VERIFICADA
+[2026-03-07 20:55:31] INFO     [LYZU] [OK] Estado Inicial: Observaci├│n
+[2026-03-07 20:55:31] INFO     [LYZU] ============================================================
+[2026-03-07 20:55:31] INFO     [LYZU] Agente Zuly listo conforme al Protocolo de Identidad
+[2026-03-07 20:55:31] INFO     [LYZU] [FASE 17] Desacoplamiento: ACTIVO (BlenderAdapter)
+[2026-03-07 20:55:31] INFO     [LYZU] ============================================================
+[2026-03-07 20:55:31] INFO     [LYZU] [FASE 18.5] M├│dulos registrados: 6
+[2026-03-07 20:55:31] INFO     [LYZU] 
+============================================================
+[2026-03-07 20:55:31] INFO     [LYZU] NUEVA PETICI├ôN: Limpiar escena
+[2026-03-07 20:55:31] INFO     [LYZU] ============================================================
+[2026-03-07 20:55:31] INFO     [LYZU] Intenciones detectadas: 1
+[2026-03-07 20:55:31] INFO     [LYZU]   1. blender.clear_scene (70%) (confianza: 70.00%)
+[2026-03-07 20:55:31] INFO     [LYZU] 
+Ejecutando intenci├│n principal: blender.clear_scene
+[2026-03-07 20:55:31] INFO     [LYZU] Estado: Evaluaci├│n
+
+Blender quit

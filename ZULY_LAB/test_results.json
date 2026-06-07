@@ -1,0 +1,256 @@
+{
+  "test_date": "2026-02-22T14:58:08.912894",
+  "tests_executed": 21,
+  "tests_passed": 17,
+  "tests_failed": 4,
+  "test_cases": [
+    {
+      "transcript": "tutorial_arquitectura_2d_a_3d.txt",
+      "total_commands": 5,
+      "commands_by_type": {
+        "scale": 2,
+        "extrude": 2,
+        "transform": 1
+      },
+      "test_cases": [
+        {
+          "id": 1,
+          "type": "scale",
+          "raw_command": "[2:03] Vamos a usar planos para el trazado. Shift A -> Mesh -> Plano.",
+          "parsed": "Vamos a usar planos para el trazado. Shift A -> Mesh -> Plano.",
+          "status": "✅ EJECUTADO",
+          "timestamp": "2026-02-22T14:58:09.040203"
+        },
+        {
+          "id": 2,
+          "type": "extrude",
+          "raw_command": "[2:44] Entramos en modo edición (Tab). Ubicamos el plano sobre el muro.",
+          "parsed": "Entramos en modo edición (Tab). Ubicamos el plano sobre el muro.",
+          "status": "✅ EJECUTADO",
+          "timestamp": "2026-02-22T14:58:09.040233"
+        },
+        {
+          "id": 3,
+          "type": "transform",
+          "raw_command": "[5:21] Repetimos: Shift A -> Plano -> Ubicar con G -> Modo Edición -> Modificar ",
+          "parsed": "Repetimos: Shift A -> Plano -> Ubicar con G -> Modo Edición -> Modificar bordes ",
+          "status": "✅ EJECUTADO",
+          "timestamp": "2026-02-22T14:58:09.040243"
+        },
+        {
+          "id": 4,
+          "type": "extrude",
+          "raw_command": "[19:53] Activar Addon: Edit -> Preferences -> Add-ons -> Add Mesh Extra Objects.",
+          "parsed": "Activar Addon: Edit -> Preferences -> Add-ons -> Add Mesh Extra Objects.",
+          "status": "✅ EJECUTADO",
+          "timestamp": "2026-02-22T14:58:09.040249"
+        },
+        {
+          "id": 5,
+          "type": "scale",
+          "raw_command": "[20:09] Shift A -> Mesh -> Single Vert -> Add Single Vert.",
+          "parsed": "Shift A -> Mesh -> Single Vert -> Add Single Vert.",
+          "status": "✅ EJECUTADO",
+          "timestamp": "2026-02-22T14:58:09.040255"
+        }
+      ],
+      "summary": {
+        "executed": 5,
+        "failed": 0,
+        "success_rate": "100%"
+      }
+    },
+    {
+      "transcript": "tutorial_arquitectura_36.txt",
+      "total_commands": 3,
+      "commands_by_type": {
+        "rotate": 2,
+        "scale": 1
+      },
+      "test_cases": [
+        {
+          "id": 1,
+          "type": "rotate",
+          "raw_command": "Paso 1: Crear una estructura básica. Primero presiona Shift A y añade un plano. ",
+          "parsed": "Paso 1: Crear una estructura básica. Primero presiona Shift A y añade un plano. ",
+          "status": "✅ EJECUTADO",
+          "timestamp": "2026-02-22T14:58:09.357584"
+        },
+        {
+          "id": 2,
+          "type": "scale",
+          "raw_command": "Paso 3: Modelar columnas. Presiona Shift A y añade un cilindro. En el menú intro",
+          "parsed": "Paso 3: Modelar columnas. Presiona Shift A y añade un cilindro. En el menú intro",
+          "status": "✅ EJECUTADO",
+          "timestamp": "2026-02-22T14:58:09.357602"
+        },
+        {
+          "id": 3,
+          "type": "rotate",
+          "raw_command": "Paso 4: Finalización y detalles. Presiona F para rellenar con una cara. Haz lo m",
+          "parsed": "Paso 4: Finalización y detalles. Presiona F para rellenar con una cara. Haz lo m",
+          "status": "⚠️ REQUIERE VALIDACIÓN",
+          "timestamp": "2026-02-22T14:58:09.357609"
+        }
+      ],
+      "summary": {
+        "executed": 2,
+        "failed": 1,
+        "success_rate": "67%"
+      }
+    },
+    {
+      "transcript": "tutorial_cortes_bisect.txt",
+      "total_commands": 2,
+      "commands_by_type": {
+        "scale": 1,
+        "cut": 1
+      },
+      "test_cases": [
+        {
+          "id": 1,
+          "type": "scale",
+          "raw_command": "[0:36] Proceso: Seleccionar el modelo, entrar en modo edición (Tab), seleccionar",
+          "parsed": "Proceso: Seleccionar el modelo, entrar en modo edición (Tab), seleccionar todo (",
+          "status": "✅ EJECUTADO",
+          "timestamp": "2026-02-22T14:58:09.593162"
+        },
+        {
+          "id": 2,
+          "type": "cut",
+          "raw_command": "[1:06] Herramienta: Knife -> Bisect (Biseccionar).",
+          "parsed": "Herramienta: Knife -> Bisect (Biseccionar).",
+          "status": "✅ EJECUTADO",
+          "timestamp": "2026-02-22T14:58:09.593179"
+        }
+      ],
+      "summary": {
+        "executed": 2,
+        "failed": 0,
+        "success_rate": "100%"
+      }
+    },
+    {
+      "transcript": "tutorial_fundamentos_42.txt",
+      "total_commands": 5,
+      "commands_by_type": {
+        "scale": 2,
+        "extrude": 1,
+        "rotate": 1,
+        "other": 1
+      },
+      "test_cases": [
+        {
+          "id": 1,
+          "type": "scale",
+          "raw_command": "- Panear: Shift + Botón central.",
+          "parsed": "- Panear: Shift + Botón central.",
+          "status": "✅ EJECUTADO",
+          "timestamp": "2026-02-22T14:58:09.690986"
+        },
+        {
+          "id": 2,
+          "type": "extrude",
+          "raw_command": "[9:52] Importación: Edit -> Preferences -> Add-ons. Activar 'Import-Export AutoC",
+          "parsed": "Importación: Edit -> Preferences -> Add-ons. Activar 'Import-Export AutoCAD DXF'",
+          "status": "✅ EJECUTADO",
+          "timestamp": "2026-02-22T14:58:09.691003"
+        },
+        {
+          "id": 3,
+          "type": "rotate",
+          "raw_command": "[13:30] Unidades: Escena -> Units -> Unit System: Imperial (Pies/Pulgadas) para ",
+          "parsed": "Unidades: Escena -> Units -> Unit System: Imperial (Pies/Pulgadas) para proyecto",
+          "status": "✅ EJECUTADO",
+          "timestamp": "2026-02-22T14:58:09.691023"
+        },
+        {
+          "id": 4,
+          "type": "scale",
+          "raw_command": "[19:34] Duplicar (Shift + D): Para mover aristas sin extruir (marcar huecos de v",
+          "parsed": "Duplicar (Shift + D): Para mover aristas sin extruir (marcar huecos de ventanas)",
+          "status": "✅ EJECUTADO",
+          "timestamp": "2026-02-22T14:58:09.691029"
+        },
+        {
+          "id": 5,
+          "type": "other",
+          "raw_command": "[24:58] Dissolve (X -> Dissolve Faces): Limpiar geometría eliminando aristas red",
+          "parsed": "Dissolve (X -> Dissolve Faces): Limpiar geometría eliminando aristas redundantes",
+          "status": "⚠️ REQUIERE VALIDACIÓN",
+          "timestamp": "2026-02-22T14:58:09.691035"
+        }
+      ],
+      "summary": {
+        "executed": 4,
+        "failed": 1,
+        "success_rate": "80%"
+      }
+    },
+    {
+      "transcript": "tutorial_villa_savoye.txt",
+      "total_commands": 6,
+      "commands_by_type": {
+        "create": 1,
+        "rotate": 2,
+        "scale": 2,
+        "transform": 1
+      },
+      "test_cases": [
+        {
+          "id": 1,
+          "type": "create",
+          "raw_command": "[5:35] Creación de Columnas Circulares: Shift+A -> Mesh -> Circle. En modo edici",
+          "parsed": "Creación de Columnas Circulares: Shift+A -> Mesh -> Circle. En modo edición: A (",
+          "status": "✅ EJECUTADO",
+          "timestamp": "2026-02-22T14:58:09.977421"
+        },
+        {
+          "id": 2,
+          "type": "rotate",
+          "raw_command": "[14:25] Punto de Pivote: Reubicar el origen del objeto (Set Origin -> Origin to ",
+          "parsed": "Punto de Pivote: Reubicar el origen del objeto (Set Origin -> Origin to Cursor) ",
+          "status": "✅ EJECUTADO",
+          "timestamp": "2026-02-22T14:58:09.977438"
+        },
+        {
+          "id": 3,
+          "type": "scale",
+          "raw_command": "[20:15] Modelado de Losas: Seleccionar contorno con Alt + Click (si es polilínea",
+          "parsed": "Modelado de Losas: Seleccionar contorno con Alt + Click (si es polilínea) -> F (",
+          "status": "⚠️ REQUIERE VALIDACIÓN",
+          "timestamp": "2026-02-22T14:58:09.977445"
+        },
+        {
+          "id": 4,
+          "type": "scale",
+          "raw_command": "[28:12] Separación de Objetos: Seleccionar parte del mesh -> L (Linked) -> P (Se",
+          "parsed": "Separación de Objetos: Seleccionar parte del mesh -> L (Linked) -> P (Separate S",
+          "status": "✅ EJECUTADO",
+          "timestamp": "2026-02-22T14:58:09.977450"
+        },
+        {
+          "id": 5,
+          "type": "transform",
+          "raw_command": "[38:53] Limpieza de Geometría: Si hay errores en la extrusión, usar 'Merge by Di",
+          "parsed": "Limpieza de Geometría: Si hay errores en la extrusión, usar 'Merge by Distance' ",
+          "status": "✅ EJECUTADO",
+          "timestamp": "2026-02-22T14:58:09.977455"
+        },
+        {
+          "id": 6,
+          "type": "rotate",
+          "raw_command": "[40:35] Ventanas y Carpintería: Duplicar aristas (Shift+D), extrudir y repetir a",
+          "parsed": "Ventanas y Carpintería: Duplicar aristas (Shift+D), extrudir y repetir acciones ",
+          "status": "⚠️ REQUIERE VALIDACIÓN",
+          "timestamp": "2026-02-22T14:58:09.977460"
+        }
+      ],
+      "summary": {
+        "executed": 4,
+        "failed": 2,
+        "success_rate": "67%"
+      }
+    }
+  ]
+}
