@@ -337,6 +337,31 @@ class Agent:
                 'feedback': 'Por favor, proporciona una petición válida.'
             }
             
+        # --- CORTAFUEGOS DE MEMORIA (RAM MONITOR) ---
+        try:
+            import psutil
+            ram_percent = psutil.virtual_memory().percent
+            if ram_percent > 85.0:
+                log_warning(f"CRÍTICO: RAM al {ram_percent}%. Forzando limpieza (Garbage Collection).")
+                # Intentamos purgar huérfanos si estamos conectados a Blender
+                if self.engine_adapter.is_available():
+                    try:
+                        import bpy
+                        bpy.ops.outliner.orphans_purge(do_local_ids=True, do_linked_ids=True, do_recursive=True)
+                        log_info("✓ Memoria huérfana de Blender purgada.")
+                    except:
+                        pass
+                        
+                return {
+                    'success': False,
+                    'error': 'MEMORIA SATURADA',
+                    'status': 'PAUSA_SEGURIDAD',
+                    'feedback': f'Servidor al {ram_percent}% de RAM. Pausando el ciclo para evitar colapso. Memoria purgada.'
+                }
+        except ImportError:
+            pass # Si psutil no está instalado, ignorar
+        # ---------------------------------------------
+
         # 0. PROTOCOLO NEGRO (FASE 16) - MÁXIMA PRIORIDAD
         # A. Bloqueo Persistente (Modo Negro)
         if BlackProtocol.is_active():
@@ -534,6 +559,21 @@ class Agent:
 
         # Confianza mínima para ejecución básica
         if best_intent.confidence < 0.7:
+            # --- ZULY AUTO-CODING FALLBACK ---
+            log_warning(f"Confianza baja ({best_intent.confidence:.2%}). Activando Auto-Coding para generar nuevo Handler.")
+            from core.utils.auto_coder import generate_and_register_handler
+            if generate_and_register_handler(user_request):
+                # Recargar intent router para que reconozca el nuevo comando
+                from core.commands.blender_command_registry import register_blender_handlers
+                register_blender_handlers(self.intent_router)
+                
+                return {
+                    'success': True,
+                    'error': None,
+                    'feedback': f"¡Zuly aprendió algo nuevo! He auto-programado un handler para: '{user_request}'. Inténtalo de nuevo en el siguiente ciclo."
+                }
+            # ---------------------------------
+            
             self.operational_state = "Solicitud de Aclaración"
             status_msg = f"Estado: {self.operational_state}. Confianza insuficiente ({best_intent.confidence:.2%})."
             log_warning(status_msg)
