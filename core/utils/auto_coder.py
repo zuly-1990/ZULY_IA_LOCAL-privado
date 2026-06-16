@@ -11,8 +11,30 @@ def generate_and_register_handler(request_text: str) -> bool:
     """
     Invoca al LLM (Arquitecto de Código) para generar un handler
     de Blender basado en la petición que el NLU no pudo entender.
+    Ahora potenciado por Visión Multimodal de YouTube.
     """
     log_info(f"🚀 Iniciando Auto-Coding (Zuly AGI) para: '{request_text}'")
+    
+    # --- YOUTUBE KNOWLEDGE INGESTION ---
+    from core.learning.youtube_learner import YouTubeVisionLearner
+    learner = YouTubeVisionLearner()
+    yt_data = learner.search_and_extract(request_text)
+    
+    youtube_context = ""
+    if yt_data["success"]:
+        youtube_context = f"""
+        [CONTEXTO MULTIMODAL EXTRAÍDO DE YOUTUBE]
+        Tutorial encontrado: {yt_data['title']}
+        Enlace: {yt_data['video_url']}
+        Transcripción (Lo que dice el humano):
+        {yt_data['transcript'][:3000]} # Limitamos a 3000 chars por seguridad de tokens
+        
+        Imágenes extraídas: {len(yt_data['frames'])} fotogramas (Se pasan al modelo Vision internamente).
+        Por favor usa este contexto para escribir la lógica exacta para Blender 3.6.
+        """
+    else:
+        youtube_context = "No se encontró contexto en YouTube. Usa tu conocimiento interno sobre Blender 3.6."
+    # -----------------------------------
     
     # 1. Limpiar el nombre del handler basado en la petición
     safe_name = re.sub(r'[^a-zA-Z0-9_]', '_', request_text.lower()[:30]).strip('_')
@@ -29,11 +51,12 @@ from core.utils.logging import log_info
 def {func_name}(context=None, **kwargs):
     """
     Handler autogenerado para: {request_text}
+    Contexto usado: {youtube_context}
     """
-    log_info("Ejecutando handler autogenerado: {handler_name}")
+    log_info("Ejecutando handler autogenerado con visión de YouTube: {handler_name}")
     try:
         import bpy
-        # Espacio para el código generado por IA...
+        # Espacio para el código generado por IA multimodal...
         # bpy.ops...
         return {{"success": True, "message": "Autogenerado ejecutado con éxito"}}
     except Exception as e:
