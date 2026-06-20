@@ -447,6 +447,55 @@ class BlenderAdapter(EngineAdapter):
                 EngineError.OPERATION_FAILED,
                 f"Error escalando objeto: {e}"
             )
+            
+    def execute_geometry_nodes_script(self, target_object: str, script_code: str) -> Dict[str, Any]:
+        """Ejecuta un script de Python de forma controlada para generar Geometry Nodes."""
+        if not self.is_available():
+            return self._error_response(EngineError.ENGINE_NOT_AVAILABLE, "Blender no está disponible")
+            
+        try:
+            # 1. Encontrar el objeto destino
+            obj = self._find_object(target_object)
+            if not obj:
+                return self._error_response(EngineError.OBJECT_NOT_FOUND, f"Objeto destino '{target_object}' no encontrado.")
+                
+            # 2. Preparar el entorno seguro (locals)
+            # Solo pasamos bpy, math, y el objeto target.
+            import math
+            safe_locals = {
+                'bpy': self._bpy,
+                'math': math,
+                'target_obj': obj
+            }
+            
+            # 3. Limpiar el código (evitar intentos de imports maliciosos o funciones destructivas)
+            forbidden_keywords = ['import os', 'import sys', 'import subprocess', 'open(', 'eval(', 'exec(']
+            for kw in forbidden_keywords:
+                if kw in script_code:
+                    return self._error_response(EngineError.INVALID_PARAMS, f"Código inseguro detectado: {kw}")
+                    
+            # 4. Asegurar que el objeto tiene un modificador de Geometry Nodes
+            has_geonodes = any(mod.type == 'NODES' for mod in obj.modifiers)
+            if not has_geonodes:
+                # Crearlo automáticamente si el script no lo asume
+                mod = obj.modifiers.new(name="Zuly_GeoNodes", type='NODES')
+                if not mod.node_group:
+                    mod.node_group = self._bpy.data.node_groups.new('Zuly_GeoNodesGroup', 'GeometryNodeTree')
+                    
+            # 5. Ejecutar el script usando exec() dentro del entorno controlado
+            log_info(f"⚙️ [GeoNodes] Ejecutando script de {len(script_code)} caracteres sobre '{target_object}'")
+            exec(script_code, {"__builtins__": {}}, safe_locals)
+            
+            return self._success_response(
+                object_name=obj.name,
+                message="Geometry Nodes aplicados exitosamente mediante script de IA."
+            )
+            
+        except Exception as e:
+            import traceback
+            error_msg = f"Error ejecutando script de GeoNodes: {str(e)}\n{traceback.format_exc()}"
+            log_error(error_msg)
+            return self._error_response(EngineError.OPERATION_FAILED, str(e))
     
     # ========================================================================
     # ESCENA Y OBSERVACIÓN

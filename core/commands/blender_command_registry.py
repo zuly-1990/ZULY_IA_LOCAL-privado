@@ -69,6 +69,9 @@ from core.commands.blender_handlers.assembly import (
 # Import handlers de scripting (FASE B)
 from core.commands.blender_handlers.scripting import run_python_script_handler
 
+# Import handlers de geometry nodes
+from core.commands.blender_handlers.geonodes import generate_geometry_nodes_handler
+
 # Import handlers arquitectónicos (Assembly Patterns)
 from core.commands.blender_handlers.architectural import (
     crear_columna_handler,
