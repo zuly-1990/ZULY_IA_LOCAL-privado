@@ -165,7 +165,17 @@ Usa emojis para mantener la conversación fresca.
 
                                 # Formar el prompt conversacional
                                 full_prompt = f"{system_prompt}{contexto_memoria}\n\nMensaje del creador: {text}\nZULY:"
-                                respuesta_ia = api.call_advanced_model(full_prompt)
+                                
+                                # Enrutamiento Dinámico: Usar DeepSeek para generar código
+                                trigger_words = ["codigo", "código", "python", "blender", "script", "deepseek", "programa", "genera", "modela", "crea", "haz"]
+                                if any(word in text.lower() for word in trigger_words):
+                                    print("[TELEGRAM] Petición de código detectada. Enrutando a DeepSeek (Code Architect)...")
+                                    respuesta_ia = api.call_coder_model(full_prompt)
+                                    if "ERROR" in respuesta_ia:
+                                        print("[TELEGRAM] Fallo en DeepSeek. Usando Gemini como respaldo...")
+                                        respuesta_ia = api.call_advanced_model(full_prompt)
+                                else:
+                                    respuesta_ia = api.call_advanced_model(full_prompt)
                                 
                                 # Auto-aprendizaje: Guardar interacción importante
                                 if len(text) > 15:
