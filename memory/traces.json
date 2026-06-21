@@ -12583,5 +12583,555 @@
       "execution_success": false,
       "error": "Autor No Verificado - MODO NEGRO"
     }
+  },
+  {
+    "timestamp": "2026-06-07T13:15:01.944892",
+    "data": {
+      "intention": "blender.create_cube",
+      "confidence": 0.95,
+      "guard_result": {
+        "status": "PERMITIDO",
+        "reason": "Contexto validado y coherente."
+      },
+      "auth_result": {
+        "risk": "MEDIUM",
+        "action": "ASK",
+        "reason": "La acción 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmación humana."
+      },
+      "execution_success": false,
+      "error": "Autor No Verificado - MODO NEGRO"
+    }
+  },
+  {
+    "timestamp": "2026-06-20T19:22:41.027171",
+    "data": {
+      "intention": "blender.create_cube",
+      "confidence": 0.85,
+      "guard_result": {
+        "status": "PERMITIDO",
+        "reason": "Contexto validado y coherente."
+      },
+      "auth_result": {
+        "risk": "MEDIUM",
+        "action": "ASK",
+        "reason": "La acción 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmación humana."
+      },
+      "auth_simulated": true,
+      "status": "AUTO_AUTHORIZED_FOR_TEST"
+    }
+  },
+  {
+    "timestamp": "2026-06-20T19:22:41.088961",
+    "data": {
+      "intention": "blender.create_cube",
+      "confidence": 0.85,
+      "parameters": {
+        "_nlu_entities": {
+          "objeto": {
+            "value": "Cube",
+            "confidence": 0.95,
+            "type": "object"
+          },
+          "color": {
+            "value": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "confidence": 0.9,
+            "type": "color"
+          }
+        },
+        "color": "rojo"
+      },
+      "guard_result": {
+        "status": "PERMITIDO",
+        "reason": "Contexto validado y coherente."
+      },
+      "auth_result": {
+        "risk": "MEDIUM",
+        "action": "ASK",
+        "reason": "La acción 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmación humana."
+      },
+      "execution_success": true,
+      "execution_details": {
+        "success": true,
+        "object_name": "Cube_001",
+        "location": [
+          0,
+          0,
+          0
+        ],
+        "scale": 1.0,
+        "message": "Cubo creado exitosamente en [0, 0, 0]",
+        "cognition_diagnosis": {
+          "timestamp": "2026-06-20T19:22:41.087953",
+          "status": "PROBABLY_OK",
+          "score": 0.5,
+          "findings": [],
+          "recommendations": []
+        },
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_cube",
+        "effect": "create",
+        "result": {
+          "name": "Cube_001"
+        },
+        "validation_v0": {
+          "verified": true,
+          "details": "Objeto 'Cube_001' existe físicamente.",
+          "new_objects": [
+            "Cube_001"
+          ]
+        },
+        "validation_v1": {
+          "verified": true,
+          "details": "Estructura de 'Cube_001' correcta."
+        }
+      },
+      "explanation": "La acción 'BLENDER.CREATE_CUBE' fue realizada con éxito. Ejecutado correctamente"
+    }
+  },
+  {
+    "timestamp": "2026-06-20T19:23:27.476069",
+    "data": {
+      "intention": "blender.create_cube",
+      "confidence": 0.85,
+      "guard_result": {
+        "status": "PERMITIDO",
+        "reason": "Contexto validado y coherente."
+      },
+      "auth_result": {
+        "risk": "MEDIUM",
+        "action": "ASK",
+        "reason": "La acción 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmación humana."
+      },
+      "auth_simulated": true,
+      "status": "AUTO_AUTHORIZED_FOR_TEST"
+    }
+  },
+  {
+    "timestamp": "2026-06-20T19:23:27.540483",
+    "data": {
+      "intention": "blender.create_cube",
+      "confidence": 0.85,
+      "parameters": {
+        "_nlu_entities": {
+          "objeto": {
+            "value": "Cube",
+            "confidence": 0.95,
+            "type": "object"
+          },
+          "color": {
+            "value": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "confidence": 0.9,
+            "type": "color"
+          }
+        },
+        "color": "rojo"
+      },
+      "guard_result": {
+        "status": "PERMITIDO",
+        "reason": "Contexto validado y coherente."
+      },
+      "auth_result": {
+        "risk": "MEDIUM",
+        "action": "ASK",
+        "reason": "La acción 'BLENDER.CREATE_CUBE' tiene un riesgo moderado. Se requiere confirmación humana."
+      },
+      "execution_success": true,
+      "execution_details": {
+        "success": true,
+        "object_name": "Cube_001",
+        "location": [
+          0,
+          0,
+          0
+        ],
+        "scale": 1.0,
+        "message": "Cubo creado exitosamente en [0, 0, 0]",
+        "cognition_diagnosis": {
+          "timestamp": "2026-06-20T19:23:27.540483",
+          "status": "PROBABLY_OK",
+          "score": 0.5,
+          "findings": [],
+          "recommendations": []
+        },
+        "route": "INTENT_ROUTER",
+        "handler": "blender.create_cube",
+        "effect": "create",
+        "result": {
+          "name": "Cube_001"
+        },
+        "validation_v0": {
+          "verified": true,
+          "details": "Objeto 'Cube_001' existe físicamente.",
+          "new_objects": [
+            "Cube_001"
+          ]
+        },
+        "validation_v1": {
+          "verified": true,
+          "details": "Estructura de 'Cube_001' correcta."
+        }
+      },
+      "explanation": "La acción 'BLENDER.CREATE_CUBE' fue realizada con éxito. Ejecutado correctamente"
+    }
+  },
+  {
+    "timestamp": "2026-06-20T19:31:25.893009",
+    "data": {
+      "intention": "blender.clear_scene",
+      "confidence": 0.95,
+      "guard_result": {
+        "status": "PERMITIDO",
+        "reason": "Contexto validado y coherente."
+      },
+      "auth_result": {
+        "risk": "MEDIUM",
+        "action": "ASK",
+        "reason": "La acción 'BLENDER.CLEAR_SCENE' tiene un riesgo moderado. Se requiere confirmación humana."
+      },
+      "auth_simulated": true,
+      "status": "AUTO_AUTHORIZED_FOR_TEST"
+    }
+  },
+  {
+    "timestamp": "2026-06-20T19:31:25.949512",
+    "data": {
+      "intention": "blender.clear_scene",
+      "confidence": 0.95,
+      "parameters": {
+        "_force_execute": false
+      },
+      "guard_result": {
+        "status": "PERMITIDO",
+        "reason": "Contexto validado y coherente."
+      },
+      "auth_result": {
+        "risk": "MEDIUM",
+        "action": "ASK",
+        "reason": "La acción 'BLENDER.CLEAR_SCENE' tiene un riesgo moderado. Se requiere confirmación humana."
+      },
+      "execution_success": false,
+      "execution_details": {
+        "success": false,
+        "status": "requires_confirmation",
+        "command_pending": "blender.clear_scene",
+        "parameters_pending": {
+          "_force_execute": false
+        },
+        "reason": "Peligro de borrar todo el proyecto.",
+        "feedback": "🛑 GUARDIA ACTIVO: Peligro de borrar todo el proyecto. ¿Autorizas continuar?"
+      },
+      "explanation": "Intenté ejecutar 'BLENDER.CLEAR_SCENE' pero ocurrió un error técnico: OK"
+    }
+  },
+  {
+    "timestamp": "2026-06-20T19:31:26.013250",
+    "data": {
+      "intention": "blender.clear_scene",
+      "confidence": 0.95,
+      "guard_result": {
+        "status": "PERMITIDO",
+        "reason": "Contexto validado y coherente."
+      },
+      "auth_result": {
+        "risk": "MEDIUM",
+        "action": "ASK",
+        "reason": "La acción 'BLENDER.CLEAR_SCENE' tiene un riesgo moderado. Se requiere confirmación humana."
+      },
+      "auth_simulated": true,
+      "status": "AUTO_AUTHORIZED_FOR_TEST"
+    }
+  },
+  {
+    "timestamp": "2026-06-20T19:31:26.081482",
+    "data": {
+      "intention": "blender.clear_scene",
+      "confidence": 0.95,
+      "parameters": {
+        "_force_execute": false
+      },
+      "guard_result": {
+        "status": "PERMITIDO",
+        "reason": "Contexto validado y coherente."
+      },
+      "auth_result": {
+        "risk": "MEDIUM",
+        "action": "ASK",
+        "reason": "La acción 'BLENDER.CLEAR_SCENE' tiene un riesgo moderado. Se requiere confirmación humana."
+      },
+      "execution_success": false,
+      "execution_details": {
+        "success": false,
+        "status": "requires_confirmation",
+        "command_pending": "blender.clear_scene",
+        "parameters_pending": {
+          "_force_execute": false
+        },
+        "reason": "Peligro de borrar todo el proyecto.",
+        "feedback": "🛑 GUARDIA ACTIVO: Peligro de borrar todo el proyecto. ¿Autorizas continuar?"
+      },
+      "explanation": "Intenté ejecutar 'BLENDER.CLEAR_SCENE' pero ocurrió un error técnico: OK"
+    }
+  },
+  {
+    "timestamp": "2026-06-20T19:32:18.994412",
+    "data": {
+      "intention": "blender.clear_scene",
+      "confidence": 0.95,
+      "guard_result": {
+        "status": "PERMITIDO",
+        "reason": "Contexto validado y coherente."
+      },
+      "auth_result": {
+        "risk": "MEDIUM",
+        "action": "ASK",
+        "reason": "La acción 'BLENDER.CLEAR_SCENE' tiene un riesgo moderado. Se requiere confirmación humana."
+      },
+      "auth_simulated": true,
+      "status": "AUTO_AUTHORIZED_FOR_TEST"
+    }
+  },
+  {
+    "timestamp": "2026-06-20T19:32:19.057217",
+    "data": {
+      "intention": "blender.clear_scene",
+      "confidence": 0.95,
+      "parameters": {
+        "_force_execute": false
+      },
+      "guard_result": {
+        "status": "PERMITIDO",
+        "reason": "Contexto validado y coherente."
+      },
+      "auth_result": {
+        "risk": "MEDIUM",
+        "action": "ASK",
+        "reason": "La acción 'BLENDER.CLEAR_SCENE' tiene un riesgo moderado. Se requiere confirmación humana."
+      },
+      "execution_success": false,
+      "execution_details": {
+        "success": false,
+        "status": "requires_confirmation",
+        "command_pending": "blender.clear_scene",
+        "parameters_pending": {
+          "_force_execute": false
+        },
+        "reason": "Peligro de borrar todo el proyecto.",
+        "feedback": "🛑 GUARDIA ACTIVO: Peligro de borrar todo el proyecto. ¿Autorizas continuar?"
+      },
+      "explanation": "Intenté ejecutar 'BLENDER.CLEAR_SCENE' pero ocurrió un error técnico: OK"
+    }
+  },
+  {
+    "timestamp": "2026-06-20T19:32:19.136334",
+    "data": {
+      "intention": "blender.clear_scene",
+      "confidence": 0.95,
+      "guard_result": {
+        "status": "PERMITIDO",
+        "reason": "Contexto validado y coherente."
+      },
+      "auth_result": {
+        "risk": "MEDIUM",
+        "action": "ASK",
+        "reason": "La acción 'BLENDER.CLEAR_SCENE' tiene un riesgo moderado. Se requiere confirmación humana."
+      },
+      "auth_simulated": true,
+      "status": "AUTO_AUTHORIZED_FOR_TEST"
+    }
+  },
+  {
+    "timestamp": "2026-06-20T19:32:19.200293",
+    "data": {
+      "intention": "blender.clear_scene",
+      "confidence": 0.95,
+      "parameters": {
+        "_force_execute": false
+      },
+      "guard_result": {
+        "status": "PERMITIDO",
+        "reason": "Contexto validado y coherente."
+      },
+      "auth_result": {
+        "risk": "MEDIUM",
+        "action": "ASK",
+        "reason": "La acción 'BLENDER.CLEAR_SCENE' tiene un riesgo moderado. Se requiere confirmación humana."
+      },
+      "execution_success": false,
+      "execution_details": {
+        "success": false,
+        "status": "requires_confirmation",
+        "command_pending": "blender.clear_scene",
+        "parameters_pending": {
+          "_force_execute": false
+        },
+        "reason": "Peligro de borrar todo el proyecto.",
+        "feedback": "🛑 GUARDIA ACTIVO: Peligro de borrar todo el proyecto. ¿Autorizas continuar?"
+      },
+      "explanation": "Intenté ejecutar 'BLENDER.CLEAR_SCENE' pero ocurrió un error técnico: OK"
+    }
+  },
+  {
+    "timestamp": "2026-06-20T19:32:49.569546",
+    "data": {
+      "intention": "blender.clear_scene",
+      "confidence": 0.95,
+      "guard_result": {
+        "status": "PERMITIDO",
+        "reason": "Contexto validado y coherente."
+      },
+      "auth_result": {
+        "risk": "MEDIUM",
+        "action": "ASK",
+        "reason": "La acción 'BLENDER.CLEAR_SCENE' tiene un riesgo moderado. Se requiere confirmación humana."
+      },
+      "auth_simulated": true,
+      "status": "AUTO_AUTHORIZED_FOR_TEST"
+    }
+  },
+  {
+    "timestamp": "2026-06-20T19:32:49.625000",
+    "data": {
+      "intention": "blender.clear_scene",
+      "confidence": 0.95,
+      "parameters": {
+        "_force_execute": false
+      },
+      "guard_result": {
+        "status": "PERMITIDO",
+        "reason": "Contexto validado y coherente."
+      },
+      "auth_result": {
+        "risk": "MEDIUM",
+        "action": "ASK",
+        "reason": "La acción 'BLENDER.CLEAR_SCENE' tiene un riesgo moderado. Se requiere confirmación humana."
+      },
+      "execution_success": false,
+      "execution_details": {
+        "success": false,
+        "status": "requires_confirmation",
+        "command_pending": "blender.clear_scene",
+        "parameters_pending": {
+          "_force_execute": false
+        },
+        "reason": "Peligro de borrar todo el proyecto.",
+        "feedback": "🛑 GUARDIA ACTIVO: Peligro de borrar todo el proyecto. ¿Autorizas continuar?"
+      },
+      "explanation": "Intenté ejecutar 'BLENDER.CLEAR_SCENE' pero ocurrió un error técnico: OK"
+    }
+  },
+  {
+    "timestamp": "2026-06-20T19:32:49.685741",
+    "data": {
+      "intention": "blender.clear_scene",
+      "confidence": 0.95,
+      "guard_result": {
+        "status": "PERMITIDO",
+        "reason": "Contexto validado y coherente."
+      },
+      "auth_result": {
+        "risk": "MEDIUM",
+        "action": "ASK",
+        "reason": "La acción 'BLENDER.CLEAR_SCENE' tiene un riesgo moderado. Se requiere confirmación humana."
+      },
+      "auth_simulated": true,
+      "status": "AUTO_AUTHORIZED_FOR_TEST"
+    }
+  },
+  {
+    "timestamp": "2026-06-20T19:32:49.742523",
+    "data": {
+      "intention": "blender.clear_scene",
+      "confidence": 0.95,
+      "parameters": {
+        "_force_execute": false
+      },
+      "guard_result": {
+        "status": "PERMITIDO",
+        "reason": "Contexto validado y coherente."
+      },
+      "auth_result": {
+        "risk": "MEDIUM",
+        "action": "ASK",
+        "reason": "La acción 'BLENDER.CLEAR_SCENE' tiene un riesgo moderado. Se requiere confirmación humana."
+      },
+      "execution_success": false,
+      "execution_details": {
+        "success": false,
+        "status": "requires_confirmation",
+        "command_pending": "blender.clear_scene",
+        "parameters_pending": {
+          "_force_execute": false
+        },
+        "reason": "Peligro de borrar todo el proyecto.",
+        "feedback": "🛑 GUARDIA ACTIVO: Peligro de borrar todo el proyecto. ¿Autorizas continuar?"
+      },
+      "explanation": "Intenté ejecutar 'BLENDER.CLEAR_SCENE' pero ocurrió un error técnico: OK"
+    }
+  },
+  {
+    "timestamp": "2026-06-20T19:32:49.808996",
+    "data": {
+      "intention": "blender.clear_scene",
+      "confidence": 0.95,
+      "guard_result": {
+        "status": "PERMITIDO",
+        "reason": "Contexto validado y coherente."
+      },
+      "auth_result": {
+        "risk": "MEDIUM",
+        "action": "ASK",
+        "reason": "La acción 'BLENDER.CLEAR_SCENE' tiene un riesgo moderado. Se requiere confirmación humana."
+      },
+      "auth_simulated": true,
+      "status": "AUTO_AUTHORIZED_FOR_TEST"
+    }
+  },
+  {
+    "timestamp": "2026-06-20T19:32:49.869968",
+    "data": {
+      "intention": "blender.clear_scene",
+      "confidence": 0.95,
+      "parameters": {
+        "_force_execute": true
+      },
+      "guard_result": {
+        "status": "PERMITIDO",
+        "reason": "Contexto validado y coherente."
+      },
+      "auth_result": {
+        "risk": "MEDIUM",
+        "action": "ASK",
+        "reason": "La acción 'BLENDER.CLEAR_SCENE' tiene un riesgo moderado. Se requiere confirmación humana."
+      },
+      "execution_success": false,
+      "execution_details": {
+        "success": false,
+        "cognition_diagnosis": {
+          "timestamp": "2026-06-20T19:32:49.869968",
+          "status": "PROBABLY_OK",
+          "score": 0.5,
+          "findings": [],
+          "recommendations": []
+        },
+        "route": "INTENT_ROUTER",
+        "handler": "blender.clear_scene",
+        "effect": "delete",
+        "result": {},
+        "validation_v0": {
+          "verified": false,
+          "details": "No se especificó objeto a eliminar"
+        },
+        "error": "Error de Validación V0: No se especificó objeto a eliminar"
+      },
+      "explanation": "Intenté ejecutar 'BLENDER.CLEAR_SCENE' pero ocurrió un error técnico: Error de Validación V0: No se especificó objeto a eliminar"
+    }
   }
 ]

@@ -110,3 +110,6 @@ Este archivo registra las decisiones técnicas y creativas que ZULY ha incorpora
 | 2026-05-31 12:11:13 | SÍ | Ejecución con Aprendizaje | 0.85 | blender.create_cube: {'_nlu_entities': {'objeto': {'value': 'Cube', 'confidence': 0.95, 'type': 'object'}}} | ÉXITO |
 | 2026-05-31 18:56:29 | Usuario no verificado | Bloqueo por Identidad (MODO NEGRO) | Bloqueo Ético / Seguridad |
 | 2026-05-31 18:58:31 | Usuario no verificado | Bloqueo por Identidad (MODO NEGRO) | Bloqueo Ético / Seguridad |
+| 2026-06-07 13:15:01 | Usuario no verificado | Bloqueo por Identidad (MODO NEGRO) | Bloqueo Ético / Seguridad |
+| 2026-06-20 19:22:41 | SÍ | Ejecución con Aprendizaje | 0.85 | blender.create_cube: {'_nlu_entities': {'objeto': {'value': 'Cube', 'confidence': 0.95, 'type': 'object'}, 'color': {'value': (1.0, 0.0, 0.0), 'confidence': 0.9, 'type': 'color'}}, 'color': 'rojo'} | ÉXITO |
+| 2026-06-20 19:23:27 | SÍ | Ejecución con Aprendizaje | 0.85 | blender.create_cube: {'_nlu_entities': {'objeto': {'value': 'Cube', 'confidence': 0.95, 'type': 'object'}, 'color': {'value': (1.0, 0.0, 0.0), 'confidence': 0.9, 'type': 'color'}}, 'color': 'rojo'} | ÉXITO |

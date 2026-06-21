@@ -1,0 +1,9 @@
+Blender 3.6.0 (hash c7fc78b81ecb built 2023-06-27 08:23:50)
+Error: Python: Traceback (most recent call last):
+  File "/opt/zuly/temp_telegram_script.py", line 19, in <module>
+    bpy.ops.import_scene.dxf(filepath=DXF_PATH)
+  File "/opt/blender/3.6/scripts/modules/bpy/ops.py", line 113, in __call__
+    ret = _op_call(self.idname_py(), None, kw)
+AttributeError: Calling operator "bpy.ops.import_scene.dxf" error, could not be found
+
+Blender quit

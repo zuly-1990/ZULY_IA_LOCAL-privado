@@ -780,5 +780,73 @@
       "last_used": null,
       "status": "STAGING"
     }
+  },
+  {
+    "pattern_id": "0aa39816-ab2f-4811-a9f7-f89948563037",
+    "timestamp": "2026-06-20T19:22:41.141255",
+    "user_request": "crea un cubo rojo",
+    "command_executed": "blender.create_cube",
+    "confidence": 0.85,
+    "parameters": {
+      "_nlu_entities": {
+        "objeto": {
+          "value": "Cube",
+          "confidence": 0.95,
+          "type": "object"
+        },
+        "color": {
+          "value": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "confidence": 0.9,
+          "type": "color"
+        }
+      },
+      "color": "rojo"
+    },
+    "validation": {
+      "verified": true,
+      "details": "Objeto 'Cube_001' existe físicamente.",
+      "new_objects": [
+        "Cube_001"
+      ]
+    },
+    "scene_state_pre": {},
+    "scene_state": {
+      "Cube_001": {
+        "type": "MESH",
+        "location": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "collection": "Scene Collection",
+        "visible": true,
+        "parent": null,
+        "vertex_count": 24,
+        "name": "Cube_001"
+      }
+    },
+    "mode": "REACTIVE",
+    "metadata": {
+      "uses": 0,
+      "successes": 0,
+      "fails": 0,
+      "consecutive_successes": 0,
+      "last_used": null,
+      "status": "STAGING"
+    }
   }
 ]

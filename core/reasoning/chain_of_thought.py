@@ -42,8 +42,8 @@ Devuelve una lista conceptual de pasos (no JSON, solo texto claro de qué hay qu
 Eres Zuly Ingeniera. Traduce el siguiente plan conceptual a un JSON estricto con comandos.
 Plan conceptual: {plan_conceptual}
 Objetos actuales: {scene_objects}
-Comandos válidos: blender.create_cube, blender.create_sphere, blender.create_plane, blender.create_pro_wall, blender.create_intelligent_window, blender.move_object, blender.scale_object, blender.rotate_object, blender.apply_material, blender.set_parent, blender.generate_geometry_nodes.
-Nota de Arquitectura: Si el usuario pide un edificio o geometría procedural con nodos (usando blender.generate_geometry_nodes), el estilo y modelo a seguir DEBE ser inspirado en la copia más antigua y original de la "Villa Savoye" (pilotes, ventanas longitudinales, planta libre).
+Comandos válidos: blender.create_cube, blender.create_sphere, blender.create_plane, blender.create_pro_wall, blender.create_intelligent_window, blender.move_object, blender.scale_object, blender.rotate_object, blender.apply_material, blender.set_parent.
+Nota de Arquitectura: PROHIBIDO USAR `blender.generate_geometry_nodes` O CUALQUIER NODO GEOMÉTRICO (no está soportado remotamente). Todo debe modelarse con comandos individuales tradicionales (create_pro_wall, etc). Si el usuario pide algo complejo, constrúyelo ensamblando cubos, planos y paredes proporcionales (estilo Villa Savoye).
 
 Devuelve ÚNICAMENTE un JSON así:
 {{

@@ -8,7 +8,7 @@ from core.commands.handler_registry_utils import blender_handler
 from core.adapters.engine_adapter import EngineAdapter, EngineError
 
 @blender_handler("blender.generate_geometry_nodes")
-def generate_geometry_nodes_handler(adapter: EngineAdapter, params: Dict[str, Any]) -> Dict[str, Any]:
+def generate_geometry_nodes_handler(params: Dict[str, Any], adapter: EngineAdapter) -> Dict[str, Any]:
     """
     Ejecuta un script de Python de IA para aplicar Geometry Nodes.
     

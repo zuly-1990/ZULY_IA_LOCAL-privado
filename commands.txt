@@ -1,0 +1,4 @@
+status
+history
+crea un cubo rojo
+exit

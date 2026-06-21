@@ -6,6 +6,19 @@ __pycache__/
 *.pyo
 .pytest_cache/
 
+# Node.js
+node_modules/
+
+# Archivos pesados (Bloqueados para GitHub)
+*.blend
+*.blend1
+*.png
+*.jpg
+*.jpeg
+*.gz
+*.rar
+*.zip
+
 # Blender binarios (demasiado pesados para git)
 blender/
 

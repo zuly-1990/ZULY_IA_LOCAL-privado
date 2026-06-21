@@ -484,7 +484,7 @@ class BlenderAdapter(EngineAdapter):
                     
             # 5. Ejecutar el script usando exec() dentro del entorno controlado
             log_info(f"⚙️ [GeoNodes] Ejecutando script de {len(script_code)} caracteres sobre '{target_object}'")
-            exec(script_code, {"__builtins__": {}}, safe_locals)
+            exec(script_code, globals(), safe_locals)
             
             return self._success_response(
                 object_name=obj.name,

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZULY - Panel de Autonomía Total</title>
+    <style>
+        :root {
+            --bg-dark: #0f172a;
+            --panel-bg: #1e293b;
+            --accent: #3b82f6;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+        .panel {
+            background-color: var(--panel-bg);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            overflow-y: auto;
+            border: 1px solid #334155;
+        }
+        h2 {
+            margin-top: 0;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 10px;
+            color: var(--accent);
+        }
+        .log-entry {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 6px;
+            background-color: #0f172a;
+            font-family: monospace;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .badge.local { background-color: var(--success); color: white; }
+        .badge.reinforce { background-color: var(--warning); color: black; }
+        .badge.advanced { background-color: var(--danger); color: white; }
+        
+        .metric {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            padding: 10px;
+            background: #334155;
+            border-radius: 6px;
+        }
+        .btn {
+            background-color: var(--accent);
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+        .btn:hover { background-color: #2563eb; }
+        input[type="text"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            border-radius: 6px;
+            border: 1px solid #475569;
+            background-color: #0f172a;
+            color: white;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Panel de Simulación NLU -->
+    <div class="panel">
+        <h2>🧠 Simulador de Autonomía (Enrutamiento)</h2>
+        <p>Escribe un comando para ver cómo ZULY decide rutearlo usando el <strong>Confidence Router</strong> y el <strong>Multi-API Orchestrator</strong>.</p>
+        
+        <input type="text" id="commandInput" placeholder="Ej: Construye los muros del primer piso (basado en YouTube)...">
+        <button class="btn" onclick="simulateCommand()">Enviar Comando a ZULY</button>
+        
+        <div id="routingLogs" style="margin-top: 20px;">
+            <!-- Logs aparecerán aquí -->
+        </div>
+    </div>
+
+    <!-- Panel de Métricas RAG y Factoría -->
+    <div class="panel">
+        <h2>📊 Estado del Sistema ZULY</h2>
+        
+        <div class="metric">
+            <span>RAG (Memoria Local) - Tamaño Estimado</span>
+            <span style="color: var(--success); font-weight: bold;">+1,450 Vectores (Tutoriales + Addons)</span>
+        </div>
+        <div class="metric">
+            <span>Ahorro de API Diario (Groq + RAG)</span>
+            <span style="color: var(--success); font-weight: bold;">92%</span>
+        </div>
+        <div class="metric">
+            <span>Handlers Auto-Generados Seguros</span>
+            <span style="color: var(--accent); font-weight: bold;">12 Activos</span>
+        </div>
+        
+        <h3 style="margin-top:30px;">🛠️ Auto-Reparación y Fábrica</h3>
+        <p>Simular fallo en Blender (No se seleccionó objeto):</p>
+        <button class="btn" style="background-color: var(--danger)" onclick="simulateError()">Forzar Error de Contexto</button>
+        <div id="repairLogs" style="margin-top: 20px;"></div>
+    </div>
+
+    <script>
+        function simulateCommand() {
+            const input = document.getElementById('commandInput').value;
+            if (!input) return;
+            
+            const logs = document.getElementById('routingLogs');
+            const conf = Math.random(); // Simula confianza
+            let route = '';
+            let badgeClass = '';
+            let api = '';
+            
+            if (conf >= 0.85) {
+                route = 'LOCAL'; badgeClass = 'local'; api = 'SQLite Vectorial ($0)';
+            } else if (conf >= 0.60) {
+                route = 'REINFORCE'; badgeClass = 'reinforce'; api = 'Groq / Llama-3 (Gratis)';
+            } else {
+                route = 'ADVANCED'; badgeClass = 'advanced'; api = 'Gemini Pro ($)';
+            }
+
+            const html = `
+                <div class="log-entry">
+                    <div><strong>Usuario:</strong> "${input}"</div>
+                    <div style="margin-top:8px;">
+                        <strong>Decisión:</strong> <span class="badge ${badgeClass}">${route}</span> (Confianza: ${(conf*100).toFixed(1)}%)
+                    </div>
+                    <div style="margin-top:4px; color: var(--text-muted);">
+                        > Ejecutando en: ${api}
+                    </div>
+                </div>
+            `;
+            logs.innerHTML = html + logs.innerHTML;
+            document.getElementById('commandInput').value = '';
+        }
+
+        function simulateError() {
+            const logs = document.getElementById('repairLogs');
+            const html = `
+                <div class="log-entry">
+                    <div style="color: var(--danger)">[ERROR] Blender: Context error, no object selected.</div>
+                    <div style="color: var(--warning); margin-top: 8px;">> Iniciando AutoRepairer...</div>
+                    <div style="color: var(--text-muted);">> Estrategia 1: Relax Context...</div>
+                    <div style="color: var(--success);">> [ÉXITO] Comando re-ejecutado aplicando contexto global a todos los objetos.</div>
+                </div>
+            `;
+            logs.innerHTML = html + logs.innerHTML;
+        }
+    </script>
+</body>
+</html>

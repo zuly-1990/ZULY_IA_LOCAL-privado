@@ -1,0 +1,5 @@
+blender.clear_scene
+n
+blender.clear_scene
+s
+exit

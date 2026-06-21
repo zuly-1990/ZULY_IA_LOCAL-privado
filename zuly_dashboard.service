@@ -1,0 +1,14 @@
+[Unit]
+Description=Zuly Web Dashboard
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/zuly
+ExecStart=/usr/local/bin/streamlit run /opt/zuly/dashboard.py --server.port 8501 --server.address 0.0.0.0 --server.headless true
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

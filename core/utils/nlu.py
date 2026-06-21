@@ -151,6 +151,12 @@ class NaturalLanguageProcessor:
         if not user_request.strip():
             log_warning("Petición vacía recibida en NLU")
             return []
+            
+        # 0. DETECTOR DE COMPLEJIDAD (Chain of Thought Trigger)
+        # Si la orden tiene conjunciones complejas ("y luego", "despues") o múltiples acciones
+        if (" y " in user_request.lower() and len(user_request.split()) > 8) or "luego" in user_request.lower() or "despues" in user_request.lower():
+            log_info("[NLU] Orden compleja detectada. Derivando a ThoughtEngine.")
+            return [CommandIntent("blender.complex_plan", confidence=0.99, parameters={"raw_request": user_request})]
         
         # Preservar el original para extracción de parámetros (case sensitive)
         original_request = user_request.strip()

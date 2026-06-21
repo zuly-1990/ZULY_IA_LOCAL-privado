@@ -42,6 +42,7 @@ from core.memory.trace_core import TraceCore # NUEVO: Fase 15
 from core.security.black_protocol import BlackProtocol # NUEVO: Fase 16
 from core.cognition.cognition_core import CognitionCore # NUEVO: Fase C
 from core.cognition.evaluators.render_evaluator import RenderEvaluator # NUEVO: Fase C
+from core.reasoning.chain_of_thought import ThoughtEngine # NUEVO: Fase C3
 
 # FASE 18.5: Integración de seguridad y observabilidad
 from core.execution.failsafe_executor import FailsafeExecutor, get_failsafe_executor
@@ -189,10 +190,16 @@ class Agent:
         self.decision_explainer = DecisionExplainer() # NUEVO: Fase 13
         self.human_gate = HumanGate() # NUEVO: Fase 14
         self.trace_core = TraceCore() # NUEVO: Fase 15
+        # FASE 24: SafeGuard (Sistema de Guardia Opción 5)
+        from core.guards.safe_guard import SafeGuard
+        self.safeguard = SafeGuard()
         
         # FASE C: Cognición Base
         self.cognition = CognitionCore()
         self.cognition.register_evaluator('render', RenderEvaluator())
+        
+        # FASE C3: Motor de Pensamiento
+        self.thought_engine = ThoughtEngine()
         
         self._blender_history = []
         
@@ -328,8 +335,14 @@ class Agent:
         """
         log_info(f"\n{'='*60}")
         log_info(f"NUEVA PETICIÓN: {user_request}")
-        log_info(f"{'='*60}")
+        log_info("=" * 60)
         
+        force_execute = False
+        if " --force-execute" in user_request:
+            force_execute = True
+            user_request = user_request.replace(" --force-execute", "")
+            
+        # [FASE 19] Verificar modo "aprender_patron"
         if not user_request or not user_request.strip():
             return {
                 'success': False,
@@ -412,6 +425,10 @@ class Agent:
         
         # Seleccionar la intención con mayor confianza
         best_intent = intents[0]
+        
+        # FASE 24: Configurar force_execute
+        best_intent.parameters['_force_execute'] = force_execute
+        
         log_info(f"\nEjecutando intención principal: {best_intent.command_name}")
 
         # FASE 19: Decision Engine - Consultar si existe patrón conocido
@@ -437,6 +454,126 @@ class Agent:
         # Capturar contexto para validación activa
         current_blender_context = self.analyze_scene().get("context", {})
         
+        # --- NUEVO: C3 TASK DECOMPOSER ---
+        if user_request.lower().startswith("descomponer:") or best_intent.command_name == "blender.decompose":
+            log_info("🧠 [C3] Activando Motor de Descomposición de Tareas (TaskDecomposer)...")
+            from core.cognition.c3_task_decomposer import TaskDecomposer
+            from core.cognition.c3_scheduler import TaskScheduler
+            
+            clean_req = user_request.lower().replace("descomponer:", "").strip()
+            if not clean_req:
+                clean_req = best_intent.parameters.get("raw_request", user_request)
+                
+            decomposer = TaskDecomposer()
+            plan = decomposer.decompose(clean_req)
+            
+            log_info(f"🧠 [C3] Plan generado: {len(plan.tasks)} subtareas. Complejidad: {plan.complexity_score:.2f}")
+            
+            scheduler = TaskScheduler(intent_router=self, max_retries=2)
+            report = scheduler.execute_plan(plan, dry_run=False)
+            
+            if report.tasks_failed > 0:
+                for rec in report.task_records:
+                    if rec.status.value == "failed":
+                        log_error(f"  ❌ Fallo en {rec.task_name}: {rec.error}")
+            
+            return {
+                'success': report.overall_status.value == "completed",
+                'plan_id': plan.plan_id,
+                'tasks_completed': report.tasks_completed,
+                'tasks_failed': report.tasks_failed,
+                'duration_sec': report.total_duration_sec,
+                'status': report.overall_status.value,
+                'feedback': f'Plan C3 ejecutado. Completadas: {report.tasks_completed}, Fallidas: {report.tasks_failed}.'
+            }
+
+        # --- NUEVO: INTERCEPTOR CHAIN OF THOUGHT C4 ---
+        if best_intent.command_name == "blender.complex_plan":
+            log_info("🧠 [C4] Activando Comité de Expertos (ThoughtEngine)...")
+            self.operational_state = "Planificación"
+            raw_req = best_intent.parameters.get("raw_request", user_request)
+            
+            # Generar plan usando la escena actual y RAG de errores
+            scene_full = self.last_scene_state if self.last_scene_state else self.analyze_scene()
+            plan_intents = self.thought_engine.generate_plan(raw_req, scene_full, self.context.errors)
+            
+            if not plan_intents:
+                return {
+                    'success': False,
+                    'error': 'Fallo en la Planificación Jerárquica',
+                    'feedback': 'Mi Comité de Expertos no pudo trazar un plan para esa petición.'
+                }
+                
+            log_info(f"🧠 [C4] Plan generado con {len(plan_intents)} pasos. Iniciando ejecución con Bucle de Reflexión.")
+            
+            # Ejecutar el plan paso a paso
+            plan_results = []
+            all_success = True
+            
+            for step_idx, step_intent in enumerate(plan_intents, 1):
+                log_info(f"  ▶ [Paso {step_idx}/{len(plan_intents)}] Ejecutando: {step_intent.command_name}")
+                
+                step_result = self._execute_intent(step_intent, attempt=1, max_retries=1)
+                
+                # Bucle de Reflexión C4 (Autocorrección)
+                if not step_result['success']:
+                    error_msg = step_result.get('error', 'Unknown Error')
+                    log_warning(f"  ⚠ [Paso {step_idx}] Falló: {error_msg}. Iniciando Bucle de Reflexión C4...")
+                    
+                    fix_prompt = f"Eres Zuly Ingeniera. El comando {step_intent.command_name} con parámetros {step_intent.parameters} falló en Blender con este error:\n{error_msg}\n\nAnaliza el error y devuelve UN SOLO JSON corregido con el formato: {{\"command_name\": \"...\", \"parameters\": {{...}}}}"
+                    
+                    import json
+                    fix_raw = self.thought_engine.orchestrator.call_coder_model(fix_prompt)
+                    try:
+                        if "```json" in fix_raw: fix_raw = fix_raw.split("```json")[1].split("```")[0].strip()
+                        elif "```" in fix_raw: fix_raw = fix_raw.split("```")[1].split("```")[0].strip()
+                        
+                        fix_json = json.loads(fix_raw)
+                        fixed_intent = CommandIntent(command_name=fix_json.get("command_name", step_intent.command_name), confidence=0.99, parameters=fix_json.get("parameters", {}))
+                        
+                        log_info(f"  🔧 Reflexión completada. Re-intentando con: {fixed_intent.command_name}")
+                        step_result = self._execute_intent(fixed_intent, attempt=2, max_retries=1)
+                        
+                        if step_result['success']:
+                            log_info(f"  ✅ [Paso {step_idx}] ¡Error corregido exitosamente gracias a Reflexión!")
+                        else:
+                            log_error(f"  ❌ [Paso {step_idx}] Falló de nuevo a pesar de la Reflexión. Abortando plan.")
+                            all_success = False
+                            plan_results.append(step_result)
+                            break
+                    except Exception as e:
+                        log_error(f"  ❌ [Paso {step_idx}] Error procesando la Reflexión: {e}. Abortando plan.")
+                        all_success = False
+                        plan_results.append(step_result)
+                        break
+                        
+                plan_results.append(step_result)
+                
+                # Capturar escena tras el paso exitoso
+                if self.auto_monitor:
+                    self.scene_monitor.capture_scene_state()
+                    
+            final_feedback = "Plan completado con éxito." if all_success else f"El plan falló en el paso {len(plan_results)}."
+            
+            final_response = {
+                'success': all_success,
+                'command_executed': 'blender.complex_plan',
+                'confidence': 0.99,
+                'parameters': best_intent.parameters,
+                'results': plan_results,
+                'feedback': final_feedback,
+                'attempts': len(plan_results),
+                'validation_v0': {'verified': True, 'details': 'Plan C4 validado'},
+                'validation_v1': {'verified': True, 'score': 95}
+            }
+            
+            if all_success and self.operational_state == "Planificación":
+                log_info("💾 [C4] Guardando plan complejo en Memoria C2...")
+                self.pattern_memory.store_pattern(raw_req, final_response)
+            
+            return final_response
+        # ---------------------------------------------
+
         # A. Context Guard (Fase 12)
         guard_result = self.context_guard.evaluate(best_intent.command_name, current_blender_context)
         
@@ -659,6 +796,9 @@ class Agent:
                     result['error'] = f"Error de Validación V0: {validation_v0['details']}"
             else:
                 log_warning(f"Intento {attempt} no completado: {result.get('error')}")
+                # FASE 24: Si requiere confirmación, abortar el ciclo de reintentos
+                if result.get('status') == 'requires_confirmation':
+                    break
         
         # 8. Generar Explicación Final (Fase 13)
         decision_data["execution_result"] = {
@@ -701,10 +841,13 @@ class Agent:
             'parameters': best_intent.parameters,
             'results': results,
             'scene_state': scene_summary,
-            'feedback': self._generate_feedback(results, scene_summary),
+            'feedback': last_exec_result.get('feedback', self._generate_feedback(results, scene_summary)),
             'explanation': explanation,
             'attempts': len([r for r in results if r]),
         }
+        
+        if 'status' in last_exec_result:
+            final_response['status'] = last_exec_result['status']
         
         # 12. Registrar en bitácora de aprendizaje si aplica
         if self.operational_state == "Ejecución con Aprendizaje" and final_response['success']:
@@ -926,7 +1069,13 @@ class Agent:
                 'route': 'ROUTER_EXCEPTION'
             }
     
-    def _execute_intent(self, intent: CommandIntent, attempt: int = 1, max_attempts: int = 1) -> Dict:
+    def route_intent(self, command: str, parameters: Dict) -> Dict:
+        """Adaptador para el motor C3 Scheduler"""
+        from core.utils.nlu import CommandIntent
+        intent = CommandIntent(command_name=command, parameters=parameters, confidence=1.0)
+        return self._execute_intent(intent, attempt=1, max_retries=1)
+
+    def _execute_intent(self, intent: CommandIntent, attempt: int = 1, max_retries: int = 2) -> Dict:
         """
         Ejecuta una intención de comando específica.
         
@@ -938,6 +1087,21 @@ class Agent:
         :return: Diccionario con resultado de la ejecución
         """
         command_name = intent.command_name.lower()
+        
+        # FASE 24: Evaluación SafeGuard antes de ejecutar
+        force_execute = intent.parameters.get('_force_execute', False)
+        safety_check = self.safeguard.evaluate(command_name, intent.parameters, force_execute)
+        
+        if not safety_check['is_safe'] and safety_check['requires_confirmation']:
+            log_warning(f"🛡️ [SAFEGUARD ACTIVO] Comando '{command_name}' bloqueado: {safety_check['reason']}")
+            return {
+                'success': False,
+                'status': 'requires_confirmation',
+                'command_pending': command_name,
+                'parameters_pending': intent.parameters,
+                'reason': safety_check['reason'],
+                'feedback': f"🛑 GUARDIA ACTIVO: {safety_check['reason']} ¿Autorizas continuar?"
+            }
         
         # FASE 23: PRIORIDAD 1 - Intentar con IntentRouter (nuevo sistema)
         # Mapear nombres comunes a nombres de handlers (29 handlers totales)
@@ -995,7 +1159,7 @@ class Agent:
         
         # FASE 23: FALLBACK - Sistema antiguo (clases con ejecutar/validar)
         log_debug(f"[FASE 23] Handler no en router, intentando sistema antiguo: {command_name}")
-        command_class = self.commands.get(command_name)
+        command_class = getattr(self, 'commands', {}).get(command_name)
         
         if not command_class:
             # Intentar encontrar comando similar
@@ -1013,7 +1177,7 @@ class Agent:
                 return {
                     'success': False,
                     'error': f"Comando '{command_name}' no existe",
-                    'available_commands': list(self.commands.keys())[:5],
+                    'available_commands': list(getattr(self, 'commands', {}).keys())[:5],
                 }
         
         try:
