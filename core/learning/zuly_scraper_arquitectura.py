@@ -116,8 +116,15 @@ sys.exit(0)
     for uid, filepath in objects.items():
         if not filepath: continue
         
+        # SEGURO DE VIDA PARA SERVIDOR DE 4GB RAM: Saltar modelos mayores a 30 MB
+        file_size_mb = os.path.getsize(filepath) / (1024 * 1024)
+        if file_size_mb > 30.0:
+            print(f"⚠️ Saltando {uid} porque pesa demasiado ({file_size_mb:.2f} MB). Podría crashear el servidor.")
+            os.remove(filepath) # Limpiar espacio en disco
+            continue
+            
         output_blend = os.path.join(LIBRERIA_DIR, f"arquitectura_{uid}.blend")
-        print(f"Procesando en Blender: {filepath} -> {output_blend}")
+        print(f"Procesando en Blender: {filepath} ({file_size_mb:.2f} MB) -> {output_blend}")
         
         # Ejecutar blender en modo oculto (-b) con el script de normalizacion
         cmd = ["blender", "-b", "-P", blender_script, "--", filepath, output_blend]
