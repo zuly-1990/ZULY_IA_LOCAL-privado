@@ -61,16 +61,18 @@ def main():
     
     print("Descarga completada. Preparando conversiones en Blender...")
     
-    # Crear un script de Blender para normalizar
+    # Crear un script de Blender para normalizar y extraer metadata
     blender_script = os.path.join(TEMP_DIR, "normalize_model.py")
     with open(blender_script, "w", encoding="utf-8") as f:
         f.write("""import bpy
 import sys
 import os
+import json
 
-# Argumentos: script.py <input_glb> <output_blend>
-input_glb = sys.argv[-2]
-output_blend = sys.argv[-1]
+# Argumentos: script.py <input_glb> <output_blend> <output_json>
+input_glb = sys.argv[-3]
+output_blend = sys.argv[-2]
+output_json = sys.argv[-1]
 
 # Limpiar escena
 bpy.ops.wm.read_factory_settings(use_empty=True)
@@ -82,21 +84,40 @@ except Exception as e:
     print(f"Error importando GLB: {e}")
     sys.exit(1)
 
-# Normalizar y Escalar
-# Seleccionar todo
-bpy.ops.object.select_all(action='SELECT')
-if len(bpy.context.selected_objects) == 0:
-    print("No se encontraron objetos.")
+# Seleccionar mallas
+bpy.ops.object.select_all(action='DESELECT')
+mallas = [obj for obj in bpy.context.scene.objects if obj.type == 'MESH']
+if not mallas:
+    print("No se encontraron mallas.")
     sys.exit(1)
 
-# Asignar un objeto activo (el mas grande o el primero)
-bpy.context.view_layer.objects.active = bpy.context.selected_objects[0]
+for obj in mallas:
+    obj.select_set(True)
 
-# Agrupar todo en un parent vacio o unirlos
+bpy.context.view_layer.objects.active = mallas[0]
 bpy.ops.object.join()
 
 obj = bpy.context.active_object
 obj.location = (0,0,0)
+
+# Calcular metricas matematicas antes de escalar
+verts = len(obj.data.vertices)
+faces = len(obj.data.polygons)
+dims = obj.dimensions
+materiales = len(obj.data.materials)
+
+metadata = {
+    "dimensiones_crudas_metros": {
+        "ancho_x": round(dims.x, 2),
+        "largo_y": round(dims.y, 2),
+        "alto_z": round(dims.z, 2)
+    },
+    "geometria": {
+        "vertices": verts,
+        "caras_poligonos": faces,
+        "cantidad_materiales": materiales
+    }
+}
 
 # Escalar para que encaje en una caja de 10x10x10 metros (tamaño edificio base)
 max_dim = max(obj.dimensions)
@@ -106,11 +127,51 @@ if max_dim > 0:
 
 bpy.ops.object.transform_apply(location=True, rotation=True, scale=True)
 
-# Guardar como BLEND
+# Guardar BLEND y JSON
 bpy.ops.wm.save_as_mainfile(filepath=output_blend)
+with open(output_json, "w", encoding="utf-8") as jf:
+    json.dump(metadata, jf, indent=4)
+
 print(f"Guardado exitosamente: {output_blend}")
 sys.exit(0)
 """)
+
+    deepseek_key = os.environ.get("DEEPSEEK_API_KEY", "")
+    if not deepseek_key:
+        print("⚠️ No se encontro DEEPSEEK_API_KEY. Se saltara la validacion de aprendizaje.")
+
+    import requests
+
+    def evaluar_modelo_deepseek(uid, metadata):
+        if not deepseek_key: return True # Si no hay key, aprueba por defecto
+        
+        prompt = f'''Actúa como un arquitecto experto evaluando topología 3D extraída matemáticamente.
+Acabamos de descargar un modelo 3D con etiqueta de "arquitectura". Estos son sus datos puros:
+{json.dumps(metadata, indent=2)}
+
+Analiza si estas proporciones y geometría tienen sentido para ser considerado arquitectura (una casa, edificio, rascacielos o ruina).
+Si tiene muy pocos polígonos (ej. < 10) podría ser un cubo basura. 
+Si sus dimensiones son 0x0x0 es basura.
+
+Responde ÚNICAMENTE con la palabra "APROBADO" si los datos sugieren que es un modelo arquitectónico válido del que Zuly puede aprender.
+Responde "RECHAZADO" si parece basura geométrica. Justifica brevemente en 1 linea después de la palabra.'''
+
+        try:
+            url = "https://api.deepseek.com/chat/completions"
+            headers = {"Authorization": f"Bearer {deepseek_key}", "Content-Type": "application/json"}
+            data = {
+                "model": "deepseek-chat",
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": 0.2
+            }
+            resp = requests.post(url, headers=headers, json=data, timeout=20)
+            if resp.status_code == 200:
+                respuesta = resp.json()['choices'][0]['message']['content'].strip()
+                print(f"[DeepSeek] Veredicto para {uid}: {respuesta}")
+                return "APROBADO" in respuesta.upper()
+        except Exception as e:
+            print(f"[DeepSeek] Error evaluando: {e}")
+        return False
 
     # Ejecutar blender para cada objeto
     for uid, filepath in objects.items():
@@ -123,20 +184,40 @@ sys.exit(0)
             os.remove(filepath) # Limpiar espacio en disco
             continue
             
-        output_blend = os.path.join(LIBRERIA_DIR, f"arquitectura_{uid}.blend")
-        print(f"Procesando en Blender: {filepath} ({file_size_mb:.2f} MB) -> {output_blend}")
+        temp_blend = os.path.join(TEMP_DIR, f"temp_{uid}.blend")
+        temp_json = os.path.join(TEMP_DIR, f"temp_{uid}.json")
         
-        # Ejecutar blender en modo oculto (-b) con el script de normalizacion
-        cmd = ["blender", "-b", "-P", blender_script, "--", filepath, output_blend]
+        print(f"Procesando en Blender y Extrayendo Matemáticas: {filepath} ({file_size_mb:.2f} MB)")
+        
+        # Ejecutar blender en modo oculto (-b)
+        cmd = ["blender", "-b", "-P", blender_script, "--", filepath, temp_blend, temp_json]
         res = subprocess.run(cmd, capture_output=True, text=True)
         
-        if os.path.exists(output_blend):
-            print(f"✅ ¡Normalización completada! {output_blend}")
+        if os.path.exists(temp_blend) and os.path.exists(temp_json):
+            # Fase de Aprendizaje Activo
+            with open(temp_json, "r") as jf:
+                metadata = json.load(jf)
+            
+            aprobado = evaluar_modelo_deepseek(uid, metadata)
+            
+            if aprobado:
+                # Mover a la memoria permanente
+                final_blend = os.path.join(LIBRERIA_DIR, f"arquitectura_{uid}.blend")
+                final_json = os.path.join(LIBRERIA_DIR, f"arquitectura_{uid}.json")
+                os.rename(temp_blend, final_blend)
+                os.rename(temp_json, final_json)
+                print(f"✅ APRENDIZAJE COMPLETADO. Guardado en memoria permanente: {final_blend}")
+            else:
+                print(f"❌ RECHAZADO por DeepSeek. Borrando basura geométrica.")
+                os.remove(temp_blend)
+                os.remove(temp_json)
+                
+            os.remove(filepath) # Borrar el GLB crudo
         else:
             print(f"❌ Falló la normalización para {uid}.")
-            print(res.stderr[-200:])
+            if os.path.exists(filepath): os.remove(filepath)
             
-    print("PROCESO MASIVO DE INGESTA TERMINADO.")
+    print("PROCESO MASIVO DE INGESTA Y APRENDIZAJE TERMINADO.")
 
 if __name__ == "__main__":
     main()
