@@ -54,10 +54,9 @@ def main():
             
     print(f"Se encontraron {len(selected_uids)} modelos. Descargando...")
     
-    # Descargar modelos
+    # Descargar modelos (se guardan por defecto en ~/.objaverse)
     objects = objaverse.load_objects(
-        uids=selected_uids,
-        download_dir=TEMP_DIR
+        uids=selected_uids
     )
     
     print("Descarga completada. Preparando conversiones en Blender...")
