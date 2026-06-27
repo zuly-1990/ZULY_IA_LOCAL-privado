@@ -87,23 +87,28 @@ class MultiAPIOrchestrator:
             except Exception as e:
                 log_error(f"Error configurando nuevo SDK Gemini: {e}")
                 
-        # Configuración OpenRouter (Arquitecto de Código)
-        self.deepseek_ready = False
-        self.deepseek_key = os.environ.get("DEEPSEEK_API_KEY", "")
-        if self.deepseek_key:
-            self.deepseek_ready = True
-            log_info("DeepSeek API conectada como Arquitecto de Código.")
+        # Configuración OpenRouter (Arquitecto de Código) / DeepSeek
+        default_deepseek_keys = [
+            os.environ.get("DEEPSEEK_API_KEY", ""),
+            os.environ.get("DEEPSEEK_KEY_2", "")
+        ]
+        self.deepseek_keys = [k.strip() for k in default_deepseek_keys if k and k.strip()]
+        self.current_deepseek_index = 0
+        self.deepseek_ready = len(self.deepseek_keys) > 0
+        if self.deepseek_ready:
+            log_info(f"DeepSeek API conectada con {len(self.deepseek_keys)} llave(s).")
 
-    def call_coder_model(self, prompt: str) -> str:
+    def call_coder_model(self, prompt: str, attempt=1) -> str:
         """Llama a DeepSeek Coder para generar código avanzado de Blender"""
-        log_info("Usando DeepSeek (Code Architect)...")
+        log_info(f"Usando DeepSeek (Intento {attempt}, Llave #{self.current_deepseek_index+1})...")
         if not self.deepseek_ready:
             return "ERROR: DeepSeek no configurado."
             
         try:
             import requests
+            current_key = self.deepseek_keys[self.current_deepseek_index]
             headers = {
-                "Authorization": f"Bearer {self.deepseek_key}",
+                "Authorization": f"Bearer {current_key}",
                 "Content-Type": "application/json"
             }
             data = {
@@ -116,7 +121,16 @@ class MultiAPIOrchestrator:
             return response.json()['choices'][0]['message']['content']
         except Exception as e:
             log_error(f"Error en DeepSeek API: {e}")
-            enviar_alerta_telegram(f"🚨 La API de *DeepSeek* falló.\nError: `{e}`")
+            
+            # Rotacion de llave de DeepSeek si falla (timeout, 401, 503, etc)
+            if attempt <= len(self.deepseek_keys):
+                self.current_deepseek_index = (self.current_deepseek_index + 1) % len(self.deepseek_keys)
+                log_info(f"Rotando llave DeepSeek a #{self.current_deepseek_index + 1}...")
+                import time
+                time.sleep(2)
+                return self.call_coder_model(prompt, attempt + 1)
+                
+            enviar_alerta_telegram(f"🚨 La API de *DeepSeek* falló en todos los intentos.\nError: `{e}`")
             return "ERROR_DEEPSEEK_API"
 
     def call_fast_model(self, prompt: str) -> str:
@@ -159,12 +173,14 @@ class MultiAPIOrchestrator:
         except Exception as e:
             log_error(f"[DIAGNOSTICO GEMINI] Fallo llamado a API. Error: {e}")
             error_str = str(e).lower()
-            # Rotar llave en cualquier error de quota, rate limit o 429
-            if ("quota" in error_str or "rate" in error_str or "429" in error_str or "resource_exhausted" in error_str):
+            # Rotar llave en cualquier error critico (quota, 429, 401, 403, 503, etc)
+            errores_criticos = ["quota", "rate", "429", "resource_exhausted", "401", "403", "503", "500", "invalid_api_key", "account_state_invalid", "unavailable"]
+            
+            if any(err in error_str for err in errores_criticos):
                 if attempt <= len(self.gemini_keys):
                     self.current_gemini_key_index = (self.current_gemini_key_index + 1) % len(self.gemini_keys)
                     new_key = self.gemini_keys[self.current_gemini_key_index]
-                    log_info(f"Cuota agotada. Rotando a llave #{self.current_gemini_key_index + 1}: {new_key[:20]}...")
+                    log_info(f"Fallo critico de API. Rotando a llave #{self.current_gemini_key_index + 1}: {new_key[:20]}...")
                     try:
                         self.gemini_client = google_genai.Client(api_key=new_key)
                         time.sleep(3)

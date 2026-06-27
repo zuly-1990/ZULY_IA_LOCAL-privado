@@ -8,9 +8,20 @@ from pathlib import Path
 # Configuracion de carpetas en el servidor Linux
 LIBRERIA_DIR = "/opt/zuly/libreria_3d/arquitectura"
 TEMP_DIR = "/opt/zuly/libreria_3d/temp"
+STATE_FILE = os.path.join(LIBRERIA_DIR, "scraper_state.json")
 
 os.makedirs(LIBRERIA_DIR, exist_ok=True)
 os.makedirs(TEMP_DIR, exist_ok=True)
+
+def load_state():
+    if os.path.exists(STATE_FILE):
+        with open(STATE_FILE, "r") as f:
+            return json.load(f)
+    return {}
+
+def save_state(state):
+    with open(STATE_FILE, "w") as f:
+        json.dump(state, f, indent=4)
 
 # Instalar objaverse si no esta
 try:
@@ -57,6 +68,9 @@ def main():
     )
     
     print("Descarga completada. Preparando conversiones en Blender...")
+    
+    # Cargar estado
+    estado_descargas = load_state()
     
     # Crear un script de Blender para normalizar y extraer metadata
     blender_script = os.path.join(TEMP_DIR, "normalize_model.py")
@@ -166,52 +180,72 @@ Responde "RECHAZADO" si parece basura geométrica. Justifica brevemente en 1 lin
                 respuesta = resp.json()['choices'][0]['message']['content'].strip()
                 print(f"[DeepSeek] Veredicto para {uid}: {respuesta}")
                 return "APROBADO" in respuesta.upper()
+            else:
+                print(f"[DeepSeek] HTTP {resp.status_code} - Falló la evaluación")
+                return None
         except Exception as e:
-            print(f"[DeepSeek] Error evaluando: {e}")
-        return False
+            print(f"[DeepSeek] Error evaluando (Timeout/Red): {e}")
+            return None
 
     # Ejecutar blender para cada objeto
     for uid, filepath in objects.items():
         if not filepath: continue
         
+        # Si ya fue procesado y completado o rechazado, saltar
+        if uid in estado_descargas and estado_descargas[uid] in ["APROBADO", "RECHAZADO"]:
+            if os.path.exists(filepath): os.remove(filepath)
+            continue
+            
         # SEGURO DE VIDA PARA SERVIDOR DE 4GB RAM: Saltar modelos mayores a 30 MB
         file_size_mb = os.path.getsize(filepath) / (1024 * 1024)
         if file_size_mb > 30.0:
             print(f"⚠️ Saltando {uid} porque pesa demasiado ({file_size_mb:.2f} MB). Podría crashear el servidor.")
+            estado_descargas[uid] = "SALTADO_POR_PESO"
+            save_state(estado_descargas)
             os.remove(filepath) # Limpiar espacio en disco
             continue
             
         temp_blend = os.path.join(TEMP_DIR, f"temp_{uid}.blend")
         temp_json = os.path.join(TEMP_DIR, f"temp_{uid}.json")
+        final_blend = os.path.join(LIBRERIA_DIR, f"arquitectura_{uid}.blend")
+        final_json = os.path.join(LIBRERIA_DIR, f"arquitectura_{uid}.json")
         
-        print(f"Procesando en Blender y Extrayendo Matemáticas: {filepath} ({file_size_mb:.2f} MB)")
-        
-        # Ejecutar blender en modo oculto (-b)
-        cmd = ["blender", "-b", "-P", blender_script, "--", filepath, temp_blend, temp_json]
-        res = subprocess.run(cmd, capture_output=True, text=True)
+        # Si ya existe el temp_json, significa que Blender termino pero el Examen falló antes
+        if not (os.path.exists(temp_blend) and os.path.exists(temp_json)):
+            print(f"Procesando en Blender y Extrayendo Matemáticas: {filepath} ({file_size_mb:.2f} MB)")
+            cmd = ["blender", "-b", "-P", blender_script, "--", filepath, temp_blend, temp_json]
+            res = subprocess.run(cmd, capture_output=True, text=True)
         
         if os.path.exists(temp_blend) and os.path.exists(temp_json):
             # Fase de Aprendizaje Activo
             with open(temp_json, "r") as jf:
                 metadata = json.load(jf)
             
+            print(f"Enviando examen a DeepSeek para {uid}...")
             aprobado = evaluar_modelo_deepseek(uid, metadata)
             
-            if aprobado:
+            if aprobado is True:
                 # Mover a la memoria permanente
-                final_blend = os.path.join(LIBRERIA_DIR, f"arquitectura_{uid}.blend")
-                final_json = os.path.join(LIBRERIA_DIR, f"arquitectura_{uid}.json")
                 os.rename(temp_blend, final_blend)
                 os.rename(temp_json, final_json)
+                estado_descargas[uid] = "APROBADO"
                 print(f"✅ APRENDIZAJE COMPLETADO. Guardado en memoria permanente: {final_blend}")
-            else:
+            elif aprobado is False:
                 print(f"❌ RECHAZADO por DeepSeek. Borrando basura geométrica.")
+                estado_descargas[uid] = "RECHAZADO"
                 os.remove(temp_blend)
                 os.remove(temp_json)
+            else:
+                # Retorno None: Falla de API, red o timeout. Guardar como pendiente sin borrar el temp file
+                print(f"⚠️ FALLO DE API. Marcando {uid} como PENDING_EXAM para reintentar luego.")
+                estado_descargas[uid] = "PENDING_EXAM"
                 
-            os.remove(filepath) # Borrar el GLB crudo
+            save_state(estado_descargas)
+            if os.path.exists(filepath): os.remove(filepath) # Borrar el GLB crudo
         else:
             print(f"❌ Falló la normalización para {uid}.")
+            estado_descargas[uid] = "FALLO_BLENDER"
+            save_state(estado_descargas)
             if os.path.exists(filepath): os.remove(filepath)
             
     print("PROCESO MASIVO DE INGESTA Y APRENDIZAJE TERMINADO.")
