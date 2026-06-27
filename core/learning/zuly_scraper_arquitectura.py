@@ -49,9 +49,6 @@ def main():
            any(term in categories for term in search_terms):
             selected_uids.append(uid)
             
-        if len(selected_uids) >= 5:
-            break
-            
     print(f"Se encontraron {len(selected_uids)} modelos. Descargando...")
     
     # Descargar modelos (se guardan por defecto en ~/.objaverse)
