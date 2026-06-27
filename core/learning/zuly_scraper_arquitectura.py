@@ -164,7 +164,8 @@ Analiza si estas proporciones y geometría tienen sentido para ser considerado a
 Si tiene muy pocos polígonos (ej. < 10) podría ser un cubo basura. 
 Si sus dimensiones son 0x0x0 es basura.
 
-Responde ÚNICAMENTE con la palabra "APROBADO" si los datos sugieren que es un modelo arquitectónico válido del que Zuly puede aprender.
+Responde ÚNICAMENTE con la palabra "APROBADO" si los datos sugieren que es un modelo arquitectónico válido del que Zuly puede aprender, SEGUIDO de una barra "|" y una de las siguientes categorías estrictas: CASA, EDIFICIO, RASCACIELOS, INTERIOR, ESTRUCTURA, MUEBLE, OTRO.
+Ejemplo: APROBADO | CASA
 Responde "RECHAZADO" si parece basura geométrica. Justifica brevemente en 1 linea después de la palabra.'''
 
         try:
@@ -179,7 +180,14 @@ Responde "RECHAZADO" si parece basura geométrica. Justifica brevemente en 1 lin
             if resp.status_code == 200:
                 respuesta = resp.json()['choices'][0]['message']['content'].strip()
                 print(f"[DeepSeek] Veredicto para {uid}: {respuesta}")
-                return "APROBADO" in respuesta.upper()
+                
+                if "APROBADO" in respuesta.upper():
+                    partes = respuesta.split("|")
+                    categoria = "OTRO"
+                    if len(partes) > 1:
+                        categoria = partes[1].strip().upper().replace(" ", "_")
+                    return {"aprobado": True, "categoria": categoria}
+                return {"aprobado": False, "categoria": None}
             else:
                 print(f"[DeepSeek] HTTP {resp.status_code} - Falló la evaluación")
                 return None
@@ -222,15 +230,22 @@ Responde "RECHAZADO" si parece basura geométrica. Justifica brevemente en 1 lin
                 metadata = json.load(jf)
             
             print(f"Enviando examen a DeepSeek para {uid}...")
-            aprobado = evaluar_modelo_deepseek(uid, metadata)
+            resultado_examen = evaluar_modelo_deepseek(uid, metadata)
             
-            if aprobado is True:
-                # Mover a la memoria permanente
+            if resultado_examen and resultado_examen.get("aprobado") is True:
+                categoria = resultado_examen.get("categoria", "OTRO")
+                cat_dir = os.path.join(LIBRERIA_DIR, categoria)
+                os.makedirs(cat_dir, exist_ok=True)
+                
+                final_blend = os.path.join(cat_dir, f"arquitectura_{uid}.blend")
+                final_json = os.path.join(cat_dir, f"arquitectura_{uid}.json")
+                
+                # Mover a la memoria permanente clasificada
                 os.rename(temp_blend, final_blend)
                 os.rename(temp_json, final_json)
                 estado_descargas[uid] = "APROBADO"
-                print(f"✅ APRENDIZAJE COMPLETADO. Guardado en memoria permanente: {final_blend}")
-            elif aprobado is False:
+                print(f"✅ APRENDIZAJE COMPLETADO. Guardado en categoría [{categoria}]: {final_blend}")
+            elif resultado_examen and resultado_examen.get("aprobado") is False:
                 print(f"❌ RECHAZADO por DeepSeek. Borrando basura geométrica.")
                 estado_descargas[uid] = "RECHAZADO"
                 os.remove(temp_blend)
