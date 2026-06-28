@@ -5,9 +5,9 @@ import math
 import os
 
 # Configuracion
-# Bounding Box: Manhattan Financial District (Wall St)
-LAT_MIN, LON_MIN = 40.706, -74.012
-LAT_MAX, LON_MAX = 40.710, -74.005
+# Bounding Box: Bogotá Centro Internacional (Torre Colpatria y rascacielos)
+LAT_MIN, LON_MIN = 4.608, -74.072
+LAT_MAX, LON_MAX = 4.618, -74.065
 
 # Calculo de centro para proyeccion local
 CENTER_LAT = (LAT_MIN + LAT_MAX) / 2
